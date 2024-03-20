@@ -1,0 +1,15 @@
+
+<Object>
+<ReorgCls>c</ReorgCls>
+<Mod>1</Mod>
+<OldMod>4</OldMod>
+<Table>
+<TableId>17</TableId>
+<TableName>detalle_infotec</TableName>
+<Description>detalle_infotec</Description></Table>
+<Table>
+<TableId>17</TableId>
+<TableName>detalle_infotec</TableName>
+<Description>detalle_infotec</Description></Table>
+<ReorgAction>!</ReorgAction>
+<ObjNavig>saira.barahona\MDL004\GEN15\detalle_infotecConversion.xml</ObjNavig></Object>

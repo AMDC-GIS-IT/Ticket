@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wpusuario.dll
+C:\Models\kb_ticket\CSharpModel\build\wpusuario\obj\Release\wpusuario.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wpusuario\obj\Release\wpusuario.dll

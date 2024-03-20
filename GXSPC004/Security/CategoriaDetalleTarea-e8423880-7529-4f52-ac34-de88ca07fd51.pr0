@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "categoriadetalletarea_FullControl",
+    "Description": "Categoria Detalle Tarea FullControl",
+    "ProgramName": "categoriadetalletarea",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "categoriadetalletarea_Execute",
+    "Description": "Categoria Detalle Tarea",
+    "ProgramName": "categoriadetalletarea",
+    "IsGXAutomatic": true,
+    "Parent": "categoriadetalletarea_FullControl"
+  },
+  {
+    "Name": "categoriadetalletarea_Insert",
+    "Description": "Categoria Detalle Tarea Insert",
+    "ProgramName": "categoriadetalletarea",
+    "IsGXAutomatic": true,
+    "Parent": "categoriadetalletarea_FullControl"
+  },
+  {
+    "Name": "categoriadetalletarea_Delete",
+    "Description": "Categoria Detalle Tarea Delete",
+    "ProgramName": "categoriadetalletarea",
+    "IsGXAutomatic": true,
+    "Parent": "categoriadetalletarea_FullControl"
+  },
+  {
+    "Name": "categoriadetalletarea_Update",
+    "Description": "Categoria Detalle Tarea Update",
+    "ProgramName": "categoriadetalletarea",
+    "IsGXAutomatic": true,
+    "Parent": "categoriadetalletarea_FullControl"
+  }
+]

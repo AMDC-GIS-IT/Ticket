@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bisauthorizedactivitylist.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bisauthorizedactivitylist\obj\Release\k2bisauthorizedactivitylist.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bisauthorizedactivitylist\obj\Release\k2bisauthorizedactivitylist.dll

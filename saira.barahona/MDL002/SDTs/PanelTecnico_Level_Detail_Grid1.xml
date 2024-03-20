@@ -1,0 +1,206 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>PanelTecnico_Level_Detail_Grid1Sdt</name>
+<camelname>PanelTecnico_Level_Detail_Grid1Sdt</camelname>
+<camelnameex>PanelTecnico_Level_Detail_Grid1Sdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'Level.Detail' ]</panel>
+<key>[ 8,[ 14,16 ],[] ]</key>
+<modified>yes</modified>
+<fullname>PanelTecnico_Level_Detail_Grid1Sdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<modified>yes</modified>
+<fullname>PanelTecnico_Level_Detail_Grid1Sdt.Item</fullname>
+<members>
+<member>
+<name>Ticketid</name>
+<camelname>TicketId</camelname>
+<type>[ 4,10,0 ]</type>
+<length>10</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>14</attributeid></member>
+<member>
+<name>Ticketresponsableid</name>
+<camelname>TicketResponsableId</camelname>
+<type>[ 4,10,0 ]</type>
+<length>10</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>16</attributeid></member>
+<member>
+<name>Usuarioid</name>
+<camelname>UsuarioId</camelname>
+<type>[ 4,4,0 ]</type>
+<length>4</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>15</attributeid></member>
+<member>
+<name>Usuarionombre</name>
+<camelname>UsuarioNombre</camelname>
+<type>[ 13,60,0 ]</type>
+<length>60</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>93</attributeid></member>
+<member>
+<name>Usuariofecha</name>
+<camelname>UsuarioFecha</camelname>
+<type>[ 6,8,0 ]</type>
+<length>8</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>90</attributeid></member>
+<member>
+<name>Usuariohora</name>
+<camelname>UsuarioHora</camelname>
+<type>[ 12,0,5 ]</type>
+<length>0</length>
+<decimals>5</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>92</attributeid></member>
+<member>
+<name>Usuariodepartamento</name>
+<camelname>UsuarioDepartamento</camelname>
+<type>[ 13,300,0 ]</type>
+<length>300</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>88</attributeid></member>
+<member>
+<name>Tickettecnicoresponsablenombre</name>
+<camelname>TicketTecnicoResponsableNombre</camelname>
+<type>[ 13,60,0 ]</type>
+<length>60</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>199</attributeid></member>
+<member>
+<name>Estadoticketticketnombre</name>
+<camelname>EstadoTicketTicketNombre</camelname>
+<type>[ 13,30,0 ]</type>
+<length>30</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>188</attributeid></member>
+<member>
+<name>Ticketresponsablefecharesuelve</name>
+<camelname>TicketResponsableFechaResuelve</camelname>
+<type>[ 6,8,0 ]</type>
+<length>8</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>175</attributeid></member>
+<member>
+<name>Ticketresponsablehoraresuelve</name>
+<camelname>TicketResponsableHoraResuelve</camelname>
+<type>[ 12,0,5 ]</type>
+<length>0</length>
+<decimals>5</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>176</attributeid></member>
+<member>
+<name>Estadotickettecniconombre</name>
+<camelname>EstadoTicketTecnicoNombre</camelname>
+<type>[ 13,30,0 ]</type>
+<length>30</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>25</attributeid></member>
+<member>
+<name>Tickettecnicoresponsableid</name>
+<camelname>TicketTecnicoResponsableId</camelname>
+<type>[ 4,4,0 ]</type>
+<length>4</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>198</attributeid></member>
+<member>
+<name>Estadotickettecnicoid</name>
+<camelname>EstadoTicketTecnicoId</camelname>
+<type>[ 4,4,0 ]</type>
+<length>4</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>17</attributeid></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>7</Id>
+<Name>Ticket</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>n</IsBase></Table>
+<Table>
+<Id>8</Id>
+<Name>TicketResponsable</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table>
+<Table>
+<Id>10</Id>
+<Name>Usuario</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>n</IsBase></Table>
+<Table>
+<Id>4</Id>
+<Name>EstadoTicket</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>n</IsBase></Table>
+<Table>
+<Id>5</Id>
+<Name>Responsable</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>n</IsBase></Table></TableAccess>
+<XRef></XRef></SdtSpec>

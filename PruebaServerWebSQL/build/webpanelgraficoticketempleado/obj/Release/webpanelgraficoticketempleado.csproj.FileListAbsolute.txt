@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\webpanelgraficoticketempleado.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelgraficoticketempleado\obj\Release\webpanelgraficoticketempleado.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelgraficoticketempleado\obj\Release\webpanelgraficoticketempleado.dll

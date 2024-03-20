@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\gxbeforeeventreplicator.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gxbeforeeventreplicator\obj\Release\gxbeforeeventreplicator.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gxbeforeeventreplicator\obj\Release\gxbeforeeventreplicator.dll

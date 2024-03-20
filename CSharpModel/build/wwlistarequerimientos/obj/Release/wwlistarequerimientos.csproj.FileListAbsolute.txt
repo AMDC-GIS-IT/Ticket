@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wwlistarequerimientos.dll
+C:\Models\kb_ticket\CSharpModel\build\wwlistarequerimientos\obj\Release\wwlistarequerimientos.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wwlistarequerimientos\obj\Release\wwlistarequerimientos.dll

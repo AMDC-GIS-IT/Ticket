@@ -1,0 +1,220 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_9-159740</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>19</ObjId>
+<ObjName>CommonChatbots.GXChatMessage</ObjName>
+<ObjDesc>GXChat Message</ObjDesc>
+<ObjPgmName>CommonChatbots.GXChatMessage</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>20</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>20</TableId>
+<TableName>GXChatMessage</TableName>
+<Description>GXChat Message</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>20</TableId>
+<TableName>GXChatMessage</TableName>
+<Description>GXChat Message</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>GXChatMessageId</AttriName>
+<Description>GXChat Message Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>21</TableId>
+<TableName>GXChatUser</TableName>
+<Description>GX Chat User</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>GXChatUserId</AttriName>
+<Description>GXChat User Id</Description></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>GXChatUserDevice</AttriName>
+<Description>GXChat User Device</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>20</TableId>
+<TableName>GXChatMessage</TableName>
+<Description>GXChat Message</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>GXChatMessageId</AttriName>
+<Description>GXChat Message Id</Description></Attribute>
+<Attribute>
+<AttriId>272</AttriId>
+<AttriName>GXChatMessageMessage</AttriName>
+<Description>GXChat Message Message</Description></Attribute>
+<Attribute>
+<AttriId>271</AttriId>
+<AttriName>GXChatMessageType</AttriName>
+<Description>GXChat Message Type</Description></Attribute>
+<Attribute>
+<AttriId>274</AttriId>
+<AttriName>GXChatMessageImage</AttriName>
+<Description>GXChat Message Image</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>GXChatMessageImage.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>270</AttriId>
+<AttriName>GXChatMessageDate</AttriName>
+<Description>GXChat Message Date</Description></Attribute>
+<Attribute>
+<AttriId>276</AttriId>
+<AttriName>GXChatMessageMeta</AttriName>
+<Description>GXChat Message Meta</Description></Attribute>
+<Attribute>
+<AttriId>275</AttriId>
+<AttriName>GXChatMessageRepeat</AttriName>
+<Description>GXChat Message Repeat</Description></Attribute>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>GXChatMessageInstance</AttriName>
+<Description>GXChat Message Instance</Description></Attribute>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>GXChatUserId</AttriName>
+<Description>GXChat User Id</Description></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>GXChatUserDevice</AttriName>
+<Description>GXChat User Device</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>20</TableId>
+<TableName>GXChatMessage</TableName>
+<Description>GXChat Message</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>272</AttriId>
+<AttriName>GXChatMessageMessage</AttriName>
+<Description>GXChat Message Message</Description></Attribute>
+<Attribute>
+<AttriId>271</AttriId>
+<AttriName>GXChatMessageType</AttriName>
+<Description>GXChat Message Type</Description></Attribute>
+<Attribute>
+<AttriId>274</AttriId>
+<AttriName>GXChatMessageImage</AttriName>
+<Description>GXChat Message Image</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>GXChatMessageImage.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>270</AttriId>
+<AttriName>GXChatMessageDate</AttriName>
+<Description>GXChat Message Date</Description></Attribute>
+<Attribute>
+<AttriId>276</AttriId>
+<AttriName>GXChatMessageMeta</AttriName>
+<Description>GXChat Message Meta</Description></Attribute>
+<Attribute>
+<AttriId>275</AttriId>
+<AttriName>GXChatMessageRepeat</AttriName>
+<Description>GXChat Message Repeat</Description></Attribute>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>GXChatMessageInstance</AttriName>
+<Description>GXChat Message Instance</Description></Attribute>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>GXChatUserId</AttriName>
+<Description>GXChat User Id</Description></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>GXChatUserDevice</AttriName>
+<Description>GXChat User Device</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>20</TableId>
+<TableName>GXChatMessage</TableName>
+<Description>GXChat Message</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>21</TableId>
+<TableName>GXChatUser</TableName>
+<Description>GX Chat User</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>241</ObjId>
+<ObjName>CommonChatbots.Gx00L0</ObjName>
+<ObjPgmName>CommonChatbots.Gx00L0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>GXChatUserId</AttriName>
+<Description>GXChat User Id</Description></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>GXChatUserDevice</AttriName>
+<Description>GXChat User Device</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>20</TableId>
+<TableName>GXChatMessage</TableName>
+<Description>GXChat Message</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>240</ObjId>
+<ObjName>CommonChatbots.Gx00K0</ObjName>
+<ObjPgmName>CommonChatbots.Gx00K0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>GXChatMessageId</AttriName>
+<Description>GXChat Message Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

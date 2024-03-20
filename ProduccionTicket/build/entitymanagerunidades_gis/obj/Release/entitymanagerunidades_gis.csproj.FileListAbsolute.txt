@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\entitymanagerunidades_gis.dll
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagerunidades_gis\obj\Release\entitymanagerunidades_gis.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagerunidades_gis\obj\Release\entitymanagerunidades_gis.dll

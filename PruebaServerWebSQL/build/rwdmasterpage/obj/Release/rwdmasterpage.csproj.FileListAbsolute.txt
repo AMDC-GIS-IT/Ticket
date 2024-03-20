@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\rwdmasterpage.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\rwdmasterpage\obj\Release\rwdmasterpage.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\rwdmasterpage\obj\Release\rwdmasterpage.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\entitymanagerdepto.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\entitymanagerdepto\obj\Release\entitymanagerdepto.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\entitymanagerdepto\obj\Release\entitymanagerdepto.dll

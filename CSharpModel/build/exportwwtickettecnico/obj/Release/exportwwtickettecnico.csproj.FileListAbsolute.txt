@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\exportwwtickettecnico.dll
+C:\Models\kb_ticket\CSharpModel\build\exportwwtickettecnico\obj\Release\exportwwtickettecnico.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\exportwwtickettecnico\obj\Release\exportwwtickettecnico.dll

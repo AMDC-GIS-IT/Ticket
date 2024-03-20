@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\exportresponsableticketwc.dll
+C:\Models\kb_ticket\CSharpModel\build\exportresponsableticketwc\obj\Release\exportresponsableticketwc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\exportresponsableticketwc\obj\Release\exportresponsableticketwc.dll

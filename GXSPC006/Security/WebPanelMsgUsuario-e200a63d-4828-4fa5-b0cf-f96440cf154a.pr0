@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "webpanelmsg_Execute",
+    "Description": "Web Panel Msg Usuario",
+    "ProgramName": "webpanelmsgusuario",
+    "IsGXAutomatic": true
+  }
+]

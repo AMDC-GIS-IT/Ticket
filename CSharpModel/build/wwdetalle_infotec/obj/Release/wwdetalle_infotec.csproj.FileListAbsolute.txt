@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wwdetalle_infotec.dll
+C:\Models\kb_ticket\CSharpModel\build\wwdetalle_infotec\obj\Release\wwdetalle_infotec.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wwdetalle_infotec\obj\Release\wwdetalle_infotec.dll

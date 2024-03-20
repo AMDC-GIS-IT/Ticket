@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpqueryticket_Execute",
+    "Description": "Consulta Ticket",
+    "ProgramName": "wpqueryticket",
+    "IsGXAutomatic": true
+  }
+]

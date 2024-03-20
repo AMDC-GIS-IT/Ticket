@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\exportwwetapasdesarrollo.dll
+C:\Models\kb_ticket\CSharpModel\build\exportwwetapasdesarrollo\obj\Release\exportwwetapasdesarrollo.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\exportwwetapasdesarrollo\obj\Release\exportwwetapasdesarrollo.dll

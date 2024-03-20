@@ -1,0 +1,23 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>220</ObjId>
+<ObjName>PCREnviarEmail</ObjName>
+<ObjDesc>PCREnviar Email</ObjDesc>
+<ObjPgmName>PCREnviarEmail</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>nogenspc</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0217</MsgCode>
+<Message>
+<Token>Object is unreachable.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters></ObjectSpec>

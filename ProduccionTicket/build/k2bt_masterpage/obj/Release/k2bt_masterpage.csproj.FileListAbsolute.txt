@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bt_masterpage.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bt_masterpage\obj\Release\k2bt_masterpage.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bt_masterpage\obj\Release\k2bt_masterpage.dll

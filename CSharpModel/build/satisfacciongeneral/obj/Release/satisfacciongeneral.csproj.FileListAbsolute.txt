@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\satisfacciongeneral.dll
+C:\Models\kb_ticket\CSharpModel\build\satisfacciongeneral\obj\Release\satisfacciongeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\satisfacciongeneral\obj\Release\satisfacciongeneral.dll

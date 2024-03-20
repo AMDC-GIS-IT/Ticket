@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\gamhome.dll
+C:\Models\kb_ticket\ProduccionTicket\build\gamhome\obj\Release\gamhome.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\gamhome\obj\Release\gamhome.dll

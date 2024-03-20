@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\wpregistrarsatisfaccion.dll
+C:\Models\kb_ticket\ProduccionTicket\build\wpregistrarsatisfaccion\obj\Release\wpregistrarsatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\wpregistrarsatisfaccion\obj\Release\wpregistrarsatisfaccion.dll

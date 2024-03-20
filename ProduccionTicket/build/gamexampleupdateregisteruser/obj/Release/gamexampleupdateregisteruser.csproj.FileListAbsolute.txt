@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\gamexampleupdateregisteruser.dll
+C:\Models\kb_ticket\ProduccionTicket\build\gamexampleupdateregisteruser\obj\Release\gamexampleupdateregisteruser.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\gamexampleupdateregisteruser\obj\Release\gamexampleupdateregisteruser.dll

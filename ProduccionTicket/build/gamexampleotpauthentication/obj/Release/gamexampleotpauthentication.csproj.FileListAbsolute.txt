@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\gamexampleotpauthentication.dll
+C:\Models\kb_ticket\ProduccionTicket\build\gamexampleotpauthentication\obj\Release\gamexampleotpauthentication.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\gamexampleotpauthentication\obj\Release\gamexampleotpauthentication.dll

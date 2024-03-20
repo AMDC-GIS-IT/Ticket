@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpsoportetecnico_Execute",
+    "Description": "WPVer Solicitud",
+    "ProgramName": "wpversolicitud",
+    "IsGXAutomatic": true
+  }
+]

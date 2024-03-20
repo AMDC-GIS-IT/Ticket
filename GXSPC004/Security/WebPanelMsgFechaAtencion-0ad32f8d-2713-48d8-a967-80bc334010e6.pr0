@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "webpanelmsg_Execute",
+    "Description": "Error en Fecha Atención",
+    "ProgramName": "webpanelmsgfechaatencion",
+    "IsGXAutomatic": true
+  }
+]

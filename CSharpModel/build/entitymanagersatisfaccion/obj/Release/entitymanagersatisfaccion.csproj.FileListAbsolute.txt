@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\entitymanagersatisfaccion.dll
+C:\Models\kb_ticket\CSharpModel\build\entitymanagersatisfaccion\obj\Release\entitymanagersatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\entitymanagersatisfaccion\obj\Release\entitymanagersatisfaccion.dll

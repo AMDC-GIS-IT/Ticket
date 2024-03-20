@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "etapasdesarrollo_FullControl",
+    "Description": "Etapas Desarrollo FullControl",
+    "ProgramName": "etapasdesarrollo",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "etapasdesarrollo_Execute",
+    "Description": "Etapas Desarrollo",
+    "ProgramName": "etapasdesarrollo",
+    "IsGXAutomatic": true,
+    "Parent": "etapasdesarrollo_FullControl"
+  },
+  {
+    "Name": "etapasdesarrollo_Insert",
+    "Description": "Etapas Desarrollo Insert",
+    "ProgramName": "etapasdesarrollo",
+    "IsGXAutomatic": true,
+    "Parent": "etapasdesarrollo_FullControl"
+  },
+  {
+    "Name": "etapasdesarrollo_Delete",
+    "Description": "Etapas Desarrollo Delete",
+    "ProgramName": "etapasdesarrollo",
+    "IsGXAutomatic": true,
+    "Parent": "etapasdesarrollo_FullControl"
+  },
+  {
+    "Name": "etapasdesarrollo_Update",
+    "Description": "Etapas Desarrollo Update",
+    "ProgramName": "etapasdesarrollo",
+    "IsGXAutomatic": true,
+    "Parent": "etapasdesarrollo_FullControl"
+  }
+]

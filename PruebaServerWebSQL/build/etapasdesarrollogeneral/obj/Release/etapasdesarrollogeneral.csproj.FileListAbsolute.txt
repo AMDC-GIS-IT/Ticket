@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\etapasdesarrollogeneral.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\etapasdesarrollogeneral\obj\Release\etapasdesarrollogeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\etapasdesarrollogeneral\obj\Release\etapasdesarrollogeneral.dll

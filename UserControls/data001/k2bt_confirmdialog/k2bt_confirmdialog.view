@@ -1,0 +1,10 @@
+<div class="Table_ConditionalConfirm">
+	<div class="Section_CondConf_Dialog">
+		<div class="Section_CondConf_DialogInner">
+			<span class="K2BT_ConfirmDialogMessage"></span>
+			<div>
+				<input type="button" value="Ok" title="Ok" class="K2BT_ConfirmDialogOk K2BToolsButton_MainAction_Confirm btn btn-default"/><input type="button" value="Cancel" title="Cancel" class="K2BT_ConfirmDialogCancel Button_Standard btn btn-default"/>
+			</div>
+		</div>
+	</div>
+</div>

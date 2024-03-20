@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2btoolsgetuseencryption.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2btoolsgetuseencryption\obj\Release\k2btoolsgetuseencryption.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2btoolsgetuseencryption\obj\Release\k2btoolsgetuseencryption.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\gamexampleactivateuseraccount.dll
+C:\Models\kb_ticket\CSharpModel\build\gamexampleactivateuseraccount\obj\Release\gamexampleactivateuseraccount.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\gamexampleactivateuseraccount\obj\Release\gamexampleactivateuseraccount.dll

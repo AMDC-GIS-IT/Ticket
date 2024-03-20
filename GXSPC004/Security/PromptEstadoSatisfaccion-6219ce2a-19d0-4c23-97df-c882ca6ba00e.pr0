@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "estadosatisfaccion_Execute",
+    "Description": "K2BT_PromptDescription",
+    "ProgramName": "promptestadosatisfaccion",
+    "IsGXAutomatic": true
+  }
+]

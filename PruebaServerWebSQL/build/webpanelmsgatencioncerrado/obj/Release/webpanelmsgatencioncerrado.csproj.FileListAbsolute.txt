@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\webpanelmsgatencioncerrado.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelmsgatencioncerrado\obj\Release\webpanelmsgatencioncerrado.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelmsgatencioncerrado\obj\Release\webpanelmsgatencioncerrado.dll

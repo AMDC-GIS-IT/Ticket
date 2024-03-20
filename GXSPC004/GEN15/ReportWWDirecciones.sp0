@@ -1,0 +1,712 @@
+spec_i([ proc,218,'Report WWDirecciones','ReportWWDirecciones',78,spa,'17_0_9-159740' ]).
+ 
+struct_i(3,1,[],[]).
+ 
+level_i(3,[ 18,[ [ 18,many ] ],[],[],[ [ [ 18 ],[ 262,258 ] ] ],[ [ [ 18 ],[] ] ],[ 258 ],'PK_DIRECCIO_68906D64F6205DCD',[],[] ]).
+ 
+tw_i(3,[]).
+ 
+lwi_i(3,[ [] ]).
+ 
+cond_constraint_i(3,[ [ t('str(',1),t(258,2),t(',',7),t(4,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t(262,2),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3) ],[ 258,262 ],[ t('.NOT.',8),t('null(',1),t('K2btoolsgenericsearchfield',23),t(')',4) ],[] ]).
+ 
+cond_order_i(3,[ 258 ],[ t('Orderedby',23),t(=,10),t('0',3) ]).
+cond_order_i(3,[ -258 ],[ t('Orderedby',23),t(=,10),t('1',3) ]).
+cond_order_i(3,[ 262 ],[ t('Orderedby',23),t(=,10),t('2',3) ]).
+cond_order_i(3,[ -262 ],[ t('Orderedby',23),t(=,10),t('3',3) ]).
+ 
+ 
+ta_i(3,[ [ [ 18,262 ],[ 18,258 ] ] ]).
+ 
+las_i(3,[ [ 262,258 ] ]).
+ 
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+default_i(e('Pgmname',2,2,'"ReportWWDirecciones"')).
+default_i(e('Today',2,2,'''today''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','192.168.200.55')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','No')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ReportWWDirecciones')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','Report WWDirecciones')).
+rule_i(0,prop('ObjName','ReportWWDirecciones')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'K2btoolsgenericsearchfield','Orderedby' ],[])).
+rule_i(0,parmio([ [ 'K2btoolsgenericsearchfield',in ],[ 'Orderedby',in ] ])).
+rule_i(0,output_file(t('ReportWWDirecciones_rpt',3),t('PDF',3))).
+rule_i(0,output('FIL')).
+rule_i(0,file(18,'DIRECCIONES',[ 258,262 ])).
+rule_i(0,loc([ 18 ],'DIRECCIONES','','LAN')).
+rule_i(0,index(18,'PK_DIRECCIO_68906D64F6205DCD',u,[ 258 ])).
+rule_i(0,loc([ 18,'PK_DIRECCIO_68906D64F6205DCD' ],'PK__Direccio__68906D64F6205DCD','','LAN')).
+rule_i(0,p(0,0,fv,5,[ intname,'DIRECCIONES' ])).
+rule_i(0,p(0,0,fv,5,[ table,18 ])).
+rule_i(0,p(0,0,fv,5,[ datastore,5 ])).
+rule_i(0,p(0,12,fv,5,[])).
+rule_i(0,p(0,12,fv,5,[ 'NAME','Direcciones' ])).
+rule_i(0,p(0,12,fv,5,[ 'LOC','' ])).
+rule_i(0,p(0,12,fv,5,[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fv,5,[ 'EXTNAM','YES' ])).
+rule_i(0,p(0,12,fvix,[ 5,5 ],[])).
+rule_i(0,p(0,12,fvix,[ 5,5 ],[ 'NAME','PK__Direccio__68906D64F6205DCD' ])).
+rule_i(0,p(0,12,fvix,[ 5,5 ],[ 'LOC','' ])).
+rule_i(0,p(0,12,fvix,[ 5,5 ],[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fvix,[ 5,5 ],[ 'EXTNAM','YES' ])).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,2,f,'Page',[],[ [],[ t('Page',23),t(+,5),t('1',3) ] ]).
+a_i(3,1,f,'Pgmname',[],[ [],[ t('"ReportWWDirecciones"',3) ] ]).
+a_i(4,1,f,'Today',[],[ [],[ t('today(',1),t(')',4) ] ]).
+a_i(5,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(6,3,t,18,[],[ [],'PK_DIRECCIO_68906D64F6205DCD',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,'Page').
+v_i(f,o,2,'Page').
+v_i(f,i,3,[]).
+v_i(f,o,3,'Pgmname').
+v_i(f,i,4,[]).
+v_i(f,o,4,'Today').
+v_i(f,i,5,[]).
+v_i(f,o,5,'Err').
+v_i(t,i,6,[]).
+v_i(t,o,6,262).
+v_i(t,o,6,258).
+ 
+ 
+ca_i(2,'Page').
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',22 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,'Line number','',21 ]).
+attri_i(262,[ 'DireccionDescripcion',svchar,300,0,'',0,'Direccion Descripcion','',0 ]).
+attri_i(258,[ 'DireccionId',int,4,0,'ZZZ9',0,'Direccion Id','',0 ]).
+attri_i('Pgmname',[ 'Pgmname',char,129,0,'',1,'Program name','',19 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,'Page number','',18 ]).
+attri_i('Today',[ 'Gx_date',date,8,0,'99/99/99',1,'','',17 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',16 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',15 ]).
+attri_i('Gridcolumn',[ 'GridColumn',o('K2BGridColumns.K2BGridColumnsItem'),0,0,'',0,'Grid Column','',14 ]).
+attri_i('Gridcolumns',[ 'GridColumns',o(objectcollection('K2BGridColumns.K2BGridColumnsItem')),0,0,'',0,'Grid Columns','',13 ]).
+attri_i('Freezecolumntitles',[ 'FreezeColumnTitles',boolean,0,0,'',0,'FreezeColumnTitles','',12 ]).
+attri_i('Gridconfiguration',[ 'GridConfiguration',o('K2BGridConfiguration'),0,0,'',0,'Grid Configuration','',11 ]).
+attri_i('Orderedby',[ 'OrderedBy',int,4,0,'ZZZ9',0,'OrderedBy','',10 ]).
+attri_i('K2btoolsgenericsearchfield',[ 'K2BToolsGenericSearchField',char,200,0,'',0,'','',9 ]).
+attri_i('Context',[ 'Context',o('K2BContext'),0,0,'',0,'Context','',8 ]).
+ 
+table_i(18,[ 'DIRECCIONES',[ 258,262 ],'Direcciones','Direcciones' ]).
+ 
+index_i(18,[ 'PK_DIRECCIO_68906D64F6205DCD',u,[ 258 ],'PK_DIRECCIO_68906D64F6205DCD' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+map_i(18,i,'PK_DIRECCIO_68906D64F6205DCD',[ 'PK_DIRECCIO_68906D64F6205DCD' ]).
+map_i(18,a,262,[ 'DireccionDescripcion' ]).
+map_i(18,a,258,[ 'DireccionId' ]).
+ 
+ 
+ 
+enum_value_i(4,96,'"Insert"','Insert','"Insert"',[ none ]).
+enum_value_i(4,96,'"Update"','Update','"Update"',[ none ]).
+enum_value_i(4,96,'"Delete"','Delete','"Delete"',[ none ]).
+enum_value_i(4,96,'"Maintenance"','Maintenance','"Maintenance"',[ none ]).
+enum_value_i(4,96,'"Visualization"','Visualization','"Visualization"',[ none ]).
+enum_value_i(4,96,'"Display"','Display','"Display"',[ none ]).
+enum_value_i(4,96,'"List"','List','"List"',[ none ]).
+enum_value_i(4,96,'"None"','None','"None"',[ none ]).
+enum_value_i(4,96,'"Other"','Other','"Other"',[ none ]).
+ 
+enum_value_info_i(4,96,'K2BStandardActivityType').
+ 
+enum_type_i(4,96,char,30,0).
+ 
+ 
+ 
+break_i(2,page,1,[],[ [],[],[] ]).
+break_i(4,page,3,[],[ [],[],[] ]).
+break_i(3,nvg,1,[],[ [ 258,262 ],[ 258,262 ],[] ]).
+break_i(5,foot,1,[],[ [],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,page,2,0,0).
+b_group_i(2,1,lit,0,5,9).
+b_group_i(1,3,lit,0,10,14).
+b_group_i(1,4,nvg,3,18,18).
+b_group_i(3,1,lit,0,26,26).
+b_group_i(3,2,page,4,26,26).
+b_group_i(4,1,lit,0,34,36).
+b_group_i(3,3,lit,0,37,32).
+b_group_i(1,5,lit,0,41,30).
+b_group_i(1,6,foot,5,30,30).
+b_group_i(5,1,lit,0,44,47).
+b_group_i(1,7,lit,0,48,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',104,2,0),t(o(1,'K2BGetContext'),28,0,1),t('Context',23,0,21) ]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(5,2,1,pb,5,[ t('Printblock_header',29,5,8) ]).
+b_line_i([ 5,0 ],2,1,line,5,[ t('Date',3,0,82),t('Today',23,0,86),t('Page',3,0,102),t('Page',23,0,107),t(of,3,0,109),t('{{Pages}}',3,0,111) ]).
+b_line_i([ 5,3 ],2,1,line,8,[ t(' ',3,3,0) ]).
+b_line_i(6,2,1,cmd,9,[ t('',122,6,0) ]).
+b_line_i(7,1,3,cmd,6,[ t('',109,7,0),t('udp(',1,7,32),t(o(1,'K2BIsAuthorizedActivityName'),28,7,4),t(',',7,6,0),t('"Direcciones"',3,7,37),t(',',7,6,0),t('"Direcciones"',3,7,53),t(',',7,6,0),t([ 96,'List' ],44,7,69),t(',',7,6,0),t('""',3,7,99),t(',',7,6,0),t('Pgmname',23,6,103),t(')',4,6,0),t(=,10,6,113),t('FALSE',41,6,115) ]).
+b_line_i(8,1,3,pb,6,[ t('Printblock_notauthorized',29,6,8) ]).
+b_line_i([ 8,0 ],1,3,line,6,[ t('Usted no está autorizado a ver el reporte',3,0,10) ]).
+b_line_i([ 8,1 ],1,3,line,7,[ t(' ',3,1,0) ]).
+b_line_i(9,1,3,cmd,8,[ t('',110,9,0) ]).
+b_line_i(10,1,3,cmd,8,[]).
+b_line_i(11,1,3,pb,8,[ t('Printblock_title',29,8,8) ]).
+b_line_i([ 11,0 ],1,3,line,8,[ t('Direccioneses',3,0,38) ]).
+b_line_i([ 11,1 ],1,3,line,9,[ t(' ',3,1,0) ]).
+b_line_i(12,1,3,cmd,10,[]).
+b_line_i(13,1,3,cmd,10,[ t('',109,13,0),t('.NOT.',8,10,5),t('null(',1,10,11),t('K2btoolsgenericsearchfield',23,10,17),t(')',4,10,44) ]).
+b_line_i(14,1,3,pb,10,[ t('Printblock_filters1',29,10,9) ]).
+b_line_i([ 14,0 ],1,3,line,10,[ t('Búsqueda',3,0,1),t('K2btoolsgenericsearchfield',23,0,32) ]).
+b_line_i([ 14,1 ],1,3,line,11,[ t(' ',3,1,0) ]).
+b_line_i(15,1,3,cmd,12,[ t('',111,15,0) ]).
+b_line_i(16,1,3,pb,12,[ t('Printblock_columns',29,12,8) ]).
+b_line_i([ 16,0 ],1,3,line,12,[ t('Direccion Id',3,0,2) ]).
+b_line_i([ 16,1 ],1,3,line,13,[ t(' ',3,1,0) ]).
+b_line_i(17,1,3,cmd,14,[]).
+b_line_i(18,3,1,cmd,26,[ t('',121,18,0),t(table,3,18,11),t(18,3,18,11),t('ORDER',39,18,26),t(258,2,18,32),t(when,35,18,44),t('Orderedby',23,18,49),t(=,10,18,60),t('0',3,18,62),t('ORDER',39,18,67),t('(',0,18,73),t(258,2,18,74),t(')',4,18,85),t(when,35,18,87),t('Orderedby',23,18,92),t(=,10,18,103),t('1',3,18,105),t('ORDER',39,18,110),t(262,2,18,116),t(when,35,18,137),t('Orderedby',23,18,142),t(=,10,18,153),t('2',3,18,155),t('ORDER',39,18,160),t('(',0,18,166),t(262,2,18,167),t(')',4,18,187),t(when,35,18,189),t('Orderedby',23,18,194),t(=,10,18,205),t('3',3,18,207) ]).
+b_line_i(19,3,1,cmd,26,[]).
+b_line_i(20,3,1,cmd,26,[]).
+b_line_i(21,3,1,cmd,26,[]).
+b_line_i(22,3,1,cmd,26,[]).
+b_line_i(23,3,1,cmd,26,[]).
+b_line_i(25,3,1,cmd,26,[]).
+b_line_i(27,4,1,pb,34,[ t('Printblock_columns',29,34,10) ]).
+b_line_i([ 27,0 ],4,1,line,34,[ t('Direccion Id',3,0,2) ]).
+b_line_i([ 27,1 ],4,1,line,35,[ t(' ',3,1,0) ]).
+b_line_i(28,4,1,cmd,36,[ t('',122,28,0) ]).
+b_line_i(29,3,3,cmd,30,[]).
+b_line_i(30,3,3,pb,30,[ t('Printblock_rows',29,30,9) ]).
+b_line_i([ 30,0 ],3,3,line,30,[ t(258,2,0,2) ]).
+b_line_i([ 30,1 ],3,3,line,31,[ t(' ',3,1,0) ]).
+b_line_i(31,3,3,cmd,32,[ t('',128,31,0) ]).
+b_line_i(32,1,5,cmd,30,[]).
+b_line_i(33,1,5,cmd,30,[ t('',111,33,0) ]).
+b_line_i(35,5,1,pb,44,[ t('Printblock_footer',29,44,8) ]).
+b_line_i([ 35,0 ],5,1,line,44,[ t(' ',3,0,0) ]).
+b_line_i([ 35,2 ],5,1,line,46,[ t('Page',3,2,50),t('Page',23,2,54),t(of,3,2,57),t('{{Pages}}',3,2,59) ]).
+b_line_i(36,5,1,cmd,47,[ t('',122,36,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,9,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(34,5,bitmap(i(98,'b7ea4f08-f7a5-4fad-b32e-2c1b1255fdbb')),[ ctlname('Gxreportimage1'),rect(0,0,75,67) ]).
+lit_i(35,5,t('Today',23),[ font('Microsoft Sans Serif',8,[]),rect(608,0,653,15),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&today'),ctrltype(edit,35),ispwd(0),gxcolor([]) ]).
+lit_i(36,5,t('Date',3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(575,0,608,14),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel3'),gxcolor([]) ]).
+lit_i(37,5,t('Page',3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(720,0,750,14),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel4'),gxcolor([]) ]).
+lit_i(38,5,t(of,3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(767,0,782,14),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel5'),gxcolor([]) ]).
+lit_i(39,5,t('{{Pages}}',3),[ font('Microsoft Sans Serif',8,[]),rect(783,0,798,14),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel6'),gxcolor([]) ]).
+lit_i(40,5,t('Page',23),[ font('Microsoft Sans Serif',8,[]),rect(750,0,765,14),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&page'),ctrltype(edit,40),ispwd(0),gxcolor([]) ]).
+lit_i(41,5,window,[ title('Text'),rect(0,0,827,71),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblock_header'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(51,8,t('Usted no está autorizado a ver el reporte',3),[ font('Courier New',20,[ bold ]),rect(71,0,755,32),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('K2blabel3'),gxcolor([]) ]).
+lit_i(50,8,window,[ title('Text'),rect(0,0,827,30),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblock_notauthorized'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(49,11,t('Direccioneses',3),[ font('Courier New',26,[ bold ]),rect(271,0,556,42),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('K2blabel2'),gxcolor([]) ]).
+lit_i(48,11,window,[ title('Text'),rect(0,0,827,40),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblock_title'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(53,14,t('Búsqueda',3),[ font('Courier New',8,[ bold ]),rect(10,7,69,22),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('K2blabel4'),gxcolor([]) ]).
+lit_i(54,14,t('K2btoolsgenericsearchfield',23),[ font('Courier New',8,[]),rect(230,7,1689,23),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('&k2btoolsgenericsearchfield'),ctrltype(edit,54),ispwd(0),gxcolor([]) ]).
+lit_i(52,14,window,[ title('Text'),rect(0,0,827,30),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblock_filters1'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(56,16,rect(56),[ rect(10,0,817,0),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(211,211,211)),border(1),ctlname('K2blabel5'),gxcolor([]),borderstyle(0) ]).
+lit_i(57,16,rect(57),[ rect(10,29,817,29),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(211,211,211)),border(1),ctlname('K2blabel6'),gxcolor([]),borderstyle(0) ]).
+lit_i(31,16,t('Direccion Id',3),[ font('Courier New',8,[ bold ]),rect(18,7,107,22),outstyle(none),align(right),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('K2blabel0'),gxcolor([]) ]).
+lit_i(55,16,window,[ title('Text'),rect(0,0,827,30),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblock_columns'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(56,27,rect(56),[ rect(10,0,817,0),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(211,211,211)),border(1),ctlname('K2blabel5'),gxcolor([]),borderstyle(0) ]).
+lit_i(57,27,rect(57),[ rect(10,29,817,29),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(211,211,211)),border(1),ctlname('K2blabel6'),gxcolor([]),borderstyle(0) ]).
+lit_i(31,27,t('Direccion Id',3),[ font('Courier New',8,[ bold ]),rect(18,7,107,22),outstyle(none),align(right),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('K2blabel0'),gxcolor([]) ]).
+lit_i(55,27,window,[ title('Text'),rect(0,0,827,30),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblock_columns'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(30,30,t(258,2),[ font('Courier New',8,[]),rect(18,7,107,23),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('258'),ctrltype(edit,30),ispwd(0),gxcolor([]) ]).
+lit_i(58,30,window,[ title('Text'),rect(0,0,827,30),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblock_rows'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(42,35,rect(42),[ rect(50,0,775,0),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(211,211,211)),border(1),ctlname('Gxreportline1'),gxcolor([]),borderstyle(0) ]).
+lit_i(43,35,t('Page',23),[ font('Microsoft Sans Serif',8,[]),rect(383,33,398,47),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&page'),ctrltype(edit,43),ispwd(0),gxcolor([]) ]).
+lit_i(44,35,t('{{Pages}}',3),[ font('Microsoft Sans Serif',8,[]),rect(417,33,432,47),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(45,35,t('Page',3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(353,33,383,47),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel7'),gxcolor([]) ]).
+lit_i(46,35,t(of,3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(400,33,415,47),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(47,35,window,[ title('Text'),rect(0,0,827,50),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblock_footer'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ctrl_info_i(5,35,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(5,40,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(14,54,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(35,43,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+ 
+att_prop_i(4,258,'ExternalName','DireccionId',d).
+att_prop_i(4,258,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,258,'EmptyAsNull','Yes',d).
+att_prop_i(4,258,idBasedOn,'',d).
+att_prop_i(4,258,'AUTONUMBER','0',d).
+att_prop_i(4,258,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,258,'AttRegEx','',d).
+att_prop_i(4,258,'AttValidationFailedMsg','',d).
+att_prop_i(4,258,'DownloadOffline','0',d).
+att_prop_i(4,258,'VarServiceExtName','',d).
+att_prop_i(4,258,'FullName','DireccionId',v).
+att_prop_i(4,262,'ExternalName','DireccionDescripcion',d).
+att_prop_i(4,262,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,262,'EmptyAsNull','Yes',d).
+att_prop_i(4,262,idBasedOn,'',d).
+att_prop_i(4,262,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,262,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,262,'AttRegEx','',d).
+att_prop_i(4,262,'AttValidationFailedMsg','',d).
+att_prop_i(4,262,'DownloadOffline','0',d).
+att_prop_i(4,262,'VarServiceExtName','',d).
+att_prop_i(4,262,'FullName','DireccionDescripcion',v).
+ 
+ 
+tbl_att_prop_i(4,18,258,'AllowNulls',n).
+tbl_att_prop_i(4,18,262,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,54,0 ],name,'K2BContext').
+struct_dt_i([ 26,54,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,54,0 ],'ObjName','K2BContext').
+struct_dt_i([ 26,54,0 ],'ObjDesc','K2B Context').
+struct_dt_i([ 26,54,0 ],'ExternalName','K2BContext').
+struct_dt_i([ 26,54,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,54,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,66,0 ],name,'K2BGridConfiguration').
+struct_dt_i([ 26,66,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,66,0 ],'ObjName','K2BGridConfiguration').
+struct_dt_i([ 26,66,0 ],'ObjDesc','K2 BGrid Configuration').
+struct_dt_i([ 26,66,0 ],'ExternalName','K2BGridConfiguration').
+struct_dt_i([ 26,66,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,66,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,61,0 ],name,'K2BGridColumns').
+struct_dt_i([ 26,61,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,61,0 ],'ObjName','K2BGridColumns').
+struct_dt_i([ 26,61,0 ],'ObjDesc','K2 BGrid Columns').
+struct_dt_i([ 26,61,0 ],'ExternalName','K2BGridColumns').
+struct_dt_i([ 26,61,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,61,0 ],collection,'True').
+struct_dt_i([ 26,61,0 ],datatype,[ 26,61,87 ]).
+struct_dt_i([ 26,61,0 ],'CollectionItemName','K2BGridColumnsItem').
+struct_dt_i([ 26,61,0 ],'XmlName','').
+struct_dt_i([ 26,61,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,61,0 ],'XmlNamespace','').
+struct_dt_i([ 26,61,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,61,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,61,0 ],'JsonName','').
+struct_dt_i([ 26,61,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,61,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,61,87 ],name,'K2BGridColumnsItem').
+struct_dt_i([ 26,61,87 ],namespace,'kb_ticket.K2BGridColumns').
+struct_dt_i([ 26,54,0 ],fullname,'K2BContext').
+struct_dt_i([ 26,66,0 ],fullname,'K2BGridConfiguration').
+struct_dt_i([ 26,61,0 ],fullname,'K2BGridColumns').
+struct_dt_i([ 26,61,87 ],fullname,'K2BGridColumns.K2BGridColumnsItem').
+ 
+struct_dt_elem_i([ 26,54,0 ],1,name,'Usercode').
+struct_dt_elem_i([ 26,54,0 ],1,camelname,'UserCode').
+struct_dt_elem_i([ 26,54,0 ],1,basedon,105).
+struct_dt_elem_i([ 26,54,0 ],1,length,100).
+struct_dt_elem_i([ 26,54,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],1,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,54,0 ],1,pic,'').
+struct_dt_elem_i([ 26,54,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],1,'ExternalName','UserCode').
+struct_dt_elem_i([ 26,54,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,54,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,0 ],1,name,'Freezecolumntitles').
+struct_dt_elem_i([ 26,66,0 ],1,camelname,'FreezeColumnTitles').
+struct_dt_elem_i([ 26,66,0 ],1,length,4).
+struct_dt_elem_i([ 26,66,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,66,0 ],1,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,66,0 ],1,pic,'').
+struct_dt_elem_i([ 26,66,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,66,0 ],1,'ExternalName','FreezeColumnTitles').
+struct_dt_elem_i([ 26,66,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,66,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,66,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,66,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,66,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,66,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,0 ],2,name,'Gridcolumns').
+struct_dt_elem_i([ 26,66,0 ],2,camelname,'GridColumns').
+struct_dt_elem_i([ 26,66,0 ],2,length,4).
+struct_dt_elem_i([ 26,66,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,66,0 ],2,type,[ [ 26,61,0 ],4,0 ]).
+struct_dt_elem_i([ 26,66,0 ],2,pic,'').
+struct_dt_elem_i([ 26,66,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,66,0 ],2,'ExternalName','GridColumns').
+struct_dt_elem_i([ 26,66,0 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,66,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,66,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,66,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,66,0 ],2,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,61,87 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,61,87 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,61,87 ],1,length,20).
+struct_dt_elem_i([ 26,61,87 ],1,decimals,0).
+struct_dt_elem_i([ 26,61,87 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,61,87 ],1,pic,'').
+struct_dt_elem_i([ 26,61,87 ],1,collection,'False').
+struct_dt_elem_i([ 26,61,87 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,61,87 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,61,87 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,61,87 ],1,'XmlName','').
+struct_dt_elem_i([ 26,61,87 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,87 ],1,soaptype,'').
+struct_dt_elem_i([ 26,61,87 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,87 ],1,'JsonName','').
+struct_dt_elem_i([ 26,61,87 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,61,87 ],2,name,'Showattribute').
+struct_dt_elem_i([ 26,61,87 ],2,camelname,'ShowAttribute').
+struct_dt_elem_i([ 26,61,87 ],2,length,4).
+struct_dt_elem_i([ 26,61,87 ],2,decimals,0).
+struct_dt_elem_i([ 26,61,87 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,61,87 ],2,pic,'').
+struct_dt_elem_i([ 26,61,87 ],2,collection,'False').
+struct_dt_elem_i([ 26,61,87 ],2,'ExternalName','ShowAttribute').
+struct_dt_elem_i([ 26,61,87 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,61,87 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,61,87 ],2,'XmlName','').
+struct_dt_elem_i([ 26,61,87 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,87 ],2,soaptype,'').
+struct_dt_elem_i([ 26,61,87 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,87 ],2,'JsonName','').
+struct_dt_elem_i([ 26,61,87 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,61,87 ],3,name,'Columntitle').
+struct_dt_elem_i([ 26,61,87 ],3,camelname,'ColumnTitle').
+struct_dt_elem_i([ 26,61,87 ],3,length,100).
+struct_dt_elem_i([ 26,61,87 ],3,decimals,0).
+struct_dt_elem_i([ 26,61,87 ],3,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,61,87 ],3,pic,'').
+struct_dt_elem_i([ 26,61,87 ],3,collection,'False').
+struct_dt_elem_i([ 26,61,87 ],3,'ExternalName','ColumnTitle').
+struct_dt_elem_i([ 26,61,87 ],3,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,61,87 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,61,87 ],3,'XmlName','').
+struct_dt_elem_i([ 26,61,87 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,87 ],3,soaptype,'').
+struct_dt_elem_i([ 26,61,87 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,87 ],3,'JsonName','').
+struct_dt_elem_i([ 26,61,87 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,54,0 ],1,pic,'ZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,71,'K2BGETCONTEXT',[ [ o('K2BContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,17,'K2BISAUTHORIZEDACTIVITYNAME',[ [ svchar,256,0,0 ],[ svchar,256,0,0 ],[ char,30,0,0 ],[ svchar,256,0,0 ],[ svchar,256,0,0 ],[ boolean,4,0,0 ] ],[ [ 'EntityName',in,[] ],[ 'TransactionName',in,[] ],[ 'StandardActivityType',in,[] ],[ 'UserActivityType',in,[] ],[ 'ProgramName',in,[] ],[ 'IsAuthorized',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,218,'REPORTWWDIRECCIONES','HTTP','Unsecure').
+pgm_callprotocol_i(proc,71,'K2BGETCONTEXT','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,17,'K2BISAUTHORIZEDACTIVITYNAME','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

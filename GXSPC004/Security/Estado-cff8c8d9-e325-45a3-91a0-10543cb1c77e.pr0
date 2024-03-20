@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "estado_FullControl",
+    "Description": "Estado FullControl",
+    "ProgramName": "estado",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "estado_Execute",
+    "Description": "Estado",
+    "ProgramName": "estado",
+    "IsGXAutomatic": true,
+    "Parent": "estado_FullControl"
+  },
+  {
+    "Name": "estado_Insert",
+    "Description": "Estado Insert",
+    "ProgramName": "estado",
+    "IsGXAutomatic": true,
+    "Parent": "estado_FullControl"
+  },
+  {
+    "Name": "estado_Delete",
+    "Description": "Estado Delete",
+    "ProgramName": "estado",
+    "IsGXAutomatic": true,
+    "Parent": "estado_FullControl"
+  },
+  {
+    "Name": "estado_Update",
+    "Description": "Estado Update",
+    "ProgramName": "estado",
+    "IsGXAutomatic": true,
+    "Parent": "estado_FullControl"
+  }
+]

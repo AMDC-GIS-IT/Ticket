@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\reportwwcategoriadetalletarea.dll
+C:\Models\kb_ticket\ProduccionTicket\build\reportwwcategoriadetalletarea\obj\Release\reportwwcategoriadetalletarea.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\reportwwcategoriadetalletarea\obj\Release\reportwwcategoriadetalletarea.dll

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpsatisfaccion_Execute",
+    "Description": "Satisfacción Usuario",
+    "ProgramName": "wpsatisfaccion",
+    "IsGXAutomatic": true
+  }
+]

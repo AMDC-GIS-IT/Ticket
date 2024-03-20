@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\direccionesusuariosistemawc.dll
+C:\Models\kb_ticket\ProduccionTicket\build\direccionesusuariosistemawc\obj\Release\direccionesusuariosistemawc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\direccionesusuariosistemawc\obj\Release\direccionesusuariosistemawc.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\promptactividades_categoria.dll
+C:\Models\kb_ticket\ProduccionTicket\build\promptactividades_categoria\obj\Release\promptactividades_categoria.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\promptactividades_categoria\obj\Release\promptactividades_categoria.dll

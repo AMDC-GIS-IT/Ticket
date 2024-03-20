@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\directionsservicerequest.dll
+C:\Models\kb_ticket\ProduccionTicket\build\directionsservicerequest\obj\Release\directionsservicerequest.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\directionsservicerequest\obj\Release\directionsservicerequest.dll

@@ -1,0 +1,8 @@
+ALTER TABLE [Ticket] ADD [TicketFechaSistema] datetime NOT NULL CONSTRAINT TicketFechaSistemaTicket_DEFAULT DEFAULT convert( DATETIME, '17530101', 112 )
+ALTER TABLE [Ticket] DROP CONSTRAINT TicketFechaSistemaTicket_DEFAULT
+
+ALTER TABLE [TicketResponsable] ADD [TicketResponsableFechaSistema] datetime NOT NULL CONSTRAINT TicketResponsableFechaSistemaTicketResponsable_DEFAULT DEFAULT convert( DATETIME, '17530101', 112 )
+ALTER TABLE [TicketResponsable] DROP CONSTRAINT TicketResponsableFechaSistemaTicketResponsable_DEFAULT
+
+ALTER TABLE [Usuario] ADD [UsuarioFechaSistema] datetime NULL
+

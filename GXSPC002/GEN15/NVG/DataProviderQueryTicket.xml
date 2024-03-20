@@ -1,0 +1,35 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_9-159740</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>5</ObjId>
+<ObjName>DataProviderQueryTicket</ObjName>
+<ObjDesc>Data Provider Query Ticket</ObjDesc>
+<ObjPgmName>DataProviderQueryTicket</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Fechausuariodesde</VarId>
+<VarName>&amp;FechaUsuarioDesde</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Fechausuariohasta</VarId>
+<VarName>&amp;FechaUsuarioHasta</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Token>QueryViewerParameters</Token></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

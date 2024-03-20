@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "defaultgridsettings_Execute",
+    "Description": "Default Grid Settings",
+    "ProgramName": "defaultgridsettings",
+    "IsGXAutomatic": true
+  }
+]

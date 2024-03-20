@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\webpanelqueryticket.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelqueryticket\obj\Release\webpanelqueryticket.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelqueryticket\obj\Release\webpanelqueryticket.dll

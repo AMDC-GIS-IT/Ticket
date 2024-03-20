@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\usuariogeneral.dll
+C:\Models\kb_ticket\ProduccionTicket\build\usuariogeneral\obj\Release\usuariogeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\usuariogeneral\obj\Release\usuariogeneral.dll

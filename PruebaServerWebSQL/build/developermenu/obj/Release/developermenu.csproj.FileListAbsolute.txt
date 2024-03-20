@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\developermenu.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\developermenu\obj\Release\developermenu.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\developermenu\obj\Release\developermenu.dll

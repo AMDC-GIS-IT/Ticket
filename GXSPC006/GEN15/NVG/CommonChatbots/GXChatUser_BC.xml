@@ -1,0 +1,104 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>20</ObjId>
+<ObjName>CommonChatbots.GXChatUser_BC</ObjName>
+<ObjDesc>GX Chat User</ObjDesc>
+<ObjPgmName>CommonChatbots.GXChatUser_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>21</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>21</TableId>
+<TableName>GXChatUser</TableName>
+<Description>GX Chat User</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>21</TableId>
+<TableName>GXChatUser</TableName>
+<Description>GX Chat User</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>GXChatUserId</AttriName>
+<Description>GXChat User Id</Description></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>GXChatUserDevice</AttriName>
+<Description>GXChat User Device</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>21</TableId>
+<TableName>GXChatUser</TableName>
+<Description>GX Chat User</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>GXChatUserId</AttriName>
+<Description>GXChat User Id</Description></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>GXChatUserDevice</AttriName>
+<Description>GXChat User Device</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>21</TableId>
+<TableName>GXChatUser</TableName>
+<Description>GX Chat User</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>21</TableId>
+<TableName>GXChatUser</TableName>
+<Description>GX Chat User</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>20</TableId>
+<TableName>GXChatMessage</TableName>
+<Description>GXChat Message</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>GXChatUserId</AttriName>
+<Description>GXChat User Id</Description></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>GXChatUserDevice</AttriName>
+<Description>GXChat User Device</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

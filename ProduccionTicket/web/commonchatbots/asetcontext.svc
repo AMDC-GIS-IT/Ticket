@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.commonchatbots.asetcontext_services,commonchatbots\setcontext" %>

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "estadoticket_Execute",
+    "Description": "Estado Ticket",
+    "ProgramName": "entitymanagerestadoticket",
+    "IsGXAutomatic": true
+  }
+]

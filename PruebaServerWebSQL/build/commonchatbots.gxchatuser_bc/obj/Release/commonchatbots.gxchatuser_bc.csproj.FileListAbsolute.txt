@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\commonchatbots.gxchatuser_bc.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\commonchatbots.gxchatuser_bc\obj\Release\commonchatbots.gxchatuser_bc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\commonchatbots.gxchatuser_bc\obj\Release\commonchatbots.gxchatuser_bc.dll

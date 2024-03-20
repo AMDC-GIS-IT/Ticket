@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\promptactividades_categoria.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\promptactividades_categoria\obj\Release\promptactividades_categoria.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\promptactividades_categoria\obj\Release\promptactividades_categoria.dll

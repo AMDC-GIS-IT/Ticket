@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\exportwwactividades_categoria.dll
+C:\Models\kb_ticket\CSharpModel\build\exportwwactividades_categoria\obj\Release\exportwwactividades_categoria.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\exportwwactividades_categoria\obj\Release\exportwwactividades_categoria.dll

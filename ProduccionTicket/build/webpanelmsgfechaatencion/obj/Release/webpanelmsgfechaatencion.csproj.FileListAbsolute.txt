@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\webpanelmsgfechaatencion.dll
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgfechaatencion\obj\Release\webpanelmsgfechaatencion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgfechaatencion\obj\Release\webpanelmsgfechaatencion.dll

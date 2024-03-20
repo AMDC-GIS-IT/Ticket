@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "panelchatweb_Execute",
+    "Description": "Web Chat",
+    "ProgramName": "commonchatbots.panelchatweb",
+    "IsGXAutomatic": true
+  }
+]

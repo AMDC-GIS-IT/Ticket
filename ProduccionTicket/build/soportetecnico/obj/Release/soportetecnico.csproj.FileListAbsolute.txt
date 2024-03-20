@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\soportetecnico.dll
+C:\Models\kb_ticket\ProduccionTicket\build\soportetecnico\obj\Release\soportetecnico.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\soportetecnico\obj\Release\soportetecnico.dll

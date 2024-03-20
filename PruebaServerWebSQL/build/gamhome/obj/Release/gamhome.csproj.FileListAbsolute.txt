@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\gamhome.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gamhome\obj\Release\gamhome.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gamhome\obj\Release\gamhome.dll

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "webpanelqueryticket_Execute",
+    "Description": "Consulta Ticket",
+    "ProgramName": "webpanelqueryticket",
+    "IsGXAutomatic": true
+  }
+]

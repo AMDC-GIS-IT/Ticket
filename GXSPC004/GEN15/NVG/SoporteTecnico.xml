@@ -1,0 +1,375 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_9-159740</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>15</ObjId>
+<ObjName>SoporteTecnico</ObjName>
+<ObjDesc>Soporte Tecnico</ObjDesc>
+<ObjPgmName>SoporteTecnico</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>16</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>SoporteTecnicoId</AttriName>
+<Description>Soporte Tecnico Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>10</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>SoporteTecnicoId</AttriName>
+<Description>Soporte Tecnico Id</Description></Attribute>
+<Attribute>
+<AttriId>203</AttriId>
+<AttriName>SoporteTecnicoFecha</AttriName>
+<Description>Soporte Tecnico Fecha</Description></Attribute>
+<Attribute>
+<AttriId>204</AttriId>
+<AttriName>SoporteTecnicoHora</AttriName>
+<Description>Soporte Tecnico Hora</Description></Attribute>
+<Attribute>
+<AttriId>211</AttriId>
+<AttriName>SoporteTecnicoFechaResuelve</AttriName>
+<Description>Soporte Tecnico Fecha Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>SoporteTecnicoHoraResuelve</AttriName>
+<Description>Soporte Tecnico Hora Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>205</AttriId>
+<AttriName>SoporteTecnicoInventarioSerie</AttriName>
+<Description>Soporte Tecnico Inventario Serie</Description></Attribute>
+<Attribute>
+<AttriId>206</AttriId>
+<AttriName>SoporteTecnicoInstalacion</AttriName>
+<Description>Soporte Tecnico Instalacion</Description></Attribute>
+<Attribute>
+<AttriId>207</AttriId>
+<AttriName>SoporteTecnicoConfiguracion</AttriName>
+<Description>Soporte Tecnico Configuracion</Description></Attribute>
+<Attribute>
+<AttriId>208</AttriId>
+<AttriName>SoporteTecnicoInternetRouter</AttriName>
+<Description>Soporte Tecnico Internet Router</Description></Attribute>
+<Attribute>
+<AttriId>209</AttriId>
+<AttriName>SoporteTecnicoFormateo</AttriName>
+<Description>Soporte Tecnico Formateo</Description></Attribute>
+<Attribute>
+<AttriId>210</AttriId>
+<AttriName>SoporteTecnicoReparacion</AttriName>
+<Description>Soporte Tecnico Reparacion</Description></Attribute>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>SoporteTecnicoLimpieza</AttriName>
+<Description>Soporte Tecnico Limpieza</Description></Attribute>
+<Attribute>
+<AttriId>214</AttriId>
+<AttriName>SoporteTecnicoPuntoRed</AttriName>
+<Description>Soporte Tecnico Punto Red</Description></Attribute>
+<Attribute>
+<AttriId>215</AttriId>
+<AttriName>SoporteTecnicoCambiosHardware</AttriName>
+<Description>Soporte Tecnico Cambios Hardware</Description></Attribute>
+<Attribute>
+<AttriId>216</AttriId>
+<AttriName>SoporteTecnicoCopiasRespaldo</AttriName>
+<Description>Soporte Tecnico Copias Respaldo</Description></Attribute>
+<Attribute>
+<AttriId>217</AttriId>
+<AttriName>SoporteTecnicoRam</AttriName>
+<Description>Soporte Tecnico Ram</Description></Attribute>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>SoporteTecnicoDiscoDuro</AttriName>
+<Description>Soporte Tecnico Disco Duro</Description></Attribute>
+<Attribute>
+<AttriId>219</AttriId>
+<AttriName>SoporteTecnicoProcesador</AttriName>
+<Description>Soporte Tecnico Procesador</Description></Attribute>
+<Attribute>
+<AttriId>220</AttriId>
+<AttriName>SoporteTecnicoMaletin</AttriName>
+<Description>Soporte Tecnico Maletin</Description></Attribute>
+<Attribute>
+<AttriId>221</AttriId>
+<AttriName>SoporteTecnicoTonerCinta</AttriName>
+<Description>Soporte Tecnico Toner Cinta</Description></Attribute>
+<Attribute>
+<AttriId>222</AttriId>
+<AttriName>SoporteTecnicoTarjetaVideoExtra</AttriName>
+<Description>Soporte Tecnico Tarjeta Video Extra</Description></Attribute>
+<Attribute>
+<AttriId>223</AttriId>
+<AttriName>SoporteTecnicoCargadorLaptop</AttriName>
+<Description>Soporte Tecnico Cargador Laptop</Description></Attribute>
+<Attribute>
+<AttriId>224</AttriId>
+<AttriName>SoporteTecnicoCDsDVDs</AttriName>
+<Description>Soporte Tecnico CDs DVDs</Description></Attribute>
+<Attribute>
+<AttriId>225</AttriId>
+<AttriName>SoporteTecnicoCableEspecial</AttriName>
+<Description>Soporte Tecnico Cable Especial</Description></Attribute>
+<Attribute>
+<AttriId>226</AttriId>
+<AttriName>SoporteTecnicoOtrosTaller</AttriName>
+<Description>Soporte Tecnico Otros Taller</Description></Attribute>
+<Attribute>
+<AttriId>235</AttriId>
+<AttriName>SoporteTecnicoCerrado</AttriName>
+<Description>Soporte Tecnico Cerrado</Description></Attribute>
+<Attribute>
+<AttriId>236</AttriId>
+<AttriName>SoporteTecnicoPendiente</AttriName>
+<Description>Soporte Tecnico Pendiente</Description></Attribute>
+<Attribute>
+<AttriId>237</AttriId>
+<AttriName>SoporteTecnicoPasaTaller</AttriName>
+<Description>Soporte Tecnico Pasa Taller</Description></Attribute>
+<Attribute>
+<AttriId>227</AttriId>
+<AttriName>SoporteTecnicoObservacion</AttriName>
+<Description>Soporte Tecnico Observacion</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>203</AttriId>
+<AttriName>SoporteTecnicoFecha</AttriName>
+<Description>Soporte Tecnico Fecha</Description></Attribute>
+<Attribute>
+<AttriId>204</AttriId>
+<AttriName>SoporteTecnicoHora</AttriName>
+<Description>Soporte Tecnico Hora</Description></Attribute>
+<Attribute>
+<AttriId>211</AttriId>
+<AttriName>SoporteTecnicoFechaResuelve</AttriName>
+<Description>Soporte Tecnico Fecha Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>SoporteTecnicoHoraResuelve</AttriName>
+<Description>Soporte Tecnico Hora Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>205</AttriId>
+<AttriName>SoporteTecnicoInventarioSerie</AttriName>
+<Description>Soporte Tecnico Inventario Serie</Description></Attribute>
+<Attribute>
+<AttriId>206</AttriId>
+<AttriName>SoporteTecnicoInstalacion</AttriName>
+<Description>Soporte Tecnico Instalacion</Description></Attribute>
+<Attribute>
+<AttriId>207</AttriId>
+<AttriName>SoporteTecnicoConfiguracion</AttriName>
+<Description>Soporte Tecnico Configuracion</Description></Attribute>
+<Attribute>
+<AttriId>208</AttriId>
+<AttriName>SoporteTecnicoInternetRouter</AttriName>
+<Description>Soporte Tecnico Internet Router</Description></Attribute>
+<Attribute>
+<AttriId>209</AttriId>
+<AttriName>SoporteTecnicoFormateo</AttriName>
+<Description>Soporte Tecnico Formateo</Description></Attribute>
+<Attribute>
+<AttriId>210</AttriId>
+<AttriName>SoporteTecnicoReparacion</AttriName>
+<Description>Soporte Tecnico Reparacion</Description></Attribute>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>SoporteTecnicoLimpieza</AttriName>
+<Description>Soporte Tecnico Limpieza</Description></Attribute>
+<Attribute>
+<AttriId>214</AttriId>
+<AttriName>SoporteTecnicoPuntoRed</AttriName>
+<Description>Soporte Tecnico Punto Red</Description></Attribute>
+<Attribute>
+<AttriId>215</AttriId>
+<AttriName>SoporteTecnicoCambiosHardware</AttriName>
+<Description>Soporte Tecnico Cambios Hardware</Description></Attribute>
+<Attribute>
+<AttriId>216</AttriId>
+<AttriName>SoporteTecnicoCopiasRespaldo</AttriName>
+<Description>Soporte Tecnico Copias Respaldo</Description></Attribute>
+<Attribute>
+<AttriId>217</AttriId>
+<AttriName>SoporteTecnicoRam</AttriName>
+<Description>Soporte Tecnico Ram</Description></Attribute>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>SoporteTecnicoDiscoDuro</AttriName>
+<Description>Soporte Tecnico Disco Duro</Description></Attribute>
+<Attribute>
+<AttriId>219</AttriId>
+<AttriName>SoporteTecnicoProcesador</AttriName>
+<Description>Soporte Tecnico Procesador</Description></Attribute>
+<Attribute>
+<AttriId>220</AttriId>
+<AttriName>SoporteTecnicoMaletin</AttriName>
+<Description>Soporte Tecnico Maletin</Description></Attribute>
+<Attribute>
+<AttriId>221</AttriId>
+<AttriName>SoporteTecnicoTonerCinta</AttriName>
+<Description>Soporte Tecnico Toner Cinta</Description></Attribute>
+<Attribute>
+<AttriId>222</AttriId>
+<AttriName>SoporteTecnicoTarjetaVideoExtra</AttriName>
+<Description>Soporte Tecnico Tarjeta Video Extra</Description></Attribute>
+<Attribute>
+<AttriId>223</AttriId>
+<AttriName>SoporteTecnicoCargadorLaptop</AttriName>
+<Description>Soporte Tecnico Cargador Laptop</Description></Attribute>
+<Attribute>
+<AttriId>224</AttriId>
+<AttriName>SoporteTecnicoCDsDVDs</AttriName>
+<Description>Soporte Tecnico CDs DVDs</Description></Attribute>
+<Attribute>
+<AttriId>225</AttriId>
+<AttriName>SoporteTecnicoCableEspecial</AttriName>
+<Description>Soporte Tecnico Cable Especial</Description></Attribute>
+<Attribute>
+<AttriId>226</AttriId>
+<AttriName>SoporteTecnicoOtrosTaller</AttriName>
+<Description>Soporte Tecnico Otros Taller</Description></Attribute>
+<Attribute>
+<AttriId>235</AttriId>
+<AttriName>SoporteTecnicoCerrado</AttriName>
+<Description>Soporte Tecnico Cerrado</Description></Attribute>
+<Attribute>
+<AttriId>236</AttriId>
+<AttriName>SoporteTecnicoPendiente</AttriName>
+<Description>Soporte Tecnico Pendiente</Description></Attribute>
+<Attribute>
+<AttriId>237</AttriId>
+<AttriName>SoporteTecnicoPasaTaller</AttriName>
+<Description>Soporte Tecnico Pasa Taller</Description></Attribute>
+<Attribute>
+<AttriId>227</AttriId>
+<AttriName>SoporteTecnicoObservacion</AttriName>
+<Description>Soporte Tecnico Observacion</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>13</ObjId>
+<ObjName>Gx0070</ObjName>
+<ObjPgmName>Gx0070</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>214</ObjId>
+<ObjName>Gx00G0</ObjName>
+<ObjPgmName>Gx00G0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>SoporteTecnicoId</AttriName>
+<Description>Soporte Tecnico Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

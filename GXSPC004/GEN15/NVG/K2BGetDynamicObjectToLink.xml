@@ -1,0 +1,27 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_9-159740</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>53</ObjId>
+<ObjName>K2BGetDynamicObjectToLink</ObjName>
+<ObjDesc>K2 BGet Dynamic Object To Link</ObjDesc>
+<ObjPgmName>K2BGetDynamicObjectToLink</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Dynamicobjecttolink</VarId>
+<VarName>&amp;DynamicObjectToLink</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

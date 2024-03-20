@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpregistrarsatisfaccion_Execute",
+    "Description": "Llenar Encuesta Satisfacción",
+    "ProgramName": "wpregistrarencuestadesarrollo",
+    "IsGXAutomatic": true
+  }
+]

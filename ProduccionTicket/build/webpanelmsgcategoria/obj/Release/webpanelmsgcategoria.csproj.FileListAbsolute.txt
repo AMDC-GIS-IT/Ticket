@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\webpanelmsgcategoria.dll
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgcategoria\obj\Release\webpanelmsgcategoria.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgcategoria\obj\Release\webpanelmsgcategoria.dll

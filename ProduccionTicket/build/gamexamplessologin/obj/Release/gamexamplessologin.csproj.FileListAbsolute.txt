@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\gamexamplessologin.dll
+C:\Models\kb_ticket\ProduccionTicket\build\gamexamplessologin\obj\Release\gamexamplessologin.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\gamexamplessologin\obj\Release\gamexamplessologin.dll

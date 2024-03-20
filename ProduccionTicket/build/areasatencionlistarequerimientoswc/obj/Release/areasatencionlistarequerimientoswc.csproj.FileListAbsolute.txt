@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\areasatencionlistarequerimientoswc.dll
+C:\Models\kb_ticket\ProduccionTicket\build\areasatencionlistarequerimientoswc\obj\Release\areasatencionlistarequerimientoswc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\areasatencionlistarequerimientoswc\obj\Release\areasatencionlistarequerimientoswc.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\wwdirecciones.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wwdirecciones\obj\Release\wwdirecciones.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wwdirecciones\obj\Release\wwdirecciones.dll

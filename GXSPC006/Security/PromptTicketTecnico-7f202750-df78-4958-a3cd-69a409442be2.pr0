@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "tickettecnico_Execute",
+    "Description": "K2BT_PromptDescription",
+    "ProgramName": "prompttickettecnico",
+    "IsGXAutomatic": true
+  }
+]

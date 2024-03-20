@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpasignarticketdesarrollo_Execute",
+    "Description": "Asignar Ticket Desarrollo",
+    "ProgramName": "wpasignarticketdesarrollo",
+    "IsGXAutomatic": true
+  }
+]

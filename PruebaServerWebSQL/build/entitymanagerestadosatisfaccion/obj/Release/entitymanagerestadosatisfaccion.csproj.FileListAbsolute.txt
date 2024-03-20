@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\entitymanagerestadosatisfaccion.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\entitymanagerestadosatisfaccion\obj\Release\entitymanagerestadosatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\entitymanagerestadosatisfaccion\obj\Release\entitymanagerestadosatisfaccion.dll

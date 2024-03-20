@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\entitymanagerdirecciones.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\entitymanagerdirecciones\obj\Release\entitymanagerdirecciones.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\entitymanagerdirecciones\obj\Release\entitymanagerdirecciones.dll

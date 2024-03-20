@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.chatbot.context.mergewithgenericcontext_services,chatbot" %>

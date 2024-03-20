@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\wwetapasdesarrollo.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wwetapasdesarrollo\obj\Release\wwetapasdesarrollo.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wwetapasdesarrollo\obj\Release\wwetapasdesarrollo.dll

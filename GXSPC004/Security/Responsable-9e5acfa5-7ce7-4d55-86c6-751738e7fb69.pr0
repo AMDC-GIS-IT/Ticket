@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "responsable_FullControl",
+    "Description": "Responsable FullControl",
+    "ProgramName": "responsable",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "responsable_Execute",
+    "Description": "Responsable",
+    "ProgramName": "responsable",
+    "IsGXAutomatic": true,
+    "Parent": "responsable_FullControl"
+  },
+  {
+    "Name": "responsable_Insert",
+    "Description": "Responsable Insert",
+    "ProgramName": "responsable",
+    "IsGXAutomatic": true,
+    "Parent": "responsable_FullControl"
+  },
+  {
+    "Name": "responsable_Delete",
+    "Description": "Responsable Delete",
+    "ProgramName": "responsable",
+    "IsGXAutomatic": true,
+    "Parent": "responsable_FullControl"
+  },
+  {
+    "Name": "responsable_Update",
+    "Description": "Responsable Update",
+    "ProgramName": "responsable",
+    "IsGXAutomatic": true,
+    "Parent": "responsable_FullControl"
+  }
+]

@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.commonchatbots.getcomponentbyid_services,commonchatbots.getcomponentbyid" %>

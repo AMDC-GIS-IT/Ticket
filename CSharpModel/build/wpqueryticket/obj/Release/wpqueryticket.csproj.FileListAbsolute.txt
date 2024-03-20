@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\build\wpqueryticket\obj\Release\wpqueryticket.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\web\bin\wpqueryticket.dll
+C:\Models\kb_ticket\CSharpModel\build\wpqueryticket\obj\Release\wpqueryticket.dll

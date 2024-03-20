@@ -1,0 +1,1017 @@
+
+<ReorgSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>Satisfaccion needs conversion</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>SatisfaccionId</AttriName>
+<Description>Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>SatisfaccionId</AttriName>
+<Description>Id</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>10</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>SatisfaccionFecha</AttriName>
+<Description>Fecha</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>SatisfaccionFecha</AttriName>
+<Description>Fecha</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>D</DataType>
+<Presicion>8</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>SatisfaccionResueltoId</AttriName>
+<Description>Satisfaccion Resuelto Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>SatisfaccionResueltoId</AttriName>
+<Description>Satisfaccion Resuelto Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>SatisfaccionTecnicoProblemaId</AttriName>
+<Description>Satisfaccion Tecnico Problema Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>SatisfaccionTecnicoProblemaId</AttriName>
+<Description>Satisfaccion Tecnico Problema Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>SatisfaccionTecnicoCompetenteId</AttriName>
+<Description>Satisfaccion Tecnico Competente Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>SatisfaccionTecnicoCompetenteId</AttriName>
+<Description>Satisfaccion Tecnico Competente Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>SatisfaccionTecnicoProfesionalismoId</AttriName>
+<Description>Satisfaccion Tecnico Profesionalismo Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>SatisfaccionTecnicoProfesionalismoId</AttriName>
+<Description>Satisfaccion Tecnico Profesionalismo Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>SatisfaccionTiempoId</AttriName>
+<Description>Satisfaccion Tiempo Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>SatisfaccionTiempoId</AttriName>
+<Description>Satisfaccion Tiempo Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>SatisfaccionAtencionId</AttriName>
+<Description>Satisfaccion Atencion Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>SatisfaccionAtencionId</AttriName>
+<Description>Satisfaccion Atencion Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>SatisfaccionSugerencia</AttriName>
+<Description>Satisfaccion Sugerencia</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>SatisfaccionSugerencia</AttriName>
+<Description>Satisfaccion Sugerencia</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>300</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType>
+<AttriOldType>
+<DataType>V</DataType>
+<Presicion>300</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriOldType>
+<AttriChangeType>upd</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>144</AttriId>
+<AttriName>SatisfaccionHora</AttriName>
+<Description>Hora</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>144</AttriId>
+<AttriName>SatisfaccionHora</AttriName>
+<Description>Hora</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>T</DataType>
+<Presicion>0</Presicion>
+<Scale>5</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>10</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description>
+<TakesValueFrom>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>10</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>347</AttriId>
+<AttriName>SatisfaccionCatalogaId</AttriName>
+<Description>Satisfaccion Cataloga Id</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>0</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>ni</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>350</AttriId>
+<AttriName>SatisfaccionRendimientoId</AttriName>
+<Description>Satisfaccion Rendimiento Id</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>0</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>ni</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>353</AttriId>
+<AttriName>SatisfaccionProgramadorId</AttriName>
+<Description>Satisfaccion Programador Id</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>0</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>ni</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>356</AttriId>
+<AttriName>SatisfaccionCapacitacionId</AttriName>
+<Description>Satisfaccion Capacitacion Id</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>0</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>ni</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>359</AttriId>
+<AttriName>SatisfaccionMejoraSoftware</AttriName>
+<Description>Satisfaccion Mejora Software</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>Null</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>300</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType>
+<AttriChangeType>nn</AttriChangeType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<NavigationTree>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>SatisfaccionId</AttriName>
+<Description>Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ISATISFACCION</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>SatisfaccionId</AttriName>
+<Description>Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION6</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>SatisfaccionAtencionId</AttriName>
+<Description>Satisfaccion Atencion Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION1</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>SatisfaccionResueltoId</AttriName>
+<Description>Satisfaccion Resuelto Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION3</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>SatisfaccionTecnicoCompetenteId</AttriName>
+<Description>Satisfaccion Tecnico Competente Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION2</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>SatisfaccionTecnicoProblemaId</AttriName>
+<Description>Satisfaccion Tecnico Problema Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION4</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>SatisfaccionTecnicoProfesionalismoId</AttriName>
+<Description>Satisfaccion Tecnico Profesionalismo Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION5</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>SatisfaccionTiempoId</AttriName>
+<Description>Satisfaccion Tiempo Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION7</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></Indices>
+<NewIndices>
+<Index>
+<IndexName>ISATISFACCION8</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>347</AttriId>
+<AttriName>SatisfaccionCatalogaId</AttriName>
+<Description>Satisfaccion Cataloga Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION9</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>350</AttriId>
+<AttriName>SatisfaccionRendimientoId</AttriName>
+<Description>Satisfaccion Rendimiento Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION10</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>353</AttriId>
+<AttriName>SatisfaccionProgramadorId</AttriName>
+<Description>Satisfaccion Programador Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index>
+<Index>
+<IndexName>ISATISFACCION11</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>356</AttriId>
+<AttriName>SatisfaccionCapacitacionId</AttriName>
+<Description>Satisfaccion Capacitacion Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></NewIndices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>SatisfaccionResueltoId</AttriName>
+<Description>Satisfaccion Resuelto Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>SatisfaccionTecnicoProblemaId</AttriName>
+<Description>Satisfaccion Tecnico Problema Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>SatisfaccionTecnicoCompetenteId</AttriName>
+<Description>Satisfaccion Tecnico Competente Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>SatisfaccionTecnicoProfesionalismoId</AttriName>
+<Description>Satisfaccion Tecnico Profesionalismo Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>SatisfaccionTiempoId</AttriName>
+<Description>Satisfaccion Tiempo Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>SatisfaccionAtencionId</AttriName>
+<Description>Satisfaccion Atencion Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>new</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>347</AttriId>
+<AttriName>SatisfaccionCatalogaId</AttriName>
+<Description>Satisfaccion Cataloga Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>new</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>350</AttriId>
+<AttriName>SatisfaccionRendimientoId</AttriName>
+<Description>Satisfaccion Rendimiento Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>new</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>353</AttriId>
+<AttriName>SatisfaccionProgramadorId</AttriName>
+<Description>Satisfaccion Programador Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>new</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>356</AttriId>
+<AttriName>SatisfaccionCapacitacionId</AttriName>
+<Description>Satisfaccion Capacitacion Id</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [GXA0006] ([SatisfaccionId] decimal( 10) NOT NULL , [SatisfaccionFecha] datetime NOT NULL , [SatisfaccionResueltoId] smallint NOT NULL , [SatisfaccionTecnicoProblemaId] smallint NOT NULL , [SatisfaccionTecnicoCompetenteId] smallint NOT NULL , [SatisfaccionTecnicoProfesionalismoId] smallint NOT NULL , [SatisfaccionTiempoId] smallint NOT NULL , [SatisfaccionAtencionId] smallint NOT NULL , [SatisfaccionSugerencia] nvarchar(300) NULL , [SatisfaccionHora] datetime NOT NULL , [TicketResponsableId] decimal( 10) NOT NULL , [TicketId] decimal( 10) NOT NULL , [SatisfaccionCatalogaId] smallint NOT NULL , [SatisfaccionRendimientoId] smallint NOT NULL , [SatisfaccionProgramadorId] smallint NOT NULL , [SatisfaccionCapacitacionId] smallint NOT NULL , [SatisfaccionMejoraSoftware] nvarchar(300) NULL ) </Statement>
+<Statement>Run conversion program for table Satisfaccion</Statement>
+<Statement>DROP TABLE [Satisfaccion]</Statement>
+<Statement>CALL sp_rename('[GXA0006]', 'Satisfaccion')</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD PRIMARY KEY([SatisfaccionId])</Statement>
+<Statement>SET IDENTITY_INSERT [EstadoSatisfaccion] ON</Statement>
+<Statement>INSERT INTO [EstadoSatisfaccion] ([EstadoSatisfaccionId], [EstadoSatisfaccionNombre], [EstadoSatisfaccionCalificacion], [EstadoSatisfaccionEstado]) SELECT TOP 1 convert(int, 0), ' ', 0, convert(bit, 0) FROM [Satisfaccion] WHERE NOT EXISTS (SELECT 1 FROM [EstadoSatisfaccion] WHERE EstadoSatisfaccionId=convert(int, 0))</Statement>
+<Statement>SET IDENTITY_INSERT [EstadoSatisfaccion] OFF</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION6] ON [Satisfaccion] ([SatisfaccionAtencionId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION1] ON [Satisfaccion] ([SatisfaccionResueltoId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION3] ON [Satisfaccion] ([SatisfaccionTecnicoCompetenteId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION2] ON [Satisfaccion] ([SatisfaccionTecnicoProblemaId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION4] ON [Satisfaccion] ([SatisfaccionTecnicoProfesionalismoId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION5] ON [Satisfaccion] ([SatisfaccionTiempoId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION7] ON [Satisfaccion] ([TicketId] ,[TicketResponsableId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION8] ON [Satisfaccion] ([SatisfaccionCatalogaId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION9] ON [Satisfaccion] ([SatisfaccionRendimientoId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION10] ON [Satisfaccion] ([SatisfaccionProgramadorId] )</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISATISFACCION11] ON [Satisfaccion] ([SatisfaccionCapacitacionId] )</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION7] FOREIGN KEY ([TicketId], [TicketResponsableId]) REFERENCES [TicketResponsable] ([TicketId], [TicketResponsableId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION11] FOREIGN KEY ([SatisfaccionCapacitacionId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION10] FOREIGN KEY ([SatisfaccionProgramadorId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION9] FOREIGN KEY ([SatisfaccionRendimientoId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION8] FOREIGN KEY ([SatisfaccionCatalogaId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION6] FOREIGN KEY ([SatisfaccionAtencionId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION5] FOREIGN KEY ([SatisfaccionTiempoId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION4] FOREIGN KEY ([SatisfaccionTecnicoProfesionalismoId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION3] FOREIGN KEY ([SatisfaccionTecnicoCompetenteId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION2] FOREIGN KEY ([SatisfaccionTecnicoProblemaId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement>
+<Statement>ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION1] FOREIGN KEY ([SatisfaccionResueltoId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])</Statement></Statements>
+<NeedReorganizationProgram>True</NeedReorganizationProgram>
+<Warnings>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>347</AttriId>
+<AttriName>SatisfaccionCatalogaId</AttriName>
+<Description>Satisfaccion Cataloga Id</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>350</AttriId>
+<AttriName>SatisfaccionRendimientoId</AttriName>
+<Description>Satisfaccion Rendimiento Id</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>353</AttriId>
+<AttriName>SatisfaccionProgramadorId</AttriName>
+<Description>Satisfaccion Programador Id</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>356</AttriId>
+<AttriName>SatisfaccionCapacitacionId</AttriName>
+<Description>Satisfaccion Capacitacion Id</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgo0002</MsgCode>
+<Message>
+<Token>Table '</Token>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Token>' is referenced by table '</Token>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<Token>' and at least one attribute in its foreign key (</Token>
+<Attribute>
+<AttriId>347</AttriId>
+<AttriName>SatisfaccionCatalogaId</AttriName>
+<Description>Satisfaccion Cataloga Id</Description></Attribute>
+<Token>) does not allow nulls. A default record will be added if table '</Token>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<Token>' has records and a record with default values does not exist in table '</Token>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Token>'.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgo0002</MsgCode>
+<Message>
+<Token>Table '</Token>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Token>' is referenced by table '</Token>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<Token>' and at least one attribute in its foreign key (</Token>
+<Attribute>
+<AttriId>350</AttriId>
+<AttriName>SatisfaccionRendimientoId</AttriName>
+<Description>Satisfaccion Rendimiento Id</Description></Attribute>
+<Token>) does not allow nulls. A default record will be added if table '</Token>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<Token>' has records and a record with default values does not exist in table '</Token>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Token>'.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgo0002</MsgCode>
+<Message>
+<Token>Table '</Token>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Token>' is referenced by table '</Token>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<Token>' and at least one attribute in its foreign key (</Token>
+<Attribute>
+<AttriId>353</AttriId>
+<AttriName>SatisfaccionProgramadorId</AttriName>
+<Description>Satisfaccion Programador Id</Description></Attribute>
+<Token>) does not allow nulls. A default record will be added if table '</Token>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<Token>' has records and a record with default values does not exist in table '</Token>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Token>'.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgo0002</MsgCode>
+<Message>
+<Token>Table '</Token>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Token>' is referenced by table '</Token>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<Token>' and at least one attribute in its foreign key (</Token>
+<Attribute>
+<AttriId>356</AttriId>
+<AttriName>SatisfaccionCapacitacionId</AttriName>
+<Description>Satisfaccion Capacitacion Id</Description></Attribute>
+<Token>) does not allow nulls. A default record will be added if table '</Token>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description></Table>
+<Token>' has records and a record with default values does not exist in table '</Token>
+<Table>
+<TableId>3</TableId>
+<TableName>EstadoSatisfaccion</TableName>
+<Description>Estado Satisfaccion</Description></Table>
+<Token>'.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Information>
+<InfoMsg>
+<MsgCode>nfo0003</MsgCode>
+<Message>
+<Token>The reorganization for this table makes the schema not backward compatible.</Token></Message>
+<AdditionalInfo>
+<Title>The following operations are not backward compatible:</Title>
+<Info>
+<Token>Add </Token>
+<Token>foreign key</Token>
+<Token>constraint</Token>
+<Token>ISATISFACCION8</Token></Info>
+<Info>
+<Token>Add </Token>
+<Token>foreign key</Token>
+<Token>constraint</Token>
+<Token>ISATISFACCION9</Token></Info>
+<Info>
+<Token>Add </Token>
+<Token>foreign key</Token>
+<Token>constraint</Token>
+<Token>ISATISFACCION10</Token></Info>
+<Info>
+<Token>Add </Token>
+<Token>foreign key</Token>
+<Token>constraint</Token>
+<Token>ISATISFACCION11</Token></Info>
+<Info>
+<Token>Add not null</Token>
+<Token>attribute</Token>
+<Attribute>
+<AttriId>356</AttriId>
+<AttriName>SatisfaccionCapacitacionId</AttriName>
+<Description>Satisfaccion Capacitacion Id</Description></Attribute></Info>
+<Info>
+<Token>Add not null</Token>
+<Token>attribute</Token>
+<Attribute>
+<AttriId>353</AttriId>
+<AttriName>SatisfaccionProgramadorId</AttriName>
+<Description>Satisfaccion Programador Id</Description></Attribute></Info>
+<Info>
+<Token>Add not null</Token>
+<Token>attribute</Token>
+<Attribute>
+<AttriId>350</AttriId>
+<AttriName>SatisfaccionRendimientoId</AttriName>
+<Description>Satisfaccion Rendimiento Id</Description></Attribute></Info>
+<Info>
+<Token>Add not null</Token>
+<Token>attribute</Token>
+<Attribute>
+<AttriId>347</AttriId>
+<AttriName>SatisfaccionCatalogaId</AttriName>
+<Description>Satisfaccion Cataloga Id</Description></Attribute></Info></AdditionalInfo></InfoMsg></Information></ReorgSpec>

@@ -1,0 +1,1551 @@
+spec_i([ proc,192,'K2BMenuTicketStaticMenuLoad','K2BMenuTicketStaticMenuLoad',78,spa,'17_0_9-159740' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','192.168.200.55')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','No')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','K2BMenuTicketStaticMenuLoad')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','K2BMenuTicketStaticMenuLoad')).
+rule_i(0,prop('ObjName','K2BMenuTicketStaticMenuLoad')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Menulevel0' ],[])).
+rule_i(0,parmio([ [ 'Menulevel0',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',15 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',14 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',13 ]).
+attri_i('Menulevel1',[ 'MenuLevel1',o('K2BMultiLevelMenu.K2BMultiLevelMenuItem'),0,0,'',0,'Menu Level1','',12 ]).
+attri_i('Persistedmenu',[ 'PersistedMenu',o('K2BPersistedMenuOutput'),0,0,'',0,'Persisted Menu','',11 ]).
+attri_i('Menulevel0',[ 'MenuLevel0',o(objectcollection('K2BMultiLevelMenu.K2BMultiLevelMenuItem')),0,0,'',0,'Menu Level0','',10 ]).
+attri_i('Activityitem',[ 'ActivityItem',o('K2BActivityList.K2BActivityListItem'),0,0,'',0,'Activity Item','',9 ]).
+attri_i('Activitylist',[ 'ActivityList',o(objectcollection('K2BActivityList.K2BActivityListItem')),0,0,'',0,'Activity List','',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enum_value_i(4,96,'"Insert"','Insert','"Insert"',[ none ]).
+enum_value_i(4,96,'"Update"','Update','"Update"',[ none ]).
+enum_value_i(4,96,'"Delete"','Delete','"Delete"',[ none ]).
+enum_value_i(4,96,'"Maintenance"','Maintenance','"Maintenance"',[ none ]).
+enum_value_i(4,96,'"Visualization"','Visualization','"Visualization"',[ none ]).
+enum_value_i(4,96,'"Display"','Display','"Display"',[ none ]).
+enum_value_i(4,96,'"List"','List','"List"',[ none ]).
+enum_value_i(4,96,'"None"','None','"None"',[ none ]).
+enum_value_i(4,96,'"Other"','Other','"Other"',[ none ]).
+ 
+enum_value_info_i(4,96,'K2BStandardActivityType').
+ 
+enum_type_i(4,96,char,30,0).
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,54).
+b_group_i(1,2,lit,0,55,72).
+b_group_i(1,3,lit,0,73,92).
+b_group_i(1,4,lit,0,93,122).
+b_group_i(1,5,lit,0,123,154).
+b_group_i(1,6,lit,0,155,163).
+b_group_i(1,7,lit,0,164,172).
+b_group_i(1,8,lit,0,173,181).
+b_group_i(1,9,lit,0,182,190).
+b_group_i(1,10,lit,0,191,199).
+b_group_i(1,11,lit,0,200,208).
+b_group_i(1,12,lit,0,209,217).
+b_group_i(1,13,lit,0,218,227).
+b_group_i(1,14,lit,0,228,237).
+b_group_i(1,15,lit,0,238,247).
+b_group_i(1,16,lit,0,248,256).
+b_group_i(1,17,lit,0,257,265).
+b_group_i(1,18,lit,0,266,274).
+b_group_i(1,19,lit,0,275,283).
+b_group_i(1,20,lit,0,284,292).
+b_group_i(1,21,lit,0,293,301).
+b_group_i(1,22,lit,0,302,310).
+b_group_i(1,23,lit,0,311,319).
+b_group_i(1,24,lit,0,320,328).
+b_group_i(1,25,lit,0,329,337).
+b_group_i(1,26,lit,0,338,346).
+b_group_i(1,27,lit,0,347,355).
+b_group_i(1,28,lit,0,356,364).
+b_group_i(1,29,lit,0,365,374).
+b_group_i(1,30,lit,0,375,384).
+b_group_i(1,31,lit,0,385,394).
+b_group_i(1,32,lit,0,395,404).
+b_group_i(1,33,lit,0,405,414).
+b_group_i(1,34,lit,0,415,424).
+b_group_i(1,35,lit,0,425,434).
+b_group_i(1,36,lit,0,435,444).
+b_group_i(1,37,lit,0,445,454).
+b_group_i(1,38,lit,0,455,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',145,1,0),t('''CHECKSECURITYFORWPUSUARIO''',3,1,4) ]).
+b_line_i(2,1,1,cmd,0,[ t('',145,2,0),t('''CHECKSECURITYFORWPREGISTRARTICKET''',3,2,4) ]).
+b_line_i(3,1,1,cmd,0,[ t('',145,3,0),t('''CHECKSECURITYFORWPASIGNACIONADMIN''',3,3,4) ]).
+b_line_i(4,1,1,cmd,0,[ t('',145,4,0),t('''CHECKSECURITYFORWPASIGNARTICKETDESARROLLO''',3,4,4) ]).
+b_line_i(5,1,1,cmd,0,[ t('',145,5,0),t('''CHECKSECURITYFORWPASIGNACION''',3,5,4) ]).
+b_line_i(6,1,1,cmd,0,[ t('',145,6,0),t('''CHECKSECURITYFORWPASIGNACIONDESARROLLO''',3,6,4) ]).
+b_line_i(7,1,1,cmd,0,[ t('',145,7,0),t('''CHECKSECURITYFORWPSATISFACCION''',3,7,4) ]).
+b_line_i(8,1,1,cmd,0,[ t('',145,8,0),t('''CHECKSECURITYFORWPBUSCARTDAPLICACIONES''',3,8,4) ]).
+b_line_i(9,1,1,cmd,0,[ t('',145,9,0),t('''CHECKSECURITYFORWPBUSCARTDDESARROLLO''',3,9,4) ]).
+b_line_i(10,1,1,cmd,0,[ t('',145,10,0),t('''CHECKSECURITYFORWPBUSCARTDSOPORTE''',3,10,4) ]).
+b_line_i(11,1,1,cmd,0,[ t('',145,11,0),t('''CHECKSECURITYFORWWUSUARIO''',3,11,4) ]).
+b_line_i(12,1,1,cmd,0,[ t('',145,12,0),t('''CHECKSECURITYFORWWTICKET''',3,12,4) ]).
+b_line_i(13,1,1,cmd,0,[ t('',145,13,0),t('''CHECKSECURITYFORWWSATISFACCION''',3,13,4) ]).
+b_line_i(14,1,1,cmd,0,[ t('',145,14,0),t('''CHECKSECURITYFORWWDETALLE_INFOTEC''',3,14,4) ]).
+b_line_i(15,1,1,cmd,0,[ t('',145,15,0),t('''CHECKSECURITYFORWWETAPASDESARROLLO''',3,15,4) ]).
+b_line_i(16,1,1,cmd,0,[ t('',145,16,0),t('''CHECKSECURITYFORWWCATEGORIADETALLETAREA''',3,16,4) ]).
+b_line_i(17,1,1,cmd,0,[ t('',145,17,0),t('''CHECKSECURITYFORWWESTADOTECNICOS''',3,17,4) ]).
+b_line_i(18,1,1,cmd,0,[ t('',145,18,0),t('''CHECKSECURITYFORWWESTADOTICKET''',3,18,4) ]).
+b_line_i(19,1,1,cmd,0,[ t('',145,19,0),t('''CHECKSECURITYFORWWESTADOSATISFACCION''',3,19,4) ]).
+b_line_i(20,1,1,cmd,0,[ t('',145,20,0),t('''CHECKSECURITYFORWWRESPONSABLE''',3,20,4) ]).
+b_line_i(21,1,1,cmd,0,[ t('',145,21,0),t('''CHECKSECURITYFORWWUSUARIOSISTEMA''',3,21,4) ]).
+b_line_i(22,1,1,cmd,0,[ t('',145,22,0),t('''CHECKSECURITYFORWWAREASATENCION''',3,22,4) ]).
+b_line_i(23,1,1,cmd,0,[ t('',145,23,0),t('''CHECKSECURITYFORWWLISTAREQUERIMIENTOS''',3,23,4) ]).
+b_line_i(24,1,1,cmd,0,[ t('',145,24,0),t('''CHECKSECURITYFORWEBPANELTICKETSASIGNADOS''',3,24,4) ]).
+b_line_i(25,1,1,cmd,0,[ t('',145,25,0),t('''CHECKSECURITYFORWEBPANELQUERYTICKET''',3,25,4) ]).
+b_line_i(26,1,1,cmd,0,[ t('',145,26,0),t('''CHECKSECURITYFORWPDBSATISFACCION''',3,26,4) ]).
+b_line_i(27,1,1,cmd,0,[ t('',145,27,0),t('''CHECKSECURITYFORWEBPANELTAREASEMPLEADO''',3,27,4) ]).
+b_line_i(28,1,1,cmd,0,[ t('',145,28,0),t('''CHECKSECURITYFORWEBPANELGRAFICOTICKETEMPLEADO''',3,28,4) ]).
+b_line_i(29,1,1,cmd,0,[ t('',145,29,0),t('''CHECKSECURITYFORWEBPANELQUERYTIEMPOASIGNAR''',3,29,4) ]).
+b_line_i(30,1,1,cmd,0,[ t('',145,30,0),t('''CHECKSECURITYFORWEBPANELQUERYTIEMPORESOLVER''',3,30,4) ]).
+b_line_i(31,1,1,cmd,0,[ t('',145,31,0),t('''CHECKSECURITYFORWEBPANELTRABAJODIARIO''',3,31,4) ]).
+b_line_i(32,1,1,cmd,0,[ t('',145,32,0),t('''CHECKSECURITYFORWEBPANELTRABAJODIARIOADMIN''',3,32,4) ]).
+b_line_i(33,1,1,cmd,0,[ t('',145,33,0),t('''CHECKSECURITYFORWPDBSATISFACCIONDESARROLLO''',3,33,4) ]).
+b_line_i(34,1,1,cmd,0,[ t('',104,34,0),t(o(1,'K2BIsAuthorizedActivityList'),28,0,1),t('Activitylist',23,0,35) ]).
+b_line_i(35,1,1,cmd,0,[ t('',104,35,0),t(o(1,'K2BMenuAddProgram'),28,0,1),t('''WPUsuario''',3,35,25),t(',',7,0,0),t('''Abrir Ticket''',3,35,38),t(',',7,0,0),t([ t(i(98,'fa6a193b-ecef-4338-a67f-8b555c6b57b2'),69,0,53),t('link(',1,0,61) ],31,35,61),t(')',4,0,67),t(',',7,0,0),t('''''',3,35,69),t(',',7,0,0),t('link(',1,0,83),t(o(13,'WPUsuario'),28,0,73),t(')',4,0,89),t(',',7,0,0),t('1',3,0,92),t(',',7,0,0),t('Activitylist',23,0,95),t(',',7,0,0),t('TRUE',40,0,111),t(',',7,0,0),t('TRUE',40,0,117),t(',',7,0,0),t('TRUE',40,0,123),t(',',7,0,0),t('TRUE',40,0,129),t(',',7,0,0),t('Menulevel0',23,0,135) ]).
+b_line_i(36,1,1,cmd,0,[]).
+b_line_i(37,1,1,cmd,0,[ t('',104,37,0),t(o(1,'K2BMenuAddProgram'),28,0,1),t('''Asignar Ticket''',3,37,25),t(',',7,0,0),t('''Asignación Ticket''',3,37,43),t(',',7,0,0),t([ t(i(98,'25fa2834-2954-45d4-a217-7246113b0c49'),69,0,63),t('link(',1,0,71) ],31,37,71),t(')',4,0,77),t(',',7,0,0),t('''''',3,37,79),t(',',7,0,0),t('link(',1,0,101),t(o(13,'WPRegistrarTicket'),28,0,83),t(')',4,0,107),t(',',7,0,0),t('2',3,0,110),t(',',7,0,0),t('Activitylist',23,0,113),t(',',7,0,0),t('TRUE',40,0,129),t(',',7,0,0),t('TRUE',40,0,135),t(',',7,0,0),t('TRUE',40,0,141),t(',',7,0,0),t('TRUE',40,0,147),t(',',7,0,0),t('Menulevel0',23,0,153) ]).
+b_line_i(38,1,1,cmd,0,[]).
+b_line_i(39,1,1,cmd,0,[ t('',104,39,0),t(o(1,'K2BMenuAddProgram'),28,0,1),t('''WPAsignacionAdmin''',3,39,25),t(',',7,0,0),t('''Orden de Trabajo''',3,39,46),t(',',7,0,0),t([ t(i(98,'bc80c103-5523-45a1-b084-18e21da26d5e'),69,0,65),t('link(',1,0,81) ],31,39,81),t(')',4,0,87),t(',',7,0,0),t('''''',3,39,89),t(',',7,0,0),t('link(',1,0,111),t(o(13,'WPAsignacionAdmin'),28,0,93),t(')',4,0,117),t(',',7,0,0),t('3',3,0,120),t(',',7,0,0),t('Activitylist',23,0,123),t(',',7,0,0),t('TRUE',40,0,139),t(',',7,0,0),t('TRUE',40,0,145),t(',',7,0,0),t('TRUE',40,0,151),t(',',7,0,0),t('TRUE',40,0,157),t(',',7,0,0),t('Menulevel0',23,0,163) ]).
+b_line_i(40,1,1,cmd,0,[]).
+b_line_i(41,1,1,cmd,0,[ t('',104,41,0),t(o(1,'K2BMenuAddProgram'),28,0,1),t('''WPAsignarTicketDesarrollo''',3,41,25),t(',',7,0,0),t('''Asignar Ticket Desarrollo''',3,41,54),t(',',7,0,0),t([ t(i(98,'25fa2834-2954-45d4-a217-7246113b0c49'),69,0,82),t('link(',1,0,90) ],31,41,90),t(')',4,0,96),t(',',7,0,0),t('''''',3,41,98),t(',',7,0,0),t('link(',1,0,128),t(o(13,'WPAsignarTicketDesarrollo'),28,0,102),t(')',4,0,134),t(',',7,0,0),t('4',3,0,137),t(',',7,0,0),t('Activitylist',23,0,140),t(',',7,0,0),t('TRUE',40,0,156),t(',',7,0,0),t('TRUE',40,0,162),t(',',7,0,0),t('TRUE',40,0,168),t(',',7,0,0),t('TRUE',40,0,174),t(',',7,0,0),t('Menulevel0',23,0,180) ]).
+b_line_i(42,1,1,cmd,0,[]).
+b_line_i(43,1,1,cmd,0,[ t('',104,43,0),t(o(1,'K2BMenuAddProgram'),28,0,1),t('''WPAsignacion''',3,43,25),t(',',7,0,0),t('''Solución Ticket ''',3,43,41),t(',',7,0,0),t([ t(i(98,'d9b8b1a3-2d2c-4f51-961b-a13b4377c63b'),69,0,60),t('link(',1,0,68) ],31,43,68),t(')',4,0,74),t(',',7,0,0),t('''''',3,43,76),t(',',7,0,0),t('link(',1,0,93),t(o(13,'WPAsignacion'),28,0,80),t(')',4,0,99),t(',',7,0,0),t('5',3,0,102),t(',',7,0,0),t('Activitylist',23,0,105),t(',',7,0,0),t('TRUE',40,0,121),t(',',7,0,0),t('TRUE',40,0,127),t(',',7,0,0),t('TRUE',40,0,133),t(',',7,0,0),t('TRUE',40,0,139),t(',',7,0,0),t('Menulevel0',23,0,145) ]).
+b_line_i(44,1,1,cmd,0,[]).
+b_line_i(45,1,1,cmd,0,[ t('',104,45,0),t(o(1,'K2BMenuAddProgram'),28,0,1),t('''WPAsignacionDesarrollo''',3,45,25),t(',',7,0,0),t('''Solución Desarrollo''',3,45,51),t(',',7,0,0),t([ t(i(98,'d9b8b1a3-2d2c-4f51-961b-a13b4377c63b'),69,0,73),t('link(',1,0,81) ],31,45,81),t(')',4,0,87),t(',',7,0,0),t('''''',3,45,89),t(',',7,0,0),t('link(',1,0,116),t(o(13,'WPAsignacionDesarrollo'),28,0,93),t(')',4,0,122),t(',',7,0,0),t('6',3,0,125),t(',',7,0,0),t('Activitylist',23,0,128),t(',',7,0,0),t('TRUE',40,0,144),t(',',7,0,0),t('TRUE',40,0,150),t(',',7,0,0),t('TRUE',40,0,156),t(',',7,0,0),t('TRUE',40,0,162),t(',',7,0,0),t('Menulevel0',23,0,168) ]).
+b_line_i(46,1,1,cmd,0,[]).
+b_line_i(47,1,1,cmd,0,[ t('',104,47,0),t(o(1,'K2BMenuAddProgram'),28,0,1),t('''WPSatisfaccion''',3,47,25),t(',',7,0,0),t('''Encuesta Satisfacción''',3,47,43),t(',',7,0,0),t([ t(i(98,'5649fbb8-8ce0-4810-a5ce-bd649ea83c3a'),69,0,67),t('link(',1,0,80) ],31,47,80),t(')',4,0,86),t(',',7,0,0),t('''''',3,47,88),t(',',7,0,0),t('link(',1,0,107),t(o(13,'WPSatisfaccion'),28,0,92),t(')',4,0,113),t(',',7,0,0),t('7',3,0,116),t(',',7,0,0),t('Activitylist',23,0,119),t(',',7,0,0),t('TRUE',40,0,135),t(',',7,0,0),t('TRUE',40,0,141),t(',',7,0,0),t('TRUE',40,0,147),t(',',7,0,0),t('TRUE',40,0,153),t(',',7,0,0),t('Menulevel0',23,0,159) ]).
+b_line_i(48,1,1,cmd,0,[]).
+b_line_i(49,1,1,cmd,0,[ t('',145,49,0),t('''ADDSMTRABAJODIARIO''',3,49,4) ]).
+b_line_i(50,1,1,cmd,0,[ t('',145,50,0),t('''ADDSMTRANSACCION''',3,50,4) ]).
+b_line_i(51,1,1,cmd,0,[ t('',145,51,0),t('''ADDSMMANTENIMIENTO''',3,51,4) ]).
+b_line_i(52,1,1,cmd,0,[ t('',145,52,0),t('''ADDSMREPORTE''',3,52,4) ]).
+b_line_i(53,1,1,cmd,0,[]).
+b_line_i(54,1,1,cmd,0,[ t('',143,54,0),t('''ADDSMTRABAJODIARIO''',3,54,5) ]).
+b_line_i(55,1,2,cmd,0,[ t('',107,55,0),t('Menulevel1',23,0,0),t(=,10,0,0),t([ 'K2BMultiLevelMenu.K2BMultiLevelMenuItem',[ t('(',0,55,18),t(')',4,55,19) ],n ],46,0,0) ]).
+b_line_i(56,1,2,cmd,0,[ t('',107,56,0),t([ t('Menulevel1',23,0,0),t('Code',3,0,0) ],29,0,0),t(=,10,0,0),t('''smTrabajoDiario''',3,0,0) ]).
+b_line_i(57,1,2,cmd,0,[ t('',107,57,0),t([ t('Menulevel1',23,0,0),t('Title',3,0,0) ],29,0,0),t(=,10,0,0),t('''Registro Trabajo Diario''',3,0,0) ]).
+b_line_i(58,1,2,cmd,0,[ t('',104,58,0),t(o(1,'K2BMenuSetShowIn'),28,0,2),t('TRUE',40,0,25),t(',',7,0,0),t('TRUE',40,0,31),t(',',7,0,0),t('TRUE',40,0,37),t(',',7,0,0),t('TRUE',40,0,43),t(',',7,0,0),t('Menulevel1',23,0,49) ]).
+b_line_i(59,1,2,cmd,0,[ t('',107,59,0),t([ t('Menulevel1',23,0,0),t('Items',3,0,0) ],29,0,0),t(=,10,0,0),t([ 'K2BMultiLevelMenu',[ t('(',0,59,133),t(')',4,59,134) ],n ],46,0,0) ]).
+b_line_i(60,1,2,cmd,0,[ t('',107,60,0),t([ t('Menulevel1',23,0,0),t('Imageurl',3,0,0) ],29,0,0),t(=,10,0,0),t([ t(i(98,'c7b69fd4-63be-4d84-8005-0bd75b75b6b1'),69,0,0),t('link(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(61,1,2,cmd,0,[ t('',104,61,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WpBuscarTdAplicaciones''',3,61,26),t(',',7,0,0),t('''Aplicaciones''',3,61,52),t(',',7,0,0),t('""',3,61,67),t(',',7,0,0),t('''''',3,61,71),t(',',7,0,0),t('link(',1,0,98),t(o(13,'WpBuscarTdAplicaciones'),28,0,75),t(')',4,0,104),t(',',7,0,0),t('8',3,0,107),t(',',7,0,0),t('Activitylist',23,0,110),t(',',7,0,0),t('TRUE',40,0,126),t(',',7,0,0),t('TRUE',40,0,132),t(',',7,0,0),t('TRUE',40,0,138),t(',',7,0,0),t('TRUE',40,0,144),t(',',7,0,0),t([ t('Menulevel1',23,61,150),t('Items',3,61,162) ],29,61,162) ]).
+b_line_i(62,1,2,cmd,0,[]).
+b_line_i(63,1,2,cmd,0,[ t('',104,63,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WpBuscarTdDesarrollo''',3,63,26),t(',',7,0,0),t('''Desarrollo - Base de Datos''',3,63,50),t(',',7,0,0),t('""',3,63,79),t(',',7,0,0),t('''''',3,63,83),t(',',7,0,0),t('link(',1,0,108),t(o(13,'WpBuscarTdDesarrollo'),28,0,87),t(')',4,0,114),t(',',7,0,0),t('9',3,0,117),t(',',7,0,0),t('Activitylist',23,0,120),t(',',7,0,0),t('TRUE',40,0,136),t(',',7,0,0),t('TRUE',40,0,142),t(',',7,0,0),t('TRUE',40,0,148),t(',',7,0,0),t('TRUE',40,0,154),t(',',7,0,0),t([ t('Menulevel1',23,63,160),t('Items',3,63,172) ],29,63,172) ]).
+b_line_i(64,1,2,cmd,0,[]).
+b_line_i(65,1,2,cmd,0,[ t('',104,65,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WpBuscarTdSoporte''',3,65,26),t(',',7,0,0),t('''Soporte Técnico''',3,65,47),t(',',7,0,0),t('""',3,65,65),t(',',7,0,0),t('''''',3,65,69),t(',',7,0,0),t('link(',1,0,91),t(o(13,'WpBuscarTdSoporte'),28,0,73),t(')',4,0,97),t(',',7,0,0),t('10',3,0,100),t(',',7,0,0),t('Activitylist',23,0,104),t(',',7,0,0),t('TRUE',40,0,120),t(',',7,0,0),t('TRUE',40,0,126),t(',',7,0,0),t('TRUE',40,0,132),t(',',7,0,0),t('TRUE',40,0,138),t(',',7,0,0),t([ t('Menulevel1',23,65,144),t('Items',3,65,156) ],29,65,156) ]).
+b_line_i(66,1,2,cmd,0,[]).
+b_line_i(67,1,2,cmd,0,[ t('',109,67,0),t([ t('Menulevel1',23,67,5),t('Items',3,67,17),t('Count',3,67,23) ],29,67,23),t(>,10,0,29),t('0',3,0,31) ]).
+b_line_i(68,1,2,cmd,0,[ t('',107,68,0),t([ t('Menulevel0',23,68,3),t('add(',1,68,15) ],31,68,3),t('Menulevel1',23,0,20),t(')',4,0,31) ]).
+b_line_i(69,1,2,cmd,0,[ t('',111,69,0) ]).
+b_line_i(70,1,2,cmd,0,[ t('',144,70,0) ]).
+b_line_i(71,1,2,cmd,0,[]).
+b_line_i(72,1,2,cmd,0,[ t('',143,72,0),t('''ADDSMTRANSACCION''',3,72,5) ]).
+b_line_i(73,1,3,cmd,0,[ t('',107,73,0),t('Menulevel1',23,0,0),t(=,10,0,0),t([ 'K2BMultiLevelMenu.K2BMultiLevelMenuItem',[ t('(',0,73,18),t(')',4,73,19) ],n ],46,0,0) ]).
+b_line_i(74,1,3,cmd,0,[ t('',107,74,0),t([ t('Menulevel1',23,0,0),t('Code',3,0,0) ],29,0,0),t(=,10,0,0),t('''smTransaccion''',3,0,0) ]).
+b_line_i(75,1,3,cmd,0,[ t('',107,75,0),t([ t('Menulevel1',23,0,0),t('Title',3,0,0) ],29,0,0),t(=,10,0,0),t('''Transacción''',3,0,0) ]).
+b_line_i(76,1,3,cmd,0,[ t('',104,76,0),t(o(1,'K2BMenuSetShowIn'),28,0,2),t('TRUE',40,0,25),t(',',7,0,0),t('TRUE',40,0,31),t(',',7,0,0),t('TRUE',40,0,37),t(',',7,0,0),t('TRUE',40,0,43),t(',',7,0,0),t('Menulevel1',23,0,49) ]).
+b_line_i(77,1,3,cmd,0,[ t('',107,77,0),t([ t('Menulevel1',23,0,0),t('Items',3,0,0) ],29,0,0),t(=,10,0,0),t([ 'K2BMultiLevelMenu',[ t('(',0,77,133),t(')',4,77,134) ],n ],46,0,0) ]).
+b_line_i(78,1,3,cmd,0,[ t('',107,78,0),t([ t('Menulevel1',23,0,0),t('Imageurl',3,0,0) ],29,0,0),t(=,10,0,0),t([ t(i(98,'c7b69fd4-63be-4d84-8005-0bd75b75b6b1'),69,0,0),t('link(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(79,1,3,cmd,0,[ t('',104,79,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWUsuario''',3,79,26),t(',',7,0,0),t('''Usuario''',3,79,39),t(',',7,0,0),t([ t(i(98,'fa6a193b-ecef-4338-a67f-8b555c6b57b2'),69,0,49),t('link(',1,0,57) ],31,79,57),t(')',4,0,63),t(',',7,0,0),t('''''',3,79,65),t(',',7,0,0),t('link(',1,0,79),t(o(13,'WWUsuario'),28,0,69),t(')',4,0,85),t(',',7,0,0),t('11',3,0,88),t(',',7,0,0),t('Activitylist',23,0,92),t(',',7,0,0),t('TRUE',40,0,108),t(',',7,0,0),t('TRUE',40,0,114),t(',',7,0,0),t('TRUE',40,0,120),t(',',7,0,0),t('TRUE',40,0,126),t(',',7,0,0),t([ t('Menulevel1',23,79,132),t('Items',3,79,144) ],29,79,144) ]).
+b_line_i(80,1,3,cmd,0,[]).
+b_line_i(81,1,3,cmd,0,[ t('',104,81,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWTicket''',3,81,26),t(',',7,0,0),t('''Tickets''',3,81,38),t(',',7,0,0),t([ t(i(98,'d9b8b1a3-2d2c-4f51-961b-a13b4377c63b'),69,0,48),t('link(',1,0,56) ],31,81,56),t(')',4,0,62),t(',',7,0,0),t('''''',3,81,64),t(',',7,0,0),t('link(',1,0,77),t(o(13,'WWTicket'),28,0,68),t(')',4,0,83),t(',',7,0,0),t('12',3,0,86),t(',',7,0,0),t('Activitylist',23,0,90),t(',',7,0,0),t('TRUE',40,0,106),t(',',7,0,0),t('TRUE',40,0,112),t(',',7,0,0),t('TRUE',40,0,118),t(',',7,0,0),t('TRUE',40,0,124),t(',',7,0,0),t([ t('Menulevel1',23,81,130),t('Items',3,81,142) ],29,81,142) ]).
+b_line_i(82,1,3,cmd,0,[]).
+b_line_i(83,1,3,cmd,0,[ t('',104,83,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWSatisfaccion''',3,83,26),t(',',7,0,0),t('''Encuesta de Satisfacción''',3,83,44),t(',',7,0,0),t([ t(i(98,'25fa2834-2954-45d4-a217-7246113b0c49'),69,0,71),t('link(',1,0,79) ],31,83,79),t(')',4,0,85),t(',',7,0,0),t('''''',3,83,87),t(',',7,0,0),t('link(',1,0,106),t(o(13,'WWSatisfaccion'),28,0,91),t(')',4,0,112),t(',',7,0,0),t('13',3,0,115),t(',',7,0,0),t('Activitylist',23,0,119),t(',',7,0,0),t('TRUE',40,0,135),t(',',7,0,0),t('TRUE',40,0,141),t(',',7,0,0),t('TRUE',40,0,147),t(',',7,0,0),t('TRUE',40,0,153),t(',',7,0,0),t([ t('Menulevel1',23,83,159),t('Items',3,83,171) ],29,83,171) ]).
+b_line_i(84,1,3,cmd,0,[]).
+b_line_i(85,1,3,cmd,0,[ t('',104,85,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWdetalle_infotec''',3,85,26),t(',',7,0,0),t('''Infotec''',3,85,47),t(',',7,0,0),t('""',3,85,57),t(',',7,0,0),t('''''',3,85,61),t(',',7,0,0),t('link(',1,0,83),t(o(13,'WWdetalle_infotec'),28,0,65),t(')',4,0,89),t(',',7,0,0),t('14',3,0,92),t(',',7,0,0),t('Activitylist',23,0,96),t(',',7,0,0),t('TRUE',40,0,112),t(',',7,0,0),t('TRUE',40,0,118),t(',',7,0,0),t('TRUE',40,0,124),t(',',7,0,0),t('TRUE',40,0,130),t(',',7,0,0),t([ t('Menulevel1',23,85,136),t('Items',3,85,148) ],29,85,148) ]).
+b_line_i(86,1,3,cmd,0,[]).
+b_line_i(87,1,3,cmd,0,[ t('',109,87,0),t([ t('Menulevel1',23,87,5),t('Items',3,87,17),t('Count',3,87,23) ],29,87,23),t(>,10,0,29),t('0',3,0,31) ]).
+b_line_i(88,1,3,cmd,0,[ t('',107,88,0),t([ t('Menulevel0',23,88,3),t('add(',1,88,15) ],31,88,3),t('Menulevel1',23,0,20),t(')',4,0,31) ]).
+b_line_i(89,1,3,cmd,0,[ t('',111,89,0) ]).
+b_line_i(90,1,3,cmd,0,[ t('',144,90,0) ]).
+b_line_i(91,1,3,cmd,0,[]).
+b_line_i(92,1,3,cmd,0,[ t('',143,92,0),t('''ADDSMMANTENIMIENTO''',3,92,5) ]).
+b_line_i(93,1,4,cmd,0,[ t('',107,93,0),t('Menulevel1',23,0,0),t(=,10,0,0),t([ 'K2BMultiLevelMenu.K2BMultiLevelMenuItem',[ t('(',0,93,18),t(')',4,93,19) ],n ],46,0,0) ]).
+b_line_i(94,1,4,cmd,0,[ t('',107,94,0),t([ t('Menulevel1',23,0,0),t('Code',3,0,0) ],29,0,0),t(=,10,0,0),t('''smMantenimiento''',3,0,0) ]).
+b_line_i(95,1,4,cmd,0,[ t('',107,95,0),t([ t('Menulevel1',23,0,0),t('Title',3,0,0) ],29,0,0),t(=,10,0,0),t('''Mantenimiento''',3,0,0) ]).
+b_line_i(96,1,4,cmd,0,[ t('',104,96,0),t(o(1,'K2BMenuSetShowIn'),28,0,2),t('TRUE',40,0,25),t(',',7,0,0),t('TRUE',40,0,31),t(',',7,0,0),t('TRUE',40,0,37),t(',',7,0,0),t('TRUE',40,0,43),t(',',7,0,0),t('Menulevel1',23,0,49) ]).
+b_line_i(97,1,4,cmd,0,[ t('',107,97,0),t([ t('Menulevel1',23,0,0),t('Items',3,0,0) ],29,0,0),t(=,10,0,0),t([ 'K2BMultiLevelMenu',[ t('(',0,97,133),t(')',4,97,134) ],n ],46,0,0) ]).
+b_line_i(98,1,4,cmd,0,[ t('',107,98,0),t([ t('Menulevel1',23,0,0),t('Imageurl',3,0,0) ],29,0,0),t(=,10,0,0),t([ t(i(98,'c7b69fd4-63be-4d84-8005-0bd75b75b6b1'),69,0,0),t('link(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(99,1,4,cmd,0,[ t('',104,99,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWEtapasDesarrollo''',3,99,26),t(',',7,0,0),t('''Etapas de Desarrollo''',3,99,48),t(',',7,0,0),t([ t(i(98,'5649fbb8-8ce0-4810-a5ce-bd649ea83c3a'),69,0,71),t('link(',1,0,84) ],31,99,84),t(')',4,0,90),t(',',7,0,0),t('''''',3,99,92),t(',',7,0,0),t('link(',1,0,115),t(o(13,'WWEtapasDesarrollo'),28,0,96),t(')',4,0,121),t(',',7,0,0),t('15',3,0,124),t(',',7,0,0),t('Activitylist',23,0,128),t(',',7,0,0),t('TRUE',40,0,144),t(',',7,0,0),t('TRUE',40,0,150),t(',',7,0,0),t('TRUE',40,0,156),t(',',7,0,0),t('TRUE',40,0,162),t(',',7,0,0),t([ t('Menulevel1',23,99,168),t('Items',3,99,180) ],29,99,180) ]).
+b_line_i(100,1,4,cmd,0,[]).
+b_line_i(101,1,4,cmd,0,[ t('',104,101,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWCategoriaDetalleTarea''',3,101,26),t(',',7,0,0),t('''Categoría Detalle Tarea''',3,101,53),t(',',7,0,0),t([ t(i(98,'5649fbb8-8ce0-4810-a5ce-bd649ea83c3a'),69,0,79),t('link(',1,0,92) ],31,101,92),t(')',4,0,98),t(',',7,0,0),t('''''',3,101,100),t(',',7,0,0),t('link(',1,0,128),t(o(13,'WWCategoriaDetalleTarea'),28,0,104),t(')',4,0,134),t(',',7,0,0),t('16',3,0,137),t(',',7,0,0),t('Activitylist',23,0,141),t(',',7,0,0),t('TRUE',40,0,157),t(',',7,0,0),t('TRUE',40,0,163),t(',',7,0,0),t('TRUE',40,0,169),t(',',7,0,0),t('TRUE',40,0,175),t(',',7,0,0),t([ t('Menulevel1',23,101,181),t('Items',3,101,193) ],29,101,193) ]).
+b_line_i(102,1,4,cmd,0,[]).
+b_line_i(103,1,4,cmd,0,[ t('',104,103,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWEstadoTecnicos''',3,103,26),t(',',7,0,0),t('''Estado Técnicos''',3,103,46),t(',',7,0,0),t([ t(i(98,'5649fbb8-8ce0-4810-a5ce-bd649ea83c3a'),69,0,64),t('link(',1,0,77) ],31,103,77),t(')',4,0,83),t(',',7,0,0),t('''''',3,103,85),t(',',7,0,0),t('link(',1,0,106),t(o(13,'WWEstadoTecnicos'),28,0,89),t(')',4,0,112),t(',',7,0,0),t('17',3,0,115),t(',',7,0,0),t('Activitylist',23,0,119),t(',',7,0,0),t('TRUE',40,0,135),t(',',7,0,0),t('TRUE',40,0,141),t(',',7,0,0),t('TRUE',40,0,147),t(',',7,0,0),t('TRUE',40,0,153),t(',',7,0,0),t([ t('Menulevel1',23,103,159),t('Items',3,103,171) ],29,103,171) ]).
+b_line_i(104,1,4,cmd,0,[]).
+b_line_i(105,1,4,cmd,0,[ t('',104,105,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWEstadoTicket''',3,105,26),t(',',7,0,0),t('''Estado Ticket''',3,105,44),t(',',7,0,0),t([ t(i(98,'5649fbb8-8ce0-4810-a5ce-bd649ea83c3a'),69,0,60),t('link(',1,0,73) ],31,105,73),t(')',4,0,79),t(',',7,0,0),t('''''',3,105,81),t(',',7,0,0),t('link(',1,0,100),t(o(13,'WWEstadoTicket'),28,0,85),t(')',4,0,106),t(',',7,0,0),t('18',3,0,109),t(',',7,0,0),t('Activitylist',23,0,113),t(',',7,0,0),t('TRUE',40,0,129),t(',',7,0,0),t('TRUE',40,0,135),t(',',7,0,0),t('TRUE',40,0,141),t(',',7,0,0),t('TRUE',40,0,147),t(',',7,0,0),t([ t('Menulevel1',23,105,153),t('Items',3,105,165) ],29,105,165) ]).
+b_line_i(106,1,4,cmd,0,[]).
+b_line_i(107,1,4,cmd,0,[ t('',104,107,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWEstadoSatisfaccion''',3,107,26),t(',',7,0,0),t('''Estado Satisfacción''',3,107,50),t(',',7,0,0),t([ t(i(98,'5649fbb8-8ce0-4810-a5ce-bd649ea83c3a'),69,0,72),t('link(',1,0,85) ],31,107,85),t(')',4,0,91),t(',',7,0,0),t('''''',3,107,93),t(',',7,0,0),t('link(',1,0,118),t(o(13,'WWEstadoSatisfaccion'),28,0,97),t(')',4,0,124),t(',',7,0,0),t('19',3,0,127),t(',',7,0,0),t('Activitylist',23,0,131),t(',',7,0,0),t('TRUE',40,0,147),t(',',7,0,0),t('TRUE',40,0,153),t(',',7,0,0),t('TRUE',40,0,159),t(',',7,0,0),t('TRUE',40,0,165),t(',',7,0,0),t([ t('Menulevel1',23,107,171),t('Items',3,107,183) ],29,107,183) ]).
+b_line_i(108,1,4,cmd,0,[]).
+b_line_i(109,1,4,cmd,0,[ t('',104,109,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWResponsable''',3,109,26),t(',',7,0,0),t('''Técnicos GIS''',3,109,43),t(',',7,0,0),t([ t(i(98,'8aadadc7-1113-4f45-84ab-4b6f760dbecf'),69,0,58),t('link(',1,0,72) ],31,109,72),t(')',4,0,78),t(',',7,0,0),t('''''',3,109,80),t(',',7,0,0),t('link(',1,0,98),t(o(13,'WWResponsable'),28,0,84),t(')',4,0,104),t(',',7,0,0),t('20',3,0,107),t(',',7,0,0),t('Activitylist',23,0,111),t(',',7,0,0),t('TRUE',40,0,127),t(',',7,0,0),t('TRUE',40,0,133),t(',',7,0,0),t('TRUE',40,0,139),t(',',7,0,0),t('TRUE',40,0,145),t(',',7,0,0),t([ t('Menulevel1',23,109,151),t('Items',3,109,163) ],29,109,163) ]).
+b_line_i(110,1,4,cmd,0,[]).
+b_line_i(111,1,4,cmd,0,[ t('',104,111,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWUsuarioSistema''',3,111,26),t(',',7,0,0),t('''Usuario Sistema''',3,111,46),t(',',7,0,0),t([ t(i(98,'c0707835-6985-42c0-bf24-54b2679c24dd'),69,0,64),t('link(',1,0,78) ],31,111,78),t(')',4,0,84),t(',',7,0,0),t('''''',3,111,86),t(',',7,0,0),t('link(',1,0,107),t(o(13,'WWUsuarioSistema'),28,0,90),t(')',4,0,113),t(',',7,0,0),t('21',3,0,116),t(',',7,0,0),t('Activitylist',23,0,120),t(',',7,0,0),t('TRUE',40,0,136),t(',',7,0,0),t('TRUE',40,0,142),t(',',7,0,0),t('TRUE',40,0,148),t(',',7,0,0),t('TRUE',40,0,154),t(',',7,0,0),t([ t('Menulevel1',23,111,160),t('Items',3,111,172) ],29,111,172) ]).
+b_line_i(112,1,4,cmd,0,[]).
+b_line_i(113,1,4,cmd,0,[ t('',104,113,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWAreasAtencion''',3,113,26),t(',',7,0,0),t('''Áreas de Atención''',3,113,45),t(',',7,0,0),t('""',3,113,65),t(',',7,0,0),t('''''',3,113,69),t(',',7,0,0),t('link(',1,0,89),t(o(13,'WWAreasAtencion'),28,0,73),t(')',4,0,95),t(',',7,0,0),t('22',3,0,98),t(',',7,0,0),t('Activitylist',23,0,102),t(',',7,0,0),t('TRUE',40,0,118),t(',',7,0,0),t('TRUE',40,0,124),t(',',7,0,0),t('TRUE',40,0,130),t(',',7,0,0),t('TRUE',40,0,136),t(',',7,0,0),t([ t('Menulevel1',23,113,142),t('Items',3,113,154) ],29,113,154) ]).
+b_line_i(114,1,4,cmd,0,[]).
+b_line_i(115,1,4,cmd,0,[ t('',104,115,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WWListaRequerimientos''',3,115,26),t(',',7,0,0),t('''Lista Requerimientos''',3,115,51),t(',',7,0,0),t('""',3,115,74),t(',',7,0,0),t('''''',3,115,78),t(',',7,0,0),t('link(',1,0,104),t(o(13,'WWListaRequerimientos'),28,0,82),t(')',4,0,110),t(',',7,0,0),t('23',3,0,113),t(',',7,0,0),t('Activitylist',23,0,117),t(',',7,0,0),t('TRUE',40,0,133),t(',',7,0,0),t('TRUE',40,0,139),t(',',7,0,0),t('TRUE',40,0,145),t(',',7,0,0),t('TRUE',40,0,151),t(',',7,0,0),t([ t('Menulevel1',23,115,157),t('Items',3,115,169) ],29,115,169) ]).
+b_line_i(116,1,4,cmd,0,[]).
+b_line_i(117,1,4,cmd,0,[ t('',109,117,0),t([ t('Menulevel1',23,117,5),t('Items',3,117,17),t('Count',3,117,23) ],29,117,23),t(>,10,0,29),t('0',3,0,31) ]).
+b_line_i(118,1,4,cmd,0,[ t('',107,118,0),t([ t('Menulevel0',23,118,3),t('add(',1,118,15) ],31,118,3),t('Menulevel1',23,0,20),t(')',4,0,31) ]).
+b_line_i(119,1,4,cmd,0,[ t('',111,119,0) ]).
+b_line_i(120,1,4,cmd,0,[ t('',144,120,0) ]).
+b_line_i(121,1,4,cmd,0,[]).
+b_line_i(122,1,4,cmd,0,[ t('',143,122,0),t('''ADDSMREPORTE''',3,122,5) ]).
+b_line_i(123,1,5,cmd,0,[ t('',107,123,0),t('Menulevel1',23,0,0),t(=,10,0,0),t([ 'K2BMultiLevelMenu.K2BMultiLevelMenuItem',[ t('(',0,123,18),t(')',4,123,19) ],n ],46,0,0) ]).
+b_line_i(124,1,5,cmd,0,[ t('',107,124,0),t([ t('Menulevel1',23,0,0),t('Code',3,0,0) ],29,0,0),t(=,10,0,0),t('''smReporte''',3,0,0) ]).
+b_line_i(125,1,5,cmd,0,[ t('',107,125,0),t([ t('Menulevel1',23,0,0),t('Title',3,0,0) ],29,0,0),t(=,10,0,0),t('''Reportes''',3,0,0) ]).
+b_line_i(126,1,5,cmd,0,[ t('',104,126,0),t(o(1,'K2BMenuSetShowIn'),28,0,2),t('TRUE',40,0,25),t(',',7,0,0),t('TRUE',40,0,31),t(',',7,0,0),t('TRUE',40,0,37),t(',',7,0,0),t('TRUE',40,0,43),t(',',7,0,0),t('Menulevel1',23,0,49) ]).
+b_line_i(127,1,5,cmd,0,[ t('',107,127,0),t([ t('Menulevel1',23,0,0),t('Items',3,0,0) ],29,0,0),t(=,10,0,0),t([ 'K2BMultiLevelMenu',[ t('(',0,127,133),t(')',4,127,134) ],n ],46,0,0) ]).
+b_line_i(128,1,5,cmd,0,[ t('',107,128,0),t([ t('Menulevel1',23,0,0),t('Imageurl',3,0,0) ],29,0,0),t(=,10,0,0),t([ t(i(98,'c7b69fd4-63be-4d84-8005-0bd75b75b6b1'),69,0,0),t('link(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(129,1,5,cmd,0,[ t('',104,129,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WebPanelTicketsAsignados''',3,129,26),t(',',7,0,0),t('''Ticket Asignados''',3,129,54),t(',',7,0,0),t('""',3,129,73),t(',',7,0,0),t('''''',3,129,77),t(',',7,0,0),t('link(',1,0,106),t(o(13,'WebPanelTicketsAsignados'),28,0,81),t(')',4,0,112),t(',',7,0,0),t('24',3,0,115),t(',',7,0,0),t('Activitylist',23,0,119),t(',',7,0,0),t('TRUE',40,0,135),t(',',7,0,0),t('TRUE',40,0,141),t(',',7,0,0),t('TRUE',40,0,147),t(',',7,0,0),t('TRUE',40,0,153),t(',',7,0,0),t([ t('Menulevel1',23,129,159),t('Items',3,129,171) ],29,129,171) ]).
+b_line_i(130,1,5,cmd,0,[]).
+b_line_i(131,1,5,cmd,0,[ t('',104,131,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WebPanelQueryTicket''',3,131,26),t(',',7,0,0),t('''Consulta Ticket''',3,131,49),t(',',7,0,0),t('""',3,131,67),t(',',7,0,0),t('''''',3,131,71),t(',',7,0,0),t('link(',1,0,95),t(o(13,'WebPanelQueryTicket'),28,0,75),t(')',4,0,101),t(',',7,0,0),t('25',3,0,104),t(',',7,0,0),t('Activitylist',23,0,108),t(',',7,0,0),t('TRUE',40,0,124),t(',',7,0,0),t('TRUE',40,0,130),t(',',7,0,0),t('TRUE',40,0,136),t(',',7,0,0),t('TRUE',40,0,142),t(',',7,0,0),t([ t('Menulevel1',23,131,148),t('Items',3,131,160) ],29,131,160) ]).
+b_line_i(132,1,5,cmd,0,[]).
+b_line_i(133,1,5,cmd,0,[ t('',104,133,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WpDbSatisfaccion''',3,133,26),t(',',7,0,0),t('''Consulta Encuesta Satisfacción Soporte''',3,133,46),t(',',7,0,0),t('""',3,133,87),t(',',7,0,0),t('''''',3,133,91),t(',',7,0,0),t('link(',1,0,112),t(o(13,'WpDbSatisfaccion'),28,0,95),t(')',4,0,118),t(',',7,0,0),t('26',3,0,121),t(',',7,0,0),t('Activitylist',23,0,125),t(',',7,0,0),t('TRUE',40,0,141),t(',',7,0,0),t('TRUE',40,0,147),t(',',7,0,0),t('TRUE',40,0,153),t(',',7,0,0),t('TRUE',40,0,159),t(',',7,0,0),t([ t('Menulevel1',23,133,165),t('Items',3,133,177) ],29,133,177) ]).
+b_line_i(134,1,5,cmd,0,[]).
+b_line_i(135,1,5,cmd,0,[ t('',104,135,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WebPanelTareasEmpleado''',3,135,26),t(',',7,0,0),t('''Tareas Empleados''',3,135,52),t(',',7,0,0),t('""',3,135,71),t(',',7,0,0),t('''''',3,135,75),t(',',7,0,0),t('link(',1,0,102),t(o(13,'WebPanelTareasEmpleado'),28,0,79),t(')',4,0,108),t(',',7,0,0),t('27',3,0,111),t(',',7,0,0),t('Activitylist',23,0,115),t(',',7,0,0),t('TRUE',40,0,131),t(',',7,0,0),t('TRUE',40,0,137),t(',',7,0,0),t('TRUE',40,0,143),t(',',7,0,0),t('TRUE',40,0,149),t(',',7,0,0),t([ t('Menulevel1',23,135,155),t('Items',3,135,167) ],29,135,167) ]).
+b_line_i(136,1,5,cmd,0,[]).
+b_line_i(137,1,5,cmd,0,[ t('',104,137,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WebPanelGraficoTicketEmpleado''',3,137,26),t(',',7,0,0),t('''Gráfico Tickets Empleado''',3,137,59),t(',',7,0,0),t('""',3,137,86),t(',',7,0,0),t('''''',3,137,90),t(',',7,0,0),t('link(',1,0,124),t(o(13,'WebPanelGraficoTicketEmpleado'),28,0,94),t(')',4,0,130),t(',',7,0,0),t('28',3,0,133),t(',',7,0,0),t('Activitylist',23,0,137),t(',',7,0,0),t('TRUE',40,0,153),t(',',7,0,0),t('TRUE',40,0,159),t(',',7,0,0),t('TRUE',40,0,165),t(',',7,0,0),t('TRUE',40,0,171),t(',',7,0,0),t([ t('Menulevel1',23,137,177),t('Items',3,137,189) ],29,137,189) ]).
+b_line_i(138,1,5,cmd,0,[]).
+b_line_i(139,1,5,cmd,0,[ t('',104,139,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WebPanelQueryTiempoAsignar''',3,139,26),t(',',7,0,0),t('''Tiempo Asignar Ticket''',3,139,56),t(',',7,0,0),t('""',3,139,80),t(',',7,0,0),t('''''',3,139,84),t(',',7,0,0),t('link(',1,0,115),t(o(13,'WebPanelQueryTiempoAsignar'),28,0,88),t(')',4,0,121),t(',',7,0,0),t('29',3,0,124),t(',',7,0,0),t('Activitylist',23,0,128),t(',',7,0,0),t('TRUE',40,0,144),t(',',7,0,0),t('TRUE',40,0,150),t(',',7,0,0),t('TRUE',40,0,156),t(',',7,0,0),t('TRUE',40,0,162),t(',',7,0,0),t([ t('Menulevel1',23,139,168),t('Items',3,139,180) ],29,139,180) ]).
+b_line_i(140,1,5,cmd,0,[]).
+b_line_i(141,1,5,cmd,0,[ t('',104,141,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WebPanelQueryTiempoResolver''',3,141,26),t(',',7,0,0),t('''Tiempo Resolver Ticket''',3,141,57),t(',',7,0,0),t('""',3,141,82),t(',',7,0,0),t('''''',3,141,86),t(',',7,0,0),t('link(',1,0,118),t(o(13,'WebPanelQueryTiempoResolver'),28,0,90),t(')',4,0,124),t(',',7,0,0),t('30',3,0,127),t(',',7,0,0),t('Activitylist',23,0,131),t(',',7,0,0),t('TRUE',40,0,147),t(',',7,0,0),t('TRUE',40,0,153),t(',',7,0,0),t('TRUE',40,0,159),t(',',7,0,0),t('TRUE',40,0,165),t(',',7,0,0),t([ t('Menulevel1',23,141,171),t('Items',3,141,183) ],29,141,183) ]).
+b_line_i(142,1,5,cmd,0,[]).
+b_line_i(143,1,5,cmd,0,[ t('',104,143,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WebPanelTrabajoDiario''',3,143,26),t(',',7,0,0),t('''Trabajo Diario Empleado''',3,143,51),t(',',7,0,0),t('""',3,143,77),t(',',7,0,0),t('''''',3,143,81),t(',',7,0,0),t('link(',1,0,107),t(o(13,'WebPanelTrabajoDiario'),28,0,85),t(')',4,0,113),t(',',7,0,0),t('31',3,0,116),t(',',7,0,0),t('Activitylist',23,0,120),t(',',7,0,0),t('TRUE',40,0,136),t(',',7,0,0),t('TRUE',40,0,142),t(',',7,0,0),t('TRUE',40,0,148),t(',',7,0,0),t('TRUE',40,0,154),t(',',7,0,0),t([ t('Menulevel1',23,143,160),t('Items',3,143,172) ],29,143,172) ]).
+b_line_i(144,1,5,cmd,0,[]).
+b_line_i(145,1,5,cmd,0,[ t('',104,145,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WebPanelTrabajoDiarioAdmin''',3,145,26),t(',',7,0,0),t('''Reporte Trabajo Diario''',3,145,56),t(',',7,0,0),t('""',3,145,81),t(',',7,0,0),t('''''',3,145,85),t(',',7,0,0),t('link(',1,0,116),t(o(13,'WebPanelTrabajoDiarioAdmin'),28,0,89),t(')',4,0,122),t(',',7,0,0),t('32',3,0,125),t(',',7,0,0),t('Activitylist',23,0,129),t(',',7,0,0),t('TRUE',40,0,145),t(',',7,0,0),t('TRUE',40,0,151),t(',',7,0,0),t('TRUE',40,0,157),t(',',7,0,0),t('TRUE',40,0,163),t(',',7,0,0),t([ t('Menulevel1',23,145,169),t('Items',3,145,181) ],29,145,181) ]).
+b_line_i(146,1,5,cmd,0,[]).
+b_line_i(147,1,5,cmd,0,[ t('',104,147,0),t(o(1,'K2BMenuAddProgram'),28,0,2),t('''WpDbSatisfaccionDesarrollo''',3,147,26),t(',',7,0,0),t('''Consulta Encuesta Satisfacción Desarrollo''',3,147,56),t(',',7,0,0),t('""',3,147,100),t(',',7,0,0),t('''''',3,147,104),t(',',7,0,0),t('link(',1,0,135),t(o(13,'WpDbSatisfaccionDesarrollo'),28,0,108),t(')',4,0,141),t(',',7,0,0),t('33',3,0,144),t(',',7,0,0),t('Activitylist',23,0,148),t(',',7,0,0),t('TRUE',40,0,164),t(',',7,0,0),t('TRUE',40,0,170),t(',',7,0,0),t('TRUE',40,0,176),t(',',7,0,0),t('TRUE',40,0,182),t(',',7,0,0),t([ t('Menulevel1',23,147,188),t('Items',3,147,200) ],29,147,200) ]).
+b_line_i(148,1,5,cmd,0,[]).
+b_line_i(149,1,5,cmd,0,[ t('',109,149,0),t([ t('Menulevel1',23,149,5),t('Items',3,149,17),t('Count',3,149,23) ],29,149,23),t(>,10,0,29),t('0',3,0,31) ]).
+b_line_i(150,1,5,cmd,0,[ t('',107,150,0),t([ t('Menulevel0',23,150,3),t('add(',1,150,15) ],31,150,3),t('Menulevel1',23,0,20),t(')',4,0,31) ]).
+b_line_i(151,1,5,cmd,0,[ t('',111,151,0) ]).
+b_line_i(152,1,5,cmd,0,[ t('',144,152,0) ]).
+b_line_i(153,1,5,cmd,0,[]).
+b_line_i(154,1,5,cmd,0,[ t('',143,154,0),t('''CHECKSECURITYFORWPUSUARIO''',3,154,5) ]).
+b_line_i(155,1,6,cmd,0,[ t('',107,155,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,155,131),t(')',4,155,132) ],n ],46,0,0) ]).
+b_line_i(156,1,6,cmd,0,[ t('',107,156,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(157,1,6,cmd,0,[ t('',107,157,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(158,1,6,cmd,0,[ t('',107,158,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(159,1,6,cmd,0,[ t('',107,159,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPUsuario"',3,0,0) ]).
+b_line_i(160,1,6,cmd,0,[ t('',107,160,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPUsuario"',3,0,0) ]).
+b_line_i(161,1,6,cmd,0,[ t('',107,161,0),t([ t('Activitylist',23,161,2),t('add(',1,161,16) ],31,161,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(162,1,6,cmd,0,[ t('',144,162,0) ]).
+b_line_i(163,1,6,cmd,0,[ t('',143,163,0),t('''CHECKSECURITYFORWPREGISTRARTICKET''',3,163,5) ]).
+b_line_i(164,1,7,cmd,0,[ t('',107,164,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,164,131),t(')',4,164,132) ],n ],46,0,0) ]).
+b_line_i(165,1,7,cmd,0,[ t('',107,165,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(166,1,7,cmd,0,[ t('',107,166,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(167,1,7,cmd,0,[ t('',107,167,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(168,1,7,cmd,0,[ t('',107,168,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPRegistrarTicket"',3,0,0) ]).
+b_line_i(169,1,7,cmd,0,[ t('',107,169,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPRegistrarTicket"',3,0,0) ]).
+b_line_i(170,1,7,cmd,0,[ t('',107,170,0),t([ t('Activitylist',23,170,2),t('add(',1,170,16) ],31,170,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(171,1,7,cmd,0,[ t('',144,171,0) ]).
+b_line_i(172,1,7,cmd,0,[ t('',143,172,0),t('''CHECKSECURITYFORWPASIGNACIONADMIN''',3,172,5) ]).
+b_line_i(173,1,8,cmd,0,[ t('',107,173,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,173,131),t(')',4,173,132) ],n ],46,0,0) ]).
+b_line_i(174,1,8,cmd,0,[ t('',107,174,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(175,1,8,cmd,0,[ t('',107,175,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(176,1,8,cmd,0,[ t('',107,176,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(177,1,8,cmd,0,[ t('',107,177,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPAsignacionAdmin"',3,0,0) ]).
+b_line_i(178,1,8,cmd,0,[ t('',107,178,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPAsignacionAdmin"',3,0,0) ]).
+b_line_i(179,1,8,cmd,0,[ t('',107,179,0),t([ t('Activitylist',23,179,2),t('add(',1,179,16) ],31,179,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(180,1,8,cmd,0,[ t('',144,180,0) ]).
+b_line_i(181,1,8,cmd,0,[ t('',143,181,0),t('''CHECKSECURITYFORWPASIGNARTICKETDESARROLLO''',3,181,5) ]).
+b_line_i(182,1,9,cmd,0,[ t('',107,182,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,182,131),t(')',4,182,132) ],n ],46,0,0) ]).
+b_line_i(183,1,9,cmd,0,[ t('',107,183,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(184,1,9,cmd,0,[ t('',107,184,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(185,1,9,cmd,0,[ t('',107,185,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(186,1,9,cmd,0,[ t('',107,186,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPAsignarTicketDesarrollo"',3,0,0) ]).
+b_line_i(187,1,9,cmd,0,[ t('',107,187,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPAsignarTicketDesarrollo"',3,0,0) ]).
+b_line_i(188,1,9,cmd,0,[ t('',107,188,0),t([ t('Activitylist',23,188,2),t('add(',1,188,16) ],31,188,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(189,1,9,cmd,0,[ t('',144,189,0) ]).
+b_line_i(190,1,9,cmd,0,[ t('',143,190,0),t('''CHECKSECURITYFORWPASIGNACION''',3,190,5) ]).
+b_line_i(191,1,10,cmd,0,[ t('',107,191,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,191,131),t(')',4,191,132) ],n ],46,0,0) ]).
+b_line_i(192,1,10,cmd,0,[ t('',107,192,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(193,1,10,cmd,0,[ t('',107,193,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(194,1,10,cmd,0,[ t('',107,194,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(195,1,10,cmd,0,[ t('',107,195,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPAsignacion"',3,0,0) ]).
+b_line_i(196,1,10,cmd,0,[ t('',107,196,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPAsignacion"',3,0,0) ]).
+b_line_i(197,1,10,cmd,0,[ t('',107,197,0),t([ t('Activitylist',23,197,2),t('add(',1,197,16) ],31,197,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(198,1,10,cmd,0,[ t('',144,198,0) ]).
+b_line_i(199,1,10,cmd,0,[ t('',143,199,0),t('''CHECKSECURITYFORWPASIGNACIONDESARROLLO''',3,199,5) ]).
+b_line_i(200,1,11,cmd,0,[ t('',107,200,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,200,131),t(')',4,200,132) ],n ],46,0,0) ]).
+b_line_i(201,1,11,cmd,0,[ t('',107,201,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(202,1,11,cmd,0,[ t('',107,202,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(203,1,11,cmd,0,[ t('',107,203,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(204,1,11,cmd,0,[ t('',107,204,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPAsignacionDesarrollo"',3,0,0) ]).
+b_line_i(205,1,11,cmd,0,[ t('',107,205,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPAsignacionDesarrollo"',3,0,0) ]).
+b_line_i(206,1,11,cmd,0,[ t('',107,206,0),t([ t('Activitylist',23,206,2),t('add(',1,206,16) ],31,206,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(207,1,11,cmd,0,[ t('',144,207,0) ]).
+b_line_i(208,1,11,cmd,0,[ t('',143,208,0),t('''CHECKSECURITYFORWPSATISFACCION''',3,208,5) ]).
+b_line_i(209,1,12,cmd,0,[ t('',107,209,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,209,131),t(')',4,209,132) ],n ],46,0,0) ]).
+b_line_i(210,1,12,cmd,0,[ t('',107,210,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(211,1,12,cmd,0,[ t('',107,211,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(212,1,12,cmd,0,[ t('',107,212,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(213,1,12,cmd,0,[ t('',107,213,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPSatisfaccion"',3,0,0) ]).
+b_line_i(214,1,12,cmd,0,[ t('',107,214,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WPSatisfaccion"',3,0,0) ]).
+b_line_i(215,1,12,cmd,0,[ t('',107,215,0),t([ t('Activitylist',23,215,2),t('add(',1,215,16) ],31,215,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(216,1,12,cmd,0,[ t('',144,216,0) ]).
+b_line_i(217,1,12,cmd,0,[ t('',143,217,0),t('''CHECKSECURITYFORWPBUSCARTDAPLICACIONES''',3,217,5) ]).
+b_line_i(218,1,13,cmd,0,[ t('',107,218,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,218,131),t(')',4,218,132) ],n ],46,0,0) ]).
+b_line_i(219,1,13,cmd,0,[ t('',107,219,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(220,1,13,cmd,0,[ t('',107,220,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(221,1,13,cmd,0,[ t('',107,221,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(222,1,13,cmd,0,[ t('',107,222,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpBuscarTdAplicaciones"',3,0,0) ]).
+b_line_i(223,1,13,cmd,0,[ t('',107,223,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpBuscarTdAplicaciones"',3,0,0) ]).
+b_line_i(224,1,13,cmd,0,[ t('',107,224,0),t([ t('Activitylist',23,224,2),t('add(',1,224,16) ],31,224,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(225,1,13,cmd,0,[ t('',144,225,0) ]).
+b_line_i(226,1,13,cmd,0,[]).
+b_line_i(227,1,13,cmd,0,[ t('',143,227,0),t('''CHECKSECURITYFORWPBUSCARTDDESARROLLO''',3,227,5) ]).
+b_line_i(228,1,14,cmd,0,[ t('',107,228,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,228,131),t(')',4,228,132) ],n ],46,0,0) ]).
+b_line_i(229,1,14,cmd,0,[ t('',107,229,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(230,1,14,cmd,0,[ t('',107,230,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(231,1,14,cmd,0,[ t('',107,231,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(232,1,14,cmd,0,[ t('',107,232,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpBuscarTdDesarrollo"',3,0,0) ]).
+b_line_i(233,1,14,cmd,0,[ t('',107,233,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpBuscarTdDesarrollo"',3,0,0) ]).
+b_line_i(234,1,14,cmd,0,[ t('',107,234,0),t([ t('Activitylist',23,234,2),t('add(',1,234,16) ],31,234,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(235,1,14,cmd,0,[ t('',144,235,0) ]).
+b_line_i(236,1,14,cmd,0,[]).
+b_line_i(237,1,14,cmd,0,[ t('',143,237,0),t('''CHECKSECURITYFORWPBUSCARTDSOPORTE''',3,237,5) ]).
+b_line_i(238,1,15,cmd,0,[ t('',107,238,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,238,131),t(')',4,238,132) ],n ],46,0,0) ]).
+b_line_i(239,1,15,cmd,0,[ t('',107,239,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(240,1,15,cmd,0,[ t('',107,240,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(241,1,15,cmd,0,[ t('',107,241,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(242,1,15,cmd,0,[ t('',107,242,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpBuscarTdSoporte"',3,0,0) ]).
+b_line_i(243,1,15,cmd,0,[ t('',107,243,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpBuscarTdSoporte"',3,0,0) ]).
+b_line_i(244,1,15,cmd,0,[ t('',107,244,0),t([ t('Activitylist',23,244,2),t('add(',1,244,16) ],31,244,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(245,1,15,cmd,0,[ t('',144,245,0) ]).
+b_line_i(246,1,15,cmd,0,[]).
+b_line_i(247,1,15,cmd,0,[ t('',143,247,0),t('''CHECKSECURITYFORWWUSUARIO''',3,247,5) ]).
+b_line_i(248,1,16,cmd,0,[ t('',107,248,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,248,131),t(')',4,248,132) ],n ],46,0,0) ]).
+b_line_i(249,1,16,cmd,0,[ t('',107,249,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"Usuario"',3,0,0) ]).
+b_line_i(250,1,16,cmd,0,[ t('',107,250,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"Usuario"',3,0,0) ]).
+b_line_i(251,1,16,cmd,0,[ t('',107,251,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(252,1,16,cmd,0,[ t('',107,252,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWUsuario"',3,0,0) ]).
+b_line_i(253,1,16,cmd,0,[ t('',107,253,0),t([ t('Activitylist',23,253,2),t('add(',1,253,16) ],31,253,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(254,1,16,cmd,0,[ t('',144,254,0) ]).
+b_line_i(255,1,16,cmd,0,[]).
+b_line_i(256,1,16,cmd,0,[ t('',143,256,0),t('''CHECKSECURITYFORWWTICKET''',3,256,5) ]).
+b_line_i(257,1,17,cmd,0,[ t('',107,257,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,257,131),t(')',4,257,132) ],n ],46,0,0) ]).
+b_line_i(258,1,17,cmd,0,[ t('',107,258,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"Ticket"',3,0,0) ]).
+b_line_i(259,1,17,cmd,0,[ t('',107,259,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"Ticket"',3,0,0) ]).
+b_line_i(260,1,17,cmd,0,[ t('',107,260,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(261,1,17,cmd,0,[ t('',107,261,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWTicket"',3,0,0) ]).
+b_line_i(262,1,17,cmd,0,[ t('',107,262,0),t([ t('Activitylist',23,262,2),t('add(',1,262,16) ],31,262,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(263,1,17,cmd,0,[ t('',144,263,0) ]).
+b_line_i(264,1,17,cmd,0,[]).
+b_line_i(265,1,17,cmd,0,[ t('',143,265,0),t('''CHECKSECURITYFORWWSATISFACCION''',3,265,5) ]).
+b_line_i(266,1,18,cmd,0,[ t('',107,266,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,266,131),t(')',4,266,132) ],n ],46,0,0) ]).
+b_line_i(267,1,18,cmd,0,[ t('',107,267,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"Satisfaccion"',3,0,0) ]).
+b_line_i(268,1,18,cmd,0,[ t('',107,268,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"Satisfaccion"',3,0,0) ]).
+b_line_i(269,1,18,cmd,0,[ t('',107,269,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(270,1,18,cmd,0,[ t('',107,270,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWSatisfaccion"',3,0,0) ]).
+b_line_i(271,1,18,cmd,0,[ t('',107,271,0),t([ t('Activitylist',23,271,2),t('add(',1,271,16) ],31,271,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(272,1,18,cmd,0,[ t('',144,272,0) ]).
+b_line_i(273,1,18,cmd,0,[]).
+b_line_i(274,1,18,cmd,0,[ t('',143,274,0),t('''CHECKSECURITYFORWWDETALLE_INFOTEC''',3,274,5) ]).
+b_line_i(275,1,19,cmd,0,[ t('',107,275,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,275,131),t(')',4,275,132) ],n ],46,0,0) ]).
+b_line_i(276,1,19,cmd,0,[ t('',107,276,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"detalle_infotec"',3,0,0) ]).
+b_line_i(277,1,19,cmd,0,[ t('',107,277,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"detalle_infotec"',3,0,0) ]).
+b_line_i(278,1,19,cmd,0,[ t('',107,278,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(279,1,19,cmd,0,[ t('',107,279,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWdetalle_infotec"',3,0,0) ]).
+b_line_i(280,1,19,cmd,0,[ t('',107,280,0),t([ t('Activitylist',23,280,2),t('add(',1,280,16) ],31,280,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(281,1,19,cmd,0,[ t('',144,281,0) ]).
+b_line_i(282,1,19,cmd,0,[]).
+b_line_i(283,1,19,cmd,0,[ t('',143,283,0),t('''CHECKSECURITYFORWWETAPASDESARROLLO''',3,283,5) ]).
+b_line_i(284,1,20,cmd,0,[ t('',107,284,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,284,131),t(')',4,284,132) ],n ],46,0,0) ]).
+b_line_i(285,1,20,cmd,0,[ t('',107,285,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"EtapasDesarrollo"',3,0,0) ]).
+b_line_i(286,1,20,cmd,0,[ t('',107,286,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"EtapasDesarrollo"',3,0,0) ]).
+b_line_i(287,1,20,cmd,0,[ t('',107,287,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(288,1,20,cmd,0,[ t('',107,288,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWEtapasDesarrollo"',3,0,0) ]).
+b_line_i(289,1,20,cmd,0,[ t('',107,289,0),t([ t('Activitylist',23,289,2),t('add(',1,289,16) ],31,289,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(290,1,20,cmd,0,[ t('',144,290,0) ]).
+b_line_i(291,1,20,cmd,0,[]).
+b_line_i(292,1,20,cmd,0,[ t('',143,292,0),t('''CHECKSECURITYFORWWCATEGORIADETALLETAREA''',3,292,5) ]).
+b_line_i(293,1,21,cmd,0,[ t('',107,293,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,293,131),t(')',4,293,132) ],n ],46,0,0) ]).
+b_line_i(294,1,21,cmd,0,[ t('',107,294,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"CategoriaDetalleTarea"',3,0,0) ]).
+b_line_i(295,1,21,cmd,0,[ t('',107,295,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"CategoriaDetalleTarea"',3,0,0) ]).
+b_line_i(296,1,21,cmd,0,[ t('',107,296,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(297,1,21,cmd,0,[ t('',107,297,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWCategoriaDetalleTarea"',3,0,0) ]).
+b_line_i(298,1,21,cmd,0,[ t('',107,298,0),t([ t('Activitylist',23,298,2),t('add(',1,298,16) ],31,298,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(299,1,21,cmd,0,[ t('',144,299,0) ]).
+b_line_i(300,1,21,cmd,0,[]).
+b_line_i(301,1,21,cmd,0,[ t('',143,301,0),t('''CHECKSECURITYFORWWESTADOTECNICOS''',3,301,5) ]).
+b_line_i(302,1,22,cmd,0,[ t('',107,302,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,302,131),t(')',4,302,132) ],n ],46,0,0) ]).
+b_line_i(303,1,22,cmd,0,[ t('',107,303,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"EstadoTecnicos"',3,0,0) ]).
+b_line_i(304,1,22,cmd,0,[ t('',107,304,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"EstadoTecnicos"',3,0,0) ]).
+b_line_i(305,1,22,cmd,0,[ t('',107,305,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(306,1,22,cmd,0,[ t('',107,306,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWEstadoTecnicos"',3,0,0) ]).
+b_line_i(307,1,22,cmd,0,[ t('',107,307,0),t([ t('Activitylist',23,307,2),t('add(',1,307,16) ],31,307,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(308,1,22,cmd,0,[ t('',144,308,0) ]).
+b_line_i(309,1,22,cmd,0,[]).
+b_line_i(310,1,22,cmd,0,[ t('',143,310,0),t('''CHECKSECURITYFORWWESTADOTICKET''',3,310,5) ]).
+b_line_i(311,1,23,cmd,0,[ t('',107,311,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,311,131),t(')',4,311,132) ],n ],46,0,0) ]).
+b_line_i(312,1,23,cmd,0,[ t('',107,312,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"EstadoTicket"',3,0,0) ]).
+b_line_i(313,1,23,cmd,0,[ t('',107,313,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"EstadoTicket"',3,0,0) ]).
+b_line_i(314,1,23,cmd,0,[ t('',107,314,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(315,1,23,cmd,0,[ t('',107,315,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWEstadoTicket"',3,0,0) ]).
+b_line_i(316,1,23,cmd,0,[ t('',107,316,0),t([ t('Activitylist',23,316,2),t('add(',1,316,16) ],31,316,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(317,1,23,cmd,0,[ t('',144,317,0) ]).
+b_line_i(318,1,23,cmd,0,[]).
+b_line_i(319,1,23,cmd,0,[ t('',143,319,0),t('''CHECKSECURITYFORWWESTADOSATISFACCION''',3,319,5) ]).
+b_line_i(320,1,24,cmd,0,[ t('',107,320,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,320,131),t(')',4,320,132) ],n ],46,0,0) ]).
+b_line_i(321,1,24,cmd,0,[ t('',107,321,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"EstadoSatisfaccion"',3,0,0) ]).
+b_line_i(322,1,24,cmd,0,[ t('',107,322,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"EstadoSatisfaccion"',3,0,0) ]).
+b_line_i(323,1,24,cmd,0,[ t('',107,323,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(324,1,24,cmd,0,[ t('',107,324,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWEstadoSatisfaccion"',3,0,0) ]).
+b_line_i(325,1,24,cmd,0,[ t('',107,325,0),t([ t('Activitylist',23,325,2),t('add(',1,325,16) ],31,325,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(326,1,24,cmd,0,[ t('',144,326,0) ]).
+b_line_i(327,1,24,cmd,0,[]).
+b_line_i(328,1,24,cmd,0,[ t('',143,328,0),t('''CHECKSECURITYFORWWRESPONSABLE''',3,328,5) ]).
+b_line_i(329,1,25,cmd,0,[ t('',107,329,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,329,131),t(')',4,329,132) ],n ],46,0,0) ]).
+b_line_i(330,1,25,cmd,0,[ t('',107,330,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"Responsable"',3,0,0) ]).
+b_line_i(331,1,25,cmd,0,[ t('',107,331,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"Responsable"',3,0,0) ]).
+b_line_i(332,1,25,cmd,0,[ t('',107,332,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(333,1,25,cmd,0,[ t('',107,333,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWResponsable"',3,0,0) ]).
+b_line_i(334,1,25,cmd,0,[ t('',107,334,0),t([ t('Activitylist',23,334,2),t('add(',1,334,16) ],31,334,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(335,1,25,cmd,0,[ t('',144,335,0) ]).
+b_line_i(336,1,25,cmd,0,[]).
+b_line_i(337,1,25,cmd,0,[ t('',143,337,0),t('''CHECKSECURITYFORWWUSUARIOSISTEMA''',3,337,5) ]).
+b_line_i(338,1,26,cmd,0,[ t('',107,338,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,338,131),t(')',4,338,132) ],n ],46,0,0) ]).
+b_line_i(339,1,26,cmd,0,[ t('',107,339,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"UsuarioSistema"',3,0,0) ]).
+b_line_i(340,1,26,cmd,0,[ t('',107,340,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"UsuarioSistema"',3,0,0) ]).
+b_line_i(341,1,26,cmd,0,[ t('',107,341,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(342,1,26,cmd,0,[ t('',107,342,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWUsuarioSistema"',3,0,0) ]).
+b_line_i(343,1,26,cmd,0,[ t('',107,343,0),t([ t('Activitylist',23,343,2),t('add(',1,343,16) ],31,343,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(344,1,26,cmd,0,[ t('',144,344,0) ]).
+b_line_i(345,1,26,cmd,0,[]).
+b_line_i(346,1,26,cmd,0,[ t('',143,346,0),t('''CHECKSECURITYFORWWAREASATENCION''',3,346,5) ]).
+b_line_i(347,1,27,cmd,0,[ t('',107,347,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,347,131),t(')',4,347,132) ],n ],46,0,0) ]).
+b_line_i(348,1,27,cmd,0,[ t('',107,348,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"AreasAtencion"',3,0,0) ]).
+b_line_i(349,1,27,cmd,0,[ t('',107,349,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"AreasAtencion"',3,0,0) ]).
+b_line_i(350,1,27,cmd,0,[ t('',107,350,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(351,1,27,cmd,0,[ t('',107,351,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWAreasAtencion"',3,0,0) ]).
+b_line_i(352,1,27,cmd,0,[ t('',107,352,0),t([ t('Activitylist',23,352,2),t('add(',1,352,16) ],31,352,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(353,1,27,cmd,0,[ t('',144,353,0) ]).
+b_line_i(354,1,27,cmd,0,[]).
+b_line_i(355,1,27,cmd,0,[ t('',143,355,0),t('''CHECKSECURITYFORWWLISTAREQUERIMIENTOS''',3,355,5) ]).
+b_line_i(356,1,28,cmd,0,[ t('',107,356,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,356,131),t(')',4,356,132) ],n ],46,0,0) ]).
+b_line_i(357,1,28,cmd,0,[ t('',107,357,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('"ListaRequerimientos"',3,0,0) ]).
+b_line_i(358,1,28,cmd,0,[ t('',107,358,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('"ListaRequerimientos"',3,0,0) ]).
+b_line_i(359,1,28,cmd,0,[ t('',107,359,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'List' ],44,0,0) ]).
+b_line_i(360,1,28,cmd,0,[ t('',107,360,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WWListaRequerimientos"',3,0,0) ]).
+b_line_i(361,1,28,cmd,0,[ t('',107,361,0),t([ t('Activitylist',23,361,2),t('add(',1,361,16) ],31,361,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(362,1,28,cmd,0,[ t('',144,362,0) ]).
+b_line_i(363,1,28,cmd,0,[]).
+b_line_i(364,1,28,cmd,0,[ t('',143,364,0),t('''CHECKSECURITYFORWEBPANELTICKETSASIGNADOS''',3,364,5) ]).
+b_line_i(365,1,29,cmd,0,[ t('',107,365,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,365,131),t(')',4,365,132) ],n ],46,0,0) ]).
+b_line_i(366,1,29,cmd,0,[ t('',107,366,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(367,1,29,cmd,0,[ t('',107,367,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(368,1,29,cmd,0,[ t('',107,368,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(369,1,29,cmd,0,[ t('',107,369,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelTicketsAsignados"',3,0,0) ]).
+b_line_i(370,1,29,cmd,0,[ t('',107,370,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelTicketsAsignados"',3,0,0) ]).
+b_line_i(371,1,29,cmd,0,[ t('',107,371,0),t([ t('Activitylist',23,371,2),t('add(',1,371,16) ],31,371,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(372,1,29,cmd,0,[ t('',144,372,0) ]).
+b_line_i(373,1,29,cmd,0,[]).
+b_line_i(374,1,29,cmd,0,[ t('',143,374,0),t('''CHECKSECURITYFORWEBPANELQUERYTICKET''',3,374,5) ]).
+b_line_i(375,1,30,cmd,0,[ t('',107,375,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,375,131),t(')',4,375,132) ],n ],46,0,0) ]).
+b_line_i(376,1,30,cmd,0,[ t('',107,376,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(377,1,30,cmd,0,[ t('',107,377,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(378,1,30,cmd,0,[ t('',107,378,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(379,1,30,cmd,0,[ t('',107,379,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelQueryTicket"',3,0,0) ]).
+b_line_i(380,1,30,cmd,0,[ t('',107,380,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelQueryTicket"',3,0,0) ]).
+b_line_i(381,1,30,cmd,0,[ t('',107,381,0),t([ t('Activitylist',23,381,2),t('add(',1,381,16) ],31,381,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(382,1,30,cmd,0,[ t('',144,382,0) ]).
+b_line_i(383,1,30,cmd,0,[]).
+b_line_i(384,1,30,cmd,0,[ t('',143,384,0),t('''CHECKSECURITYFORWPDBSATISFACCION''',3,384,5) ]).
+b_line_i(385,1,31,cmd,0,[ t('',107,385,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,385,131),t(')',4,385,132) ],n ],46,0,0) ]).
+b_line_i(386,1,31,cmd,0,[ t('',107,386,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(387,1,31,cmd,0,[ t('',107,387,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(388,1,31,cmd,0,[ t('',107,388,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(389,1,31,cmd,0,[ t('',107,389,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpDbSatisfaccion"',3,0,0) ]).
+b_line_i(390,1,31,cmd,0,[ t('',107,390,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpDbSatisfaccion"',3,0,0) ]).
+b_line_i(391,1,31,cmd,0,[ t('',107,391,0),t([ t('Activitylist',23,391,2),t('add(',1,391,16) ],31,391,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(392,1,31,cmd,0,[ t('',144,392,0) ]).
+b_line_i(393,1,31,cmd,0,[]).
+b_line_i(394,1,31,cmd,0,[ t('',143,394,0),t('''CHECKSECURITYFORWEBPANELTAREASEMPLEADO''',3,394,5) ]).
+b_line_i(395,1,32,cmd,0,[ t('',107,395,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,395,131),t(')',4,395,132) ],n ],46,0,0) ]).
+b_line_i(396,1,32,cmd,0,[ t('',107,396,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(397,1,32,cmd,0,[ t('',107,397,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(398,1,32,cmd,0,[ t('',107,398,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(399,1,32,cmd,0,[ t('',107,399,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelTareasEmpleado"',3,0,0) ]).
+b_line_i(400,1,32,cmd,0,[ t('',107,400,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelTareasEmpleado"',3,0,0) ]).
+b_line_i(401,1,32,cmd,0,[ t('',107,401,0),t([ t('Activitylist',23,401,2),t('add(',1,401,16) ],31,401,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(402,1,32,cmd,0,[ t('',144,402,0) ]).
+b_line_i(403,1,32,cmd,0,[]).
+b_line_i(404,1,32,cmd,0,[ t('',143,404,0),t('''CHECKSECURITYFORWEBPANELGRAFICOTICKETEMPLEADO''',3,404,5) ]).
+b_line_i(405,1,33,cmd,0,[ t('',107,405,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,405,131),t(')',4,405,132) ],n ],46,0,0) ]).
+b_line_i(406,1,33,cmd,0,[ t('',107,406,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(407,1,33,cmd,0,[ t('',107,407,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(408,1,33,cmd,0,[ t('',107,408,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(409,1,33,cmd,0,[ t('',107,409,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelGraficoTicketEmpleado"',3,0,0) ]).
+b_line_i(410,1,33,cmd,0,[ t('',107,410,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelGraficoTicketEmpleado"',3,0,0) ]).
+b_line_i(411,1,33,cmd,0,[ t('',107,411,0),t([ t('Activitylist',23,411,2),t('add(',1,411,16) ],31,411,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(412,1,33,cmd,0,[ t('',144,412,0) ]).
+b_line_i(413,1,33,cmd,0,[]).
+b_line_i(414,1,33,cmd,0,[ t('',143,414,0),t('''CHECKSECURITYFORWEBPANELQUERYTIEMPOASIGNAR''',3,414,5) ]).
+b_line_i(415,1,34,cmd,0,[ t('',107,415,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,415,131),t(')',4,415,132) ],n ],46,0,0) ]).
+b_line_i(416,1,34,cmd,0,[ t('',107,416,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(417,1,34,cmd,0,[ t('',107,417,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(418,1,34,cmd,0,[ t('',107,418,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(419,1,34,cmd,0,[ t('',107,419,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelQueryTiempoAsignar"',3,0,0) ]).
+b_line_i(420,1,34,cmd,0,[ t('',107,420,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelQueryTiempoAsignar"',3,0,0) ]).
+b_line_i(421,1,34,cmd,0,[ t('',107,421,0),t([ t('Activitylist',23,421,2),t('add(',1,421,16) ],31,421,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(422,1,34,cmd,0,[ t('',144,422,0) ]).
+b_line_i(423,1,34,cmd,0,[]).
+b_line_i(424,1,34,cmd,0,[ t('',143,424,0),t('''CHECKSECURITYFORWEBPANELQUERYTIEMPORESOLVER''',3,424,5) ]).
+b_line_i(425,1,35,cmd,0,[ t('',107,425,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,425,131),t(')',4,425,132) ],n ],46,0,0) ]).
+b_line_i(426,1,35,cmd,0,[ t('',107,426,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(427,1,35,cmd,0,[ t('',107,427,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(428,1,35,cmd,0,[ t('',107,428,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(429,1,35,cmd,0,[ t('',107,429,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelQueryTiempoResolver"',3,0,0) ]).
+b_line_i(430,1,35,cmd,0,[ t('',107,430,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelQueryTiempoResolver"',3,0,0) ]).
+b_line_i(431,1,35,cmd,0,[ t('',107,431,0),t([ t('Activitylist',23,431,2),t('add(',1,431,16) ],31,431,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(432,1,35,cmd,0,[ t('',144,432,0) ]).
+b_line_i(433,1,35,cmd,0,[]).
+b_line_i(434,1,35,cmd,0,[ t('',143,434,0),t('''CHECKSECURITYFORWEBPANELTRABAJODIARIO''',3,434,5) ]).
+b_line_i(435,1,36,cmd,0,[ t('',107,435,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,435,131),t(')',4,435,132) ],n ],46,0,0) ]).
+b_line_i(436,1,36,cmd,0,[ t('',107,436,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(437,1,36,cmd,0,[ t('',107,437,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(438,1,36,cmd,0,[ t('',107,438,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(439,1,36,cmd,0,[ t('',107,439,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelTrabajoDiario"',3,0,0) ]).
+b_line_i(440,1,36,cmd,0,[ t('',107,440,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelTrabajoDiario"',3,0,0) ]).
+b_line_i(441,1,36,cmd,0,[ t('',107,441,0),t([ t('Activitylist',23,441,2),t('add(',1,441,16) ],31,441,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(442,1,36,cmd,0,[ t('',144,442,0) ]).
+b_line_i(443,1,36,cmd,0,[]).
+b_line_i(444,1,36,cmd,0,[ t('',143,444,0),t('''CHECKSECURITYFORWEBPANELTRABAJODIARIOADMIN''',3,444,5) ]).
+b_line_i(445,1,37,cmd,0,[ t('',107,445,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,445,131),t(')',4,445,132) ],n ],46,0,0) ]).
+b_line_i(446,1,37,cmd,0,[ t('',107,446,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(447,1,37,cmd,0,[ t('',107,447,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(448,1,37,cmd,0,[ t('',107,448,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(449,1,37,cmd,0,[ t('',107,449,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelTrabajoDiarioAdmin"',3,0,0) ]).
+b_line_i(450,1,37,cmd,0,[ t('',107,450,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WebPanelTrabajoDiarioAdmin"',3,0,0) ]).
+b_line_i(451,1,37,cmd,0,[ t('',107,451,0),t([ t('Activitylist',23,451,2),t('add(',1,451,16) ],31,451,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(452,1,37,cmd,0,[ t('',144,452,0) ]).
+b_line_i(453,1,37,cmd,0,[]).
+b_line_i(454,1,37,cmd,0,[ t('',143,454,0),t('''CHECKSECURITYFORWPDBSATISFACCIONDESARROLLO''',3,454,5) ]).
+b_line_i(455,1,38,cmd,0,[ t('',107,455,0),t('Activityitem',23,0,0),t(=,10,0,0),t([ 'K2BActivityList.K2BActivityListItem',[ t('(',0,455,131),t(')',4,455,132) ],n ],46,0,0) ]).
+b_line_i(456,1,38,cmd,0,[ t('',107,456,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Entityname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(457,1,38,cmd,0,[ t('',107,457,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Transactionname',3,0,0) ],29,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(458,1,38,cmd,0,[ t('',107,458,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Standardactivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t([ 96,'None' ],44,0,0) ]).
+b_line_i(459,1,38,cmd,0,[ t('',107,459,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Useractivitytype',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpDbSatisfaccionDesarrollo"',3,0,0) ]).
+b_line_i(460,1,38,cmd,0,[ t('',107,460,0),t([ t('Activityitem',23,0,0),t('Activity',3,0,0),t('Pgmname',3,0,0) ],29,0,0),t(=,10,0,0),t('"WpDbSatisfaccionDesarrollo"',3,0,0) ]).
+b_line_i(461,1,38,cmd,0,[ t('',107,461,0),t([ t('Activitylist',23,461,2),t('add(',1,461,16) ],31,461,2),t('Activityitem',23,0,21),t(')',4,0,34) ]).
+b_line_i(462,1,38,cmd,0,[ t('',144,462,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,59,0 ],name,'K2BActivityList').
+struct_dt_i([ 26,59,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,59,0 ],'ObjName','K2BActivityList').
+struct_dt_i([ 26,59,0 ],'ObjDesc','K2 BActivity List').
+struct_dt_i([ 26,59,0 ],'ExternalName','K2BActivityList').
+struct_dt_i([ 26,59,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,59,0 ],collection,'True').
+struct_dt_i([ 26,59,0 ],datatype,[ 26,59,85 ]).
+struct_dt_i([ 26,59,0 ],'CollectionItemName','K2BActivityListItem').
+struct_dt_i([ 26,59,0 ],'XmlName','').
+struct_dt_i([ 26,59,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,59,0 ],'XmlNamespace','').
+struct_dt_i([ 26,59,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,59,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,59,0 ],'JsonName','').
+struct_dt_i([ 26,59,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,59,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,59,85 ],name,'K2BActivityListItem').
+struct_dt_i([ 26,59,85 ],namespace,'kb_ticket.K2BActivityList').
+struct_dt_i([ 26,58,0 ],name,'K2BActivity').
+struct_dt_i([ 26,58,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,58,0 ],'ObjName','K2BActivity').
+struct_dt_i([ 26,58,0 ],'ObjDesc','K2 BActivity').
+struct_dt_i([ 26,58,0 ],'ExternalName','K2BActivity').
+struct_dt_i([ 26,58,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,58,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,64,0 ],name,'K2BMultiLevelMenu').
+struct_dt_i([ 26,64,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,64,0 ],'ObjName','K2BMultiLevelMenu').
+struct_dt_i([ 26,64,0 ],'ObjDesc','K2 BMulti Level Menu').
+struct_dt_i([ 26,64,0 ],'ExternalName','K2BMultiLevelMenu').
+struct_dt_i([ 26,64,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,64,0 ],collection,'True').
+struct_dt_i([ 26,64,0 ],datatype,[ 26,64,90 ]).
+struct_dt_i([ 26,64,0 ],'CollectionItemName','K2BMultiLevelMenuItem').
+struct_dt_i([ 26,64,0 ],'XmlName','').
+struct_dt_i([ 26,64,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,64,0 ],'XmlNamespace','').
+struct_dt_i([ 26,64,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,64,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,64,0 ],'JsonName','').
+struct_dt_i([ 26,64,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,64,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,64,90 ],name,'K2BMultiLevelMenuItem').
+struct_dt_i([ 26,64,90 ],namespace,'kb_ticket.K2BMultiLevelMenu').
+struct_dt_i([ 26,85,0 ],name,'K2BPersistedMenuOutput').
+struct_dt_i([ 26,85,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,85,0 ],'ObjName','K2BPersistedMenuOutput').
+struct_dt_i([ 26,85,0 ],'ObjDesc','K2 BPersisted Menu Output').
+struct_dt_i([ 26,85,0 ],'ExternalName','K2BPersistedMenuOutput').
+struct_dt_i([ 26,85,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,85,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,84,0 ],name,'K2BMultiLevelPersistedMenu').
+struct_dt_i([ 26,84,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,84,0 ],'ObjName','K2BMultiLevelPersistedMenu').
+struct_dt_i([ 26,84,0 ],'ObjDesc','K2 BMulti Level Persisted Menu').
+struct_dt_i([ 26,84,0 ],'ExternalName','K2BMultiLevelPersistedMenu').
+struct_dt_i([ 26,84,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,84,0 ],collection,'True').
+struct_dt_i([ 26,84,0 ],datatype,[ 26,84,115 ]).
+struct_dt_i([ 26,84,0 ],'CollectionItemName','K2BMultiLevelPersistedMenuItem').
+struct_dt_i([ 26,84,0 ],'XmlName','').
+struct_dt_i([ 26,84,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,84,0 ],'XmlNamespace','').
+struct_dt_i([ 26,84,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,84,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,84,0 ],'JsonName','').
+struct_dt_i([ 26,84,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,84,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,84,115 ],name,'K2BMultiLevelPersistedMenuItem').
+struct_dt_i([ 26,84,115 ],namespace,'kb_ticket.K2BMultiLevelPersistedMenu').
+struct_dt_i([ 26,59,0 ],fullname,'K2BActivityList').
+struct_dt_i([ 26,59,85 ],fullname,'K2BActivityList.K2BActivityListItem').
+struct_dt_i([ 26,58,0 ],fullname,'K2BActivity').
+struct_dt_i([ 26,64,0 ],fullname,'K2BMultiLevelMenu').
+struct_dt_i([ 26,64,90 ],fullname,'K2BMultiLevelMenu.K2BMultiLevelMenuItem').
+struct_dt_i([ 26,85,0 ],fullname,'K2BPersistedMenuOutput').
+struct_dt_i([ 26,84,0 ],fullname,'K2BMultiLevelPersistedMenu').
+struct_dt_i([ 26,84,115 ],fullname,'K2BMultiLevelPersistedMenu.K2BMultiLevelPersistedMenuItem').
+ 
+struct_dt_elem_i([ 26,59,85 ],1,name,'Activity').
+struct_dt_elem_i([ 26,59,85 ],1,camelname,'Activity').
+struct_dt_elem_i([ 26,59,85 ],1,length,4).
+struct_dt_elem_i([ 26,59,85 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,85 ],1,type,[ [ 26,58,0 ],4,0 ]).
+struct_dt_elem_i([ 26,59,85 ],1,pic,'').
+struct_dt_elem_i([ 26,59,85 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,85 ],1,'ExternalName','Activity').
+struct_dt_elem_i([ 26,59,85 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,59,85 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,85 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,85 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,85 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,85 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,85 ],1,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,59,85 ],2,name,'Isauthorized').
+struct_dt_elem_i([ 26,59,85 ],2,camelname,'IsAuthorized').
+struct_dt_elem_i([ 26,59,85 ],2,length,4).
+struct_dt_elem_i([ 26,59,85 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,85 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,59,85 ],2,pic,'').
+struct_dt_elem_i([ 26,59,85 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,85 ],2,'ExternalName','IsAuthorized').
+struct_dt_elem_i([ 26,59,85 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,59,85 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,85 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,85 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,85 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,85 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,85 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,85 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],1,name,'Entityname').
+struct_dt_elem_i([ 26,58,0 ],1,camelname,'EntityName').
+struct_dt_elem_i([ 26,58,0 ],1,basedon,50).
+struct_dt_elem_i([ 26,58,0 ],1,length,256).
+struct_dt_elem_i([ 26,58,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,58,0 ],1,pic,'').
+struct_dt_elem_i([ 26,58,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],1,'ExternalName','EntityName').
+struct_dt_elem_i([ 26,58,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,58,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],2,name,'Transactionname').
+struct_dt_elem_i([ 26,58,0 ],2,camelname,'TransactionName').
+struct_dt_elem_i([ 26,58,0 ],2,basedon,50).
+struct_dt_elem_i([ 26,58,0 ],2,length,256).
+struct_dt_elem_i([ 26,58,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],2,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,58,0 ],2,pic,'').
+struct_dt_elem_i([ 26,58,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],2,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,58,0 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,58,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],3,name,'Pgmname').
+struct_dt_elem_i([ 26,58,0 ],3,camelname,'PgmName').
+struct_dt_elem_i([ 26,58,0 ],3,basedon,50).
+struct_dt_elem_i([ 26,58,0 ],3,length,256).
+struct_dt_elem_i([ 26,58,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,58,0 ],3,pic,'').
+struct_dt_elem_i([ 26,58,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],3,'ExternalName','PgmName').
+struct_dt_elem_i([ 26,58,0 ],3,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,58,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],4,name,'Standardactivitytype').
+struct_dt_elem_i([ 26,58,0 ],4,camelname,'StandardActivityType').
+struct_dt_elem_i([ 26,58,0 ],4,basedon,96).
+struct_dt_elem_i([ 26,58,0 ],4,length,30).
+struct_dt_elem_i([ 26,58,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],4,type,[ 5,30,0 ]).
+struct_dt_elem_i([ 26,58,0 ],4,pic,'').
+struct_dt_elem_i([ 26,58,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],4,'ExternalName','StandardActivityType').
+struct_dt_elem_i([ 26,58,0 ],4,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,58,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],5,name,'Useractivitytype').
+struct_dt_elem_i([ 26,58,0 ],5,camelname,'UserActivityType').
+struct_dt_elem_i([ 26,58,0 ],5,basedon,50).
+struct_dt_elem_i([ 26,58,0 ],5,length,256).
+struct_dt_elem_i([ 26,58,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],5,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,58,0 ],5,pic,'').
+struct_dt_elem_i([ 26,58,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],5,'ExternalName','UserActivityType').
+struct_dt_elem_i([ 26,58,0 ],5,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,58,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],6,name,'Description').
+struct_dt_elem_i([ 26,58,0 ],6,camelname,'Description').
+struct_dt_elem_i([ 26,58,0 ],6,length,20).
+struct_dt_elem_i([ 26,58,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],6,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,58,0 ],6,pic,'').
+struct_dt_elem_i([ 26,58,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],6,'ExternalName','Description').
+struct_dt_elem_i([ 26,58,0 ],6,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,58,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,90 ],1,name,'Code').
+struct_dt_elem_i([ 26,64,90 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,64,90 ],1,length,30).
+struct_dt_elem_i([ 26,64,90 ],1,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],1,type,[ 5,30,0 ]).
+struct_dt_elem_i([ 26,64,90 ],1,pic,'').
+struct_dt_elem_i([ 26,64,90 ],1,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,64,90 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,64,90 ],1,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],1,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],1,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,90 ],2,name,'Title').
+struct_dt_elem_i([ 26,64,90 ],2,camelname,'Title').
+struct_dt_elem_i([ 26,64,90 ],2,length,30).
+struct_dt_elem_i([ 26,64,90 ],2,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],2,type,[ 5,30,0 ]).
+struct_dt_elem_i([ 26,64,90 ],2,pic,'').
+struct_dt_elem_i([ 26,64,90 ],2,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],2,'ExternalName','Title').
+struct_dt_elem_i([ 26,64,90 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,64,90 ],2,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],2,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],2,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,90 ],3,name,'Imageurl').
+struct_dt_elem_i([ 26,64,90 ],3,camelname,'ImageUrl').
+struct_dt_elem_i([ 26,64,90 ],3,basedon,29).
+struct_dt_elem_i([ 26,64,90 ],3,length,1000).
+struct_dt_elem_i([ 26,64,90 ],3,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,64,90 ],3,pic,'').
+struct_dt_elem_i([ 26,64,90 ],3,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],3,'ExternalName','ImageUrl').
+struct_dt_elem_i([ 26,64,90 ],3,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,64,90 ],3,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],3,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],3,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,90 ],4,name,'Imageclass').
+struct_dt_elem_i([ 26,64,90 ],4,camelname,'ImageClass').
+struct_dt_elem_i([ 26,64,90 ],4,length,20).
+struct_dt_elem_i([ 26,64,90 ],4,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],4,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,64,90 ],4,pic,'').
+struct_dt_elem_i([ 26,64,90 ],4,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],4,'ExternalName','ImageClass').
+struct_dt_elem_i([ 26,64,90 ],4,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,64,90 ],4,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],4,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],4,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,90 ],5,name,'Link').
+struct_dt_elem_i([ 26,64,90 ],5,camelname,'Link').
+struct_dt_elem_i([ 26,64,90 ],5,basedon,29).
+struct_dt_elem_i([ 26,64,90 ],5,length,1000).
+struct_dt_elem_i([ 26,64,90 ],5,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],5,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,64,90 ],5,pic,'').
+struct_dt_elem_i([ 26,64,90 ],5,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],5,'ExternalName','Link').
+struct_dt_elem_i([ 26,64,90 ],5,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,64,90 ],5,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],5,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],5,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,90 ],6,name,'Items').
+struct_dt_elem_i([ 26,64,90 ],6,camelname,'Items').
+struct_dt_elem_i([ 26,64,90 ],6,length,4).
+struct_dt_elem_i([ 26,64,90 ],6,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],6,type,[ [ 26,64,0 ],4,0 ]).
+struct_dt_elem_i([ 26,64,90 ],6,pic,'').
+struct_dt_elem_i([ 26,64,90 ],6,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],6,'ExternalName','Items').
+struct_dt_elem_i([ 26,64,90 ],6,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],6,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],6,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],6,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],6,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,64,90 ],7,name,'Showinextrasmall').
+struct_dt_elem_i([ 26,64,90 ],7,camelname,'ShowInExtraSmall').
+struct_dt_elem_i([ 26,64,90 ],7,length,4).
+struct_dt_elem_i([ 26,64,90 ],7,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],7,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,64,90 ],7,pic,'').
+struct_dt_elem_i([ 26,64,90 ],7,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],7,'ExternalName','ShowInExtraSmall').
+struct_dt_elem_i([ 26,64,90 ],7,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,64,90 ],7,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],7,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],7,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,90 ],8,name,'Showinsmall').
+struct_dt_elem_i([ 26,64,90 ],8,camelname,'ShowInSmall').
+struct_dt_elem_i([ 26,64,90 ],8,length,4).
+struct_dt_elem_i([ 26,64,90 ],8,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],8,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,64,90 ],8,pic,'').
+struct_dt_elem_i([ 26,64,90 ],8,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],8,'ExternalName','ShowInSmall').
+struct_dt_elem_i([ 26,64,90 ],8,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,64,90 ],8,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],8,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],8,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],8,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,90 ],9,name,'Showinmedium').
+struct_dt_elem_i([ 26,64,90 ],9,camelname,'ShowInMedium').
+struct_dt_elem_i([ 26,64,90 ],9,length,4).
+struct_dt_elem_i([ 26,64,90 ],9,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],9,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,64,90 ],9,pic,'').
+struct_dt_elem_i([ 26,64,90 ],9,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],9,'ExternalName','ShowInMedium').
+struct_dt_elem_i([ 26,64,90 ],9,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,64,90 ],9,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],9,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],9,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],9,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,90 ],10,name,'Showinlarge').
+struct_dt_elem_i([ 26,64,90 ],10,camelname,'ShowInLarge').
+struct_dt_elem_i([ 26,64,90 ],10,length,4).
+struct_dt_elem_i([ 26,64,90 ],10,decimals,0).
+struct_dt_elem_i([ 26,64,90 ],10,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,64,90 ],10,pic,'').
+struct_dt_elem_i([ 26,64,90 ],10,collection,'False').
+struct_dt_elem_i([ 26,64,90 ],10,'ExternalName','ShowInLarge').
+struct_dt_elem_i([ 26,64,90 ],10,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,64,90 ],10,'XmlType','Element').
+struct_dt_elem_i([ 26,64,90 ],10,'XmlName','').
+struct_dt_elem_i([ 26,64,90 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,90 ],10,soaptype,'').
+struct_dt_elem_i([ 26,64,90 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,90 ],10,'JsonName','').
+struct_dt_elem_i([ 26,64,90 ],10,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,85,0 ],1,name,'Menucode').
+struct_dt_elem_i([ 26,85,0 ],1,camelname,'MenuCode').
+struct_dt_elem_i([ 26,85,0 ],1,length,20).
+struct_dt_elem_i([ 26,85,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,85,0 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,85,0 ],1,pic,'').
+struct_dt_elem_i([ 26,85,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,85,0 ],1,'ExternalName','MenuCode').
+struct_dt_elem_i([ 26,85,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,85,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,85,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,85,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,85,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,85,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,85,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,85,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,85,0 ],2,name,'Persistedmenu').
+struct_dt_elem_i([ 26,85,0 ],2,camelname,'PersistedMenu').
+struct_dt_elem_i([ 26,85,0 ],2,length,4).
+struct_dt_elem_i([ 26,85,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,85,0 ],2,type,[ [ 26,84,0 ],4,0 ]).
+struct_dt_elem_i([ 26,85,0 ],2,pic,'').
+struct_dt_elem_i([ 26,85,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,85,0 ],2,'ExternalName','PersistedMenu').
+struct_dt_elem_i([ 26,85,0 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,85,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,85,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,85,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,85,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,85,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,85,0 ],2,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,84,115 ],1,name,'Code').
+struct_dt_elem_i([ 26,84,115 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,84,115 ],1,length,30).
+struct_dt_elem_i([ 26,84,115 ],1,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],1,type,[ 5,30,0 ]).
+struct_dt_elem_i([ 26,84,115 ],1,pic,'').
+struct_dt_elem_i([ 26,84,115 ],1,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,84,115 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],1,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],1,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],1,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,115 ],2,name,'Title').
+struct_dt_elem_i([ 26,84,115 ],2,camelname,'Title').
+struct_dt_elem_i([ 26,84,115 ],2,length,30).
+struct_dt_elem_i([ 26,84,115 ],2,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],2,type,[ 5,30,0 ]).
+struct_dt_elem_i([ 26,84,115 ],2,pic,'').
+struct_dt_elem_i([ 26,84,115 ],2,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],2,'ExternalName','Title').
+struct_dt_elem_i([ 26,84,115 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],2,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],2,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],2,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,115 ],3,name,'Imageurl').
+struct_dt_elem_i([ 26,84,115 ],3,camelname,'ImageUrl').
+struct_dt_elem_i([ 26,84,115 ],3,basedon,29).
+struct_dt_elem_i([ 26,84,115 ],3,length,1000).
+struct_dt_elem_i([ 26,84,115 ],3,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,84,115 ],3,pic,'').
+struct_dt_elem_i([ 26,84,115 ],3,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],3,'ExternalName','ImageUrl').
+struct_dt_elem_i([ 26,84,115 ],3,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],3,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],3,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],3,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,115 ],4,name,'Imageclass').
+struct_dt_elem_i([ 26,84,115 ],4,camelname,'ImageClass').
+struct_dt_elem_i([ 26,84,115 ],4,length,20).
+struct_dt_elem_i([ 26,84,115 ],4,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],4,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,84,115 ],4,pic,'').
+struct_dt_elem_i([ 26,84,115 ],4,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],4,'ExternalName','ImageClass').
+struct_dt_elem_i([ 26,84,115 ],4,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],4,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],4,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],4,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,115 ],5,name,'Items').
+struct_dt_elem_i([ 26,84,115 ],5,camelname,'Items').
+struct_dt_elem_i([ 26,84,115 ],5,length,4).
+struct_dt_elem_i([ 26,84,115 ],5,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],5,type,[ [ 26,84,0 ],4,0 ]).
+struct_dt_elem_i([ 26,84,115 ],5,pic,'').
+struct_dt_elem_i([ 26,84,115 ],5,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],5,'ExternalName','Items').
+struct_dt_elem_i([ 26,84,115 ],5,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],5,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],5,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],5,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,84,115 ],6,name,'Showinextrasmall').
+struct_dt_elem_i([ 26,84,115 ],6,camelname,'ShowInExtraSmall').
+struct_dt_elem_i([ 26,84,115 ],6,length,4).
+struct_dt_elem_i([ 26,84,115 ],6,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],6,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,84,115 ],6,pic,'').
+struct_dt_elem_i([ 26,84,115 ],6,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],6,'ExternalName','ShowInExtraSmall').
+struct_dt_elem_i([ 26,84,115 ],6,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],6,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],6,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],6,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,115 ],7,name,'Showinsmall').
+struct_dt_elem_i([ 26,84,115 ],7,camelname,'ShowInSmall').
+struct_dt_elem_i([ 26,84,115 ],7,length,4).
+struct_dt_elem_i([ 26,84,115 ],7,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],7,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,84,115 ],7,pic,'').
+struct_dt_elem_i([ 26,84,115 ],7,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],7,'ExternalName','ShowInSmall').
+struct_dt_elem_i([ 26,84,115 ],7,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],7,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],7,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],7,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,115 ],8,name,'Showinmedium').
+struct_dt_elem_i([ 26,84,115 ],8,camelname,'ShowInMedium').
+struct_dt_elem_i([ 26,84,115 ],8,length,4).
+struct_dt_elem_i([ 26,84,115 ],8,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],8,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,84,115 ],8,pic,'').
+struct_dt_elem_i([ 26,84,115 ],8,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],8,'ExternalName','ShowInMedium').
+struct_dt_elem_i([ 26,84,115 ],8,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],8,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],8,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],8,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],8,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,115 ],9,name,'Showinlarge').
+struct_dt_elem_i([ 26,84,115 ],9,camelname,'ShowInLarge').
+struct_dt_elem_i([ 26,84,115 ],9,length,4).
+struct_dt_elem_i([ 26,84,115 ],9,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],9,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,84,115 ],9,pic,'').
+struct_dt_elem_i([ 26,84,115 ],9,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],9,'ExternalName','ShowInLarge').
+struct_dt_elem_i([ 26,84,115 ],9,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],9,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],9,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],9,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],9,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,115 ],10,name,'Activity').
+struct_dt_elem_i([ 26,84,115 ],10,camelname,'Activity').
+struct_dt_elem_i([ 26,84,115 ],10,length,4).
+struct_dt_elem_i([ 26,84,115 ],10,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],10,type,[ [ 26,58,0 ],4,0 ]).
+struct_dt_elem_i([ 26,84,115 ],10,pic,'').
+struct_dt_elem_i([ 26,84,115 ],10,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],10,'ExternalName','Activity').
+struct_dt_elem_i([ 26,84,115 ],10,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],10,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],10,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],10,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],10,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,84,115 ],11,name,'Gxobject').
+struct_dt_elem_i([ 26,84,115 ],11,camelname,'GXObject').
+struct_dt_elem_i([ 26,84,115 ],11,length,20).
+struct_dt_elem_i([ 26,84,115 ],11,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],11,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,84,115 ],11,pic,'').
+struct_dt_elem_i([ 26,84,115 ],11,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],11,'ExternalName','GXObject').
+struct_dt_elem_i([ 26,84,115 ],11,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],11,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],11,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],11,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],11,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],11,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],11,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],11,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,115 ],12,name,'Gxobjectparameters').
+struct_dt_elem_i([ 26,84,115 ],12,camelname,'GXObjectParameters').
+struct_dt_elem_i([ 26,84,115 ],12,length,20).
+struct_dt_elem_i([ 26,84,115 ],12,decimals,0).
+struct_dt_elem_i([ 26,84,115 ],12,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,84,115 ],12,pic,'').
+struct_dt_elem_i([ 26,84,115 ],12,collection,'False').
+struct_dt_elem_i([ 26,84,115 ],12,'ExternalName','GXObjectParameters').
+struct_dt_elem_i([ 26,84,115 ],12,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,84,115 ],12,'XmlType','Element').
+struct_dt_elem_i([ 26,84,115 ],12,'XmlName','').
+struct_dt_elem_i([ 26,84,115 ],12,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,115 ],12,soaptype,'').
+struct_dt_elem_i([ 26,84,115 ],12,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,115 ],12,'JsonName','').
+struct_dt_elem_i([ 26,84,115 ],12,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,146,'K2BMENUSETSHOWIN',[ [ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ o('K2BMultiLevelMenu.K2BMultiLevelMenuItem'),0,0,0 ] ],[ [ 'ShowInExtraSmall',in,[] ],[ 'ShowInSmall',in,[] ],[ 'ShowInMedium',in,[] ],[ 'ShowInLarge',inout,[] ],[ 'CurrentMenuItem',inout,[] ] ]).
+pgm_parm_i(proc,145,'K2BMENUADDPROGRAM',[ [ char,30,0,0 ],[ char,30,0,0 ],[ svchar,1000,0,0 ],[ char,30,0,0 ],[ svchar,1000,0,0 ],[ int,4,0,0 ],[ o(objectcollection('K2BActivityList.K2BActivityListItem')),0,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ o(objectcollection('K2BMultiLevelMenu.K2BMultiLevelMenuItem')),0,0,0 ] ],[ [ 'Code',in,[] ],[ 'Title',in,[] ],[ 'ImageUrl',in,[] ],[ 'ImageClass',in,[] ],[ 'Link',in,[] ],[ 'SecurityIndex',in,[] ],[ 'ActivityList',in,[] ],[ 'ShowInExtraSmall',in,[] ],[ 'ShowInSmall',in,[] ],[ 'ShowInMedium',in,[] ],[ 'ShowInLarge',inout,[] ],[ 'CurrentMenu',inout,[] ] ]).
+pgm_parm_i(proc,16,'K2BISAUTHORIZEDACTIVITYLIST',[ [ o(objectcollection('K2BActivityList.K2BActivityListItem')),0,0,0 ] ],[ [ activityList,inout,[] ] ]).
+pgm_parm_i(web,275,'WPDBSATISFACCIONDESARROLLO',[],[]).
+pgm_parm_i(web,291,'WEBPANELTRABAJODIARIOADMIN',[],[]).
+pgm_parm_i(web,280,'WEBPANELTRABAJODIARIO',[],[]).
+pgm_parm_i(web,254,'WEBPANELQUERYTIEMPORESOLVER',[],[]).
+pgm_parm_i(web,253,'WEBPANELQUERYTIEMPOASIGNAR',[],[]).
+pgm_parm_i(web,255,'WEBPANELGRAFICOTICKETEMPLEADO',[],[]).
+pgm_parm_i(web,250,'WEBPANELTAREASEMPLEADO',[],[]).
+pgm_parm_i(web,246,'WPDBSATISFACCION',[],[]).
+pgm_parm_i(web,248,'WEBPANELQUERYTICKET',[],[]).
+pgm_parm_i(web,251,'WEBPANELTICKETSASIGNADOS',[],[]).
+pgm_parm_i(web,301,'WWLISTAREQUERIMIENTOS',[],[]).
+pgm_parm_i(web,296,'WWAREASATENCION',[],[]).
+pgm_parm_i(web,180,'WWUSUARIOSISTEMA',[],[]).
+pgm_parm_i(web,95,'WWRESPONSABLE',[],[]).
+pgm_parm_i(web,77,'WWESTADOSATISFACCION',[],[]).
+pgm_parm_i(web,86,'WWESTADOTICKET',[],[]).
+pgm_parm_i(web,207,'WWESTADOTECNICOS',[],[]).
+pgm_parm_i(web,269,'WWCATEGORIADETALLETAREA',[],[]).
+pgm_parm_i(web,259,'WWETAPASDESARROLLO',[],[]).
+pgm_parm_i(web,283,'WWDETALLE_INFOTEC',[],[]).
+pgm_parm_i(web,106,'WWSATISFACCION',[],[]).
+pgm_parm_i(web,99,'WWTICKET',[],[]).
+pgm_parm_i(web,91,'WWUSUARIO',[],[]).
+pgm_parm_i(web,290,'WPBUSCARTDSOPORTE',[],[]).
+pgm_parm_i(web,287,'WPBUSCARTDDESARROLLO',[],[]).
+pgm_parm_i(web,285,'WPBUSCARTDAPLICACIONES',[],[]).
+pgm_parm_i(web,210,'WPSATISFACCION',[],[]).
+pgm_parm_i(web,265,'WPASIGNACIONDESARROLLO',[],[]).
+pgm_parm_i(web,177,'WPASIGNACION',[],[]).
+pgm_parm_i(web,263,'WPASIGNARTICKETDESARROLLO',[],[]).
+pgm_parm_i(web,293,'WPASIGNACIONADMIN',[],[]).
+pgm_parm_i(web,202,'WPREGISTRARTICKET',[],[]).
+pgm_parm_i(web,203,'WPUSUARIO',[],[]).
+ 
+pgm_callprotocol_i(proc,192,'K2BMENUTICKETSTATICMENULOAD','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,146,'K2BMENUSETSHOWIN','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,145,'K2BMENUADDPROGRAM','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,16,'K2BISAUTHORIZEDACTIVITYLIST','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,275,'WPDBSATISFACCIONDESARROLLO','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,291,'WEBPANELTRABAJODIARIOADMIN','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,280,'WEBPANELTRABAJODIARIO','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,254,'WEBPANELQUERYTIEMPORESOLVER','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,253,'WEBPANELQUERYTIEMPOASIGNAR','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,255,'WEBPANELGRAFICOTICKETEMPLEADO','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,250,'WEBPANELTAREASEMPLEADO','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,246,'WPDBSATISFACCION','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,248,'WEBPANELQUERYTICKET','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,251,'WEBPANELTICKETSASIGNADOS','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,301,'WWLISTAREQUERIMIENTOS','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,296,'WWAREASATENCION','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,180,'WWUSUARIOSISTEMA','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,95,'WWRESPONSABLE','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,77,'WWESTADOSATISFACCION','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,86,'WWESTADOTICKET','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,207,'WWESTADOTECNICOS','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,269,'WWCATEGORIADETALLETAREA','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,259,'WWETAPASDESARROLLO','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,283,'WWDETALLE_INFOTEC','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,106,'WWSATISFACCION','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,99,'WWTICKET','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,91,'WWUSUARIO','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,290,'WPBUSCARTDSOPORTE','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,287,'WPBUSCARTDDESARROLLO','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,285,'WPBUSCARTDAPLICACIONES','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,210,'WPSATISFACCION','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,265,'WPASIGNACIONDESARROLLO','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,177,'WPASIGNACION','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,263,'WPASIGNARTICKETDESARROLLO','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,293,'WPASIGNACIONADMIN','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,202,'WPREGISTRARTICKET','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,203,'WPUSUARIO','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\direccionesgeneral.dll
+C:\Models\kb_ticket\ProduccionTicket\build\direccionesgeneral\obj\Release\direccionesgeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\direccionesgeneral\obj\Release\direccionesgeneral.dll

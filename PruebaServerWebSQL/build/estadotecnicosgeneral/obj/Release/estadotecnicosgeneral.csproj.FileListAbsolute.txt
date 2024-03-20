@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\estadotecnicosgeneral.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\estadotecnicosgeneral\obj\Release\estadotecnicosgeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\estadotecnicosgeneral\obj\Release\estadotecnicosgeneral.dll

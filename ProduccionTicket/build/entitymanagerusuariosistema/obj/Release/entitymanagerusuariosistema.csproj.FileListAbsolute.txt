@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\entitymanagerusuariosistema.dll
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagerusuariosistema\obj\Release\entitymanagerusuariosistema.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagerusuariosistema\obj\Release\entitymanagerusuariosistema.dll

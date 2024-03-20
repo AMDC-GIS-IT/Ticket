@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\k2bfsg.addpermissionchildren.dll
+C:\Models\kb_ticket\CSharpModel\build\k2bfsg.addpermissionchildren\obj\Release\k2bfsg.addpermissionchildren.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\k2bfsg.addpermissionchildren\obj\Release\k2bfsg.addpermissionchildren.dll

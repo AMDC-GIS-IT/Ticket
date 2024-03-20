@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\areasatencion.dll
+C:\Models\kb_ticket\ProduccionTicket\build\areasatencion\obj\Release\areasatencion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\areasatencion\obj\Release\areasatencion.dll

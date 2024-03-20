@@ -1,0 +1,3 @@
+bc_dt_elem_i([ 0,20,0 ],'Gxchatuserid',allownulls,no).
+bc_dt_elem_i([ 0,20,0 ],'Gxchatuserdevice',allownulls,no).
+ 

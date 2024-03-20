@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\detalle_infotec.dll
+C:\Models\kb_ticket\ProduccionTicket\build\detalle_infotec\obj\Release\detalle_infotec.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\detalle_infotec\obj\Release\detalle_infotec.dll

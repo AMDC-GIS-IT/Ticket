@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\wpsatisfaccion.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpsatisfaccion\obj\Release\wpsatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpsatisfaccion\obj\Release\wpsatisfaccion.dll

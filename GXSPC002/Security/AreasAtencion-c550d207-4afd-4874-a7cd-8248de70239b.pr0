@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "areasatencion_FullControl",
+    "Description": "Áreas de atención FullControl",
+    "ProgramName": "areasatencion",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "areasatencion_Execute",
+    "Description": "Áreas de atención",
+    "ProgramName": "areasatencion",
+    "IsGXAutomatic": true,
+    "Parent": "areasatencion_FullControl"
+  },
+  {
+    "Name": "areasatencion_Insert",
+    "Description": "Áreas de atención Insert",
+    "ProgramName": "areasatencion",
+    "IsGXAutomatic": true,
+    "Parent": "areasatencion_FullControl"
+  },
+  {
+    "Name": "areasatencion_Delete",
+    "Description": "Áreas de atención Delete",
+    "ProgramName": "areasatencion",
+    "IsGXAutomatic": true,
+    "Parent": "areasatencion_FullControl"
+  },
+  {
+    "Name": "areasatencion_Update",
+    "Description": "Áreas de atención Update",
+    "ProgramName": "areasatencion",
+    "IsGXAutomatic": true,
+    "Parent": "areasatencion_FullControl"
+  }
+]

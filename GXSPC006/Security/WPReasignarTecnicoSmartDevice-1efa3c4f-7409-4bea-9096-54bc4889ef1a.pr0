@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpsoportetecnico_Execute",
+    "Description": "WPReasignar Tecnico Smart Device",
+    "ProgramName": "wpreasignartecnicosmartdevice",
+    "IsGXAutomatic": true
+  }
+]

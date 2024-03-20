@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects xmlns="qv">
+  <Object name="K2BTools.IntegrationProcedures.GetLatestNotificationsForCurrentUser" id="1" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="K2BTools.IntegrationProcedures.GetAllNotificationsForCurrentUserDP" id="2" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="K2BToolsNumericRangeProviderSample" id="3" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="K2BFSG.GAMApplicationMenuToK2BMultiLevelMenu" id="4" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="DataProviderQueryTicket" id="5" type="DataProvider" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryTicket" id="1" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="QuerySatisfaccion" id="2" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="QuerySatisfaccionBarras" id="3" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryBarrasSatisfaccion" id="4" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryEmpleadoFecha" id="5" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryAtencionTabla" id="7" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryAtencionBarra" id="8" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryAtencionCard" id="9" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryAtencionGrafico" id="10" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QuerySoporteTecnicos" id="12" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryTareasEmpleado" id="13" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryTiempoSolucion" id="14" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="QueryTiempoAsignar" id="15" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="GraficoTicket_Filter1" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="GraficoTicket_Filter2" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="GraficoTicket_Filter3" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DashboardSatisfaccion_Filter1" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DashboardSatisfaccion_Filter2" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DashboardSatisfaccion_Filter3" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DbSatisfaccion_Filter1" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DbSatisfaccion_Filter2" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DbEmpleadosInfotec_Filter1" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DbEmpleadosInfotec_Filter2" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DashboardTiempoAsignar_Filter1" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DashboardTiempoAsignar_Filter2" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DashboardTiempoResolver_Filter1" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+  <Object name="DashboardTiempoResolver_Filter2" id="0" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypeTable" xmlns="qv" />
+  </Object>
+</Objects>

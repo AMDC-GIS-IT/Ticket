@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpregistrarusuario_Execute",
+    "Description": "Registrar Solicitud Soporte Técnico",
+    "ProgramName": "wpregistrarusuario",
+    "IsGXAutomatic": true
+  }
+]

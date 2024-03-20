@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\reportareasatencionlistarequerimientoswc.dll
+C:\Models\kb_ticket\CSharpModel\build\reportareasatencionlistarequerimientoswc\obj\Release\reportareasatencionlistarequerimientoswc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\reportareasatencionlistarequerimientoswc\obj\Release\reportareasatencionlistarequerimientoswc.dll

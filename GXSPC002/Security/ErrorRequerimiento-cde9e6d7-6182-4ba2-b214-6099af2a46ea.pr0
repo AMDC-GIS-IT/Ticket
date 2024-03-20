@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "errorrequerimiento_FullControl",
+    "Description": "Error Requerimiento FullControl",
+    "ProgramName": "errorrequerimiento",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "errorrequerimiento_Execute",
+    "Description": "Error Requerimiento",
+    "ProgramName": "errorrequerimiento",
+    "IsGXAutomatic": true,
+    "Parent": "errorrequerimiento_FullControl"
+  },
+  {
+    "Name": "errorrequerimiento_Insert",
+    "Description": "Error Requerimiento Insert",
+    "ProgramName": "errorrequerimiento",
+    "IsGXAutomatic": true,
+    "Parent": "errorrequerimiento_FullControl"
+  },
+  {
+    "Name": "errorrequerimiento_Delete",
+    "Description": "Error Requerimiento Delete",
+    "ProgramName": "errorrequerimiento",
+    "IsGXAutomatic": true,
+    "Parent": "errorrequerimiento_FullControl"
+  },
+  {
+    "Name": "errorrequerimiento_Update",
+    "Description": "Error Requerimiento Update",
+    "ProgramName": "errorrequerimiento",
+    "IsGXAutomatic": true,
+    "Parent": "errorrequerimiento_FullControl"
+  }
+]

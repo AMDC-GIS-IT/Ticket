@@ -1,0 +1,738 @@
+spec_i([ proc,247,'Notify Clients','CommonChatbots\NotifyClients',78,spa,'17_0_9-159740' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 21,[ [ 21,many ] ],[],[],[ [ [ 21 ],[ 269,268 ] ] ],[ [ [ 21 ],[] ] ],[ 268 ],'IGXCHATUSER',[ 21,[ [ [],'Userid',268 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [ c([ t('.NOT.',8),t('(',0),t('Isfromclient',23),t('.AND.',9),t(269,2),t(=,10),t('Sourceclient',23),t(')',4) ],[ 269 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 21,269 ],[ 21,268 ] ] ]).
+ 
+las_i(2,[ [ 269,268 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','192.168.200.55')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','No')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','CommonChatbots.NotifyClients')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'CommonChatbots\Data'))).
+rule_i(0,prop('ObjDesc','Notify Clients')).
+rule_i(0,prop('ObjName','NotifyClients')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Userid','Sourceclient','Chatbotnotificationtype','Notificationmessage','Isfromclient' ],[])).
+rule_i(0,parmio([ [ 'Userid',in ],[ 'Sourceclient',in ],[ 'Chatbotnotificationtype',in ],[ 'Notificationmessage',in ],[ 'Isfromclient',in ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,21,[],[ [ [ [],'Userid',268 ] ],'IGXCHATUSER',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Userid').
+v_i(t,o,2,269).
+v_i(t,o,2,268).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',18 ]).
+attri_i(268,[ 'GXChatUserId',guid,256,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,'GXChat User Id','',0 ]).
+attri_i(269,[ 'GXChatUserDevice',svchar,256,0,'',0,'GXChat User Device','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',16 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',15 ]).
+attri_i('Isfromclient',[ 'IsFromClient',boolean,4,0,'',0,'Is From Client','',14 ]).
+attri_i('Sourceclient',[ 'SourceClient',svchar,256,0,'',0,'Source Client','',13 ]).
+attri_i('Socket',[ 'Socket',o('GeneXus\Server\Socket'),0,0,'',0,'Socket','',12 ]).
+attri_i('Notificationinfo',[ 'NotificationInfo',o('GeneXus\Server\NotificationInfo'),0,0,'',0,'Notification Info','',11 ]).
+attri_i('Notificationmessage',[ 'NotificationMessage',vchar,2097152,0,'',0,'Notification Message','',10 ]).
+attri_i('Chatbotnotificationtype',[ 'ChatbotNotificationType',svchar,256,0,'',0,'Chatbot Notification Type','',9 ]).
+attri_i('Userid',[ 'UserId',guid,4,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,'User Id','',8 ]).
+ 
+table_i(21,[ 'GXChatUser',[ 268,269 ],'GX Chat User','GXChatUser' ]).
+ 
+index_i(21,[ 'IGXCHATUSER',u,[ 268,269 ],'IGXChatUser' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 268,23,'Userid',= ] ],many ]).
+ 
+end_i(2,0,0,[ [ [ t(268,2),t(=,10),t('Userid',23) ] ] ]).
+ 
+ 
+ 
+ 
+enumerated_i(4,'Chatbotnotificationtype',301).
+ 
+enum_value_i(4,301,'"ChatbotMessage"','ChatbotMessage','"Chatbot Message"',[ none ]).
+enum_value_i(4,301,'"ChatbotError"','ChatbotError','"Chatbot Error"',[ none ]).
+ 
+enum_value_info_i(4,301,'ChatbotNotificationTypes').
+ 
+enum_type_i(4,301,svchar,256,0).
+ 
+dom_info_i(301,[ 'ChatbotNotificationTypes' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 269 ],[ 268,269 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,4).
+b_group_i(1,3,lit,0,8,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t([ t('Notificationinfo',23,0,0),t('Id',3,0,0) ],29,0,0),t(=,10,0,0),t('Chatbotnotificationtype',23,0,0) ]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t([ t('Notificationinfo',23,0,0),t('Message',3,0,0) ],29,0,0),t(=,10,0,0),t('Notificationmessage',23,0,0) ]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0),t(table,3,3,10),t(21,3,3,10) ]).
+b_line_i(6,2,1,cmd,4,[ t('',107,6,0),t([ t('Socket',23,6,3),t('notifyclient(',1,6,11) ],31,6,11),t(269,2,4,25),t(',',7,4,41),t('Notificationinfo',23,4,43),t(')',4,4,60) ]).
+b_line_i(7,2,1,cmd,4,[ t('',128,7,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(4,269,'ExternalName','GXChatUserDevice',d).
+att_prop_i(4,269,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,269,'EmptyAsNull','Yes',d).
+att_prop_i(4,269,idBasedOn,'',d).
+att_prop_i(4,269,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,269,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,269,'AttRegEx','',d).
+att_prop_i(4,269,'AttValidationFailedMsg','',d).
+att_prop_i(4,269,'DownloadOffline','0',d).
+att_prop_i(4,269,'VarServiceExtName','',d).
+att_prop_i(4,269,'FullName','GXChatUserDevice',v).
+att_prop_i(4,268,'ExternalName','GXChatUserId',d).
+att_prop_i(4,268,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,268,'EmptyAsNull','Yes',d).
+att_prop_i(4,268,idBasedOn,'',d).
+att_prop_i(4,268,'AUTOGENERATE_GUID','-1',d).
+att_prop_i(4,268,'AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+att_prop_i(4,268,'AttValidationFailedMsg','GXM_InvalidGUID',d).
+att_prop_i(4,268,'DownloadOffline','0',d).
+att_prop_i(4,268,'VarServiceExtName','',d).
+att_prop_i(4,268,'FullName','GXChatUserId',v).
+ 
+ 
+tbl_att_prop_i(4,21,268,'AllowNulls',n).
+tbl_att_prop_i(4,21,269,'AllowNulls',n).
+ 
+var_prop_i(4,'Userid','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(4,'Userid','AttValidationFailedMsg','GXM_InvalidGUID',d).
+var_prop_i(4,'Chatbotnotificationtype',idBasedOn,301,v).
+var_prop_i(4,'Chatbotnotificationtype','AttValidationFailedMsg','GXSPC_OutOfRange',d).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,22,0 ],name,'GeneXus\Server\NotificationInfo').
+struct_dt_i([ 26,22,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,22,0 ],'ObjName','NotificationInfo').
+struct_dt_i([ 26,22,0 ],'ObjDesc','Notification Info').
+struct_dt_i([ 26,22,0 ],'ExternalName','NotificationInfo').
+struct_dt_i([ 26,22,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,22,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,22,0 ],isexternal,'True').
+struct_dt_i([ 14,23,0 ],name,'GeneXus\Server\Socket').
+struct_dt_i([ 14,23,0 ],'ObjName','Socket').
+struct_dt_i([ 14,23,0 ],'ObjDesc','Socket').
+struct_dt_i([ 14,23,0 ],'ExoType','0').
+struct_dt_i([ 14,23,0 ],'ObjNamespace','').
+struct_dt_i([ 14,23,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,23,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,23,0 ],'ExoNameCSHARP','GeneXus.Notifications.GXWebNotification').
+struct_dt_i([ 14,23,0 ],'AssemblyName','').
+struct_dt_i([ 14,23,0 ],'ExoConstructorParametersCSHARP',context).
+struct_dt_i([ 14,23,0 ],'ExoNameNETCORE','GeneXus.Notifications.GXWebNotification').
+struct_dt_i([ 14,23,0 ],'NetCoreAssemblyName','').
+struct_dt_i([ 14,23,0 ],'ExoConstructorParametersNETCORE',context).
+struct_dt_i([ 14,23,0 ],'PackageName','com.genexus.internet').
+struct_dt_i([ 14,23,0 ],'RequireName','').
+struct_dt_i([ 14,23,0 ],'ExoNameJS','').
+struct_dt_i([ 14,23,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,23,0 ],'Folder',o(120,'GeneXus\Server')).
+struct_dt_i([ 14,23,0 ],'FullyQualifiedName','GeneXus.Server.Socket').
+struct_dt_i([ 14,23,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,23,0 ],isexternal,'True').
+struct_dt_i([ 26,22,0 ],fullname,'GeneXus\Server\NotificationInfo').
+struct_dt_i([ 14,23,0 ],fullname,'GeneXus\Server\Socket').
+ 
+struct_dt_elem_i([ 26,22,0 ],1,name,'Id').
+struct_dt_elem_i([ 26,22,0 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,22,0 ],1,length,100).
+struct_dt_elem_i([ 26,22,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,22,0 ],1,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,22,0 ],1,pic,'').
+struct_dt_elem_i([ 26,22,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,22,0 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,22,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,22,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,22,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,22,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,22,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,22,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,22,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,22,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,22,0 ],2,name,'Object').
+struct_dt_elem_i([ 26,22,0 ],2,camelname,'Object').
+struct_dt_elem_i([ 26,22,0 ],2,length,100).
+struct_dt_elem_i([ 26,22,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,22,0 ],2,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,22,0 ],2,pic,'').
+struct_dt_elem_i([ 26,22,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,22,0 ],2,'ExternalName','Object').
+struct_dt_elem_i([ 26,22,0 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,22,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,22,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,22,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,22,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,22,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,22,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,22,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,22,0 ],3,name,'Message').
+struct_dt_elem_i([ 26,22,0 ],3,camelname,'Message').
+struct_dt_elem_i([ 26,22,0 ],3,length,2097152).
+struct_dt_elem_i([ 26,22,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,22,0 ],3,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 26,22,0 ],3,pic,'').
+struct_dt_elem_i([ 26,22,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,22,0 ],3,'ExternalName','Message').
+struct_dt_elem_i([ 26,22,0 ],3,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,22,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,22,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,22,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,22,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,22,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,22,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,22,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 14,23,0 ],1,name,'Clientid').
+struct_dt_elem_i([ 14,23,0 ],1,camelname,'ClientId').
+struct_dt_elem_i([ 14,23,0 ],1,externalType,'').
+struct_dt_elem_i([ 14,23,0 ],1,length,100).
+struct_dt_elem_i([ 14,23,0 ],1,decimals,0).
+struct_dt_elem_i([ 14,23,0 ],1,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 14,23,0 ],1,'ExoPropAccessType',idGet).
+struct_dt_elem_i([ 14,23,0 ],1,'IntName','ClientId').
+struct_dt_elem_i([ 14,23,0 ],1,'ExoItemDesc','').
+struct_dt_elem_i([ 14,23,0 ],1,'ExoItemType','Character').
+struct_dt_elem_i([ 14,23,0 ],1,basedon,'').
+struct_dt_elem_i([ 14,23,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,23,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,23,0 ],1,'ControlType','2').
+struct_dt_elem_i([ 14,23,0 ],1,'InputType','0').
+struct_dt_elem_i([ 14,23,0 ],1,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,23,0 ],1,'ExoNameCSHARP','ClientId').
+struct_dt_elem_i([ 14,23,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_elem_i([ 14,23,0 ],1,'ExoNameNETCORE','ClientId').
+struct_dt_elem_i([ 14,23,0 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_elem_i([ 14,23,0 ],1,'ExoNameJS','').
+struct_dt_elem_i([ 14,23,0 ],2,name,'Errcode').
+struct_dt_elem_i([ 14,23,0 ],2,camelname,'ErrCode').
+struct_dt_elem_i([ 14,23,0 ],2,externalType,'').
+struct_dt_elem_i([ 14,23,0 ],2,length,4).
+struct_dt_elem_i([ 14,23,0 ],2,decimals,0).
+struct_dt_elem_i([ 14,23,0 ],2,sign,0).
+struct_dt_elem_i([ 14,23,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 14,23,0 ],2,'ExoPropAccessType',idGet).
+struct_dt_elem_i([ 14,23,0 ],2,'IntName','ErrCode').
+struct_dt_elem_i([ 14,23,0 ],2,'ExoItemDesc','').
+struct_dt_elem_i([ 14,23,0 ],2,'ExoItemType','Numeric').
+struct_dt_elem_i([ 14,23,0 ],2,basedon,'').
+struct_dt_elem_i([ 14,23,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,23,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,23,0 ],2,'ControlType','2').
+struct_dt_elem_i([ 14,23,0 ],2,'InputType','0').
+struct_dt_elem_i([ 14,23,0 ],2,'ExoNameCSHARP','ErrCode').
+struct_dt_elem_i([ 14,23,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_elem_i([ 14,23,0 ],2,'ExoNameNETCORE','ErrCode').
+struct_dt_elem_i([ 14,23,0 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_elem_i([ 14,23,0 ],2,'ExoNameJS','').
+struct_dt_elem_i([ 14,23,0 ],3,name,'Errdescription').
+struct_dt_elem_i([ 14,23,0 ],3,camelname,'ErrDescription').
+struct_dt_elem_i([ 14,23,0 ],3,externalType,'').
+struct_dt_elem_i([ 14,23,0 ],3,length,100).
+struct_dt_elem_i([ 14,23,0 ],3,decimals,0).
+struct_dt_elem_i([ 14,23,0 ],3,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 14,23,0 ],3,'ExoPropAccessType',idGet).
+struct_dt_elem_i([ 14,23,0 ],3,'IntName','ErrDescription').
+struct_dt_elem_i([ 14,23,0 ],3,'ExoItemDesc','').
+struct_dt_elem_i([ 14,23,0 ],3,'ExoItemType','Character').
+struct_dt_elem_i([ 14,23,0 ],3,basedon,'').
+struct_dt_elem_i([ 14,23,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_elem_i([ 14,23,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_elem_i([ 14,23,0 ],3,'ControlType','2').
+struct_dt_elem_i([ 14,23,0 ],3,'InputType','0').
+struct_dt_elem_i([ 14,23,0 ],3,'EditAutocomplete','0').
+struct_dt_elem_i([ 14,23,0 ],3,'ExoNameCSHARP','ErrDescription').
+struct_dt_elem_i([ 14,23,0 ],3,'ExoItemExtTypeCSHARP','').
+struct_dt_elem_i([ 14,23,0 ],3,'ExoNameNETCORE','ErrDescription').
+struct_dt_elem_i([ 14,23,0 ],3,'ExoItemExtTypeNETCORE','').
+struct_dt_elem_i([ 14,23,0 ],3,'ExoNameJS','').
+ 
+struct_dt_method_i([ 14,23,0 ],1,name,notify).
+struct_dt_method_i([ 14,23,0 ],1,camelname,'Notify').
+struct_dt_method_i([ 14,23,0 ],1,externalType,'').
+struct_dt_method_i([ 14,23,0 ],1,length,4).
+struct_dt_method_i([ 14,23,0 ],1,decimals,0).
+struct_dt_method_i([ 14,23,0 ],1,sign,0).
+struct_dt_method_i([ 14,23,0 ],1,type,[ 4,4,0 ]).
+struct_dt_method_i([ 14,23,0 ],1,'IntName','Notify').
+struct_dt_method_i([ 14,23,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,23,0 ],1,'ExoItemType','Numeric').
+struct_dt_method_i([ 14,23,0 ],1,basedon,'').
+struct_dt_method_i([ 14,23,0 ],1,'XmlName','').
+struct_dt_method_i([ 14,23,0 ],1,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,23,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,23,0 ],1,'ExoNameCSHARP','Notify').
+struct_dt_method_i([ 14,23,0 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,23,0 ],1,'ExoNameNETCORE','Notify').
+struct_dt_method_i([ 14,23,0 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,23,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,23,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,23,0 ],2,name,notifyclient).
+struct_dt_method_i([ 14,23,0 ],2,camelname,'NotifyClient').
+struct_dt_method_i([ 14,23,0 ],2,externalType,'').
+struct_dt_method_i([ 14,23,0 ],2,length,4).
+struct_dt_method_i([ 14,23,0 ],2,decimals,0).
+struct_dt_method_i([ 14,23,0 ],2,sign,0).
+struct_dt_method_i([ 14,23,0 ],2,type,[ 4,4,0 ]).
+struct_dt_method_i([ 14,23,0 ],2,'IntName','NotifyClient').
+struct_dt_method_i([ 14,23,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,23,0 ],2,'ExoItemType','Numeric').
+struct_dt_method_i([ 14,23,0 ],2,basedon,'').
+struct_dt_method_i([ 14,23,0 ],2,'XmlName','').
+struct_dt_method_i([ 14,23,0 ],2,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,23,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,23,0 ],2,'ExoNameCSHARP','NotifyClient').
+struct_dt_method_i([ 14,23,0 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,23,0 ],2,'ExoNameNETCORE','NotifyClient').
+struct_dt_method_i([ 14,23,0 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,23,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,23,0 ],2,'ExoNameJS','').
+struct_dt_method_i([ 14,23,0 ],3,name,broadcast).
+struct_dt_method_i([ 14,23,0 ],3,camelname,'Broadcast').
+struct_dt_method_i([ 14,23,0 ],3,externalType,'').
+struct_dt_method_i([ 14,23,0 ],3,length,8).
+struct_dt_method_i([ 14,23,0 ],3,decimals,0).
+struct_dt_method_i([ 14,23,0 ],3,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,23,0 ],3,'IntName','Broadcast').
+struct_dt_method_i([ 14,23,0 ],3,'ExoItemDesc','').
+struct_dt_method_i([ 14,23,0 ],3,'ExoItemType','None').
+struct_dt_method_i([ 14,23,0 ],3,basedon,'').
+struct_dt_method_i([ 14,23,0 ],3,'XmlName','').
+struct_dt_method_i([ 14,23,0 ],3,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,23,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,23,0 ],3,'ExoNameCSHARP','Broadcast').
+struct_dt_method_i([ 14,23,0 ],3,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,23,0 ],3,'ExoNameNETCORE','Broadcast').
+struct_dt_method_i([ 14,23,0 ],3,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,23,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,23,0 ],3,'ExoNameJS','').
+struct_dt_method_i([ 14,23,0 ],4,name,notifyclienttext).
+struct_dt_method_i([ 14,23,0 ],4,camelname,'NotifyClientText').
+struct_dt_method_i([ 14,23,0 ],4,externalType,'').
+struct_dt_method_i([ 14,23,0 ],4,length,4).
+struct_dt_method_i([ 14,23,0 ],4,decimals,0).
+struct_dt_method_i([ 14,23,0 ],4,sign,0).
+struct_dt_method_i([ 14,23,0 ],4,type,[ 4,4,0 ]).
+struct_dt_method_i([ 14,23,0 ],4,'IntName','NotifyClientText').
+struct_dt_method_i([ 14,23,0 ],4,'ExoItemDesc','').
+struct_dt_method_i([ 14,23,0 ],4,'ExoItemType','Numeric').
+struct_dt_method_i([ 14,23,0 ],4,basedon,'').
+struct_dt_method_i([ 14,23,0 ],4,'XmlName','').
+struct_dt_method_i([ 14,23,0 ],4,'ExoMethodIsStatic','0').
+struct_dt_method_i([ 14,23,0 ],4,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,23,0 ],4,'ExoNameCSHARP','NotifyClient').
+struct_dt_method_i([ 14,23,0 ],4,'ExoItemExtTypeCSHARP','').
+struct_dt_method_i([ 14,23,0 ],4,'ExoNameNETCORE','NotifyClient').
+struct_dt_method_i([ 14,23,0 ],4,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,23,0 ],4,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,23,0 ],4,'ExoNameJS','').
+ 
+struct_dt_param_i([ 14,23,1 ],1,name,sdtnotification).
+struct_dt_param_i([ 14,23,1 ],1,camelname,sdtNotification).
+struct_dt_param_i([ 14,23,1 ],1,externalType,'').
+struct_dt_param_i([ 14,23,1 ],1,length,0).
+struct_dt_param_i([ 14,23,1 ],1,decimals,0).
+struct_dt_param_i([ 14,23,1 ],1,type,[ [ 26,22,0 ],0,0 ]).
+struct_dt_param_i([ 14,23,1 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,23,1 ],1,'IntName',sdtNotification).
+struct_dt_param_i([ 14,23,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,23,1 ],1,'ExoItemType','NotificationInfo, GeneXus.Server').
+struct_dt_param_i([ 14,23,1 ],1,basedon,'').
+struct_dt_param_i([ 14,23,1 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,23,1 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,23,2 ],1,name,clientid).
+struct_dt_param_i([ 14,23,2 ],1,camelname,clientId).
+struct_dt_param_i([ 14,23,2 ],1,externalType,'').
+struct_dt_param_i([ 14,23,2 ],1,length,100).
+struct_dt_param_i([ 14,23,2 ],1,decimals,0).
+struct_dt_param_i([ 14,23,2 ],1,type,[ 5,100,0 ]).
+struct_dt_param_i([ 14,23,2 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,23,2 ],1,'IntName',clientId).
+struct_dt_param_i([ 14,23,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,23,2 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,23,2 ],1,basedon,'').
+struct_dt_param_i([ 14,23,2 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,23,2 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,23,2 ],2,name,sdtnotification).
+struct_dt_param_i([ 14,23,2 ],2,camelname,sdtNotification).
+struct_dt_param_i([ 14,23,2 ],2,externalType,'').
+struct_dt_param_i([ 14,23,2 ],2,length,0).
+struct_dt_param_i([ 14,23,2 ],2,decimals,0).
+struct_dt_param_i([ 14,23,2 ],2,type,[ [ 26,22,0 ],0,0 ]).
+struct_dt_param_i([ 14,23,2 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,23,2 ],2,'IntName',sdtNotification).
+struct_dt_param_i([ 14,23,2 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,23,2 ],2,'ExoItemType','NotificationInfo, GeneXus.Server').
+struct_dt_param_i([ 14,23,2 ],2,basedon,'').
+struct_dt_param_i([ 14,23,2 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,23,2 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,23,3 ],1,name,sdtnotification).
+struct_dt_param_i([ 14,23,3 ],1,camelname,sdtNotification).
+struct_dt_param_i([ 14,23,3 ],1,externalType,'').
+struct_dt_param_i([ 14,23,3 ],1,length,0).
+struct_dt_param_i([ 14,23,3 ],1,decimals,0).
+struct_dt_param_i([ 14,23,3 ],1,type,[ [ 26,22,0 ],0,0 ]).
+struct_dt_param_i([ 14,23,3 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,23,3 ],1,'IntName',sdtNotification).
+struct_dt_param_i([ 14,23,3 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,23,3 ],1,'ExoItemType','NotificationInfo, GeneXus.Server').
+struct_dt_param_i([ 14,23,3 ],1,basedon,'').
+struct_dt_param_i([ 14,23,3 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,23,3 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,23,4 ],1,name,clientid).
+struct_dt_param_i([ 14,23,4 ],1,camelname,clientId).
+struct_dt_param_i([ 14,23,4 ],1,externalType,'').
+struct_dt_param_i([ 14,23,4 ],1,length,100).
+struct_dt_param_i([ 14,23,4 ],1,decimals,0).
+struct_dt_param_i([ 14,23,4 ],1,type,[ 5,100,0 ]).
+struct_dt_param_i([ 14,23,4 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,23,4 ],1,'IntName',clientId).
+struct_dt_param_i([ 14,23,4 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,23,4 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,23,4 ],1,basedon,'').
+struct_dt_param_i([ 14,23,4 ],1,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,23,4 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,23,4 ],2,name,message).
+struct_dt_param_i([ 14,23,4 ],2,camelname,message).
+struct_dt_param_i([ 14,23,4 ],2,externalType,'').
+struct_dt_param_i([ 14,23,4 ],2,length,200).
+struct_dt_param_i([ 14,23,4 ],2,decimals,0).
+struct_dt_param_i([ 14,23,4 ],2,type,[ 13,200,0 ]).
+struct_dt_param_i([ 14,23,4 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,23,4 ],2,'IntName',message).
+struct_dt_param_i([ 14,23,4 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,23,4 ],2,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,23,4 ],2,basedon,'').
+struct_dt_param_i([ 14,23,4 ],2,'ExoItemExtTypeCSHARP','').
+struct_dt_param_i([ 14,23,4 ],2,'ExoItemExtTypeNETCORE','').
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,247,'COMMONCHATBOTS\NOTIFYCLIENTS','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Server','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Server','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

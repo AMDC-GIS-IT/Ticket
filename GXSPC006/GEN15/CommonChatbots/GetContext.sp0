@@ -1,0 +1,502 @@
+spec_i([ proc,243,'Get Context','CommonChatbots\GetContext',78,spa,'17_0_6-154974' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 20,[ [ 20,many ] ],[],[],[ [ [ 20 ],[ 273,268,276,270 ] ] ],[ [ [ 20 ],[] ] ],[ -270 ],'UGXCHATMESSAGE',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [ c([ t(268,2),t(=,10),t('Userid',23) ],[ 268 ]),c([ t(273,2),t(=,10),t('Instance',23) ],[ 273 ]) ] ]).
+ 
+ 
+ 
+level_option_i(2,when_none,'GXLvl1').
+ 
+ta_i(2,[ [ [ 20,273 ],[ 20,268 ],[ 20,276 ],[ 20,270 ] ] ]).
+ 
+las_i(2,[ [ 273,268,276,270 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'CC_USER_PASS','YzqmpëçtÉwel¡ºªƒ≈')).
+rule_i(0,datastore(5,'CC_USER_ID',sa)).
+rule_i(0,datastore(5,'CC_SERVER','172.168.200.70')).
+rule_i(0,datastore(5,'CC_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','‹EbeUéYMXKweZÃI“.‹ø‘&ÙE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','172.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'CC_USER_PASS',…ÃÀ µ)).
+rule_i(0,datastore(3,'CC_USER_ID',sa)).
+rule_i(0,datastore(3,'CC_SERVER','(local)')).
+rule_i(0,datastore(3,'CC_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',‹5⁄2ÃKÍ2‚5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','(local)')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS',…ÃÀ µ»∑∏)).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(2,'CC_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',‹5⁄2ÃKÍ2‚5Ãø‘7Í8)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',…ÃÀ µ»∑∏)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(1,'CC_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',‹5⁄2ÃKÍ2‚5Ãø‘7Í8)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','CommonChatbots.GetContext')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','GetContext')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('SOAP','-1')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop(idENABLEMTOM,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'CommonChatbots\Context'))).
+rule_i(0,prop('ObjDesc','Get Context')).
+rule_i(0,prop('ObjName','GetContext')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Instance','Userid','Context' ],[])).
+rule_i(0,parmio([ [ 'Instance',in ],[ 'Userid',in ],[ 'Context',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,20,[],[ [],'UGXCHATMESSAGE',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,273).
+v_i(t,o,2,268).
+v_i(t,o,2,276).
+v_i(t,o,2,270).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',16 ]).
+attri_i(267,[ 'GXChatMessageId',guid,12,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,'GXChat Message Id','',0 ]).
+attri_i(268,[ 'GXChatUserId',guid,256,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,'GXChat User Id','',0 ]).
+attri_i(273,[ 'GXChatMessageInstance',svchar,256,0,'',0,'GXChat Message Instance','',0 ]).
+attri_i(276,[ 'GXChatMessageMeta',vchar,2097152,0,'',0,'GXChat Message Meta','',0 ]).
+attri_i(270,[ 'GXChatMessageDate',dtime,8,12,'99/99/99 99:99:99.999',0,'GXChat Message Date','',0 ]).
+attri_i('GXLvl1',[ 'GXLvl1',int,1,0,'',0,'',[],15 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',14 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',13 ]).
+attri_i('Cache',[ 'Cache',o(cache),4,0,'',0,'Cache','',12 ]).
+attri_i('Userid',[ 'UserId',guid,4,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,'User Id','',11 ]).
+attri_i('Meta',[ 'Meta',o(properties),4,0,'',0,'Meta','',10 ]).
+attri_i('Instance',[ 'Instance',svchar,40,0,'',0,'Instance','',9 ]).
+attri_i('Context',[ 'Context',vchar,2097152,0,'',0,'Context','',8 ]).
+ 
+table_i(20,[ 'GXChatMessage',[ 267,268,270,276,273 ],'GXChat Message','GXChatMessage' ]).
+ 
+index_i(20,[ 'IGXCHATMESSAGE',u,[ 267 ],'IGXChatMessage' ]).
+index_i(20,[ 'UGXCHATMESSAGE',d,[ -270 ],'UGXChatMessage' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,6,40000,274,'GXChatMessageImage_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[ -270 ],[ [ 270,276 ],[ 268,273 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,6,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i([ 1,0 ],1,1,cmd,0,[ t('',107,1,0),t('GXLvl1',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0),t(table,3,1,10),t(20,3,1,10),t('ORDER',39,1,24),t('(',0,1,30),t(270,2,1,31),t(')',4,1,48) ]).
+b_line_i([ 1,1 ],2,1,cmd,1,[ t('',107,1,0),t('GXLvl1',23,1,0),t(=,10,1,0),t('1',3,1,0) ]).
+b_line_i(3,2,1,cmd,2,[ t('',107,3,0),t('Context',23,2,0),t(=,10,2,0),t(276,2,2,0) ]).
+b_line_i(4,2,1,cmd,2,[ t('',139,4,0) ]).
+b_line_i(5,2,1,cmd,2,[ t('',128,5,0) ]).
+b_line_i([ 5,1 ],1,3,cmd,4,[ t('',109,5,0),t('GXLvl1',23,4,0),t(=,10,4,0),t('0',3,4,0) ]).
+b_line_i(6,1,3,cmd,5,[ t('',107,6,0),t('Cache',23,5,0),t(=,10,5,0),t([ t('Cache',36,5,0),t('getcache(',1,5,0) ],31,5,0),t('Instance',23,5,0),t(')',4,5,0) ]).
+b_line_i(7,1,3,cmd,5,[ t('',109,7,0),t([ t('Cache',23,5,5),t('contains(',1,5,12) ],31,7,12),t('guidtostr(',1,7,30),t('Userid',23,5,22),t(')',4,5,40),t(')',4,5,41) ]).
+b_line_i(8,1,3,cmd,5,[ t('',107,8,0),t('Context',23,5,0),t(=,10,5,0),t([ t('Cache',23,5,0),t('get(',1,5,0) ],31,5,0),t('guidtostr(',1,5,0),t('Userid',23,5,0),t(')',4,5,0),t(')',4,5,0) ]).
+b_line_i(9,1,3,cmd,5,[ t('',111,9,0) ]).
+b_line_i(10,1,3,cmd,5,[ t('',111,10,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(6,270,'ExternalName','GXChatMessageDate',d).
+att_prop_i(6,270,'ExternalNamespace',kb_ticket,d).
+att_prop_i(6,270,'EmptyAsNull','Yes',d).
+att_prop_i(6,270,idBasedOn,'',d).
+att_prop_i(6,270,idDATEPRECISION,idDATEPRECISION_MILLISECONDS,v).
+att_prop_i(6,270,'ATT_INITIAL_VALUE','',d).
+att_prop_i(6,270,'AttRegEx','',d).
+att_prop_i(6,270,'AttValidationFailedMsg','',d).
+att_prop_i(6,270,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(6,270,idHOURFORMAT,idHOURFORMAT_HOURMINSECMIL,d).
+att_prop_i(6,270,'DownloadOffline','0',d).
+att_prop_i(6,270,'VarServiceExtName','',d).
+att_prop_i(6,270,'FullName','GXChatMessageDate',v).
+att_prop_i(6,276,'ExternalName','GXChatMessageMeta',d).
+att_prop_i(6,276,'ExternalNamespace',kb_ticket,d).
+att_prop_i(6,276,'EmptyAsNull','Yes',d).
+att_prop_i(6,276,idBasedOn,'',d).
+att_prop_i(6,276,'ATT_INITIAL_VALUE','',d).
+att_prop_i(6,276,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(6,276,'AttRegEx','',d).
+att_prop_i(6,276,'AttValidationFailedMsg','',d).
+att_prop_i(6,276,'DownloadOffline','0',d).
+att_prop_i(6,276,'VarServiceExtName','',d).
+att_prop_i(6,276,'FullName','GXChatMessageMeta',v).
+att_prop_i(6,273,'ExternalName','GXChatMessageInstance',d).
+att_prop_i(6,273,'ExternalNamespace',kb_ticket,d).
+att_prop_i(6,273,'EmptyAsNull','Yes',d).
+att_prop_i(6,273,idBasedOn,'',d).
+att_prop_i(6,273,'ATT_INITIAL_VALUE','',d).
+att_prop_i(6,273,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(6,273,'AttRegEx','',d).
+att_prop_i(6,273,'AttValidationFailedMsg','',d).
+att_prop_i(6,273,'DownloadOffline','0',d).
+att_prop_i(6,273,'VarServiceExtName','',d).
+att_prop_i(6,273,'FullName','GXChatMessageInstance',v).
+att_prop_i(6,268,'ExternalName','GXChatUserId',d).
+att_prop_i(6,268,'ExternalNamespace',kb_ticket,d).
+att_prop_i(6,268,'EmptyAsNull','Yes',d).
+att_prop_i(6,268,idBasedOn,'',d).
+att_prop_i(6,268,'AUTOGENERATE_GUID','-1',d).
+att_prop_i(6,268,'AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+att_prop_i(6,268,'AttValidationFailedMsg','GXM_InvalidGUID',d).
+att_prop_i(6,268,'DownloadOffline','0',d).
+att_prop_i(6,268,'VarServiceExtName','',d).
+att_prop_i(6,268,'FullName','GXChatUserId',v).
+att_prop_i(6,267,'ExternalName','GXChatMessageId',d).
+att_prop_i(6,267,'ExternalNamespace',kb_ticket,d).
+att_prop_i(6,267,'EmptyAsNull','Yes',d).
+att_prop_i(6,267,idBasedOn,'',d).
+att_prop_i(6,267,'AUTOGENERATE_GUID','-1',d).
+att_prop_i(6,267,'AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+att_prop_i(6,267,'AttValidationFailedMsg','GXM_InvalidGUID',d).
+att_prop_i(6,267,'DownloadOffline','0',d).
+att_prop_i(6,267,'VarServiceExtName','',d).
+att_prop_i(6,267,'FullName','GXChatMessageId',v).
+ 
+ 
+tbl_att_prop_i(6,20,267,'AllowNulls',n).
+tbl_att_prop_i(6,20,268,'AllowNulls',n).
+tbl_att_prop_i(6,20,268,'AUTOGENERATE_GUID',n).
+tbl_att_prop_i(6,20,270,'AllowNulls',n).
+tbl_att_prop_i(6,20,276,'AllowNulls',n).
+tbl_att_prop_i(6,20,273,'AllowNulls',n).
+ 
+var_prop_i(6,'Userid','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(6,'Userid','AttValidationFailedMsg','GXM_InvalidGUID',d).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+security_permission_i(getcontext_Services_Execute,execute,service).
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,243,'COMMONCHATBOTS\GETCONTEXT','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+optimize_i(2,0,[ maxrows(1) ]).
+ 
+ 
+ 
+ 
+ 

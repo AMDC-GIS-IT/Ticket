@@ -1,0 +1,83 @@
+CREATE TABLE [EtapasDesarrollo] ([EtapaDesarrolloId] smallint NOT NULL IDENTITY(1,1), [EtapaDesarrolloNombre] nvarchar(30) NOT NULL , [EtapaDesarrolloUsuarioRegistro] nvarchar(100) NOT NULL , PRIMARY KEY([EtapaDesarrolloId]))
+
+CREATE TABLE [GXChatUser] ([GXChatUserId] uniqueidentifier NOT NULL CONSTRAINT GXChatUserIdGXChatUser_DEFAULT DEFAULT NEWID(), [GXChatUserDevice] nvarchar(256) NOT NULL , PRIMARY KEY([GXChatUserId], [GXChatUserDevice]))
+
+CREATE TABLE [GXChatMessage] ([GXChatMessageId] uniqueidentifier NOT NULL ROWGUIDCOL CONSTRAINT GXChatMessageIdGXChatMessage_DEFAULT DEFAULT NEWID(), [GXChatUserId] uniqueidentifier NOT NULL , [GXChatMessageMessage] NVARCHAR(MAX) NOT NULL , [GXChatMessageType] nchar(2) NOT NULL , [GXChatMessageImage] VARBINARY(MAX) NULL , [GXChatMessageImage_GXI] varchar(2048) NULL , [GXChatMessageDate] datetime2(3) NOT NULL , [GXChatMessageMeta] NVARCHAR(MAX) NOT NULL , [GXChatUserDevice] nvarchar(256) NOT NULL , [GXChatMessageRepeat] nvarchar(256) NOT NULL , [GXChatMessageInstance] nvarchar(256) NOT NULL , PRIMARY KEY([GXChatMessageId]))
+CREATE NONCLUSTERED INDEX [IGXCHATMESSAGE1] ON [GXChatMessage] ([GXChatUserId] ,[GXChatUserDevice] )
+CREATE NONCLUSTERED INDEX [UGXCHATMESSAGE] ON [GXChatMessage] ([GXChatMessageDate] DESC)
+
+CREATE TABLE [AtencionSoporteTecnico] ([SoporteTecnicoId] decimal( 10) NOT NULL IDENTITY(1,1), [SoporteTecnicoFecha] datetime NOT NULL , [SoporteTecnicoHora] datetime NOT NULL , [TicketId] decimal( 10) NOT NULL , [SoporteTecnicoInventarioSerie] nvarchar(300) NULL , [SoporteTecnicoInstalacion] BIT NULL , [SoporteTecnicoConfiguracion] BIT NULL , [SoporteTecnicoInternetRouter] BIT NULL , [SoporteTecnicoFormateo] BIT NULL , [SoporteTecnicoReparacion] BIT NULL , [SoporteTecnicoFechaResuelve] datetime NULL , [SoporteTecnicoHoraResuelve] datetime NULL , [SoporteTecnicoLimpieza] BIT NULL , [SoporteTecnicoPuntoRed] BIT NULL , [SoporteTecnicoCambiosHardware] BIT NULL , [SoporteTecnicoCopiasRespaldo] BIT NULL , [SoporteTecnicoRam] nvarchar(60) NULL , [SoporteTecnicoDiscoDuro] nvarchar(60) NULL , [SoporteTecnicoProcesador] nvarchar(60) NULL , [SoporteTecnicoMaletin] nvarchar(60) NULL , [SoporteTecnicoTonerCinta] nvarchar(60) NULL , [SoporteTecnicoTarjetaVideoExtra] nvarchar(60) NULL , [SoporteTecnicoCargadorLaptop] nvarchar(60) NULL , [SoporteTecnicoCDsDVDs] nvarchar(60) NULL , [SoporteTecnicoCableEspecial] nvarchar(60) NULL , [SoporteTecnicoOtrosTaller] nvarchar(60) NULL , [SoporteTecnicoObservacion] nvarchar(300) NULL , [SoporteTecnicoCerrado] BIT NOT NULL , [SoporteTecnicoPendiente] BIT NOT NULL , [SoporteTecnicoPasaTaller] BIT NOT NULL , PRIMARY KEY([SoporteTecnicoId]))
+CREATE NONCLUSTERED INDEX [ISOPORTETECNICO1] ON [AtencionSoporteTecnico] ([TicketId] )
+
+CREATE TABLE [EstadoTecnicos] ([EstadoTecnicosId] smallint NOT NULL IDENTITY(1,1), [EstadoTecnicosNombre] nvarchar(30) NOT NULL , PRIMARY KEY([EstadoTecnicosId]))
+
+CREATE TABLE [UsuarioSistema] ([UsuarioSistemaId] nvarchar(100) NOT NULL , [UsuarioSistemaNombre] nvarchar(60) NOT NULL , [UsuarioSistemaIdentidad] nvarchar(30) NOT NULL , [UsuarioSistemaDepartamento] nvarchar(300) NULL , [UsuarioSistemaGerencia] nvarchar(300) NULL , [DireccionId] smallint NOT NULL , [CentrodecostoId] nvarchar(5) NOT NULL , [DepartamentoId] smallint NOT NULL , [UsuarioSistemaTelefono] int NOT NULL , [UsuarioSistemaEmail] nvarchar(100) NOT NULL , [UsuarioSistemaFecha] datetime NOT NULL , PRIMARY KEY([UsuarioSistemaId]))
+CREATE NONCLUSTERED INDEX [IUSUARIOSISTEMA1] ON [UsuarioSistema] ([CentrodecostoId] ,[DepartamentoId] )
+CREATE NONCLUSTERED INDEX [IUSUARIOSISTEMA2] ON [UsuarioSistema] ([DireccionId] )
+
+CREATE TABLE [Usuario] ([UsuarioId] smallint NOT NULL IDENTITY(1,1), [UsuarioNombre] nvarchar(60) NOT NULL , [UsuarioFecha] datetime NOT NULL , [UsuarioHora] datetime NOT NULL , [UsuarioGerencia] nvarchar(300) NOT NULL , [UsuarioDepartamento] nvarchar(300) NOT NULL , [UsuarioRequerimiento] nvarchar(300) NOT NULL , [UsuarioEmail] nvarchar(100) NOT NULL , [UsuarioTelefono] int NOT NULL , [EstadoTicketUsuarioId] smallint NOT NULL , [UsuarioSistema] nvarchar(100) NOT NULL , [UsuarioFechaHora] datetime NULL , PRIMARY KEY([UsuarioId]))
+CREATE NONCLUSTERED INDEX [IUSUARIO2] ON [Usuario] ([EstadoTicketUsuarioId] )
+
+CREATE TABLE [TicketTecnico] ([TicketTecnicoId] decimal( 10) NOT NULL IDENTITY(1,1), [TicketTecnicoFecha] datetime NOT NULL , [TicketTecnicoHora] datetime NOT NULL , [TicketId] decimal( 10) NOT NULL , [TicketResponsableId] decimal( 10) NOT NULL , [TicketTecnicoInventarioSerie] nvarchar(300) NOT NULL , [TicketTecnicoInstalacion] BIT NOT NULL , [TicketTecnicoConfiguracion] BIT NOT NULL , [TicketTecnicoInternetRouter] BIT NOT NULL , [TicketTecnicoFormateo] BIT NOT NULL , [TicketTecnicoReparacion] BIT NOT NULL , [TicketTecnicoLimpieza] BIT NOT NULL , [TicketTecnicoPuntoRed] BIT NOT NULL , [TicketTecnicoCambiosHardware] BIT NOT NULL , [TicketTecnicoCopiasRespaldo] BIT NOT NULL , [TicketTecnicoRam] BIT NOT NULL , [TicketTecnicoDiscoDuro] BIT NOT NULL , [TicketTecnicoProcesador] BIT NOT NULL , [TicketTecnicoMaletin] BIT NOT NULL , [TicketTecnicoTonerCinta] BIT NOT NULL , [TicketTecnicoTarjetaVideoExtra] BIT NOT NULL , [TicketTecnicoCargadorLaptop] BIT NOT NULL , [TicketTecnicoCDsDVDs] BIT NOT NULL , [TicketTecnicoCableEspecial] BIT NOT NULL , [TicketTecnicoOtrosTaller] BIT NOT NULL , [TicketTecnicoCerrado] BIT NOT NULL , [TicketTecnicoPendiente] BIT NOT NULL , [TicketTecnicoPasaTaller] BIT NOT NULL , [TicketTecnicoObservacion] BIT NULL , [TicketTecnicoDetalle] nvarchar(300) NOT NULL , [SgActividadId] int NOT NULL , [SgActividadIdCategoria] int NOT NULL , [ResponsableId] smallint NOT NULL , PRIMARY KEY([TicketTecnicoId]))
+CREATE NONCLUSTERED INDEX [ITICKETTECNICO1] ON [TicketTecnico] ([TicketId] ,[TicketResponsableId] )
+CREATE NONCLUSTERED INDEX [ITICKETTECNICO2] ON [TicketTecnico] ([SgActividadIdCategoria] )
+CREATE NONCLUSTERED INDEX [ITICKETTECNICO3] ON [TicketTecnico] ([SgActividadId] )
+CREATE NONCLUSTERED INDEX [ITICKETTECNICO4] ON [TicketTecnico] ([ResponsableId] )
+
+CREATE TABLE [TicketResponsable] ([TicketId] decimal( 10) NOT NULL , [TicketResponsableId] decimal( 10) NOT NULL , [TicketFechaResponsable] datetime NOT NULL , [TicketHoraResponsable] datetime NOT NULL , [EstadoTicketTecnicoId] smallint NOT NULL , [TicketResponsableInventarioSerie] nvarchar(300) NULL , [TicketResponsableInstalacion] BIT NULL , [TicketResponsableConfiguracion] BIT NULL , [TicketResponsableInternetRouter] BIT NULL , [TicketResponsableFormateo] BIT NULL , [TicketResponsableReparacion] BIT NULL , [TicketResponsableLimpieza] BIT NULL , [TicketResponsablePuntoRed] BIT NULL , [TicketResponsableCambiosHardware] BIT NULL , [TicketResponsableCopiasRespaldo] BIT NULL , [TicketResponsableCerrado] BIT NULL , [TicketResponsablePendiente] BIT NULL , [TicketResponsablePasaTaller] BIT NULL , [TicketResponsableObservacion] nvarchar(300) NULL , [TicketResponsableFechaResuelve] datetime NULL , [TicketResponsableHoraResuelve] datetime NULL , [TicketResponsableRamTxt] nvarchar(60) NULL , [TicketResponsableDiscoDuroTxt] nvarchar(60) NULL , [TicketResponsableProcesadorTxt] nvarchar(60) NULL , [TicketResponsableMaletinTxt] nvarchar(60) NULL , [TicketResponsableTonerCintaTxt] nvarchar(60) NULL , [TicketResponsableTarjetaVideoExtraTxt] nvarchar(60) NULL , [TicketResponsableCargadorLaptopTxt] nvarchar(60) NULL , [TicketResponsableCDsDVDsTxt] nvarchar(60) NULL , [TicketResponsableCableEspecialTxt] nvarchar(60) NULL , [TicketResponsableOtrosTallerTxt] nvarchar(60) NULL , [TicketTecnicoResponsableId] smallint NOT NULL , [TicketResponsableFechaHoraAsigna] datetime NULL , [TicketResponsableFechaHoraResuelve] datetime NULL , [EtapaDesarrolloId] smallint NULL , PRIMARY KEY([TicketId], [TicketResponsableId]))
+CREATE NONCLUSTERED INDEX [ITICKETRESPONSABLE3] ON [TicketResponsable] ([EstadoTicketTecnicoId] )
+CREATE NONCLUSTERED INDEX [ITICKETRESPONSABLE4] ON [TicketResponsable] ([TicketTecnicoResponsableId] )
+CREATE NONCLUSTERED INDEX [ITICKETRESPONSABLE1] ON [TicketResponsable] ([EtapaDesarrolloId] )
+
+CREATE TABLE [Ticket] ([TicketId] decimal( 10) NOT NULL IDENTITY(1,1), [TicketFecha] datetime NOT NULL , [TicketHora] datetime NOT NULL , [UsuarioId] smallint NOT NULL , [TicketLastId] decimal( 10) NOT NULL , [TicketLaptop] BIT NOT NULL , [TicketDesktop] BIT NOT NULL , [TicketMonitor] BIT NOT NULL , [TicketImpresora] BIT NOT NULL , [TicketEscaner] BIT NOT NULL , [TicketRouter] BIT NOT NULL , [TicketSistemaOperativo] BIT NOT NULL , [TicketOffice] BIT NOT NULL , [TicketAntivirus] BIT NOT NULL , [TicketAplicacion] BIT NOT NULL , [TicketDisenio] BIT NOT NULL , [TicketIngenieria] BIT NOT NULL , [TicketDiscoDuroExterno] BIT NOT NULL , [TicketPerifericos] BIT NOT NULL , [TicketUps] BIT NOT NULL , [TicketApoyoUsuario] BIT NOT NULL , [TicketInstalarDataShow] BIT NOT NULL , [TicketOtros] BIT NOT NULL , [EstadoTicketTicketId] smallint NOT NULL , [TicketUsuarioAsigno] nvarchar(100) NOT NULL , [TicketHoraCaracter] nchar(8) NOT NULL , [TicketFechaHora] datetime NULL , PRIMARY KEY([TicketId]))
+CREATE NONCLUSTERED INDEX [ITICKET1] ON [Ticket] ([UsuarioId] )
+CREATE NONCLUSTERED INDEX [ITICKET2] ON [Ticket] ([EstadoTicketTicketId] )
+
+CREATE TABLE [Satisfaccion] ([SatisfaccionId] decimal( 10) NOT NULL IDENTITY(1,1), [SatisfaccionFecha] datetime NOT NULL , [SatisfaccionResueltoId] smallint NOT NULL , [SatisfaccionTecnicoProblemaId] smallint NOT NULL , [SatisfaccionTecnicoCompetenteId] smallint NOT NULL , [SatisfaccionTecnicoProfesionalismoId] smallint NOT NULL , [SatisfaccionTiempoId] smallint NOT NULL , [SatisfaccionAtencionId] smallint NOT NULL , [SatisfaccionSugerencia] nvarchar(300) NOT NULL , [SatisfaccionHora] datetime NOT NULL , [TicketResponsableId] decimal( 10) NOT NULL , [TicketId] decimal( 10) NOT NULL , PRIMARY KEY([SatisfaccionId]))
+CREATE NONCLUSTERED INDEX [ISATISFACCION6] ON [Satisfaccion] ([SatisfaccionAtencionId] )
+CREATE NONCLUSTERED INDEX [ISATISFACCION1] ON [Satisfaccion] ([SatisfaccionResueltoId] )
+CREATE NONCLUSTERED INDEX [ISATISFACCION3] ON [Satisfaccion] ([SatisfaccionTecnicoCompetenteId] )
+CREATE NONCLUSTERED INDEX [ISATISFACCION2] ON [Satisfaccion] ([SatisfaccionTecnicoProblemaId] )
+CREATE NONCLUSTERED INDEX [ISATISFACCION4] ON [Satisfaccion] ([SatisfaccionTecnicoProfesionalismoId] )
+CREATE NONCLUSTERED INDEX [ISATISFACCION5] ON [Satisfaccion] ([SatisfaccionTiempoId] )
+CREATE NONCLUSTERED INDEX [ISATISFACCION7] ON [Satisfaccion] ([TicketId] ,[TicketResponsableId] )
+
+CREATE TABLE [Responsable] ([ResponsableId] smallint NOT NULL IDENTITY(1,1), [ResponsableIdentidad] nvarchar(30) NOT NULL , [ResponsableNombre] nvarchar(60) NOT NULL , [ResponsableCargo] nvarchar(300) NOT NULL , [ResponsableEmail] nvarchar(100) NOT NULL , [ResponsableActivo] BIT NOT NULL , [ResponsableUsuario] nvarchar(100) NOT NULL , [EstadoResponsableId] smallint NOT NULL , [id_unidad] int NOT NULL , PRIMARY KEY([ResponsableId]))
+CREATE NONCLUSTERED INDEX [IRESPONSABLE1] ON [Responsable] ([EstadoResponsableId] )
+CREATE NONCLUSTERED INDEX [IRESPONSABLE2] ON [Responsable] ([id_unidad] )
+
+CREATE TABLE [EstadoTicket] ([EstadoTicketId] smallint NOT NULL IDENTITY(1,1), [EstadoTicketNombre] nvarchar(30) NOT NULL , [EstadoTicketEstado] BIT NOT NULL , PRIMARY KEY([EstadoTicketId]))
+
+CREATE TABLE [EstadoSatisfaccion] ([EstadoSatisfaccionId] smallint NOT NULL IDENTITY(1,1), [EstadoSatisfaccionNombre] nvarchar(30) NOT NULL , [EstadoSatisfaccionEstado] BIT NOT NULL , [EstadoSatisfaccionCalificacion] smallint NOT NULL , PRIMARY KEY([EstadoSatisfaccionId]))
+
+CREATE TABLE [Estado] ([EstadoId] smallint NOT NULL IDENTITY(1,1), [EstadoNombre] nvarchar(30) NOT NULL , [EstadoActivo] BIT NOT NULL , [SgCategoriaId] int NOT NULL , [SgActividadId] int NOT NULL , PRIMARY KEY([EstadoId]))
+CREATE NONCLUSTERED INDEX [IESTADO1] ON [Estado] ([SgActividadId] )
+CREATE NONCLUSTERED INDEX [IESTADO2] ON [Estado] ([SgCategoriaId] )
+
+ALTER TABLE [Responsable] ADD CONSTRAINT [IRESPONSABLE1] FOREIGN KEY ([EstadoResponsableId]) REFERENCES [EstadoTecnicos] ([EstadoTecnicosId])
+
+ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION7] FOREIGN KEY ([TicketId], [TicketResponsableId]) REFERENCES [TicketResponsable] ([TicketId], [TicketResponsableId])
+ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION6] FOREIGN KEY ([SatisfaccionAtencionId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])
+ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION5] FOREIGN KEY ([SatisfaccionTiempoId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])
+ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION4] FOREIGN KEY ([SatisfaccionTecnicoProfesionalismoId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])
+ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION3] FOREIGN KEY ([SatisfaccionTecnicoCompetenteId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])
+ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION2] FOREIGN KEY ([SatisfaccionTecnicoProblemaId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])
+ALTER TABLE [Satisfaccion] ADD CONSTRAINT [ISATISFACCION1] FOREIGN KEY ([SatisfaccionResueltoId]) REFERENCES [EstadoSatisfaccion] ([EstadoSatisfaccionId])
+
+ALTER TABLE [Ticket] ADD CONSTRAINT [ITICKET1] FOREIGN KEY ([UsuarioId]) REFERENCES [Usuario] ([UsuarioId])
+ALTER TABLE [Ticket] ADD CONSTRAINT [ITICKET2] FOREIGN KEY ([EstadoTicketTicketId]) REFERENCES [EstadoTicket] ([EstadoTicketId])
+
+ALTER TABLE [TicketResponsable] ADD CONSTRAINT [ITICKETRESPONSABLE2] FOREIGN KEY ([TicketId]) REFERENCES [Ticket] ([TicketId])
+ALTER TABLE [TicketResponsable] ADD CONSTRAINT [ITICKETRESPONSABLE1] FOREIGN KEY ([EtapaDesarrolloId]) REFERENCES [EtapasDesarrollo] ([EtapaDesarrolloId])
+ALTER TABLE [TicketResponsable] ADD CONSTRAINT [ITICKETRESPONSABLE3] FOREIGN KEY ([EstadoTicketTecnicoId]) REFERENCES [EstadoTicket] ([EstadoTicketId])
+ALTER TABLE [TicketResponsable] ADD CONSTRAINT [ITICKETRESPONSABLE4] FOREIGN KEY ([TicketTecnicoResponsableId]) REFERENCES [Responsable] ([ResponsableId])
+
+ALTER TABLE [TicketTecnico] ADD CONSTRAINT [ITICKETTECNICO1] FOREIGN KEY ([TicketId], [TicketResponsableId]) REFERENCES [TicketResponsable] ([TicketId], [TicketResponsableId])
+ALTER TABLE [TicketTecnico] ADD CONSTRAINT [ITICKETTECNICO4] FOREIGN KEY ([ResponsableId]) REFERENCES [Responsable] ([ResponsableId])
+
+ALTER TABLE [Usuario] ADD CONSTRAINT [IUSUARIO2] FOREIGN KEY ([EstadoTicketUsuarioId]) REFERENCES [EstadoTicket] ([EstadoTicketId])
+
+ALTER TABLE [AtencionSoporteTecnico] ADD CONSTRAINT [ISOPORTETECNICO1] FOREIGN KEY ([TicketId]) REFERENCES [Ticket] ([TicketId])
+
+ALTER TABLE [GXChatMessage] ADD CONSTRAINT [IGXCHATMESSAGE1] FOREIGN KEY ([GXChatUserId], [GXChatUserDevice]) REFERENCES [GXChatUser] ([GXChatUserId], [GXChatUserDevice])
+

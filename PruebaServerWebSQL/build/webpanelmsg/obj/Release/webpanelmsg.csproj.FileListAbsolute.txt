@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\webpanelmsg.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelmsg\obj\Release\webpanelmsg.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelmsg\obj\Release\webpanelmsg.dll

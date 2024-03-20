@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\entitymanagerresponsable.dll
+C:\Models\kb_ticket\CSharpModel\build\entitymanagerresponsable\obj\Release\entitymanagerresponsable.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\entitymanagerresponsable\obj\Release\entitymanagerresponsable.dll

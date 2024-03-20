@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\reportwwactividades_categoria.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\reportwwactividades_categoria\obj\Release\reportwwactividades_categoria.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\reportwwactividades_categoria\obj\Release\reportwwactividades_categoria.dll

@@ -1,0 +1,404 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>206</ObjId>
+<ObjName>PCRRegistrarTicket</ObjName>
+<ObjDesc>PCRRegistrar Ticket</ObjDesc>
+<ObjPgmName>PCRRegistrarTicket</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Usuarioid</VarId>
+<VarName>&amp;UsuarioId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Responsableid</VarId>
+<VarName>&amp;ResponsableId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketlaptop</VarId>
+<VarName>&amp;TicketLaptop</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketdesktop</VarId>
+<VarName>&amp;TicketDesktop</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketmonitor</VarId>
+<VarName>&amp;TicketMonitor</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketimpresora</VarId>
+<VarName>&amp;TicketImpresora</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketescaner</VarId>
+<VarName>&amp;TicketEscaner</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketrouter</VarId>
+<VarName>&amp;TicketRouter</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketsistemaoperativo</VarId>
+<VarName>&amp;TicketSistemaOperativo</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketoffice</VarId>
+<VarName>&amp;TicketOffice</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketantivirus</VarId>
+<VarName>&amp;TicketAntivirus</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketaplicacion</VarId>
+<VarName>&amp;TicketAplicacion</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketdisenio</VarId>
+<VarName>&amp;TicketDisenio</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketingenieria</VarId>
+<VarName>&amp;TicketIngenieria</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketdiscoduroexterno</VarId>
+<VarName>&amp;TicketDiscoDuroExterno</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketperifericos</VarId>
+<VarName>&amp;TicketPerifericos</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketups</VarId>
+<VarName>&amp;TicketUps</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketapoyousuario</VarId>
+<VarName>&amp;TicketApoyoUsuario</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketinstalardatashow</VarId>
+<VarName>&amp;TicketInstalarDataShow</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketotros</VarId>
+<VarName>&amp;TicketOtros</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>2</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>TicketFecha</AttriName>
+<Description>Ticket Fecha</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TicketHora</AttriName>
+<Description>Ticket Hora</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TicketLaptop</AttriName>
+<Description>Ticket Laptop</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>TicketDesktop</AttriName>
+<Description>Ticket Desktop</Description></Attribute>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>TicketMonitor</AttriName>
+<Description>Ticket Monitor</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>TicketImpresora</AttriName>
+<Description>Ticket Impresora</Description></Attribute>
+<Attribute>
+<AttriId>45</AttriId>
+<AttriName>TicketEscaner</AttriName>
+<Description>Ticket Escaner</Description></Attribute>
+<Attribute>
+<AttriId>59</AttriId>
+<AttriName>TicketRouter</AttriName>
+<Description>Ticket Router</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TicketSistemaOperativo</AttriName>
+<Description>Ticket Sistema Operativo</Description></Attribute>
+<Attribute>
+<AttriId>56</AttriId>
+<AttriName>TicketOffice</AttriName>
+<Description>Ticket Office</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TicketAntivirus</AttriName>
+<Description>Ticket Antivirus</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TicketAplicacion</AttriName>
+<Description>Ticket Aplicación</Description></Attribute>
+<Attribute>
+<AttriId>44</AttriId>
+<AttriName>TicketDisenio</AttriName>
+<Description>Ticket Diseño</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>TicketIngenieria</AttriName>
+<Description>Ticket Ingenieria</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>TicketDiscoDuroExterno</AttriName>
+<Description>Ticket Disco Duro Externo</Description></Attribute>
+<Attribute>
+<AttriId>58</AttriId>
+<AttriName>TicketPerifericos</AttriName>
+<Description>Ticket Perifericos</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>TicketUps</AttriName>
+<Description>Ticket Ups</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>TicketApoyoUsuario</AttriName>
+<Description>Ticket Apoyo Usuario</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TicketInstalarDataShow</AttriName>
+<Description>Ticket Instalar Data Show</Description></Attribute>
+<Attribute>
+<AttriId>57</AttriId>
+<AttriName>TicketOtros</AttriName>
+<Description>Ticket Otros</Description></Attribute>
+<Attribute>
+<AttriId>187</AttriId>
+<AttriName>EstadoTicketTicketId</AttriName>
+<Description>Estado Ticket Id</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>3</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>30</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>ResponsableId</AttriName>
+<Description>Responsable Id</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>TicketFechaResponsable</AttriName>
+<Description>Ticket Fecha Responsable</Description></Attribute>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TicketHoraResponsable</AttriName>
+<Description>Ticket Hora Responsable</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>EstadoTicketTecnicoId</AttriName>
+<Description>Estado Ticket Tecnico Id</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>4</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Update</Type></Optimization></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>41</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>10</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IUSUARIO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuarioid</VarId>
+<VarName>&amp;UsuarioId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuarioid</VarId>
+<VarName>&amp;UsuarioId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>10</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>10</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>189</AttriId>
+<AttriName>EstadoTicketUsuarioId</AttriName>
+<Description>Estado Ticket Usuario Id</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

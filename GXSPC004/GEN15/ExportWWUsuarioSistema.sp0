@@ -1,0 +1,781 @@
+spec_i([ proc,195,'Export WWUsuario Sistema','ExportWWUsuarioSistema',78,spa,'17_0_9-159740' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 11,[ [ 11,many ] ],[],[],[ [ [ 11 ],[ 257,263,100,101,99 ] ] ],[ [ [ 11 ],[] ] ],[ 99 ],'IUSUARIOSISTEMA',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t(99,2),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t(101,2),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t(100,2),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t(263,2),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t(257,2),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3) ],[ 99,101,100,263,257 ],[ t('.NOT.',8),t('null(',1),t('K2btoolsgenericsearchfield',23),t(')',4) ],[] ]).
+ 
+cond_order_i(2,[ 99 ],[ t('Orderedby',23),t(=,10),t('0',3) ]).
+cond_order_i(2,[ -99 ],[ t('Orderedby',23),t(=,10),t('1',3) ]).
+cond_order_i(2,[ 100 ],[ t('Orderedby',23),t(=,10),t('2',3) ]).
+cond_order_i(2,[ -100 ],[ t('Orderedby',23),t(=,10),t('3',3) ]).
+ 
+ 
+ta_i(2,[ [ [ 11,257 ],[ 11,263 ],[ 11,100 ],[ 11,101 ],[ 11,99 ] ] ]).
+ 
+las_i(2,[ [ 257,263,100,101,99 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','192.168.200.55')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','No')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ExportWWUsuarioSistema')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','Export WWUsuario Sistema')).
+rule_i(0,prop('ObjName','ExportWWUsuarioSistema')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'K2btoolsgenericsearchfield','Orderedby','Outfile' ],[])).
+rule_i(0,parmio([ [ 'K2btoolsgenericsearchfield',in ],[ 'Orderedby',in ],[ 'Outfile',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,2,t,11,[],[ [],'IUSUARIOSISTEMA',[] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,[]).
+v_i(t,o,4,257).
+v_i(t,o,4,263).
+v_i(t,o,4,100).
+v_i(t,o,4,101).
+v_i(t,o,4,99).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',34 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',33 ]).
+attri_i(101,[ 'UsuarioSistemaIdentidad',svchar,30,0,'',0,'Identidad','',0 ]).
+attri_i(263,[ 'UsuarioSistemaGerencia',svchar,300,0,'',0,'Gerencia','',0 ]).
+attri_i(257,[ 'UsuarioSistemaDepartamento',svchar,300,0,'',0,'Departamento','',0 ]).
+attri_i(100,[ 'UsuarioSistemaNombre',svchar,60,0,'',0,'Nombre','',0 ]).
+attri_i(99,[ 'UsuarioSistemaId',svchar,100,60,'',0,'Usuario Sistema','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',31 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',30 ]).
+attri_i('Context',[ 'Context',o('K2BContext'),0,0,'',0,'Context','',25 ]).
+attri_i('Gridcolumnvisible_usuariosistemadepartamento',[ 'GridColumnVisible_UsuarioSistemaDepartamento',boolean,4,0,'',0,'Grid Column Visible_Usuario Sistema Departamento','',28 ]).
+attri_i('Gridcolumnvisible_usuariosistemagerencia',[ 'GridColumnVisible_UsuarioSistemaGerencia',boolean,4,0,'',0,'Grid Column Visible_Usuario Sistema Gerencia','',27 ]).
+attri_i('Gridcolumnvisible_usuariosistemanombre',[ 'GridColumnVisible_UsuarioSistemaNombre',boolean,4,0,'',0,'Grid Column Visible_Usuario Sistema Nombre','',24 ]).
+attri_i('Gridcolumnvisible_usuariosistemaidentidad',[ 'GridColumnVisible_UsuarioSistemaIdentidad',boolean,4,0,'',0,'Grid Column Visible_Usuario Sistema Identidad','',26 ]).
+attri_i('Gridcolumnvisible_usuariosistemaid',[ 'GridColumnVisible_UsuarioSistemaId',boolean,4,0,'',0,'Grid Column Visible_Usuario Sistema Id','',23 ]).
+attri_i('K2btoolsgenericsearchfield',[ 'K2BToolsGenericSearchField',char,200,0,'',0,'K2BToolsGenericSearchField','',12 ]).
+attri_i('Gridcolumn',[ 'GridColumn',o('K2BGridColumns.K2BGridColumnsItem'),0,0,'',0,'Grid Column','',11 ]).
+attri_i('Gridcolumns',[ 'GridColumns',o(objectcollection('K2BGridColumns.K2BGridColumnsItem')),0,0,'',0,'Grid Columns','',10 ]).
+attri_i('Freezecolumntitles',[ 'FreezeColumnTitles',boolean,0,0,'',0,'FreezeColumnTitles','',9 ]).
+attri_i('Gridconfiguration',[ 'GridConfiguration',o('K2BGridConfiguration'),0,0,'',0,'Grid Configuration','',8 ]).
+attri_i('Orderedby',[ 'OrderedBy',int,4,0,'ZZZ9',0,'OrderedBy','',13 ]).
+attri_i('File',[ 'File',o(file),4,0,'',0,'File','',22 ]).
+attri_i('Outfile',[ 'OutFile',svchar,2048,0,'',0,'OutFile','',29 ]).
+attri_i('Errormessage',[ 'ErrorMessage',svchar,512,0,'',0,'ErrorMessage','',20 ]).
+attri_i('Columnindex',[ 'ColumnIndex',int,4,0,'ZZZ9',0,'ColumnIndex','',18 ]).
+attri_i('Firstcolumn',[ 'FirstColumn',int,8,0,'ZZZZZZZ9',0,'FirstColumn','',16 ]).
+attri_i('Cellrow',[ 'CellRow',int,8,0,'ZZZZZZZ9',0,'CellRow','',15 ]).
+attri_i('Exceldocument',[ 'ExcelDocument',o(exceldoc),4,0,'',0,'ExcelDocument','',14 ]).
+ 
+table_i(11,[ 'UsuarioSistema',[ 99,100,101,257,263 ],'Usuario Sistema','UsuarioSistema' ]).
+ 
+index_i(11,[ 'IUSUARIOSISTEMA',u,[ 99 ],'IUsuarioSistema' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(227,[ 'GeneXusSecurityCommon\GAMUserIdentification' ]).
+dom_info_i(88,[ 'Nombres' ]).
+dom_info_i(90,[ 'Texto' ]).
+dom_info_i(85,[ 'Descripcion' ]).
+dom_info_i(89,[ 'Telefono' ]).
+dom_info_i(42,[ 'GeneXus\Email' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 99,100,257,263,101 ],[ 99,101,100,263,257 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,47,47).
+b_group_i(2,1,lit,0,48,48).
+b_group_i(1,3,lit,0,76,80).
+b_group_i(1,4,lit,0,81,89).
+b_group_i(1,5,lit,0,90,119).
+b_group_i(1,6,lit,0,120,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',104,1,0),t(o(1,'K2BGetContext'),28,0,1),t('Context',23,0,15) ]).
+b_line_i(2,1,1,cmd,0,[ t('',145,2,0),t('''HIDESHOWCOLUMNS''',3,2,4) ]).
+b_line_i(3,1,1,cmd,0,[ t('',107,3,0),t('Outfile',23,0,0),t(=,10,0,0),t([ t('Directory',36,0,0),t('Temporaryfilespath',3,0,0) ],29,0,0),t(+,5,0,0),t([ t('File',23,0,0),t('Separator',3,0,0) ],29,0,0),t(+,5,0,0),t('"ExportWWUsuarioSistema-"',3,0,0),t(+,5,0,0),t([ t('Guid',36,0,0),[ t('newguid(',1,0,0),t(')',4,0,0) ],t('tostring(',1,0,0) ],31,0,0),t(')',4,0,0),t(+,5,0,0),t('".xlsx"',3,0,0) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t([ t('Exceldocument',23,4,1),t('open(',1,4,16) ],31,4,16),t('Outfile',23,0,22),t(')',4,0,30) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,5,0),t([ t('Exceldocument',23,0,0),t('Autofit',3,0,0) ],29,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',145,6,0),t('''CHECKSTATUS''',3,6,4) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,7,0),t([ t('Exceldocument',23,7,1),t('clear(',1,7,16) ],31,7,16),t(')',4,0,23) ]).
+b_line_i(8,1,1,cmd,0,[ t('',107,8,0),t('Cellrow',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(9,1,1,cmd,0,[ t('',107,9,0),t('Firstcolumn',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(10,1,1,cmd,0,[ t('',107,9,31),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(')',4,0,0) ],t('Size',3,0,0) ],29,0,0),t(=,10,0,0),t('15',3,0,0) ]).
+b_line_i(11,1,1,cmd,0,[ t('',107,10,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(12,1,1,cmd,0,[ t('',107,11,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"Usuario sistemas"',3,0,0) ]).
+b_line_i(13,1,1,cmd,0,[ t('',107,12,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('4',3,0,0) ]).
+b_line_i(14,1,1,cmd,0,[ t('',109,13,0),t('.NOT.',8,0,4),t('null(',1,14,38),t('K2btoolsgenericsearchfield',23,0,10),t(')',4,0,47) ]).
+b_line_i(15,1,1,cmd,0,[ t('',107,14,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(16,1,1,cmd,0,[ t('',107,15,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"Búsqueda"',3,0,0) ]).
+b_line_i(17,1,1,cmd,0,[ t('',107,16,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('K2btoolsgenericsearchfield',23,0,0) ]).
+b_line_i(18,1,1,cmd,0,[ t('',107,17,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(19,1,1,cmd,0,[ t('',111,18,0) ]).
+b_line_i(20,1,1,cmd,0,[ t('',107,19,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('3',3,0,0) ]).
+b_line_i(21,1,1,cmd,0,[ t('',107,20,0),t('Columnindex',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',109,21,0),t('Gridcolumnvisible_usuariosistemaid',23,0,4),t(=,10,0,40),t('TRUE',40,0,42) ]).
+b_line_i(23,1,1,cmd,0,[ t('',107,22,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(24,1,1,cmd,0,[ t('',107,23,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"Usuario Sistema:"',3,0,0) ]).
+b_line_i(25,1,1,cmd,0,[ t('',107,24,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(26,1,1,cmd,0,[ t('',111,25,0) ]).
+b_line_i(27,1,1,cmd,0,[ t('',109,26,0),t('Gridcolumnvisible_usuariosistemaidentidad',23,0,4),t(=,10,0,47),t('TRUE',40,0,49) ]).
+b_line_i(28,1,1,cmd,0,[ t('',107,27,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(29,1,1,cmd,0,[ t('',107,28,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"Identidad"',3,0,0) ]).
+b_line_i(30,1,1,cmd,0,[ t('',107,29,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(31,1,1,cmd,0,[ t('',111,30,0) ]).
+b_line_i(32,1,1,cmd,0,[ t('',109,31,0),t('Gridcolumnvisible_usuariosistemanombre',23,0,4),t(=,10,0,44),t('TRUE',40,0,46) ]).
+b_line_i(33,1,1,cmd,0,[ t('',107,32,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(34,1,1,cmd,0,[ t('',107,33,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"Nombre"',3,0,0) ]).
+b_line_i(35,1,1,cmd,0,[ t('',107,34,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(36,1,1,cmd,0,[ t('',111,35,0) ]).
+b_line_i(37,1,1,cmd,0,[ t('',109,36,0),t('Gridcolumnvisible_usuariosistemagerencia',23,0,4),t(=,10,0,46),t('TRUE',40,0,48) ]).
+b_line_i(38,1,1,cmd,0,[ t('',107,37,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(39,1,1,cmd,0,[ t('',107,38,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"Gerencia"',3,0,0) ]).
+b_line_i(40,1,1,cmd,0,[ t('',107,39,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(41,1,1,cmd,0,[ t('',111,40,0) ]).
+b_line_i(42,1,1,cmd,0,[ t('',109,41,0),t('Gridcolumnvisible_usuariosistemadepartamento',23,0,4),t(=,10,0,50),t('TRUE',40,0,52) ]).
+b_line_i(43,1,1,cmd,0,[ t('',107,42,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(44,1,1,cmd,0,[ t('',107,43,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"Departamento"',3,0,0) ]).
+b_line_i(45,1,1,cmd,0,[ t('',107,44,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(46,1,1,cmd,0,[ t('',111,45,0) ]).
+b_line_i(47,2,1,cmd,48,[ t('',121,46,0),t(table,3,47,10),t(11,3,47,10),t('ORDER',39,47,27),t(99,2,47,33),t(when,35,47,50),t('Orderedby',23,47,55),t(=,10,47,66),t('0',3,47,68),t('ORDER',39,47,72),t('(',0,47,78),t(99,2,47,79),t(')',4,47,95),t(when,35,47,97),t('Orderedby',23,47,102),t(=,10,47,113),t('1',3,47,115),t('ORDER',39,47,119),t(100,2,47,125),t(when,35,47,146),t('Orderedby',23,47,151),t(=,10,47,162),t('2',3,47,164),t('ORDER',39,47,168),t('(',0,47,174),t(100,2,47,175),t(')',4,47,195),t(when,35,47,197),t('Orderedby',23,47,202),t(=,10,47,213),t('3',3,47,215) ]).
+b_line_i(48,2,1,cmd,48,[]).
+b_line_i(49,2,1,cmd,48,[]).
+b_line_i(50,2,1,cmd,48,[]).
+b_line_i(51,2,1,cmd,48,[]).
+b_line_i(53,2,1,cmd,48,[ t('',107,53,0),t('Cellrow',23,48,0),t(=,10,48,0),t('Cellrow',23,48,0),t(+,5,48,0),t('1',3,48,0) ]).
+b_line_i(54,2,1,cmd,48,[ t('',107,54,0),t('Columnindex',23,48,0),t(=,10,48,0),t('0',3,48,0) ]).
+b_line_i(55,2,1,cmd,48,[ t('',109,55,0),t('Gridcolumnvisible_usuariosistemaid',23,48,5),t(=,10,48,41),t('TRUE',40,48,43) ]).
+b_line_i(56,2,1,cmd,48,[ t('',107,56,0),t([ t('Exceldocument',23,48,0),[ t('cells(',1,48,0),t('Cellrow',23,48,0),t(',',7,48,0),t('Firstcolumn',23,48,0),t(+,5,48,0),t('Columnindex',23,48,0),t(')',4,48,0) ],t('Text',3,48,0) ],29,48,0),t(=,10,48,0),t('rtrim(',1,48,0),t(99,2,48,0),t(')',4,48,0) ]).
+b_line_i(57,2,1,cmd,48,[ t('',107,57,0),t('Columnindex',23,48,0),t(=,10,48,0),t('Columnindex',23,48,0),t(+,5,48,0),t('1',3,48,0) ]).
+b_line_i(58,2,1,cmd,48,[ t('',111,58,0) ]).
+b_line_i(59,2,1,cmd,48,[ t('',109,59,0),t('Gridcolumnvisible_usuariosistemaidentidad',23,48,5),t(=,10,48,48),t('TRUE',40,48,50) ]).
+b_line_i(60,2,1,cmd,48,[ t('',107,60,0),t([ t('Exceldocument',23,48,0),[ t('cells(',1,48,0),t('Cellrow',23,48,0),t(',',7,48,0),t('Firstcolumn',23,48,0),t(+,5,48,0),t('Columnindex',23,48,0),t(')',4,48,0) ],t('Text',3,48,0) ],29,48,0),t(=,10,48,0),t('rtrim(',1,48,0),t(101,2,48,0),t(')',4,48,0) ]).
+b_line_i(61,2,1,cmd,48,[ t('',107,61,0),t('Columnindex',23,48,0),t(=,10,48,0),t('Columnindex',23,48,0),t(+,5,48,0),t('1',3,48,0) ]).
+b_line_i(62,2,1,cmd,48,[ t('',111,62,0) ]).
+b_line_i(63,2,1,cmd,48,[ t('',109,63,0),t('Gridcolumnvisible_usuariosistemanombre',23,48,5),t(=,10,48,45),t('TRUE',40,48,47) ]).
+b_line_i(64,2,1,cmd,48,[ t('',107,64,0),t([ t('Exceldocument',23,48,0),[ t('cells(',1,48,0),t('Cellrow',23,48,0),t(',',7,48,0),t('Firstcolumn',23,48,0),t(+,5,48,0),t('Columnindex',23,48,0),t(')',4,48,0) ],t('Text',3,48,0) ],29,48,0),t(=,10,48,0),t('rtrim(',1,48,0),t(100,2,48,0),t(')',4,48,0) ]).
+b_line_i(65,2,1,cmd,48,[ t('',107,65,0),t('Columnindex',23,48,0),t(=,10,48,0),t('Columnindex',23,48,0),t(+,5,48,0),t('1',3,48,0) ]).
+b_line_i(66,2,1,cmd,48,[ t('',111,66,0) ]).
+b_line_i(67,2,1,cmd,48,[ t('',109,67,0),t('Gridcolumnvisible_usuariosistemagerencia',23,48,5),t(=,10,48,47),t('TRUE',40,48,49) ]).
+b_line_i(68,2,1,cmd,48,[ t('',107,68,0),t([ t('Exceldocument',23,48,0),[ t('cells(',1,48,0),t('Cellrow',23,48,0),t(',',7,48,0),t('Firstcolumn',23,48,0),t(+,5,48,0),t('Columnindex',23,48,0),t(')',4,48,0) ],t('Text',3,48,0) ],29,48,0),t(=,10,48,0),t('rtrim(',1,48,0),t(263,2,48,0),t(')',4,48,0) ]).
+b_line_i(69,2,1,cmd,48,[ t('',107,69,0),t('Columnindex',23,48,0),t(=,10,48,0),t('Columnindex',23,48,0),t(+,5,48,0),t('1',3,48,0) ]).
+b_line_i(70,2,1,cmd,48,[ t('',111,70,0) ]).
+b_line_i(71,2,1,cmd,48,[ t('',109,71,0),t('Gridcolumnvisible_usuariosistemadepartamento',23,48,5),t(=,10,48,51),t('TRUE',40,48,53) ]).
+b_line_i(72,2,1,cmd,48,[ t('',107,72,0),t([ t('Exceldocument',23,48,0),[ t('cells(',1,48,0),t('Cellrow',23,48,0),t(',',7,48,0),t('Firstcolumn',23,48,0),t(+,5,48,0),t('Columnindex',23,48,0),t(')',4,48,0) ],t('Text',3,48,0) ],29,48,0),t(=,10,48,0),t('rtrim(',1,48,0),t(257,2,48,0),t(')',4,48,0) ]).
+b_line_i(73,2,1,cmd,48,[ t('',107,73,0),t('Columnindex',23,48,0),t(=,10,48,0),t('Columnindex',23,48,0),t(+,5,48,0),t('1',3,48,0) ]).
+b_line_i(74,2,1,cmd,48,[ t('',111,74,0) ]).
+b_line_i(75,2,1,cmd,48,[ t('',128,75,0) ]).
+b_line_i(76,1,3,cmd,29,[ t('',107,76,0),t([ t('Exceldocument',23,76,1),t('save(',1,76,16) ],31,76,16),t(')',4,29,22) ]).
+b_line_i(77,1,3,cmd,29,[ t('',145,77,0),t('''CHECKSTATUS''',3,77,4) ]).
+b_line_i(78,1,3,cmd,29,[ t('',107,78,0),t([ t('Exceldocument',23,78,1),t('close(',1,78,16) ],31,78,16),t(')',4,29,23) ]).
+b_line_i(79,1,3,cmd,29,[]).
+b_line_i(80,1,3,cmd,29,[ t('',143,80,0),t('''CHECKSTATUS''',3,80,5) ]).
+b_line_i(81,1,4,cmd,29,[ t('',109,81,0),t('(',0,29,5),t([ t('Exceldocument',23,81,6),t('Errcode',3,81,21) ],29,81,21),t(<>,10,29,29),t('0',3,29,32),t(')',4,29,33) ]).
+b_line_i(82,1,4,cmd,29,[ t('',107,82,0),t('Outfile',23,29,0),t(=,10,29,0),t('""',3,29,0) ]).
+b_line_i(83,1,4,cmd,29,[ t('',107,83,0),t('Errormessage',23,29,0),t(=,10,29,0),t([ t('Exceldocument',23,29,0),t('Errdescription',3,29,0) ],29,29,0) ]).
+b_line_i(84,1,4,cmd,29,[ t('',107,84,0),t([ t('Exceldocument',23,84,3),t('close(',1,84,18) ],31,84,18),t(')',4,29,25) ]).
+b_line_i(85,1,4,cmd,29,[ t('',118,85,0) ]).
+b_line_i(86,1,4,cmd,29,[ t('',111,86,0) ]).
+b_line_i(87,1,4,cmd,29,[ t('',144,87,0) ]).
+b_line_i(88,1,4,cmd,29,[]).
+b_line_i(89,1,4,cmd,29,[ t('',143,89,0),t('''HIDESHOWCOLUMNS''',3,89,5) ]).
+b_line_i(90,1,5,cmd,29,[ t('',145,90,0),t('''LOADAVAILABLECOLUMNS''',3,90,5) ]).
+b_line_i(91,1,5,cmd,29,[ t('',104,91,0),t(o(1,'K2BLoadGridConfiguration'),28,29,2),t('"WWUsuarioSistema"',3,91,33),t(',',7,29,0),t('"Grid"',3,91,53),t(',',7,29,0),t('Gridconfiguration',23,29,61) ]).
+b_line_i(92,1,5,cmd,29,[ t('',107,92,0),t('Gridcolumns',23,29,0),t(=,10,29,0),t([ t('Gridconfiguration',23,29,0),t('Gridcolumns',3,29,0) ],29,29,0) ]).
+b_line_i(93,1,5,cmd,29,[ t('',107,93,0),t('Gridcolumnvisible_usuariosistemaid',23,29,0),t(=,10,29,0),t('TRUE',40,29,0) ]).
+b_line_i(94,1,5,cmd,29,[ t('',107,94,0),t('Gridcolumnvisible_usuariosistemaidentidad',23,29,0),t(=,10,29,0),t('TRUE',40,29,0) ]).
+b_line_i(95,1,5,cmd,29,[ t('',107,95,0),t('Gridcolumnvisible_usuariosistemanombre',23,29,0),t(=,10,29,0),t('TRUE',40,29,0) ]).
+b_line_i(96,1,5,cmd,29,[ t('',107,96,0),t('Gridcolumnvisible_usuariosistemagerencia',23,29,0),t(=,10,29,0),t('TRUE',40,29,0) ]).
+b_line_i(97,1,5,cmd,29,[ t('',107,97,0),t('Gridcolumnvisible_usuariosistemadepartamento',23,29,0),t(=,10,29,0),t('TRUE',40,29,0) ]).
+b_line_i(98,1,5,cmd,29,[ t('',104,98,0),t(o(1,'K2BSaveGridConfiguration'),28,29,2),t('"WWUsuarioSistema"',3,98,33),t(',',7,29,0),t('"Grid"',3,98,53),t(',',7,29,0),t('Gridconfiguration',23,29,62),t(',',7,29,0),t('FALSE',41,29,82) ]).
+b_line_i(99,1,5,cmd,29,[ t('',107,99,0),t('Gridcolumns',23,29,0),t(=,10,29,0),t([ t('Gridconfiguration',23,29,0),t('Gridcolumns',3,29,0) ],29,29,0) ]).
+b_line_i(100,1,5,cmd,29,[ t('',107,100,0),t('GXV1',23,29,0),t(=,10,29,0),t(1,3,29,0) ]).
+b_line_i([ 100,2 ],1,5,cmd,29,[ t('',114,100,0),t('GXV1',23,29,0),t(<=,10,29,0),t([ t('Gridcolumns',23,100,21),t('Count',3,100,0) ],29,100,0) ]).
+b_line_i([ 100,3 ],1,5,cmd,29,[ t('',107,100,0),t('Gridcolumn',23,29,0),t(=,10,29,0),t([ t('Gridcolumns',23,29,0),t('item(',1,29,0) ],31,29,0),t('GXV1',23,29,0),t(')',4,29,0) ]).
+b_line_i(101,1,5,cmd,30,[ t('',109,101,0),t([ t('Gridcolumn',23,101,6),t('Showattribute',3,101,18) ],29,101,18),t(=,10,30,32),t('FALSE',41,30,34) ]).
+b_line_i(102,1,5,cmd,30,[ t('',152,102,0) ]).
+b_line_i(103,1,5,cmd,30,[ t('',153,103,0),t([ t('Gridcolumn',23,103,10),t('Attributename',3,103,22) ],29,103,22),t(=,10,30,36),t('"UsuarioSistemaId"',3,103,38) ]).
+b_line_i(104,1,5,cmd,30,[ t('',107,104,0),t('Gridcolumnvisible_usuariosistemaid',23,30,0),t(=,10,30,0),t('FALSE',41,30,0) ]).
+b_line_i(105,1,5,cmd,30,[ t('',153,105,0),t([ t('Gridcolumn',23,105,10),t('Attributename',3,105,22) ],29,105,22),t(=,10,30,36),t('"UsuarioSistemaIdentidad"',3,105,38) ]).
+b_line_i(106,1,5,cmd,30,[ t('',107,106,0),t('Gridcolumnvisible_usuariosistemaidentidad',23,30,0),t(=,10,30,0),t('FALSE',41,30,0) ]).
+b_line_i(107,1,5,cmd,30,[ t('',153,107,0),t([ t('Gridcolumn',23,107,10),t('Attributename',3,107,22) ],29,107,22),t(=,10,30,36),t('"UsuarioSistemaNombre"',3,107,38) ]).
+b_line_i(108,1,5,cmd,30,[ t('',107,108,0),t('Gridcolumnvisible_usuariosistemanombre',23,30,0),t(=,10,30,0),t('FALSE',41,30,0) ]).
+b_line_i(109,1,5,cmd,30,[ t('',153,109,0),t([ t('Gridcolumn',23,109,10),t('Attributename',3,109,22) ],29,109,22),t(=,10,30,36),t('"UsuarioSistemaGerencia"',3,109,38) ]).
+b_line_i(110,1,5,cmd,30,[ t('',107,110,0),t('Gridcolumnvisible_usuariosistemagerencia',23,30,0),t(=,10,30,0),t('FALSE',41,30,0) ]).
+b_line_i(111,1,5,cmd,30,[ t('',153,111,0),t([ t('Gridcolumn',23,111,10),t('Attributename',3,111,22) ],29,111,22),t(=,10,30,36),t('"UsuarioSistemaDepartamento"',3,111,38) ]).
+b_line_i(112,1,5,cmd,30,[ t('',107,112,0),t('Gridcolumnvisible_usuariosistemadepartamento',23,30,0),t(=,10,30,0),t('FALSE',41,30,0) ]).
+b_line_i(113,1,5,cmd,30,[]).
+b_line_i(114,1,5,cmd,30,[ t('',154,114,0) ]).
+b_line_i(115,1,5,cmd,30,[ t('',111,115,0) ]).
+b_line_i([ 116,1 ],1,5,cmd,30,[ t('',107,116,0),t('GXV1',23,30,0),t(=,10,30,0),t('GXV1',23,30,0),t(+,5,30,0),t(1,3,30,0) ]).
+b_line_i([ 116,2 ],1,5,cmd,30,[ t('',115,116,0) ]).
+b_line_i(117,1,5,cmd,31,[ t('',144,117,0) ]).
+b_line_i(118,1,5,cmd,31,[]).
+b_line_i(119,1,5,cmd,31,[ t('',143,119,0),t('''LOADAVAILABLECOLUMNS''',3,119,5) ]).
+b_line_i(120,1,6,cmd,31,[ t('',107,120,0),t('Gridcolumns',23,31,0),t(=,10,31,0),t([ 'K2BGridColumns',[ t('(',0,120,20),t(')',4,120,21) ],n ],46,31,0) ]).
+b_line_i(121,1,6,cmd,31,[ t('',107,121,0),t('Gridcolumn',23,31,0),t(=,10,31,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,121,19),t(')',4,121,20) ],n ],46,31,0) ]).
+b_line_i(122,1,6,cmd,31,[ t('',107,122,0),t([ t('Gridcolumn',23,31,0),t('Attributename',3,31,0) ],29,31,0),t(=,10,31,0),t('"UsuarioSistemaId"',3,31,0) ]).
+b_line_i(123,1,6,cmd,31,[ t('',107,123,0),t([ t('Gridcolumn',23,31,0),t('Columntitle',3,31,0) ],29,31,0),t(=,10,31,0),t('"Usuario Sistema:"',3,31,0) ]).
+b_line_i(124,1,6,cmd,31,[ t('',107,124,0),t([ t('Gridcolumn',23,31,0),t('Showattribute',3,31,0) ],29,31,0),t(=,10,31,0),t('TRUE',40,31,0) ]).
+b_line_i(125,1,6,cmd,31,[ t('',107,125,0),t([ t('Gridcolumns',23,125,2),t('add(',1,125,15) ],31,125,2),t('Gridcolumn',23,31,20),t(')',4,31,31) ]).
+b_line_i(126,1,6,cmd,31,[ t('',107,126,0),t('Gridcolumn',23,31,0),t(=,10,31,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,126,19),t(')',4,126,20) ],n ],46,31,0) ]).
+b_line_i(127,1,6,cmd,31,[ t('',107,127,0),t([ t('Gridcolumn',23,31,0),t('Attributename',3,31,0) ],29,31,0),t(=,10,31,0),t('"UsuarioSistemaIdentidad"',3,31,0) ]).
+b_line_i(128,1,6,cmd,31,[ t('',107,128,0),t([ t('Gridcolumn',23,31,0),t('Columntitle',3,31,0) ],29,31,0),t(=,10,31,0),t('"Identidad"',3,31,0) ]).
+b_line_i(129,1,6,cmd,31,[ t('',107,129,0),t([ t('Gridcolumn',23,31,0),t('Showattribute',3,31,0) ],29,31,0),t(=,10,31,0),t('TRUE',40,31,0) ]).
+b_line_i(130,1,6,cmd,31,[ t('',107,130,0),t([ t('Gridcolumns',23,130,2),t('add(',1,130,15) ],31,130,2),t('Gridcolumn',23,31,20),t(')',4,31,31) ]).
+b_line_i(131,1,6,cmd,31,[ t('',107,131,0),t('Gridcolumn',23,31,0),t(=,10,31,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,131,19),t(')',4,131,20) ],n ],46,31,0) ]).
+b_line_i(132,1,6,cmd,31,[ t('',107,132,0),t([ t('Gridcolumn',23,31,0),t('Attributename',3,31,0) ],29,31,0),t(=,10,31,0),t('"UsuarioSistemaNombre"',3,31,0) ]).
+b_line_i(133,1,6,cmd,31,[ t('',107,133,0),t([ t('Gridcolumn',23,31,0),t('Columntitle',3,31,0) ],29,31,0),t(=,10,31,0),t('"Nombre"',3,31,0) ]).
+b_line_i(134,1,6,cmd,31,[ t('',107,134,0),t([ t('Gridcolumn',23,31,0),t('Showattribute',3,31,0) ],29,31,0),t(=,10,31,0),t('TRUE',40,31,0) ]).
+b_line_i(135,1,6,cmd,31,[ t('',107,135,0),t([ t('Gridcolumns',23,135,2),t('add(',1,135,15) ],31,135,2),t('Gridcolumn',23,31,20),t(')',4,31,31) ]).
+b_line_i(136,1,6,cmd,31,[ t('',107,136,0),t('Gridcolumn',23,31,0),t(=,10,31,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,136,19),t(')',4,136,20) ],n ],46,31,0) ]).
+b_line_i(137,1,6,cmd,31,[ t('',107,137,0),t([ t('Gridcolumn',23,31,0),t('Attributename',3,31,0) ],29,31,0),t(=,10,31,0),t('"UsuarioSistemaGerencia"',3,31,0) ]).
+b_line_i(138,1,6,cmd,31,[ t('',107,138,0),t([ t('Gridcolumn',23,31,0),t('Columntitle',3,31,0) ],29,31,0),t(=,10,31,0),t('"Gerencia"',3,31,0) ]).
+b_line_i(139,1,6,cmd,31,[ t('',107,139,0),t([ t('Gridcolumn',23,31,0),t('Showattribute',3,31,0) ],29,31,0),t(=,10,31,0),t('TRUE',40,31,0) ]).
+b_line_i(140,1,6,cmd,31,[ t('',107,140,0),t([ t('Gridcolumns',23,140,2),t('add(',1,140,15) ],31,140,2),t('Gridcolumn',23,31,20),t(')',4,31,31) ]).
+b_line_i(141,1,6,cmd,31,[ t('',107,141,0),t('Gridcolumn',23,31,0),t(=,10,31,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,141,19),t(')',4,141,20) ],n ],46,31,0) ]).
+b_line_i(142,1,6,cmd,31,[ t('',107,142,0),t([ t('Gridcolumn',23,31,0),t('Attributename',3,31,0) ],29,31,0),t(=,10,31,0),t('"UsuarioSistemaDepartamento"',3,31,0) ]).
+b_line_i(143,1,6,cmd,31,[ t('',107,143,0),t([ t('Gridcolumn',23,31,0),t('Columntitle',3,31,0) ],29,31,0),t(=,10,31,0),t('"Departamento"',3,31,0) ]).
+b_line_i(144,1,6,cmd,31,[ t('',107,144,0),t([ t('Gridcolumn',23,31,0),t('Showattribute',3,31,0) ],29,31,0),t(=,10,31,0),t('TRUE',40,31,0) ]).
+b_line_i(145,1,6,cmd,31,[ t('',107,145,0),t([ t('Gridcolumns',23,145,2),t('add(',1,145,15) ],31,145,2),t('Gridcolumn',23,31,20),t(')',4,31,31) ]).
+b_line_i(146,1,6,cmd,31,[ t('',107,146,0),t([ t('Gridconfiguration',23,31,0),t('Gridcolumns',3,31,0) ],29,31,0),t(=,10,31,0),t('Gridcolumns',23,31,0) ]).
+b_line_i(147,1,6,cmd,31,[]).
+b_line_i(148,1,6,cmd,31,[ t('',144,148,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(4,99,'ExternalName','UsuarioSistemaId',d).
+att_prop_i(4,99,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,99,'EmptyAsNull','Yes',d).
+att_prop_i(4,99,idBasedOn,227,v).
+att_prop_i(4,99,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,99,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,99,'AttRegEx','',d).
+att_prop_i(4,99,'AttValidationFailedMsg','',d).
+att_prop_i(4,99,'DownloadOffline','0',d).
+att_prop_i(4,99,'VarServiceExtName','',d).
+att_prop_i(4,99,'FullName','UsuarioSistemaId',v).
+att_prop_i(4,100,'ExternalName','UsuarioSistemaNombre',d).
+att_prop_i(4,100,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,100,'EmptyAsNull','Yes',d).
+att_prop_i(4,100,idBasedOn,88,v).
+att_prop_i(4,100,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,100,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,100,'AttRegEx','',d).
+att_prop_i(4,100,'AttValidationFailedMsg','',d).
+att_prop_i(4,100,'DownloadOffline','0',d).
+att_prop_i(4,100,'VarServiceExtName','',d).
+att_prop_i(4,100,'FullName','UsuarioSistemaNombre',v).
+att_prop_i(4,257,'ExternalName','UsuarioSistemaDepartamento',d).
+att_prop_i(4,257,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,257,'EmptyAsNull','Yes',d).
+att_prop_i(4,257,idBasedOn,90,v).
+att_prop_i(4,257,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,257,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,257,'AttRegEx','',d).
+att_prop_i(4,257,'AttValidationFailedMsg','',d).
+att_prop_i(4,257,'DownloadOffline','0',d).
+att_prop_i(4,257,'VarServiceExtName','',d).
+att_prop_i(4,257,'FullName','UsuarioSistemaDepartamento',v).
+att_prop_i(4,263,'ExternalName','UsuarioSistemaGerencia',d).
+att_prop_i(4,263,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,263,'EmptyAsNull','Yes',d).
+att_prop_i(4,263,idBasedOn,90,v).
+att_prop_i(4,263,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,263,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,263,'AttRegEx','',d).
+att_prop_i(4,263,'AttValidationFailedMsg','',d).
+att_prop_i(4,263,'DownloadOffline','0',d).
+att_prop_i(4,263,'VarServiceExtName','',d).
+att_prop_i(4,263,'FullName','UsuarioSistemaGerencia',v).
+att_prop_i(4,101,'ExternalName','UsuarioSistemaIdentidad',d).
+att_prop_i(4,101,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,101,'EmptyAsNull','Yes',d).
+att_prop_i(4,101,idBasedOn,85,v).
+att_prop_i(4,101,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,101,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,101,'AttRegEx','',d).
+att_prop_i(4,101,'AttValidationFailedMsg','',d).
+att_prop_i(4,101,'DownloadOffline','0',d).
+att_prop_i(4,101,'VarServiceExtName','',d).
+att_prop_i(4,101,'FullName','UsuarioSistemaIdentidad',v).
+ 
+ 
+tbl_att_prop_i(4,11,99,'AllowNulls',n).
+tbl_att_prop_i(4,11,100,'AllowNulls',n).
+tbl_att_prop_i(4,11,101,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,66,0 ],name,'K2BGridConfiguration').
+struct_dt_i([ 26,66,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,66,0 ],'ObjName','K2BGridConfiguration').
+struct_dt_i([ 26,66,0 ],'ObjDesc','K2 BGrid Configuration').
+struct_dt_i([ 26,66,0 ],'ExternalName','K2BGridConfiguration').
+struct_dt_i([ 26,66,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,66,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,61,0 ],name,'K2BGridColumns').
+struct_dt_i([ 26,61,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,61,0 ],'ObjName','K2BGridColumns').
+struct_dt_i([ 26,61,0 ],'ObjDesc','K2 BGrid Columns').
+struct_dt_i([ 26,61,0 ],'ExternalName','K2BGridColumns').
+struct_dt_i([ 26,61,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,61,0 ],collection,'True').
+struct_dt_i([ 26,61,0 ],datatype,[ 26,61,87 ]).
+struct_dt_i([ 26,61,0 ],'CollectionItemName','K2BGridColumnsItem').
+struct_dt_i([ 26,61,0 ],'XmlName','').
+struct_dt_i([ 26,61,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,61,0 ],'XmlNamespace','').
+struct_dt_i([ 26,61,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,61,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,61,0 ],'JsonName','').
+struct_dt_i([ 26,61,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,61,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,61,87 ],name,'K2BGridColumnsItem').
+struct_dt_i([ 26,61,87 ],namespace,'kb_ticket.K2BGridColumns').
+struct_dt_i([ 26,54,0 ],name,'K2BContext').
+struct_dt_i([ 26,54,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,54,0 ],'ObjName','K2BContext').
+struct_dt_i([ 26,54,0 ],'ObjDesc','K2B Context').
+struct_dt_i([ 26,54,0 ],'ExternalName','K2BContext').
+struct_dt_i([ 26,54,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,54,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,66,0 ],fullname,'K2BGridConfiguration').
+struct_dt_i([ 26,61,0 ],fullname,'K2BGridColumns').
+struct_dt_i([ 26,61,87 ],fullname,'K2BGridColumns.K2BGridColumnsItem').
+struct_dt_i([ 26,54,0 ],fullname,'K2BContext').
+ 
+struct_dt_elem_i([ 26,66,0 ],1,name,'Freezecolumntitles').
+struct_dt_elem_i([ 26,66,0 ],1,camelname,'FreezeColumnTitles').
+struct_dt_elem_i([ 26,66,0 ],1,length,4).
+struct_dt_elem_i([ 26,66,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,66,0 ],1,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,66,0 ],1,pic,'').
+struct_dt_elem_i([ 26,66,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,66,0 ],1,'ExternalName','FreezeColumnTitles').
+struct_dt_elem_i([ 26,66,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,66,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,66,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,66,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,66,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,66,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,0 ],2,name,'Gridcolumns').
+struct_dt_elem_i([ 26,66,0 ],2,camelname,'GridColumns').
+struct_dt_elem_i([ 26,66,0 ],2,length,4).
+struct_dt_elem_i([ 26,66,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,66,0 ],2,type,[ [ 26,61,0 ],4,0 ]).
+struct_dt_elem_i([ 26,66,0 ],2,pic,'').
+struct_dt_elem_i([ 26,66,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,66,0 ],2,'ExternalName','GridColumns').
+struct_dt_elem_i([ 26,66,0 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,66,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,66,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,66,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,66,0 ],2,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,61,87 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,61,87 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,61,87 ],1,length,20).
+struct_dt_elem_i([ 26,61,87 ],1,decimals,0).
+struct_dt_elem_i([ 26,61,87 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,61,87 ],1,pic,'').
+struct_dt_elem_i([ 26,61,87 ],1,collection,'False').
+struct_dt_elem_i([ 26,61,87 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,61,87 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,61,87 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,61,87 ],1,'XmlName','').
+struct_dt_elem_i([ 26,61,87 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,87 ],1,soaptype,'').
+struct_dt_elem_i([ 26,61,87 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,87 ],1,'JsonName','').
+struct_dt_elem_i([ 26,61,87 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,61,87 ],2,name,'Showattribute').
+struct_dt_elem_i([ 26,61,87 ],2,camelname,'ShowAttribute').
+struct_dt_elem_i([ 26,61,87 ],2,length,4).
+struct_dt_elem_i([ 26,61,87 ],2,decimals,0).
+struct_dt_elem_i([ 26,61,87 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,61,87 ],2,pic,'').
+struct_dt_elem_i([ 26,61,87 ],2,collection,'False').
+struct_dt_elem_i([ 26,61,87 ],2,'ExternalName','ShowAttribute').
+struct_dt_elem_i([ 26,61,87 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,61,87 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,61,87 ],2,'XmlName','').
+struct_dt_elem_i([ 26,61,87 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,87 ],2,soaptype,'').
+struct_dt_elem_i([ 26,61,87 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,87 ],2,'JsonName','').
+struct_dt_elem_i([ 26,61,87 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,61,87 ],3,name,'Columntitle').
+struct_dt_elem_i([ 26,61,87 ],3,camelname,'ColumnTitle').
+struct_dt_elem_i([ 26,61,87 ],3,length,100).
+struct_dt_elem_i([ 26,61,87 ],3,decimals,0).
+struct_dt_elem_i([ 26,61,87 ],3,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,61,87 ],3,pic,'').
+struct_dt_elem_i([ 26,61,87 ],3,collection,'False').
+struct_dt_elem_i([ 26,61,87 ],3,'ExternalName','ColumnTitle').
+struct_dt_elem_i([ 26,61,87 ],3,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,61,87 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,61,87 ],3,'XmlName','').
+struct_dt_elem_i([ 26,61,87 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,87 ],3,soaptype,'').
+struct_dt_elem_i([ 26,61,87 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,87 ],3,'JsonName','').
+struct_dt_elem_i([ 26,61,87 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,54,0 ],1,name,'Usercode').
+struct_dt_elem_i([ 26,54,0 ],1,camelname,'UserCode').
+struct_dt_elem_i([ 26,54,0 ],1,basedon,105).
+struct_dt_elem_i([ 26,54,0 ],1,length,100).
+struct_dt_elem_i([ 26,54,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],1,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,54,0 ],1,pic,'').
+struct_dt_elem_i([ 26,54,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],1,'ExternalName','UserCode').
+struct_dt_elem_i([ 26,54,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,54,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,54,0 ],1,pic,'ZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,32,'K2BSAVEGRIDCONFIGURATION',[ [ char,129,0,0 ],[ char,150,0,0 ],[ o('K2BGridConfiguration'),0,0,0 ],[ boolean,4,0,0 ] ],[ [ 'ProgramName',in,[] ],[ 'GridName',in,[] ],[ 'GridConfiguration',in,[] ],[ 'PersistInDB',in,[] ] ]).
+pgm_parm_i(proc,35,'K2BLOADGRIDCONFIGURATION',[ [ char,20,0,0 ],[ char,150,0,0 ],[ o('K2BGridConfiguration'),0,0,0 ] ],[ [ 'ProgramName',in,[] ],[ 'GridName',in,[] ],[ 'GridConfiguration',inout,[] ] ]).
+pgm_parm_i(proc,71,'K2BGETCONTEXT',[ [ o('K2BContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,195,'EXPORTWWUSUARIOSISTEMA','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,32,'K2BSAVEGRIDCONFIGURATION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,35,'K2BLOADGRIDCONFIGURATION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,71,'K2BGETCONTEXT','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurityCommon','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurityCommon','AssemblyName','GeneXusSecurityCommon.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\promptunidades_gis.dll
+C:\Models\kb_ticket\ProduccionTicket\build\promptunidades_gis\obj\Release\promptunidades_gis.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\promptunidades_gis\obj\Release\promptunidades_gis.dll

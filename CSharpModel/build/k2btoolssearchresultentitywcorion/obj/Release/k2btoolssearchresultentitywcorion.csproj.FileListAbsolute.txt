@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\k2btoolssearchresultentitywcorion.dll
+C:\Models\kb_ticket\CSharpModel\build\k2btoolssearchresultentitywcorion\obj\Release\k2btoolssearchresultentitywcorion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\k2btoolssearchresultentitywcorion\obj\Release\k2btoolssearchresultentitywcorion.dll

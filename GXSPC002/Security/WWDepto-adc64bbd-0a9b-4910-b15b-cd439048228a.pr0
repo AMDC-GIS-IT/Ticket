@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "depto_Execute",
+    "Description": "Deptos",
+    "ProgramName": "wwdepto",
+    "IsGXAutomatic": true
+  }
+]

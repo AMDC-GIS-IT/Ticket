@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\k2bfsg.entrysecuritypolicy.dll
+C:\Models\kb_ticket\CSharpModel\build\k2bfsg.entrysecuritypolicy\obj\Release\k2bfsg.entrysecuritypolicy.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\k2bfsg.entrysecuritypolicy\obj\Release\k2bfsg.entrysecuritypolicy.dll

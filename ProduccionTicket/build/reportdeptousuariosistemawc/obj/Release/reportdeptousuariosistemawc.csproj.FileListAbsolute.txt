@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\reportdeptousuariosistemawc.dll
+C:\Models\kb_ticket\ProduccionTicket\build\reportdeptousuariosistemawc\obj\Release\reportdeptousuariosistemawc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\reportdeptousuariosistemawc\obj\Release\reportdeptousuariosistemawc.dll

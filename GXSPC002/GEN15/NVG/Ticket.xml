@@ -1,0 +1,1293 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_9-159740</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>7</ObjId>
+<ObjName>Ticket</ObjName>
+<ObjDesc>Ticket</ObjDesc>
+<ObjPgmName>Ticket</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ticketid</VarId>
+<VarName>&amp;TicketId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>7</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>10</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>4</TableId>
+<TableName>EstadoTicket</TableName>
+<Description>Estado Ticket</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>187</AttriId>
+<AttriName>EstadoTicketTicketId</AttriName>
+<Description>Estado Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>TicketFecha</AttriName>
+<Description>Ticket Fecha</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TicketHora</AttriName>
+<Description>Ticket Hora</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>TicketHoraCaracter</AttriName>
+<Description>Ticket Hora Caracter</Description></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TicketLaptop</AttriName>
+<Description>aptop</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>TicketDesktop</AttriName>
+<Description>Desktop</Description></Attribute>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>TicketMonitor</AttriName>
+<Description>Monitor</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>TicketImpresora</AttriName>
+<Description>Impresora</Description></Attribute>
+<Attribute>
+<AttriId>45</AttriId>
+<AttriName>TicketEscaner</AttriName>
+<Description>Escaner</Description></Attribute>
+<Attribute>
+<AttriId>59</AttriId>
+<AttriName>TicketRouter</AttriName>
+<Description>Internet/Router/Access Point</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TicketSistemaOperativo</AttriName>
+<Description>Sistema Operativo</Description></Attribute>
+<Attribute>
+<AttriId>56</AttriId>
+<AttriName>TicketOffice</AttriName>
+<Description>Office</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TicketAntivirus</AttriName>
+<Description>Antivirus</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TicketAplicacion</AttriName>
+<Description>Aplicación</Description></Attribute>
+<Attribute>
+<AttriId>44</AttriId>
+<AttriName>TicketDisenio</AttriName>
+<Description>Diseño</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>TicketIngenieria</AttriName>
+<Description>Ingeniería</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>TicketDiscoDuroExterno</AttriName>
+<Description>Disco Duro </Description></Attribute>
+<Attribute>
+<AttriId>58</AttriId>
+<AttriName>TicketPerifericos</AttriName>
+<Description>Periféricos</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>TicketUps</AttriName>
+<Description>UPS</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>TicketApoyoUsuario</AttriName>
+<Description>Apoyo Usuario</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TicketInstalarDataShow</AttriName>
+<Description>Instalar Data Show</Description></Attribute>
+<Attribute>
+<AttriId>57</AttriId>
+<AttriName>TicketOtros</AttriName>
+<Description>Otros</Description></Attribute>
+<Attribute>
+<AttriId>278</AttriId>
+<AttriName>TicketUsuarioAsigno</AttriName>
+<Description>Ticket Usuario Asigno</Description></Attribute>
+<Attribute>
+<AttriId>289</AttriId>
+<AttriName>TicketFechaHora</AttriName>
+<Description>Fecha Hora Ticket </Description></Attribute>
+<Attribute>
+<AttriId>297</AttriId>
+<AttriName>TicketAnalisisDeProceso</AttriName>
+<Description>Análisis De Proceso</Description></Attribute>
+<Attribute>
+<AttriId>298</AttriId>
+<AttriName>TicketDisenioConceptual</AttriName>
+<Description>Diseño Conceptual</Description></Attribute>
+<Attribute>
+<AttriId>299</AttriId>
+<AttriName>TicketDesarrolloDeSistema</AttriName>
+<Description>Desarrollo de Sistema</Description></Attribute>
+<Attribute>
+<AttriId>300</AttriId>
+<AttriName>TicketDesarrolloyPruebasIniciales</AttriName>
+<Description>Desarrollo y Pruebas Iniciales</Description></Attribute>
+<Attribute>
+<AttriId>301</AttriId>
+<AttriName>TicketElaboraciondeDocumentacion</AttriName>
+<Description>Elaboración de Documentacion</Description></Attribute>
+<Attribute>
+<AttriId>302</AttriId>
+<AttriName>TicketImplementacion</AttriName>
+<Description>Implementación</Description></Attribute>
+<Attribute>
+<AttriId>303</AttriId>
+<AttriName>TicketMantenimientoSistema</AttriName>
+<Description>Mantenimiento de Sistema</Description></Attribute>
+<Attribute>
+<AttriId>304</AttriId>
+<AttriName>TicketAdministradorBaseDatos</AttriName>
+<Description>Administrar Base Datos</Description></Attribute>
+<Attribute>
+<AttriId>362</AttriId>
+<AttriName>TicketMemorando</AttriName>
+<Description>Ticket Memorando</Description></Attribute>
+<Attribute>
+<AttriId>377</AttriId>
+<AttriName>TicketFechaSistema</AttriName>
+<Description>Ticket Fecha Sistema</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute>
+<Attribute>
+<AttriId>187</AttriId>
+<AttriName>EstadoTicketTicketId</AttriName>
+<Description>Estado Id</Description></Attribute>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>TicketLastId</AttriName>
+<Description>Ticket Last Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>TicketFecha</AttriName>
+<Description>Ticket Fecha</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TicketHora</AttriName>
+<Description>Ticket Hora</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>TicketHoraCaracter</AttriName>
+<Description>Ticket Hora Caracter</Description></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TicketLaptop</AttriName>
+<Description>aptop</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>TicketDesktop</AttriName>
+<Description>Desktop</Description></Attribute>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>TicketMonitor</AttriName>
+<Description>Monitor</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>TicketImpresora</AttriName>
+<Description>Impresora</Description></Attribute>
+<Attribute>
+<AttriId>45</AttriId>
+<AttriName>TicketEscaner</AttriName>
+<Description>Escaner</Description></Attribute>
+<Attribute>
+<AttriId>59</AttriId>
+<AttriName>TicketRouter</AttriName>
+<Description>Internet/Router/Access Point</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>TicketSistemaOperativo</AttriName>
+<Description>Sistema Operativo</Description></Attribute>
+<Attribute>
+<AttriId>56</AttriId>
+<AttriName>TicketOffice</AttriName>
+<Description>Office</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TicketAntivirus</AttriName>
+<Description>Antivirus</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TicketAplicacion</AttriName>
+<Description>Aplicación</Description></Attribute>
+<Attribute>
+<AttriId>44</AttriId>
+<AttriName>TicketDisenio</AttriName>
+<Description>Diseño</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>TicketIngenieria</AttriName>
+<Description>Ingeniería</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>TicketDiscoDuroExterno</AttriName>
+<Description>Disco Duro </Description></Attribute>
+<Attribute>
+<AttriId>58</AttriId>
+<AttriName>TicketPerifericos</AttriName>
+<Description>Periféricos</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>TicketUps</AttriName>
+<Description>UPS</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>TicketApoyoUsuario</AttriName>
+<Description>Apoyo Usuario</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TicketInstalarDataShow</AttriName>
+<Description>Instalar Data Show</Description></Attribute>
+<Attribute>
+<AttriId>57</AttriId>
+<AttriName>TicketOtros</AttriName>
+<Description>Otros</Description></Attribute>
+<Attribute>
+<AttriId>278</AttriId>
+<AttriName>TicketUsuarioAsigno</AttriName>
+<Description>Ticket Usuario Asigno</Description></Attribute>
+<Attribute>
+<AttriId>289</AttriId>
+<AttriName>TicketFechaHora</AttriName>
+<Description>Fecha Hora Ticket </Description></Attribute>
+<Attribute>
+<AttriId>297</AttriId>
+<AttriName>TicketAnalisisDeProceso</AttriName>
+<Description>Análisis De Proceso</Description></Attribute>
+<Attribute>
+<AttriId>298</AttriId>
+<AttriName>TicketDisenioConceptual</AttriName>
+<Description>Diseño Conceptual</Description></Attribute>
+<Attribute>
+<AttriId>299</AttriId>
+<AttriName>TicketDesarrolloDeSistema</AttriName>
+<Description>Desarrollo de Sistema</Description></Attribute>
+<Attribute>
+<AttriId>300</AttriId>
+<AttriName>TicketDesarrolloyPruebasIniciales</AttriName>
+<Description>Desarrollo y Pruebas Iniciales</Description></Attribute>
+<Attribute>
+<AttriId>301</AttriId>
+<AttriName>TicketElaboraciondeDocumentacion</AttriName>
+<Description>Elaboración de Documentacion</Description></Attribute>
+<Attribute>
+<AttriId>302</AttriId>
+<AttriName>TicketImplementacion</AttriName>
+<Description>Implementación</Description></Attribute>
+<Attribute>
+<AttriId>303</AttriId>
+<AttriName>TicketMantenimientoSistema</AttriName>
+<Description>Mantenimiento de Sistema</Description></Attribute>
+<Attribute>
+<AttriId>304</AttriId>
+<AttriName>TicketAdministradorBaseDatos</AttriName>
+<Description>Administrar Base Datos</Description></Attribute>
+<Attribute>
+<AttriId>362</AttriId>
+<AttriName>TicketMemorando</AttriName>
+<Description>Ticket Memorando</Description></Attribute>
+<Attribute>
+<AttriId>377</AttriId>
+<AttriName>TicketFechaSistema</AttriName>
+<Description>Ticket Fecha Sistema</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute>
+<Attribute>
+<AttriId>187</AttriId>
+<AttriName>EstadoTicketTicketId</AttriName>
+<Description>Estado Id</Description></Attribute>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>TicketLastId</AttriName>
+<Description>Ticket Last Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>8</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>22</TableId>
+<TableName>EtapasDesarrollo</TableName>
+<Description>Etapas Desarrollo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>EtapaDesarrolloId</AttriName>
+<Description>Id</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table>
+<Table>
+<TableId>23</TableId>
+<TableName>CategoriaDetalleTarea</TableName>
+<Description>Categoria Detalle Tarea</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>294</AttriId>
+<AttriName>CategoriaDetalleTareaId</AttriName>
+<Description>Id.</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>4</TableId>
+<TableName>EstadoTicket</TableName>
+<Description>Estado Ticket</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>EstadoTicketTecnicoId</AttriName>
+<Description>Estado Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>5</TableId>
+<TableName>Responsable</TableName>
+<Description>Responsable</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>198</AttriId>
+<AttriName>TicketTecnicoResponsableId</AttriName>
+<Description>Id Técnico</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TicketHoraResponsable</AttriName>
+<Description>Ticket Hora Responsable</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>TicketFechaResponsable</AttriName>
+<Description>Ticket Fecha Responsable</Description></Attribute>
+<Attribute>
+<AttriId>145</AttriId>
+<AttriName>TicketResponsableInventarioSerie</AttriName>
+<Description>Inventario/Serie</Description></Attribute>
+<Attribute>
+<AttriId>146</AttriId>
+<AttriName>TicketResponsableInstalacion</AttriName>
+<Description>Instalación</Description></Attribute>
+<Attribute>
+<AttriId>147</AttriId>
+<AttriName>TicketResponsableConfiguracion</AttriName>
+<Description>Configuración</Description></Attribute>
+<Attribute>
+<AttriId>148</AttriId>
+<AttriName>TicketResponsableInternetRouter</AttriName>
+<Description>Internet/Router/Access Point</Description></Attribute>
+<Attribute>
+<AttriId>149</AttriId>
+<AttriName>TicketResponsableFormateo</AttriName>
+<Description>Formateo</Description></Attribute>
+<Attribute>
+<AttriId>150</AttriId>
+<AttriName>TicketResponsableReparacion</AttriName>
+<Description>Reparación</Description></Attribute>
+<Attribute>
+<AttriId>151</AttriId>
+<AttriName>TicketResponsableLimpieza</AttriName>
+<Description>Limpieza</Description></Attribute>
+<Attribute>
+<AttriId>152</AttriId>
+<AttriName>TicketResponsablePuntoRed</AttriName>
+<Description>Punto Red</Description></Attribute>
+<Attribute>
+<AttriId>153</AttriId>
+<AttriName>TicketResponsableCambiosHardware</AttriName>
+<Description>Cambios Hardware</Description></Attribute>
+<Attribute>
+<AttriId>154</AttriId>
+<AttriName>TicketResponsableCopiasRespaldo</AttriName>
+<Description>Copias Respaldo</Description></Attribute>
+<Attribute>
+<AttriId>165</AttriId>
+<AttriName>TicketResponsableCerrado</AttriName>
+<Description>Cerrado</Description></Attribute>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>TicketResponsablePendiente</AttriName>
+<Description>Pendiente</Description></Attribute>
+<Attribute>
+<AttriId>167</AttriId>
+<AttriName>TicketResponsablePasaTaller</AttriName>
+<Description>Pasa Taller</Description></Attribute>
+<Attribute>
+<AttriId>168</AttriId>
+<AttriName>TicketResponsableObservacion</AttriName>
+<Description>Observación</Description></Attribute>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>TicketResponsableFechaResuelve</AttriName>
+<Description>Fecha Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>176</AttriId>
+<AttriName>TicketResponsableHoraResuelve</AttriName>
+<Description>Hora Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>177</AttriId>
+<AttriName>TicketResponsableRamTxt</AttriName>
+<Description>Ram</Description></Attribute>
+<Attribute>
+<AttriId>178</AttriId>
+<AttriName>TicketResponsableDiscoDuroTxt</AttriName>
+<Description>Disco Duro</Description></Attribute>
+<Attribute>
+<AttriId>179</AttriId>
+<AttriName>TicketResponsableProcesadorTxt</AttriName>
+<Description>Procesador</Description></Attribute>
+<Attribute>
+<AttriId>180</AttriId>
+<AttriName>TicketResponsableMaletinTxt</AttriName>
+<Description>Maletin</Description></Attribute>
+<Attribute>
+<AttriId>181</AttriId>
+<AttriName>TicketResponsableTonerCintaTxt</AttriName>
+<Description>Toner/Cinta</Description></Attribute>
+<Attribute>
+<AttriId>182</AttriId>
+<AttriName>TicketResponsableTarjetaVideoExtraTxt</AttriName>
+<Description>Tarjeta Video Extra</Description></Attribute>
+<Attribute>
+<AttriId>183</AttriId>
+<AttriName>TicketResponsableCargadorLaptopTxt</AttriName>
+<Description>Cargador Laptop</Description></Attribute>
+<Attribute>
+<AttriId>184</AttriId>
+<AttriName>TicketResponsableCDsDVDsTxt</AttriName>
+<Description>CDs/DVDs</Description></Attribute>
+<Attribute>
+<AttriId>185</AttriId>
+<AttriName>TicketResponsableCableEspecialTxt</AttriName>
+<Description>Cable Especial</Description></Attribute>
+<Attribute>
+<AttriId>186</AttriId>
+<AttriName>TicketResponsableOtrosTallerTxt</AttriName>
+<Description>Otros Taller</Description></Attribute>
+<Attribute>
+<AttriId>287</AttriId>
+<AttriName>TicketResponsableFechaHoraAsigna</AttriName>
+<Description>Fecha Hora Responsable</Description></Attribute>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TicketResponsableFechaHoraResuelve</AttriName>
+<Description>Fecha Hora Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>305</AttriId>
+<AttriName>TicketResponsableAnalasisUno</AttriName>
+<Description>Analasis Uno</Description></Attribute>
+<Attribute>
+<AttriId>306</AttriId>
+<AttriName>TicketResponsableAnalasisDos</AttriName>
+<Description>Analasis Dos</Description></Attribute>
+<Attribute>
+<AttriId>307</AttriId>
+<AttriName>TicketResponsableAnalasisTres</AttriName>
+<Description>Analasis Tres</Description></Attribute>
+<Attribute>
+<AttriId>308</AttriId>
+<AttriName>TicketResponsableAnalasisCuatro</AttriName>
+<Description>Analasis Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>309</AttriId>
+<AttriName>TicketResponsableDisenioUno</AttriName>
+<Description>Diseño Uno</Description></Attribute>
+<Attribute>
+<AttriId>310</AttriId>
+<AttriName>TicketResponsableDesarrolloUno</AttriName>
+<Description>Desarrollo Uno</Description></Attribute>
+<Attribute>
+<AttriId>311</AttriId>
+<AttriName>TicketResponsableDesarrolloDos</AttriName>
+<Description>Desarrollo Dos</Description></Attribute>
+<Attribute>
+<AttriId>312</AttriId>
+<AttriName>TicketResponsableDesarrolloTres</AttriName>
+<Description>Desarrollo Tres</Description></Attribute>
+<Attribute>
+<AttriId>313</AttriId>
+<AttriName>TicketResponsableDesarrolloCuatro</AttriName>
+<Description>Desarrollo Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>314</AttriId>
+<AttriName>TicketResponsableDesarrolloCinco</AttriName>
+<Description>Desarrollo Cinco</Description></Attribute>
+<Attribute>
+<AttriId>315</AttriId>
+<AttriName>TicketResponsablePruebasUno</AttriName>
+<Description>Pruebas Uno</Description></Attribute>
+<Attribute>
+<AttriId>316</AttriId>
+<AttriName>TicketResponsablePruebasDos</AttriName>
+<Description>Pruebas Dos</Description></Attribute>
+<Attribute>
+<AttriId>317</AttriId>
+<AttriName>TicketResponsablePruebasTres</AttriName>
+<Description>Pruebas Tres</Description></Attribute>
+<Attribute>
+<AttriId>318</AttriId>
+<AttriName>TicketResponsablePruebasCuatro</AttriName>
+<Description>Pruebas Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>319</AttriId>
+<AttriName>TicketResponsableDocumentacionUno</AttriName>
+<Description>Documentacion Uno</Description></Attribute>
+<Attribute>
+<AttriId>320</AttriId>
+<AttriName>TicketResponsableDocumentacionDos</AttriName>
+<Description>Documentacion Dos</Description></Attribute>
+<Attribute>
+<AttriId>321</AttriId>
+<AttriName>TicketResponsableDocumentacionTres</AttriName>
+<Description>Documentacion Tres</Description></Attribute>
+<Attribute>
+<AttriId>322</AttriId>
+<AttriName>TicketResponsableDocumentacionCuatro</AttriName>
+<Description>Documentacion Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>323</AttriId>
+<AttriName>TicketResponsableImplementacionUno</AttriName>
+<Description>Implementacion Uno</Description></Attribute>
+<Attribute>
+<AttriId>324</AttriId>
+<AttriName>TicketResponsableImplementacionDos</AttriName>
+<Description>Implementacion Dos</Description></Attribute>
+<Attribute>
+<AttriId>325</AttriId>
+<AttriName>TicketResponsableImplementacionTres</AttriName>
+<Description>Implementacion Tres</Description></Attribute>
+<Attribute>
+<AttriId>326</AttriId>
+<AttriName>TicketResponsableImplementacionCuatro</AttriName>
+<Description>Implementacion Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>327</AttriId>
+<AttriName>TicketResponsableImplementacionCinco</AttriName>
+<Description>Implementacion Cinco</Description></Attribute>
+<Attribute>
+<AttriId>328</AttriId>
+<AttriName>TicketResponsableImplementacionSeis</AttriName>
+<Description>Implementacion Seis</Description></Attribute>
+<Attribute>
+<AttriId>329</AttriId>
+<AttriName>TicketResponsableMantenimientoUno</AttriName>
+<Description>Mantenimiento Uno</Description></Attribute>
+<Attribute>
+<AttriId>330</AttriId>
+<AttriName>TicketResponsableMantenimientoDos</AttriName>
+<Description>Mantenimiento Dos</Description></Attribute>
+<Attribute>
+<AttriId>331</AttriId>
+<AttriName>TicketResponsableMantenimientoTres</AttriName>
+<Description>Mantenimiento Tres</Description></Attribute>
+<Attribute>
+<AttriId>332</AttriId>
+<AttriName>TicketResponsableMantenimientoCuatro</AttriName>
+<Description>Mantenimiento Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>333</AttriId>
+<AttriName>TicketResponsableMantenimientoCinco</AttriName>
+<Description>Mantenimiento Cinco</Description></Attribute>
+<Attribute>
+<AttriId>334</AttriId>
+<AttriName>TicketResponsableMantenimientoSeis</AttriName>
+<Description>Mantenimiento Seis</Description></Attribute>
+<Attribute>
+<AttriId>335</AttriId>
+<AttriName>TicketResponsableMantenimientoSiete</AttriName>
+<Description>Mantenimiento Siete</Description></Attribute>
+<Attribute>
+<AttriId>336</AttriId>
+<AttriName>TicketResponsableGestionbdUno</AttriName>
+<Description>Gestion bd Uno</Description></Attribute>
+<Attribute>
+<AttriId>337</AttriId>
+<AttriName>TicketResponsableGestionbdDos</AttriName>
+<Description>Gestion bd Dos</Description></Attribute>
+<Attribute>
+<AttriId>338</AttriId>
+<AttriName>TicketResponsableGestionbdTres</AttriName>
+<Description>Gestion bd Tres</Description></Attribute>
+<Attribute>
+<AttriId>339</AttriId>
+<AttriName>TicketResponsableGestionbdCuatro</AttriName>
+<Description>Gestion bd Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>340</AttriId>
+<AttriName>TicketResponsableMantenimientobdUno</AttriName>
+<Description>Mantenimiento bd Uno</Description></Attribute>
+<Attribute>
+<AttriId>341</AttriId>
+<AttriName>TicketResponsableMantenimientobdDos</AttriName>
+<Description>Mantenimiento bd Dos</Description></Attribute>
+<Attribute>
+<AttriId>342</AttriId>
+<AttriName>TicketResponsableMantenimientobdTres</AttriName>
+<Description>Mantenimiento bd Tres</Description></Attribute>
+<Attribute>
+<AttriId>343</AttriId>
+<AttriName>TicketResponsableMantenimientobdCuatro</AttriName>
+<Description>Mantenimiento bd Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>344</AttriId>
+<AttriName>TicketResponsableMantenimientobdCinco</AttriName>
+<Description>Mantenimiento bd Cinco</Description></Attribute>
+<Attribute>
+<AttriId>345</AttriId>
+<AttriName>TicketResponsableMantenimientobdSeis</AttriName>
+<Description>Mantenimiento bd Seis</Description></Attribute>
+<Attribute>
+<AttriId>346</AttriId>
+<AttriName>TicketResponsableMantenimientobdSiete</AttriName>
+<Description>Mantenimientobd Siete</Description></Attribute>
+<Attribute>
+<AttriId>363</AttriId>
+<AttriName>TicketResponsableFechaHoraAtiende</AttriName>
+<Description>Fecha Hora Atiende</Description></Attribute>
+<Attribute>
+<AttriId>376</AttriId>
+<AttriName>TicketResponsableFechaSistema</AttriName>
+<Description>Ticket Responsable Fecha Sistema</Description></Attribute>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>EtapaDesarrolloId</AttriName>
+<Description>Id</Description></Attribute>
+<Attribute>
+<AttriId>294</AttriId>
+<AttriName>CategoriaDetalleTareaId</AttriName>
+<Description>Id.</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>EstadoTicketTecnicoId</AttriName>
+<Description>Estado Id</Description></Attribute>
+<Attribute>
+<AttriId>198</AttriId>
+<AttriName>TicketTecnicoResponsableId</AttriName>
+<Description>Id Técnico</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TicketHoraResponsable</AttriName>
+<Description>Ticket Hora Responsable</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>TicketFechaResponsable</AttriName>
+<Description>Ticket Fecha Responsable</Description></Attribute>
+<Attribute>
+<AttriId>145</AttriId>
+<AttriName>TicketResponsableInventarioSerie</AttriName>
+<Description>Inventario/Serie</Description></Attribute>
+<Attribute>
+<AttriId>146</AttriId>
+<AttriName>TicketResponsableInstalacion</AttriName>
+<Description>Instalación</Description></Attribute>
+<Attribute>
+<AttriId>147</AttriId>
+<AttriName>TicketResponsableConfiguracion</AttriName>
+<Description>Configuración</Description></Attribute>
+<Attribute>
+<AttriId>148</AttriId>
+<AttriName>TicketResponsableInternetRouter</AttriName>
+<Description>Internet/Router/Access Point</Description></Attribute>
+<Attribute>
+<AttriId>149</AttriId>
+<AttriName>TicketResponsableFormateo</AttriName>
+<Description>Formateo</Description></Attribute>
+<Attribute>
+<AttriId>150</AttriId>
+<AttriName>TicketResponsableReparacion</AttriName>
+<Description>Reparación</Description></Attribute>
+<Attribute>
+<AttriId>151</AttriId>
+<AttriName>TicketResponsableLimpieza</AttriName>
+<Description>Limpieza</Description></Attribute>
+<Attribute>
+<AttriId>152</AttriId>
+<AttriName>TicketResponsablePuntoRed</AttriName>
+<Description>Punto Red</Description></Attribute>
+<Attribute>
+<AttriId>153</AttriId>
+<AttriName>TicketResponsableCambiosHardware</AttriName>
+<Description>Cambios Hardware</Description></Attribute>
+<Attribute>
+<AttriId>154</AttriId>
+<AttriName>TicketResponsableCopiasRespaldo</AttriName>
+<Description>Copias Respaldo</Description></Attribute>
+<Attribute>
+<AttriId>165</AttriId>
+<AttriName>TicketResponsableCerrado</AttriName>
+<Description>Cerrado</Description></Attribute>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>TicketResponsablePendiente</AttriName>
+<Description>Pendiente</Description></Attribute>
+<Attribute>
+<AttriId>167</AttriId>
+<AttriName>TicketResponsablePasaTaller</AttriName>
+<Description>Pasa Taller</Description></Attribute>
+<Attribute>
+<AttriId>168</AttriId>
+<AttriName>TicketResponsableObservacion</AttriName>
+<Description>Observación</Description></Attribute>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>TicketResponsableFechaResuelve</AttriName>
+<Description>Fecha Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>176</AttriId>
+<AttriName>TicketResponsableHoraResuelve</AttriName>
+<Description>Hora Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>177</AttriId>
+<AttriName>TicketResponsableRamTxt</AttriName>
+<Description>Ram</Description></Attribute>
+<Attribute>
+<AttriId>178</AttriId>
+<AttriName>TicketResponsableDiscoDuroTxt</AttriName>
+<Description>Disco Duro</Description></Attribute>
+<Attribute>
+<AttriId>179</AttriId>
+<AttriName>TicketResponsableProcesadorTxt</AttriName>
+<Description>Procesador</Description></Attribute>
+<Attribute>
+<AttriId>180</AttriId>
+<AttriName>TicketResponsableMaletinTxt</AttriName>
+<Description>Maletin</Description></Attribute>
+<Attribute>
+<AttriId>181</AttriId>
+<AttriName>TicketResponsableTonerCintaTxt</AttriName>
+<Description>Toner/Cinta</Description></Attribute>
+<Attribute>
+<AttriId>182</AttriId>
+<AttriName>TicketResponsableTarjetaVideoExtraTxt</AttriName>
+<Description>Tarjeta Video Extra</Description></Attribute>
+<Attribute>
+<AttriId>183</AttriId>
+<AttriName>TicketResponsableCargadorLaptopTxt</AttriName>
+<Description>Cargador Laptop</Description></Attribute>
+<Attribute>
+<AttriId>184</AttriId>
+<AttriName>TicketResponsableCDsDVDsTxt</AttriName>
+<Description>CDs/DVDs</Description></Attribute>
+<Attribute>
+<AttriId>185</AttriId>
+<AttriName>TicketResponsableCableEspecialTxt</AttriName>
+<Description>Cable Especial</Description></Attribute>
+<Attribute>
+<AttriId>186</AttriId>
+<AttriName>TicketResponsableOtrosTallerTxt</AttriName>
+<Description>Otros Taller</Description></Attribute>
+<Attribute>
+<AttriId>287</AttriId>
+<AttriName>TicketResponsableFechaHoraAsigna</AttriName>
+<Description>Fecha Hora Responsable</Description></Attribute>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TicketResponsableFechaHoraResuelve</AttriName>
+<Description>Fecha Hora Resuelve</Description></Attribute>
+<Attribute>
+<AttriId>305</AttriId>
+<AttriName>TicketResponsableAnalasisUno</AttriName>
+<Description>Analasis Uno</Description></Attribute>
+<Attribute>
+<AttriId>306</AttriId>
+<AttriName>TicketResponsableAnalasisDos</AttriName>
+<Description>Analasis Dos</Description></Attribute>
+<Attribute>
+<AttriId>307</AttriId>
+<AttriName>TicketResponsableAnalasisTres</AttriName>
+<Description>Analasis Tres</Description></Attribute>
+<Attribute>
+<AttriId>308</AttriId>
+<AttriName>TicketResponsableAnalasisCuatro</AttriName>
+<Description>Analasis Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>309</AttriId>
+<AttriName>TicketResponsableDisenioUno</AttriName>
+<Description>Diseño Uno</Description></Attribute>
+<Attribute>
+<AttriId>310</AttriId>
+<AttriName>TicketResponsableDesarrolloUno</AttriName>
+<Description>Desarrollo Uno</Description></Attribute>
+<Attribute>
+<AttriId>311</AttriId>
+<AttriName>TicketResponsableDesarrolloDos</AttriName>
+<Description>Desarrollo Dos</Description></Attribute>
+<Attribute>
+<AttriId>312</AttriId>
+<AttriName>TicketResponsableDesarrolloTres</AttriName>
+<Description>Desarrollo Tres</Description></Attribute>
+<Attribute>
+<AttriId>313</AttriId>
+<AttriName>TicketResponsableDesarrolloCuatro</AttriName>
+<Description>Desarrollo Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>314</AttriId>
+<AttriName>TicketResponsableDesarrolloCinco</AttriName>
+<Description>Desarrollo Cinco</Description></Attribute>
+<Attribute>
+<AttriId>315</AttriId>
+<AttriName>TicketResponsablePruebasUno</AttriName>
+<Description>Pruebas Uno</Description></Attribute>
+<Attribute>
+<AttriId>316</AttriId>
+<AttriName>TicketResponsablePruebasDos</AttriName>
+<Description>Pruebas Dos</Description></Attribute>
+<Attribute>
+<AttriId>317</AttriId>
+<AttriName>TicketResponsablePruebasTres</AttriName>
+<Description>Pruebas Tres</Description></Attribute>
+<Attribute>
+<AttriId>318</AttriId>
+<AttriName>TicketResponsablePruebasCuatro</AttriName>
+<Description>Pruebas Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>319</AttriId>
+<AttriName>TicketResponsableDocumentacionUno</AttriName>
+<Description>Documentacion Uno</Description></Attribute>
+<Attribute>
+<AttriId>320</AttriId>
+<AttriName>TicketResponsableDocumentacionDos</AttriName>
+<Description>Documentacion Dos</Description></Attribute>
+<Attribute>
+<AttriId>321</AttriId>
+<AttriName>TicketResponsableDocumentacionTres</AttriName>
+<Description>Documentacion Tres</Description></Attribute>
+<Attribute>
+<AttriId>322</AttriId>
+<AttriName>TicketResponsableDocumentacionCuatro</AttriName>
+<Description>Documentacion Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>323</AttriId>
+<AttriName>TicketResponsableImplementacionUno</AttriName>
+<Description>Implementacion Uno</Description></Attribute>
+<Attribute>
+<AttriId>324</AttriId>
+<AttriName>TicketResponsableImplementacionDos</AttriName>
+<Description>Implementacion Dos</Description></Attribute>
+<Attribute>
+<AttriId>325</AttriId>
+<AttriName>TicketResponsableImplementacionTres</AttriName>
+<Description>Implementacion Tres</Description></Attribute>
+<Attribute>
+<AttriId>326</AttriId>
+<AttriName>TicketResponsableImplementacionCuatro</AttriName>
+<Description>Implementacion Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>327</AttriId>
+<AttriName>TicketResponsableImplementacionCinco</AttriName>
+<Description>Implementacion Cinco</Description></Attribute>
+<Attribute>
+<AttriId>328</AttriId>
+<AttriName>TicketResponsableImplementacionSeis</AttriName>
+<Description>Implementacion Seis</Description></Attribute>
+<Attribute>
+<AttriId>329</AttriId>
+<AttriName>TicketResponsableMantenimientoUno</AttriName>
+<Description>Mantenimiento Uno</Description></Attribute>
+<Attribute>
+<AttriId>330</AttriId>
+<AttriName>TicketResponsableMantenimientoDos</AttriName>
+<Description>Mantenimiento Dos</Description></Attribute>
+<Attribute>
+<AttriId>331</AttriId>
+<AttriName>TicketResponsableMantenimientoTres</AttriName>
+<Description>Mantenimiento Tres</Description></Attribute>
+<Attribute>
+<AttriId>332</AttriId>
+<AttriName>TicketResponsableMantenimientoCuatro</AttriName>
+<Description>Mantenimiento Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>333</AttriId>
+<AttriName>TicketResponsableMantenimientoCinco</AttriName>
+<Description>Mantenimiento Cinco</Description></Attribute>
+<Attribute>
+<AttriId>334</AttriId>
+<AttriName>TicketResponsableMantenimientoSeis</AttriName>
+<Description>Mantenimiento Seis</Description></Attribute>
+<Attribute>
+<AttriId>335</AttriId>
+<AttriName>TicketResponsableMantenimientoSiete</AttriName>
+<Description>Mantenimiento Siete</Description></Attribute>
+<Attribute>
+<AttriId>336</AttriId>
+<AttriName>TicketResponsableGestionbdUno</AttriName>
+<Description>Gestion bd Uno</Description></Attribute>
+<Attribute>
+<AttriId>337</AttriId>
+<AttriName>TicketResponsableGestionbdDos</AttriName>
+<Description>Gestion bd Dos</Description></Attribute>
+<Attribute>
+<AttriId>338</AttriId>
+<AttriName>TicketResponsableGestionbdTres</AttriName>
+<Description>Gestion bd Tres</Description></Attribute>
+<Attribute>
+<AttriId>339</AttriId>
+<AttriName>TicketResponsableGestionbdCuatro</AttriName>
+<Description>Gestion bd Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>340</AttriId>
+<AttriName>TicketResponsableMantenimientobdUno</AttriName>
+<Description>Mantenimiento bd Uno</Description></Attribute>
+<Attribute>
+<AttriId>341</AttriId>
+<AttriName>TicketResponsableMantenimientobdDos</AttriName>
+<Description>Mantenimiento bd Dos</Description></Attribute>
+<Attribute>
+<AttriId>342</AttriId>
+<AttriName>TicketResponsableMantenimientobdTres</AttriName>
+<Description>Mantenimiento bd Tres</Description></Attribute>
+<Attribute>
+<AttriId>343</AttriId>
+<AttriName>TicketResponsableMantenimientobdCuatro</AttriName>
+<Description>Mantenimiento bd Cuatro</Description></Attribute>
+<Attribute>
+<AttriId>344</AttriId>
+<AttriName>TicketResponsableMantenimientobdCinco</AttriName>
+<Description>Mantenimiento bd Cinco</Description></Attribute>
+<Attribute>
+<AttriId>345</AttriId>
+<AttriName>TicketResponsableMantenimientobdSeis</AttriName>
+<Description>Mantenimiento bd Seis</Description></Attribute>
+<Attribute>
+<AttriId>346</AttriId>
+<AttriName>TicketResponsableMantenimientobdSiete</AttriName>
+<Description>Mantenimientobd Siete</Description></Attribute>
+<Attribute>
+<AttriId>363</AttriId>
+<AttriName>TicketResponsableFechaHoraAtiende</AttriName>
+<Description>Fecha Hora Atiende</Description></Attribute>
+<Attribute>
+<AttriId>376</AttriId>
+<AttriName>TicketResponsableFechaSistema</AttriName>
+<Description>Ticket Responsable Fecha Sistema</Description></Attribute>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>EtapaDesarrolloId</AttriName>
+<Description>Id</Description></Attribute>
+<Attribute>
+<AttriId>294</AttriId>
+<AttriName>CategoriaDetalleTareaId</AttriName>
+<Description>Id.</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>EstadoTicketTecnicoId</AttriName>
+<Description>Estado Id</Description></Attribute>
+<Attribute>
+<AttriId>198</AttriId>
+<AttriName>TicketTecnicoResponsableId</AttriName>
+<Description>Id Técnico</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>9</TableId>
+<TableName>TicketTecnico</TableName>
+<Description>Ticket Tecnico</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>6</TableId>
+<TableName>Satisfaccion</TableName>
+<Description>Satisfaccion</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>212</ObjId>
+<ObjName>PromptEstadoTicket</ObjName>
+<ObjPgmName>PromptEstadoTicket</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>EstadoTicketTecnicoId</AttriName>
+<Description>Estado Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>5</TableId>
+<TableName>Responsable</TableName>
+<Description>Responsable</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>178</ObjId>
+<ObjName>PromptResponsable</ObjName>
+<ObjPgmName>PromptResponsable</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>198</AttriId>
+<AttriName>TicketTecnicoResponsableId</AttriName>
+<Description>Id Técnico</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>14</ObjId>
+<ObjName>Gx0081</ObjName>
+<ObjPgmName>Gx0081</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TicketResponsableId</AttriName>
+<Description>Ticket Responsable Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>4</TableId>
+<TableName>EstadoTicket</TableName>
+<Description>Estado Ticket</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>212</ObjId>
+<ObjName>PromptEstadoTicket</ObjName>
+<ObjPgmName>PromptEstadoTicket</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>187</AttriId>
+<AttriName>EstadoTicketTicketId</AttriName>
+<Description>Estado Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>10</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>108</ObjId>
+<ObjName>PromptUsuario</ObjName>
+<ObjPgmName>PromptUsuario</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Id Usuario</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>13</ObjId>
+<ObjName>Gx0070</ObjName>
+<ObjPgmName>Gx0070</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExposableServices module="Chatbot">
+  <Service name="Chatbot.CommandBased.SendMessage" fullName="GeneXus.Programs.chatbot.commandbased.sendmessage" />
+  <Service name="Chatbot.Message.SendMessage" fullName="GeneXus.Programs.chatbot.message.sendmessage" />
+  <Service name="Chatbot.Message.Analyze" fullName="GeneXus.Programs.chatbot.message.analyze" />
+  <Service name="Chatbot.Context.MergeWithGenericContext" fullName="GeneXus.Programs.chatbot.context.mergewithgenericcontext" />
+  <Service name="Chatbot.Context.GetUserContextValue" fullName="GeneXus.Programs.chatbot.context.getusercontextvalue" />
+  <Service name="Chatbot.Context.SetUserContextValue" fullName="GeneXus.Programs.chatbot.context.setusercontextvalue" />
+  <Service name="Chatbot.Context.CleanContext" fullName="GeneXus.Programs.chatbot.context.cleancontext" />
+  <Service name="Chatbot.Context.CleanUserContext" fullName="GeneXus.Programs.chatbot.context.cleanusercontext" />
+  <Service name="Chatbot.Context.SetContextValue" fullName="GeneXus.Programs.chatbot.context.setcontextvalue" />
+  <Service name="Chatbot.Context.GetContextValue" fullName="GeneXus.Programs.chatbot.context.getcontextvalue" />
+</ExposableServices>

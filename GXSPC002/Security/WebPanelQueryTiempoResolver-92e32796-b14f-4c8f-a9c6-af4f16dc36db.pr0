@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "webpanelquerytiemporesolver_Execute",
+    "Description": "Tiempo Resolver Ticket",
+    "ProgramName": "webpanelquerytiemporesolver",
+    "IsGXAutomatic": true
+  }
+]

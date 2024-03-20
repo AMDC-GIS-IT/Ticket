@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpsoportetecnico_Execute",
+    "Description": "WPRegistrar Tecnico Smart Device",
+    "ProgramName": "wpregistrartecnicosmartdevice",
+    "IsGXAutomatic": true
+  }
+]

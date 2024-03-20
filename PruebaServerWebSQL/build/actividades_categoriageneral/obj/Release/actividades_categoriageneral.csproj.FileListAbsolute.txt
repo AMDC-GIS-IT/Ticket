@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\actividades_categoriageneral.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\actividades_categoriageneral\obj\Release\actividades_categoriageneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\actividades_categoriageneral\obj\Release\actividades_categoriageneral.dll

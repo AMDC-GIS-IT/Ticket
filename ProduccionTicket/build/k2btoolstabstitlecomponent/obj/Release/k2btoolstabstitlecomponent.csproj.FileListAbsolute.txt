@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2btoolstabstitlecomponent.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2btoolstabstitlecomponent\obj\Release\k2btoolstabstitlecomponent.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2btoolstabstitlecomponent\obj\Release\k2btoolstabstitlecomponent.dll

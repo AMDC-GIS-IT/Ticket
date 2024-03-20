@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "webpanelticketsasignados_Execute",
+    "Description": "Ticket Asignados",
+    "ProgramName": "webpanelticketsasignados",
+    "IsGXAutomatic": true
+  }
+]

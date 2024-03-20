@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "usuario_Execute",
+    "Description": "K2BT_PromptDescription",
+    "ProgramName": "promptusuario",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpdbsatisfaccion_Execute",
+    "Description": "Consulta Encuesta Satisfacción",
+    "ProgramName": "wpdbsatisfaccion",
+    "IsGXAutomatic": true
+  }
+]

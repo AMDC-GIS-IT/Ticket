@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.commonchatbots.sendmessage_services,commonchatbots.sendmessage" %>

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\exportwwcategoria_tarea.dll
+C:\Models\kb_ticket\CSharpModel\build\exportwwcategoria_tarea\obj\Release\exportwwcategoria_tarea.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\exportwwcategoria_tarea\obj\Release\exportwwcategoria_tarea.dll

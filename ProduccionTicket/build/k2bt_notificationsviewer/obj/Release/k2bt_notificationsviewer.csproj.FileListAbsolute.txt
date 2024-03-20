@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bt_notificationsviewer.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bt_notificationsviewer\obj\Release\k2bt_notificationsviewer.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bt_notificationsviewer\obj\Release\k2bt_notificationsviewer.dll

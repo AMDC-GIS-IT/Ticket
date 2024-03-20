@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\promptestadosatisfaccion.dll
+C:\Models\kb_ticket\CSharpModel\build\promptestadosatisfaccion\obj\Release\promptestadosatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\promptestadosatisfaccion\obj\Release\promptestadosatisfaccion.dll

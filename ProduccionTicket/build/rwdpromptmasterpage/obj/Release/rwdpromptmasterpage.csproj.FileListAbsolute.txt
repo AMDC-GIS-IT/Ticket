@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\rwdpromptmasterpage.dll
+C:\Models\kb_ticket\ProduccionTicket\build\rwdpromptmasterpage\obj\Release\rwdpromptmasterpage.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\rwdpromptmasterpage\obj\Release\rwdpromptmasterpage.dll

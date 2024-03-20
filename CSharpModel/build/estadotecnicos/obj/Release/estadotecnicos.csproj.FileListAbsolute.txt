@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\estadotecnicos.dll
+C:\Models\kb_ticket\CSharpModel\build\estadotecnicos\obj\Release\estadotecnicos.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\estadotecnicos\obj\Release\estadotecnicos.dll

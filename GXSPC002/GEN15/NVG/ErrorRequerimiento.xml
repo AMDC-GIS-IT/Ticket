@@ -1,0 +1,152 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_9-159740</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>26</ObjId>
+<ObjName>ErrorRequerimiento</ObjName>
+<ObjDesc>Error Requerimiento</ObjDesc>
+<ObjPgmName>ErrorRequerimiento</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>27</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>27</TableId>
+<TableName>ErrorRequerimiento</TableName>
+<Description>Error Requerimiento</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>27</TableId>
+<TableName>ErrorRequerimiento</TableName>
+<Description>Error Requerimiento</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>372</AttriId>
+<AttriName>ErrorRequerimientoId</AttriName>
+<Description>Id: </Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>26</TableId>
+<TableName>ListaRequerimientos</TableName>
+<Description>Lista requerimientos</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>369</AttriId>
+<AttriName>ListaRequerimientosId</AttriName>
+<Description>Id: </Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>27</TableId>
+<TableName>ErrorRequerimiento</TableName>
+<Description>Error Requerimiento</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>373</AttriId>
+<AttriName>ErrorRequerimientoDescripcion</AttriName>
+<Description>Descripción:</Description></Attribute>
+<Attribute>
+<AttriId>374</AttriId>
+<AttriName>ErrorRequerimientoUsuarioSistema</AttriName>
+<Description>Usuario Registro:</Description></Attribute>
+<Attribute>
+<AttriId>369</AttriId>
+<AttriName>ListaRequerimientosId</AttriName>
+<Description>Id: </Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>27</TableId>
+<TableName>ErrorRequerimiento</TableName>
+<Description>Error Requerimiento</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>373</AttriId>
+<AttriName>ErrorRequerimientoDescripcion</AttriName>
+<Description>Descripción:</Description></Attribute>
+<Attribute>
+<AttriId>374</AttriId>
+<AttriName>ErrorRequerimientoUsuarioSistema</AttriName>
+<Description>Usuario Registro:</Description></Attribute>
+<Attribute>
+<AttriId>369</AttriId>
+<AttriName>ListaRequerimientosId</AttriName>
+<Description>Id: </Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>27</TableId>
+<TableName>ErrorRequerimiento</TableName>
+<Description>Error Requerimiento</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>26</TableId>
+<TableName>ListaRequerimientos</TableName>
+<Description>Lista requerimientos</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>304</ObjId>
+<ObjName>Gx00Q0</ObjName>
+<ObjPgmName>Gx00Q0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>369</AttriId>
+<AttriName>ListaRequerimientosId</AttriName>
+<Description>Id: </Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>27</TableId>
+<TableName>ErrorRequerimiento</TableName>
+<Description>Error Requerimiento</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>306</ObjId>
+<ObjName>Gx00R0</ObjName>
+<ObjPgmName>Gx00R0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>372</AttriId>
+<AttriName>ErrorRequerimientoId</AttriName>
+<Description>Id: </Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "ticket_Execute",
+    "Description": "Ticketes",
+    "ProgramName": "wwticket",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\webpaneltrabajodiario.dll
+C:\Models\kb_ticket\CSharpModel\build\webpaneltrabajodiario\obj\Release\webpaneltrabajodiario.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\webpaneltrabajodiario\obj\Release\webpaneltrabajodiario.dll

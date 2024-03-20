@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bfsg.ssologin.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.ssologin\obj\Release\k2bfsg.ssologin.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.ssologin\obj\Release\k2bfsg.ssologin.dll

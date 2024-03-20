@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\gxonpendingeventfailed.dll
+C:\Models\kb_ticket\ProduccionTicket\build\gxonpendingeventfailed\obj\Release\gxonpendingeventfailed.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\gxonpendingeventfailed\obj\Release\gxonpendingeventfailed.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\promptresponsable.dll
+C:\Models\kb_ticket\CSharpModel\build\promptresponsable\obj\Release\promptresponsable.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\promptresponsable\obj\Release\promptresponsable.dll

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "usuario_Execute",
+    "Description": "Usuario",
+    "ProgramName": "entitymanagerusuario",
+    "IsGXAutomatic": true
+  }
+]

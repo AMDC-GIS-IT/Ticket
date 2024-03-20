@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\exportestadosatisfaccionsatisfaccionwc4.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportestadosatisfaccionsatisfaccionwc4\obj\Release\exportestadosatisfaccionsatisfaccionwc4.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportestadosatisfaccionsatisfaccionwc4\obj\Release\exportestadosatisfaccionsatisfaccionwc4.dll

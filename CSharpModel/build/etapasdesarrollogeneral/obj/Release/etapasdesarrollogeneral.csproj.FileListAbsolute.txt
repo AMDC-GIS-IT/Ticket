@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\etapasdesarrollogeneral.dll
+C:\Models\kb_ticket\CSharpModel\build\etapasdesarrollogeneral\obj\Release\etapasdesarrollogeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\etapasdesarrollogeneral\obj\Release\etapasdesarrollogeneral.dll

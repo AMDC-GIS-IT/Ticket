@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\ticket.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\ticket\obj\Release\ticket.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\ticket\obj\Release\ticket.dll

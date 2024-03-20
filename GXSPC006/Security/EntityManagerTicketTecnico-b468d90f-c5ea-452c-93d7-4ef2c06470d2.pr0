@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "tickettecnico_Execute",
+    "Description": "Ticket Tecnico",
+    "ProgramName": "entitymanagertickettecnico",
+    "IsGXAutomatic": true
+  }
+]

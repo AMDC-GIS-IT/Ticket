@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\usuario.dll
+C:\Models\kb_ticket\CSharpModel\build\usuario\obj\Release\usuario.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\usuario\obj\Release\usuario.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wpdbsatisfaccion.dll
+C:\Models\kb_ticket\CSharpModel\build\wpdbsatisfaccion\obj\Release\wpdbsatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wpdbsatisfaccion\obj\Release\wpdbsatisfaccion.dll

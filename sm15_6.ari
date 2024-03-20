@@ -1,0 +1,50 @@
+domain_i(100,'gxdomaink2bhttpmethod.cs').
+domain_i(109,'k2btools\gxdomaingenexusgenerator.cs').
+domain_i(120,'k2btools\gxdomaink2bt_webnotificationids.cs').
+domain_i(121,'k2btools\gxdomaink2bt_desktopnotificationpermission.cs').
+domain_i(126,'gxdomaink2bbtntooltip.cs').
+domain_i(128,'gxdomaink2bpage.cs').
+domain_i(129,'gxdomaink2bsymbols.cs').
+domain_i(130,'gxdomaink2bthemeclasses.cs').
+domain_i(132,'gxdomaink2bfiltertype.cs').
+domain_i(133,'gxdomaink2btoolsmessagetype.cs').
+domain_i(242,'gxdomaink2bfsgconstants.cs').
+domain_i(273,'gxdomainhorazone.cs').
+domain_i(300,'gxdomainchatbotcontextelements.cs').
+domain_i(301,'gxdomainchatbotnotificationtypes.cs').
+domain_i(302,'gxdomainchatbotmessagetypes.cs').
+domain_i(303,'commonchatbots\gxdomainchatbotplatform.cs').
+domain_i(304,'gxdomainqueryviewerxaxislabels.cs').
+domain_i(305,'gxdomainqueryviewervisible.cs').
+domain_i(306,'gxdomainqueryviewertrendperiod.cs').
+domain_i(307,'gxdomainqueryviewersubtotals.cs').
+domain_i(308,'gxdomainqueryviewershowdatalabelsin.cs').
+domain_i(309,'gxdomainqueryviewershowdataas.cs').
+domain_i(310,'gxdomainqueryviewerplotseries.cs').
+domain_i(311,'gxdomainqueryvieweroutputtype.cs').
+domain_i(312,'gxdomainqueryviewerorientation.cs').
+domain_i(313,'gxdomainqueryvieweraxisordertype.cs').
+domain_i(314,'gxdomainqueryviewerobjecttype.cs').
+domain_i(315,'gxdomainqueryviewerfiltertype.cs').
+domain_i(316,'gxdomainqueryviewerexpandcollapse.cs').
+domain_i(317,'gxdomainqueryviewerelementtype.cs').
+domain_i(318,'gxdomainqueryviewerconditionoperator.cs').
+domain_i(319,'gxdomainqueryviewercharttype.cs').
+domain_i(320,'gxdomainqueryvieweraxistype.cs').
+domain_i(321,'gxdomainqueryvieweraggregationtype.cs').
+domain_i(322,'gxdomainqueryviewermaptype.cs').
+domain_i(323,'gxdomainqueryviewerregion.cs').
+domain_i(324,'gxdomainqueryviewercountry.cs').
+domain_i(325,'gxdomainqueryviewercontinent.cs').
+domain_i(91,'gxdomaink2baftertrnnavigation.cs').
+domain_i(92,'gxdomaink2bcomponenttype.cs').
+domain_i(94,'gxdomaink2bsesitem.cs').
+domain_i(96,'gxdomaink2bstandardactivitytype.cs').
+domain_i(98,'gxdomaink2btrnmode.cs').
+domain_i(99,'gxdomaink2btrnreturnmode.cs').
+ext_sdt_map_i(15,'GeneXus.dll',[ 0,19,0 ]).
+ext_sdt_map_i(15,'GeneXus.dll',[ 0,20,0 ]).
+external_library_i('K2BToolsCaptchaProvider','K2BTools.Captcha.dll',[ 14,168,0 ]).
+sdt_map_i(15,'CommonChatbots\GXChatMessage',[ 0,19,0 ]).
+sdt_map_i(15,'CommonChatbots\GXChatUser',[ 0,20,0 ]).
+sdt_map_i(15,'K2BToolsCaptchaProvider',[ 14,168,0 ]).

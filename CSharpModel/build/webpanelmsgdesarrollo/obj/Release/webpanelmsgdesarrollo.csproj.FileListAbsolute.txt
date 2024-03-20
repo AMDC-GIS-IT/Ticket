@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\webpanelmsgdesarrollo.dll
+C:\Models\kb_ticket\CSharpModel\build\webpanelmsgdesarrollo\obj\Release\webpanelmsgdesarrollo.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\webpanelmsgdesarrollo\obj\Release\webpanelmsgdesarrollo.dll

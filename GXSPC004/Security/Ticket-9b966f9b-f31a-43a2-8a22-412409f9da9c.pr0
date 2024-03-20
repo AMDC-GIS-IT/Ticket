@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "ticket_FullControl",
+    "Description": "Ticket FullControl",
+    "ProgramName": "ticket",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "ticket_Execute",
+    "Description": "Ticket",
+    "ProgramName": "ticket",
+    "IsGXAutomatic": true,
+    "Parent": "ticket_FullControl"
+  },
+  {
+    "Name": "ticket_Insert",
+    "Description": "Ticket Insert",
+    "ProgramName": "ticket",
+    "IsGXAutomatic": true,
+    "Parent": "ticket_FullControl"
+  },
+  {
+    "Name": "ticket_Delete",
+    "Description": "Ticket Delete",
+    "ProgramName": "ticket",
+    "IsGXAutomatic": true,
+    "Parent": "ticket_FullControl"
+  },
+  {
+    "Name": "ticket_Update",
+    "Description": "Ticket Update",
+    "ProgramName": "ticket",
+    "IsGXAutomatic": true,
+    "Parent": "ticket_FullControl"
+  }
+]

@@ -1,0 +1,367 @@
+spec_i([ proc,0,'Stub for PCRImprimirSoporteTecnicoAdmin','PCRImprimirSoporteTecnicoAdmin',80,spa,'17_0_9-159740' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','(local)')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',Ü5Ú2ÌKê2â5Ì¿Ô7ê8)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',Ü5Ú2ÌKê2â5Ì¿Ô7ê8)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'TicketId','UsuarioId','TicketResponsableId','TicketTecnicoResponsableId','TicketTecnicoResponsableNombre','UsuarioEmail','UsuarioFecha','UsuarioNombre','UsuarioDepartamento','UsuarioRequerimiento','TicketLaptop','TicketDesktop','TicketMonitor','TicketImpresora','TicketEscaner','TicketRouter','TicketSistemaOperativo','TicketOffice','TicketAntivirus','TicketDiscoDuroExterno','TicketPerifericos','TicketUps','TicketInstalarDataShow','TicketOtros','UsuarioTelefono','TicketFechaResponsable','TicketHoraResponsable','TicketMemorando' ],[])).
+rule_i(0,parmio([ [ 'TicketId',in ],[ 'UsuarioId',in ],[ 'TicketResponsableId',in ],[ 'TicketTecnicoResponsableId',in ],[ 'TicketTecnicoResponsableNombre',in ],[ 'UsuarioEmail',in ],[ 'UsuarioFecha',in ],[ 'UsuarioNombre',in ],[ 'UsuarioDepartamento',in ],[ 'UsuarioRequerimiento',in ],[ 'TicketLaptop',in ],[ 'TicketDesktop',in ],[ 'TicketMonitor',in ],[ 'TicketImpresora',in ],[ 'TicketEscaner',in ],[ 'TicketRouter',in ],[ 'TicketSistemaOperativo',in ],[ 'TicketOffice',in ],[ 'TicketAntivirus',in ],[ 'TicketDiscoDuroExterno',in ],[ 'TicketPerifericos',in ],[ 'TicketUps',in ],[ 'TicketInstalarDataShow',in ],[ 'TicketOtros',in ],[ 'UsuarioTelefono',in ],[ 'TicketFechaResponsable',in ],[ 'TicketHoraResponsable',in ],[ 'TicketMemorando',in ] ])).
+rule_i(0,stub(proc)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',31 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',30 ]).
+attri_i('TicketMemorando',[ 'TicketMemorando',svchar,30,0,'',0,'','',29 ]).
+attri_i('TicketHoraResponsable',[ 'TicketHoraResponsable',dtime,0,5,'',0,'','',28 ]).
+attri_i('TicketFechaResponsable',[ 'TicketFechaResponsable',date,8,0,'',0,'','',27 ]).
+attri_i('UsuarioTelefono',[ 'UsuarioTelefono',int,9,0,'',0,'','',26 ]).
+attri_i('TicketOtros',[ 'TicketOtros',boolean,4,0,'',0,'','',25 ]).
+attri_i('TicketInstalarDataShow',[ 'TicketInstalarDataShow',boolean,4,0,'',0,'','',24 ]).
+attri_i('TicketUps',[ 'TicketUps',boolean,4,0,'',0,'','',23 ]).
+attri_i('TicketPerifericos',[ 'TicketPerifericos',boolean,4,0,'',0,'','',22 ]).
+attri_i('TicketDiscoDuroExterno',[ 'TicketDiscoDuroExterno',boolean,4,0,'',0,'','',21 ]).
+attri_i('TicketAntivirus',[ 'TicketAntivirus',boolean,4,0,'',0,'','',20 ]).
+attri_i('TicketOffice',[ 'TicketOffice',boolean,4,0,'',0,'','',19 ]).
+attri_i('TicketSistemaOperativo',[ 'TicketSistemaOperativo',boolean,4,0,'',0,'','',18 ]).
+attri_i('TicketRouter',[ 'TicketRouter',boolean,4,0,'',0,'','',17 ]).
+attri_i('TicketEscaner',[ 'TicketEscaner',boolean,4,0,'',0,'','',16 ]).
+attri_i('TicketImpresora',[ 'TicketImpresora',boolean,4,0,'',0,'','',15 ]).
+attri_i('TicketMonitor',[ 'TicketMonitor',boolean,4,0,'',0,'','',14 ]).
+attri_i('TicketDesktop',[ 'TicketDesktop',boolean,4,0,'',0,'','',13 ]).
+attri_i('TicketLaptop',[ 'TicketLaptop',boolean,4,0,'',0,'','',12 ]).
+attri_i('UsuarioRequerimiento',[ 'UsuarioRequerimiento',svchar,300,0,'',0,'','',11 ]).
+attri_i('UsuarioDepartamento',[ 'UsuarioDepartamento',svchar,300,0,'',0,'','',10 ]).
+attri_i('UsuarioNombre',[ 'UsuarioNombre',svchar,60,0,'',0,'','',9 ]).
+attri_i('UsuarioFecha',[ 'UsuarioFecha',date,8,0,'',0,'','',8 ]).
+attri_i('UsuarioEmail',[ 'UsuarioEmail',svchar,100,0,'',0,'','',7 ]).
+attri_i('TicketTecnicoResponsableNombre',[ 'TicketTecnicoResponsableNombre',svchar,60,0,'',0,'','',6 ]).
+attri_i('TicketTecnicoResponsableId',[ 'TicketTecnicoResponsableId',int,4,0,'',0,'','',5 ]).
+attri_i('TicketResponsableId',[ 'TicketResponsableId',int,10,0,'',0,'','',4 ]).
+attri_i('UsuarioId',[ 'UsuarioId',int,10,0,'',0,'','',3 ]).
+attri_i('TicketId',[ 'TicketId',int,10,0,'',0,'','',2 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(1,1,1,cmd,1,[ t('',163,1,0),t('APCRImprimirSoporteTecnicoAdmin',3,1,0),t(15,3,1,0),t('',3,1,0),t(',',7,1,0),t('TicketId',23,1,0),t(',',7,1,0),t('UsuarioId',23,1,0),t(',',7,1,0),t('TicketResponsableId',23,1,0),t(',',7,1,0),t('TicketTecnicoResponsableId',23,1,0),t(',',7,1,0),t('TicketTecnicoResponsableNombre',23,1,0),t(',',7,1,0),t('UsuarioEmail',23,1,0),t(',',7,1,0),t('UsuarioFecha',23,1,0),t(',',7,1,0),t('UsuarioNombre',23,1,0),t(',',7,1,0),t('UsuarioDepartamento',23,1,0),t(',',7,1,0),t('UsuarioRequerimiento',23,1,0),t(',',7,1,0),t('TicketLaptop',23,1,0),t(',',7,1,0),t('TicketDesktop',23,1,0),t(',',7,1,0),t('TicketMonitor',23,1,0),t(',',7,1,0),t('TicketImpresora',23,1,0),t(',',7,1,0),t('TicketEscaner',23,1,0),t(',',7,1,0),t('TicketRouter',23,1,0),t(',',7,1,0),t('TicketSistemaOperativo',23,1,0),t(',',7,1,0),t('TicketOffice',23,1,0),t(',',7,1,0),t('TicketAntivirus',23,1,0),t(',',7,1,0),t('TicketDiscoDuroExterno',23,1,0),t(',',7,1,0),t('TicketPerifericos',23,1,0),t(',',7,1,0),t('TicketUps',23,1,0),t(',',7,1,0),t('TicketInstalarDataShow',23,1,0),t(',',7,1,0),t('TicketOtros',23,1,0),t(',',7,1,0),t('UsuarioTelefono',23,1,0),t(',',7,1,0),t('TicketFechaResponsable',23,1,0),t(',',7,1,0),t('TicketHoraResponsable',23,1,0),t(',',7,1,0),t('TicketMemorando',23,1,0),t(')',4,1,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(1,270).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,270,'APCRIMPRIMIRSOPORTETECNICOADMIN',[ [ int,10,0,0 ],[ int,10,0,0 ],[ int,10,0,0 ],[ int,4,0,0 ],[ svchar,60,0,0 ],[ svchar,100,0,0 ],[ date,8,0,0 ],[ svchar,60,0,0 ],[ svchar,300,0,0 ],[ svchar,300,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ boolean,4,0,0 ],[ int,9,0,0 ],[ date,8,0,0 ],[ dtime,0,5,0 ],[ svchar,30,0,0 ] ],[ [ 'TicketId',in,[] ],[ 'UsuarioId',in,[] ],[ 'TicketResponsableId',in,[] ],[ 'TicketTecnicoResponsableId',in,[] ],[ 'TicketTecnicoResponsableNombre',in,[] ],[ 'UsuarioEmail',in,[] ],[ 'UsuarioFecha',in,[] ],[ 'UsuarioNombre',in,[] ],[ 'UsuarioDepartamento',in,[] ],[ 'UsuarioRequerimiento',in,[] ],[ 'TicketLaptop',in,[] ],[ 'TicketDesktop',in,[] ],[ 'TicketMonitor',in,[] ],[ 'TicketImpresora',in,[] ],[ 'TicketEscaner',in,[] ],[ 'TicketRouter',in,[] ],[ 'TicketSistemaOperativo',in,[] ],[ 'TicketOffice',in,[] ],[ 'TicketAntivirus',in,[] ],[ 'TicketDiscoDuroExterno',in,[] ],[ 'TicketPerifericos',in,[] ],[ 'TicketUps',in,[] ],[ 'TicketInstalarDataShow',in,[] ],[ 'TicketOtros',in,[] ],[ 'UsuarioTelefono',in,[] ],[ 'TicketFechaResponsable',in,[] ],[ 'TicketHoraResponsable',in,[] ],[ 'TicketMemorando',in,[] ] ]).
+ 
+pgm_callprotocol_i(proc,0,'PCRIMPRIMIRSOPORTETECNICOADMIN','INTERNAL','').
+pgm_callprotocol_i(proc,270,'APCRIMPRIMIRSOPORTETECNICOADMIN','HTTP','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,270,'PCRIMPRIMIRSOPORTETECNICOADMIN',[ 15,'APCRIMPRIMIRSOPORTETECNICOADMIN','Orden de trabajo','','','','HTTP' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

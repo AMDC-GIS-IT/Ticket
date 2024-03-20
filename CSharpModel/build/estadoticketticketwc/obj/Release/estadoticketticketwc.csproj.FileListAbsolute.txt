@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\estadoticketticketwc.dll
+C:\Models\kb_ticket\CSharpModel\build\estadoticketticketwc\obj\Release\estadoticketticketwc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\estadoticketticketwc\obj\Release\estadoticketticketwc.dll

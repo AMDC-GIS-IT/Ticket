@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2btoolssearchresultorion.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2btoolssearchresultorion\obj\Release\k2btoolssearchresultorion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2btoolssearchresultorion\obj\Release\k2btoolssearchresultorion.dll

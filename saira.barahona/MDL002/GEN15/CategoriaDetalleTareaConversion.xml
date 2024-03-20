@@ -1,0 +1,255 @@
+
+<ReorgSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Table>
+<TableId>23</TableId>
+<TableName>CategoriaDetalleTarea</TableName>
+<Description>Categoria Detalle Tarea</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>CategoriaDetalleTarea needs conversion</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>294</AttriId>
+<AttriName>CategoriaDetalleTareaId</AttriName>
+<Description>Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>23</TableId>
+<TableName>CategoriaDetalleTarea</TableName>
+<Description>Categoria Detalle Tarea</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>294</AttriId>
+<AttriName>CategoriaDetalleTareaId</AttriName>
+<Description>Id</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>295</AttriId>
+<AttriName>CategoriaDetalleTareaNombre</AttriName>
+<Description>Detalle Tarea</Description>
+<TakesValueFrom>
+<Table>
+<TableId>23</TableId>
+<TableName>CategoriaDetalleTarea</TableName>
+<Description>Categoria Detalle Tarea</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>295</AttriId>
+<AttriName>CategoriaDetalleTareaNombre</AttriName>
+<Description>Detalle Tarea</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>300</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>id_actividad_categoria</AttriName>
+<Description>id_actividad_categoria</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>0</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>9</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>ni</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>296</AttriId>
+<AttriName>CategoriaDetalleUsuarioRegistro</AttriName>
+<Description>Usuario Registro</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>' '</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>100</Presicion>
+<Scale>60</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType>
+<AttriChangeType>ni</AttriChangeType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<NavigationTree>
+<Table>
+<TableId>23</TableId>
+<TableName>CategoriaDetalleTarea</TableName>
+<Description>Categoria Detalle Tarea</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>294</AttriId>
+<AttriName>CategoriaDetalleTareaId</AttriName>
+<Description>Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ICATEGORIADETALLETAREA</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>294</AttriId>
+<AttriName>CategoriaDetalleTareaId</AttriName>
+<Description>Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index></Indices>
+<NewIndices>
+<Index>
+<IndexName>ICATEGORIADETALLETAREA1</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>id_actividad_categoria</AttriName>
+<Description>id_actividad_categoria</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></NewIndices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>new</ChangeType>
+<Table>
+<TableId>13</TableId>
+<TableName>actividades_categoria</TableName>
+<Description>actividades_categoria</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>id_actividad_categoria</AttriName>
+<Description>id_actividad_categoria</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>ALTER TABLE [CategoriaDetalleTarea] ADD [CategoriaDetalleUsuarioRegistro] nvarchar(100) NOT NULL CONSTRAINT CategoriaDetalleUsuarioRegistroCategoriaDetalleTarea_DEFAULT DEFAULT '', [id_actividad_categoria] int NOT NULL CONSTRAINT id_actividad_categoriaCategoriaDetalleTarea_DEFAULT DEFAULT convert(int, 0)</Statement>
+<Statement>ALTER TABLE [CategoriaDetalleTarea] DROP CONSTRAINT CategoriaDetalleUsuarioRegistroCategoriaDetalleTarea_DEFAULT</Statement>
+<Statement>ALTER TABLE [CategoriaDetalleTarea] DROP CONSTRAINT id_actividad_categoriaCategoriaDetalleTarea_DEFAULT</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ICATEGORIADETALLETAREA1] ON [CategoriaDetalleTarea] ([id_actividad_categoria] )</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>id_actividad_categoria</AttriName>
+<Description>id_actividad_categoria</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>296</AttriId>
+<AttriName>CategoriaDetalleUsuarioRegistro</AttriName>
+<Description>Usuario Registro</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgo0002</MsgCode>
+<Message>
+<Token>Table '</Token>
+<Table>
+<TableId>13</TableId>
+<TableName>actividades_categoria</TableName>
+<Description>actividades_categoria</Description></Table>
+<Token>' is referenced by table '</Token>
+<Table>
+<TableId>23</TableId>
+<TableName>CategoriaDetalleTarea</TableName>
+<Description>Categoria Detalle Tarea</Description></Table>
+<Token>' and at least one attribute in its foreign key (</Token>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>id_actividad_categoria</AttriName>
+<Description>id_actividad_categoria</Description></Attribute>
+<Token>) does not allow nulls. A default record will be added if table '</Token>
+<Table>
+<TableId>23</TableId>
+<TableName>CategoriaDetalleTarea</TableName>
+<Description>Categoria Detalle Tarea</Description></Table>
+<Token>' has records and a record with default values does not exist in table '</Token>
+<Table>
+<TableId>13</TableId>
+<TableName>actividades_categoria</TableName>
+<Description>actividades_categoria</Description></Table>
+<Token>'.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Information>
+<InfoMsg>
+<MsgCode>nfo0003</MsgCode>
+<Message>
+<Token>The reorganization for this table makes the schema not backward compatible.</Token></Message>
+<AdditionalInfo>
+<Title>The following operations are not backward compatible:</Title>
+<Info>
+<Token>Add </Token>
+<Token>foreign key</Token>
+<Token>constraint</Token>
+<Token>ICATEGORIADETALLETAREA1</Token></Info>
+<Info>
+<Token>Add not null</Token>
+<Token>attribute</Token>
+<Attribute>
+<AttriId>296</AttriId>
+<AttriName>CategoriaDetalleUsuarioRegistro</AttriName>
+<Description>Usuario Registro</Description></Attribute></Info>
+<Info>
+<Token>Add not null</Token>
+<Token>attribute</Token>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>id_actividad_categoria</AttriName>
+<Description>id_actividad_categoria</Description></Attribute></Info></AdditionalInfo></InfoMsg></Information></ReorgSpec>

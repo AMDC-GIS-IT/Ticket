@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\webpanelmsgatencioncerrado.dll
+C:\Models\kb_ticket\CSharpModel\build\webpanelmsgatencioncerrado\obj\Release\webpanelmsgatencioncerrado.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\webpanelmsgatencioncerrado\obj\Release\webpanelmsgatencioncerrado.dll

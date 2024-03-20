@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "categoria_tarea_FullControl",
+    "Description": "categoria_tarea FullControl",
+    "ProgramName": "categoria_tarea",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "categoria_tarea_Execute",
+    "Description": "categoria_tarea",
+    "ProgramName": "categoria_tarea",
+    "IsGXAutomatic": true,
+    "Parent": "categoria_tarea_FullControl"
+  },
+  {
+    "Name": "categoria_tarea_Insert",
+    "Description": "categoria_tarea Insert",
+    "ProgramName": "categoria_tarea",
+    "IsGXAutomatic": true,
+    "Parent": "categoria_tarea_FullControl"
+  },
+  {
+    "Name": "categoria_tarea_Delete",
+    "Description": "categoria_tarea Delete",
+    "ProgramName": "categoria_tarea",
+    "IsGXAutomatic": true,
+    "Parent": "categoria_tarea_FullControl"
+  },
+  {
+    "Name": "categoria_tarea_Update",
+    "Description": "categoria_tarea Update",
+    "ProgramName": "categoria_tarea",
+    "IsGXAutomatic": true,
+    "Parent": "categoria_tarea_FullControl"
+  }
+]

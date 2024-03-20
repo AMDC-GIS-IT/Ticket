@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "unidades_gis_FullControl",
+    "Description": "unidades_gis FullControl",
+    "ProgramName": "unidades_gis",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "unidades_gis_Execute",
+    "Description": "unidades_gis",
+    "ProgramName": "unidades_gis",
+    "IsGXAutomatic": true,
+    "Parent": "unidades_gis_FullControl"
+  },
+  {
+    "Name": "unidades_gis_Insert",
+    "Description": "unidades_gis Insert",
+    "ProgramName": "unidades_gis",
+    "IsGXAutomatic": true,
+    "Parent": "unidades_gis_FullControl"
+  },
+  {
+    "Name": "unidades_gis_Delete",
+    "Description": "unidades_gis Delete",
+    "ProgramName": "unidades_gis",
+    "IsGXAutomatic": true,
+    "Parent": "unidades_gis_FullControl"
+  },
+  {
+    "Name": "unidades_gis_Update",
+    "Description": "unidades_gis Update",
+    "ProgramName": "unidades_gis",
+    "IsGXAutomatic": true,
+    "Parent": "unidades_gis_FullControl"
+  }
+]

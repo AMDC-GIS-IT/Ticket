@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\promptareasatencion.dll
+C:\Models\kb_ticket\ProduccionTicket\build\promptareasatencion\obj\Release\promptareasatencion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\promptareasatencion\obj\Release\promptareasatencion.dll

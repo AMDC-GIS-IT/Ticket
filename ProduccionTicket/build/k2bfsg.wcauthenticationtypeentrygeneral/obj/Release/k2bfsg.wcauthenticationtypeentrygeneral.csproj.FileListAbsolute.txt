@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bfsg.wcauthenticationtypeentrygeneral.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.wcauthenticationtypeentrygeneral\obj\Release\k2bfsg.wcauthenticationtypeentrygeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.wcauthenticationtypeentrygeneral\obj\Release\k2bfsg.wcauthenticationtypeentrygeneral.dll

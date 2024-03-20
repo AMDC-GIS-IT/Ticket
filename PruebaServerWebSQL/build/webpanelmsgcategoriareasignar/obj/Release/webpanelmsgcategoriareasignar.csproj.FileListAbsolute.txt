@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\webpanelmsgcategoriareasignar.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelmsgcategoriareasignar\obj\Release\webpanelmsgcategoriareasignar.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelmsgcategoriareasignar\obj\Release\webpanelmsgcategoriareasignar.dll

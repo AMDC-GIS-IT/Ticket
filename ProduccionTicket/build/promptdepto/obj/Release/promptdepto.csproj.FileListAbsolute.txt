@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\promptdepto.dll
+C:\Models\kb_ticket\ProduccionTicket\build\promptdepto\obj\Release\promptdepto.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\promptdepto\obj\Release\promptdepto.dll

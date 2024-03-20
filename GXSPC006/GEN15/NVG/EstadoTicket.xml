@@ -1,0 +1,154 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>EstadoTicket</ObjName>
+<ObjDesc>Estado Ticket</ObjDesc>
+<ObjPgmName>EstadoTicket</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Estadoticketid</VarId>
+<VarName>&amp;EstadoTicketId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>4</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>EstadoTicket</TableName>
+<Description>Estado Ticket</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>EstadoTicket</TableName>
+<Description>Estado Ticket</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>EstadoTicketId</AttriName>
+<Description>Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>EstadoTicket</TableName>
+<Description>Estado Ticket</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>EstadoTicketNombre</AttriName>
+<Description>Estado Ticket</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>EstadoTicketEstado</AttriName>
+<Description>Status</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>EstadoTicket</TableName>
+<Description>Estado Ticket</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>EstadoTicketNombre</AttriName>
+<Description>Estado Ticket</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>EstadoTicketEstado</AttriName>
+<Description>Status</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>EstadoTicket</TableName>
+<Description>Estado Ticket</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>10</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>189</AttriId>
+<AttriName>EstadoTicketUsuarioId</AttriName>
+<Description>Estado Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>187</AttriId>
+<AttriName>EstadoTicketTicketId</AttriName>
+<Description>Estado Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>EstadoTicketTecnicoId</AttriName>
+<Description>Estado Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>4</TableId>
+<TableName>EstadoTicket</TableName>
+<Description>Estado Ticket</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>11</ObjId>
+<ObjName>Gx0040</ObjName>
+<ObjPgmName>Gx0040</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>EstadoTicketId</AttriName>
+<Description>Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

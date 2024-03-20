@@ -1,0 +1,83 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_9-159740</SpecVersion>
+<Object>
+<ObjClsGuid>87313f43-5eb2-41d7-9b8c-e8d9f5bf9588</ObjClsGuid>
+<ObjCls>10</ObjCls>
+<ObjId>0</ObjId>
+<ObjName>SubTypes</ObjName>
+<ObjDesc>Subtype groups analysis report</ObjDesc>
+<ObjPgmName>SubTypes</ObjPgmName>
+<ObjClsName>Subtype group</ObjClsName></Object>
+<Warnings>
+<Warning>
+<MsgCode>spc0042</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>9</SubtypeGroupId>
+<SubtypeGroupName>SgActividad</SubtypeGroupName></SubtypeGroup>
+<Token>' (</Token>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>SgActividadId</AttriName>
+<Description>Sg Actividad Id</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>173</AttriId>
+<AttriName>SgActividadIdCategoria</AttriName>
+<Description>Sg Actividad Id Categoria</Description></Attribute>
+<Token>) does not identify a base table. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0079</MsgCode>
+<Message>
+<Token>Attribute(s) </Token>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>UsuarioTicketResponsableId</AttriName>
+<Description>Usuario Ticket Responsable Id</Description></Attribute>
+<Token> in subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>13</SubtypeGroupId>
+<SubtypeGroupName>SgUsuarioTicketResponsable</SubtypeGroupName></SubtypeGroup>
+<Token>' is(are) not associated to any transaction.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0079</MsgCode>
+<Message>
+<Token>Attribute(s) </Token>
+<Attribute>
+<AttriId>200</AttriId>
+<AttriName>TicketTecnicoAsignadoId</AttriName>
+<Description>Ticket Tecnico Asignado Id</Description></Attribute>
+<Token> in subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>15</SubtypeGroupId>
+<SubtypeGroupName>TicketTecnicoAsignado</SubtypeGroupName></SubtypeGroup>
+<Token>' is(are) not associated to any transaction.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0079</MsgCode>
+<Message>
+<Token>Attribute(s) </Token>
+<Attribute>
+<AttriId>228</AttriId>
+<AttriName>UsuarioTecnicoId</AttriName>
+<Description>Usuario Tecnico Id</Description></Attribute>
+<Token> in subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>16</SubtypeGroupId>
+<SubtypeGroupName>SgUsuarioTecnico</SubtypeGroupName></SubtypeGroup>
+<Token>' is(are) not associated to any transaction.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0079</MsgCode>
+<Message>
+<Token>Attribute(s) </Token>
+<Attribute>
+<AttriId>233</AttriId>
+<AttriName>ResponsableTecnicoId</AttriName>
+<Description>Responsable Tecnico Id</Description></Attribute>
+<Token> in subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>17</SubtypeGroupId>
+<SubtypeGroupName>SgResponsableTecnico</SubtypeGroupName></SubtypeGroup>
+<Token>' is(are) not associated to any transaction.</Token></Message></Warning></Warnings>
+<Errors></Errors></ObjectSpec>

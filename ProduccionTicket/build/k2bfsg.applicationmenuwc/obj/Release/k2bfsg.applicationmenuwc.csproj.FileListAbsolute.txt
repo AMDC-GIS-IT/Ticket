@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bfsg.applicationmenuwc.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.applicationmenuwc\obj\Release\k2bfsg.applicationmenuwc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.applicationmenuwc\obj\Release\k2bfsg.applicationmenuwc.dll

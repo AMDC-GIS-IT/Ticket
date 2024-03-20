@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\wpcolaticket.dll
+C:\Models\kb_ticket\ProduccionTicket\build\wpcolaticket\obj\Release\wpcolaticket.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\wpcolaticket\obj\Release\wpcolaticket.dll

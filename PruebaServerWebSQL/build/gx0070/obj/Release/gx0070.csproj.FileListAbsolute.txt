@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\gx0070.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gx0070\obj\Release\gx0070.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gx0070\obj\Release\gx0070.dll

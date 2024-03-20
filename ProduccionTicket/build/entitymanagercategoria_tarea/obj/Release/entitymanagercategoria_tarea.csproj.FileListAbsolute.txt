@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\entitymanagercategoria_tarea.dll
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagercategoria_tarea\obj\Release\entitymanagercategoria_tarea.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagercategoria_tarea\obj\Release\entitymanagercategoria_tarea.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\responsable.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\responsable\obj\Release\responsable.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\responsable\obj\Release\responsable.dll

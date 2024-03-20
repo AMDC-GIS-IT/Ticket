@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\commonchatbots.gx00k0.dll
+C:\Models\kb_ticket\CSharpModel\build\commonchatbots.gx00k0\obj\Release\commonchatbots.gx00k0.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\commonchatbots.gx00k0\obj\Release\commonchatbots.gx00k0.dll

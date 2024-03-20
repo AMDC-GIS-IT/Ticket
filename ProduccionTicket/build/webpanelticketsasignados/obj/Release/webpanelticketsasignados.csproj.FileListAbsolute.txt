@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\webpanelticketsasignados.dll
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelticketsasignados\obj\Release\webpanelticketsasignados.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelticketsasignados\obj\Release\webpanelticketsasignados.dll

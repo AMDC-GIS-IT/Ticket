@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\gx00e0.dll
+C:\Models\kb_ticket\ProduccionTicket\build\gx00e0\obj\Release\gx00e0.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\gx00e0\obj\Release\gx00e0.dll

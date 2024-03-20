@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\gx00o0.dll
+C:\Models\kb_ticket\CSharpModel\build\gx00o0\obj\Release\gx00o0.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\gx00o0\obj\Release\gx00o0.dll

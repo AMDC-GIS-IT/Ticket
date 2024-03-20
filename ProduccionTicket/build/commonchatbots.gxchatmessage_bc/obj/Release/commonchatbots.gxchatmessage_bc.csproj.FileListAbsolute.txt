@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\commonchatbots.gxchatmessage_bc.dll
+C:\Models\kb_ticket\ProduccionTicket\build\commonchatbots.gxchatmessage_bc\obj\Release\commonchatbots.gxchatmessage_bc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\commonchatbots.gxchatmessage_bc\obj\Release\commonchatbots.gxchatmessage_bc.dll

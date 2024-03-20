@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\wwareasatencion.dll
+C:\Models\kb_ticket\ProduccionTicket\build\wwareasatencion\obj\Release\wwareasatencion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\wwareasatencion\obj\Release\wwareasatencion.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\ticket.dll
+C:\Models\kb_ticket\CSharpModel\build\ticket\obj\Release\ticket.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\ticket\obj\Release\ticket.dll

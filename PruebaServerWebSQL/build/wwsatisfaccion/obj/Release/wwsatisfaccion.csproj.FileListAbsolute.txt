@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\wwsatisfaccion.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wwsatisfaccion\obj\Release\wwsatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wwsatisfaccion\obj\Release\wwsatisfaccion.dll

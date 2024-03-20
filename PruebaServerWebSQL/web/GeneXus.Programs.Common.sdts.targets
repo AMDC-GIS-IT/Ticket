@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+<ItemGroup>
+</ItemGroup>
+
+<ItemGroup>
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerFiltersChangedData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerFiltersChangedData_ChangedFilter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerFiltersChangedData_Filter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerItemClickData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerItemClickData_Element.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerItemClickData_Filter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerValuesHighlightedData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerValuesHighlightedData_Element.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDashboardViewerValuesHighlightedData_Filter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtDesktopNotificationInfoSDT.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BActivity.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BActivityList_K2BActivityListItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BAttributeValue_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BComponentContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BFilterValuesSDT_K2BFilterValuesSDTItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BFilterValuesSDT_K2BFilterValuesSDTItem_MultipleValuesItem.cs" />
+ 	<Compile Include="$(WebDirectory)\k2bfsg\type_SdtRolesSDT_RolesSDTItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridColumns_K2BGridColumnsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridConfiguration.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridOrders_K2BGridOrdersItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridState.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridState_FilterValue.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BMultiLevelMenu_K2BMultiLevelMenuItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BMultiLevelMenuCollection_K2BMultiLevelMenuCollectionItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BMultiLevelPersistedMenu_K2BMultiLevelPersistedMenuItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BNumericRangeSet_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BPersistedMenuOutput.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BProgramNames_ProgramName.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BSearchResult_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BSelectionItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BSelectionItem_FieldValuesItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTabOptions_K2BTabOptionsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\k2btools\integrationprocedures\type_SdtWebNotificationSDT_Notification.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTrnContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTrnContext_Attribute.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTrnNavigation.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BValueDescriptionCollection_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BWizardSteps_K2BWizardStepsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtLinkList_LinkItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerDragAndDropData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerElements_Element.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerElements_Element_Filter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerElements_Element_ExpandCollapse.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerElements_Element_AxisOrder.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerElements_Element_Format.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerElements_Element_Format_ValueStyle.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerElements_Element_Format_ConditionalStyle.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerElements_Element_Grouping.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerElements_Element_Actions.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerFilterChangedData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerItemClickData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerItemClickData_Element.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerItemClickData_Filter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerItemCollapseData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerItemDoubleClickData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerItemDoubleClickData_Element.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerItemDoubleClickData_Filter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerItemExpandData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtQueryViewerParameters_Parameter.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSearchableTransactions_SearchableTransactionsItem.cs" />
+
+</ItemGroup>
+
+</Project>

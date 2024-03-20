@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\webpaneltareasempleadossoporte.dll
+C:\Models\kb_ticket\ProduccionTicket\build\webpaneltareasempleadossoporte\obj\Release\webpaneltareasempleadossoporte.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\webpaneltareasempleadossoporte\obj\Release\webpaneltareasempleadossoporte.dll

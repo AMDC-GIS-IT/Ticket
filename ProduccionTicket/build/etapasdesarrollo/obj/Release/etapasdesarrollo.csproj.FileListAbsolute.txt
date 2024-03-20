@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\etapasdesarrollo.dll
+C:\Models\kb_ticket\ProduccionTicket\build\etapasdesarrollo\obj\Release\etapasdesarrollo.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\etapasdesarrollo\obj\Release\etapasdesarrollo.dll

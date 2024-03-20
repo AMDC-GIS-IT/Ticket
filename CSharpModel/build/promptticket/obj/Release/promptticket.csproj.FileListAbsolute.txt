@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\promptticket.dll
+C:\Models\kb_ticket\CSharpModel\build\promptticket\obj\Release\promptticket.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\promptticket\obj\Release\promptticket.dll

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "listarequerimientos_FullControl",
+    "Description": "Lista requerimientos FullControl",
+    "ProgramName": "listarequerimientos",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "listarequerimientos_Execute",
+    "Description": "Lista requerimientos",
+    "ProgramName": "listarequerimientos",
+    "IsGXAutomatic": true,
+    "Parent": "listarequerimientos_FullControl"
+  },
+  {
+    "Name": "listarequerimientos_Insert",
+    "Description": "Lista requerimientos Insert",
+    "ProgramName": "listarequerimientos",
+    "IsGXAutomatic": true,
+    "Parent": "listarequerimientos_FullControl"
+  },
+  {
+    "Name": "listarequerimientos_Delete",
+    "Description": "Lista requerimientos Delete",
+    "ProgramName": "listarequerimientos",
+    "IsGXAutomatic": true,
+    "Parent": "listarequerimientos_FullControl"
+  },
+  {
+    "Name": "listarequerimientos_Update",
+    "Description": "Lista requerimientos Update",
+    "ProgramName": "listarequerimientos",
+    "IsGXAutomatic": true,
+    "Parent": "listarequerimientos_FullControl"
+  }
+]

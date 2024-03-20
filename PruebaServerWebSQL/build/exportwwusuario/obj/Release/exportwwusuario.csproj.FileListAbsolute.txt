@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\exportwwusuario.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportwwusuario\obj\Release\exportwwusuario.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportwwusuario\obj\Release\exportwwusuario.dll

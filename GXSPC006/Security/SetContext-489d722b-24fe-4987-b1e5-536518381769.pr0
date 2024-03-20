@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "setcontext_Services_Execute",
+    "Description": "Set Context Services",
+    "ProgramName": "commonchatbots.setcontext",
+    "IsGXAutomatic": true
+  }
+]

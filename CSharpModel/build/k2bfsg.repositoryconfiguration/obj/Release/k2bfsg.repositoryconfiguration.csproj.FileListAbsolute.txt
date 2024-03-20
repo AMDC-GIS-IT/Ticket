@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\k2bfsg.repositoryconfiguration.dll
+C:\Models\kb_ticket\CSharpModel\build\k2bfsg.repositoryconfiguration\obj\Release\k2bfsg.repositoryconfiguration.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\k2bfsg.repositoryconfiguration\obj\Release\k2bfsg.repositoryconfiguration.dll

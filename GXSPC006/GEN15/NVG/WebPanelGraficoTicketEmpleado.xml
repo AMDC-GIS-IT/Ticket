@@ -1,0 +1,23 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>255</ObjId>
+<ObjName>WebPanelGraficoTicketEmpleado</ObjName>
+<ObjDesc>Gráfico Tickets Empleado</ObjDesc>
+<ObjPgmName>WebPanelGraficoTicketEmpleado</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

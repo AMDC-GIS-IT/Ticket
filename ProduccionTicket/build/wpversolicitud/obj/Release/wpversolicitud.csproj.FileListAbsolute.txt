@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\wpversolicitud.dll
+C:\Models\kb_ticket\ProduccionTicket\build\wpversolicitud\obj\Release\wpversolicitud.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\wpversolicitud\obj\Release\wpversolicitud.dll

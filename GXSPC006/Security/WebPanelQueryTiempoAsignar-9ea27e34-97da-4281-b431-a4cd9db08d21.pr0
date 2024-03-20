@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "webpanelquerytiempoasignar_Execute",
+    "Description": "Tiempo Asignar Ticket",
+    "ProgramName": "webpanelquerytiempoasignar",
+    "IsGXAutomatic": true
+  }
+]

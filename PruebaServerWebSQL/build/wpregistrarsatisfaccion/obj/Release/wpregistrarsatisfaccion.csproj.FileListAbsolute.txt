@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\wpregistrarsatisfaccion.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpregistrarsatisfaccion\obj\Release\wpregistrarsatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpregistrarsatisfaccion\obj\Release\wpregistrarsatisfaccion.dll

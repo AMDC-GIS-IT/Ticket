@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\reportdireccionesusuariosistemawc.dll
+C:\Models\kb_ticket\CSharpModel\build\reportdireccionesusuariosistemawc\obj\Release\reportdireccionesusuariosistemawc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\reportdireccionesusuariosistemawc\obj\Release\reportdireccionesusuariosistemawc.dll

@@ -1,0 +1,1027 @@
+
+<ReorgSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>AtencionSoporteTecnico needs conversion</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>SoporteTecnicoId</AttriName>
+<Description>Soporte Tecnico Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>SoporteTecnicoId</AttriName>
+<Description>Soporte Tecnico Id</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>10</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriOldType>
+<DataType>N</DataType>
+<Presicion>10</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriOldType>
+<AttriChangeType>upd</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>203</AttriId>
+<AttriName>SoporteTecnicoFecha</AttriName>
+<Description>Soporte Tecnico Fecha</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>203</AttriId>
+<AttriName>SoporteTecnicoFecha</AttriName>
+<Description>Soporte Tecnico Fecha</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>D</DataType>
+<Presicion>8</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>204</AttriId>
+<AttriName>SoporteTecnicoHora</AttriName>
+<Description>Soporte Tecnico Hora</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>204</AttriId>
+<AttriName>SoporteTecnicoHora</AttriName>
+<Description>Soporte Tecnico Hora</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>T</DataType>
+<Presicion>0</Presicion>
+<Scale>5</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>10</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>205</AttriId>
+<AttriName>SoporteTecnicoInventarioSerie</AttriName>
+<Description>Soporte Tecnico Inventario Serie</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>205</AttriId>
+<AttriName>SoporteTecnicoInventarioSerie</AttriName>
+<Description>Soporte Tecnico Inventario Serie</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>300</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>206</AttriId>
+<AttriName>SoporteTecnicoInstalacion</AttriName>
+<Description>Soporte Tecnico Instalacion</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>206</AttriId>
+<AttriName>SoporteTecnicoInstalacion</AttriName>
+<Description>Soporte Tecnico Instalacion</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>207</AttriId>
+<AttriName>SoporteTecnicoConfiguracion</AttriName>
+<Description>Soporte Tecnico Configuracion</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>207</AttriId>
+<AttriName>SoporteTecnicoConfiguracion</AttriName>
+<Description>Soporte Tecnico Configuracion</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>208</AttriId>
+<AttriName>SoporteTecnicoInternetRouter</AttriName>
+<Description>Soporte Tecnico Internet Router</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>208</AttriId>
+<AttriName>SoporteTecnicoInternetRouter</AttriName>
+<Description>Soporte Tecnico Internet Router</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>209</AttriId>
+<AttriName>SoporteTecnicoFormateo</AttriName>
+<Description>Soporte Tecnico Formateo</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>209</AttriId>
+<AttriName>SoporteTecnicoFormateo</AttriName>
+<Description>Soporte Tecnico Formateo</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>210</AttriId>
+<AttriName>SoporteTecnicoReparacion</AttriName>
+<Description>Soporte Tecnico Reparacion</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>210</AttriId>
+<AttriName>SoporteTecnicoReparacion</AttriName>
+<Description>Soporte Tecnico Reparacion</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>211</AttriId>
+<AttriName>SoporteTecnicoFechaResuelve</AttriName>
+<Description>Soporte Tecnico Fecha Resuelve</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>211</AttriId>
+<AttriName>SoporteTecnicoFechaResuelve</AttriName>
+<Description>Soporte Tecnico Fecha Resuelve</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>D</DataType>
+<Presicion>8</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>SoporteTecnicoHoraResuelve</AttriName>
+<Description>Soporte Tecnico Hora Resuelve</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>SoporteTecnicoHoraResuelve</AttriName>
+<Description>Soporte Tecnico Hora Resuelve</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>T</DataType>
+<Presicion>0</Presicion>
+<Scale>5</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>SoporteTecnicoLimpieza</AttriName>
+<Description>Soporte Tecnico Limpieza</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>SoporteTecnicoLimpieza</AttriName>
+<Description>Soporte Tecnico Limpieza</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>214</AttriId>
+<AttriName>SoporteTecnicoPuntoRed</AttriName>
+<Description>Soporte Tecnico Punto Red</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>214</AttriId>
+<AttriName>SoporteTecnicoPuntoRed</AttriName>
+<Description>Soporte Tecnico Punto Red</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>215</AttriId>
+<AttriName>SoporteTecnicoCambiosHardware</AttriName>
+<Description>Soporte Tecnico Cambios Hardware</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>215</AttriId>
+<AttriName>SoporteTecnicoCambiosHardware</AttriName>
+<Description>Soporte Tecnico Cambios Hardware</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>216</AttriId>
+<AttriName>SoporteTecnicoCopiasRespaldo</AttriName>
+<Description>Soporte Tecnico Copias Respaldo</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>216</AttriId>
+<AttriName>SoporteTecnicoCopiasRespaldo</AttriName>
+<Description>Soporte Tecnico Copias Respaldo</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>217</AttriId>
+<AttriName>SoporteTecnicoRam</AttriName>
+<Description>Soporte Tecnico Ram</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>217</AttriId>
+<AttriName>SoporteTecnicoRam</AttriName>
+<Description>Soporte Tecnico Ram</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>SoporteTecnicoDiscoDuro</AttriName>
+<Description>Soporte Tecnico Disco Duro</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>SoporteTecnicoDiscoDuro</AttriName>
+<Description>Soporte Tecnico Disco Duro</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>219</AttriId>
+<AttriName>SoporteTecnicoProcesador</AttriName>
+<Description>Soporte Tecnico Procesador</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>219</AttriId>
+<AttriName>SoporteTecnicoProcesador</AttriName>
+<Description>Soporte Tecnico Procesador</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>220</AttriId>
+<AttriName>SoporteTecnicoMaletin</AttriName>
+<Description>Soporte Tecnico Maletin</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>220</AttriId>
+<AttriName>SoporteTecnicoMaletin</AttriName>
+<Description>Soporte Tecnico Maletin</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>221</AttriId>
+<AttriName>SoporteTecnicoTonerCinta</AttriName>
+<Description>Soporte Tecnico Toner Cinta</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>221</AttriId>
+<AttriName>SoporteTecnicoTonerCinta</AttriName>
+<Description>Soporte Tecnico Toner Cinta</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>222</AttriId>
+<AttriName>SoporteTecnicoTarjetaVideoExtra</AttriName>
+<Description>Soporte Tecnico Tarjeta Video Extra</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>222</AttriId>
+<AttriName>SoporteTecnicoTarjetaVideoExtra</AttriName>
+<Description>Soporte Tecnico Tarjeta Video Extra</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>223</AttriId>
+<AttriName>SoporteTecnicoCargadorLaptop</AttriName>
+<Description>Soporte Tecnico Cargador Laptop</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>223</AttriId>
+<AttriName>SoporteTecnicoCargadorLaptop</AttriName>
+<Description>Soporte Tecnico Cargador Laptop</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>224</AttriId>
+<AttriName>SoporteTecnicoCDsDVDs</AttriName>
+<Description>Soporte Tecnico CDs DVDs</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>224</AttriId>
+<AttriName>SoporteTecnicoCDsDVDs</AttriName>
+<Description>Soporte Tecnico CDs DVDs</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>225</AttriId>
+<AttriName>SoporteTecnicoCableEspecial</AttriName>
+<Description>Soporte Tecnico Cable Especial</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>225</AttriId>
+<AttriName>SoporteTecnicoCableEspecial</AttriName>
+<Description>Soporte Tecnico Cable Especial</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>226</AttriId>
+<AttriName>SoporteTecnicoOtrosTaller</AttriName>
+<Description>Soporte Tecnico Otros Taller</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>226</AttriId>
+<AttriName>SoporteTecnicoOtrosTaller</AttriName>
+<Description>Soporte Tecnico Otros Taller</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>227</AttriId>
+<AttriName>SoporteTecnicoObservacion</AttriName>
+<Description>Soporte Tecnico Observacion</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>227</AttriId>
+<AttriName>SoporteTecnicoObservacion</AttriName>
+<Description>Soporte Tecnico Observacion</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>300</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>235</AttriId>
+<AttriName>SoporteTecnicoCerrado</AttriName>
+<Description>Soporte Tecnico Cerrado</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>235</AttriId>
+<AttriName>SoporteTecnicoCerrado</AttriName>
+<Description>Soporte Tecnico Cerrado</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>236</AttriId>
+<AttriName>SoporteTecnicoPendiente</AttriName>
+<Description>Soporte Tecnico Pendiente</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>236</AttriId>
+<AttriName>SoporteTecnicoPendiente</AttriName>
+<Description>Soporte Tecnico Pendiente</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>237</AttriId>
+<AttriName>SoporteTecnicoPasaTaller</AttriName>
+<Description>Soporte Tecnico Pasa Taller</Description>
+<TakesValueFrom>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>237</AttriId>
+<AttriName>SoporteTecnicoPasaTaller</AttriName>
+<Description>Soporte Tecnico Pasa Taller</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>1</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<NavigationTree>
+<Table>
+<TableId>16</TableId>
+<TableName>AtencionSoporteTecnico</TableName>
+<Description>Soporte Tecnico</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>SoporteTecnicoId</AttriName>
+<Description>Soporte Tecnico Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ISOPORTETECNICO</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>SoporteTecnicoId</AttriName>
+<Description>Soporte Tecnico Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index>
+<Index>
+<IndexName>ISOPORTETECNICO1</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></Indices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>7</TableId>
+<TableName>Ticket</TableName>
+<Description>Ticket</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>TicketId</AttriName>
+<Description>Id Ticket</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [GXA0016] ([SoporteTecnicoId] decimal( 10) NOT NULL IDENTITY(1,1), [SoporteTecnicoFecha] datetime NOT NULL , [SoporteTecnicoHora] datetime NOT NULL , [TicketId] decimal( 10) NOT NULL , [SoporteTecnicoInventarioSerie] nvarchar(300) NULL , [SoporteTecnicoInstalacion] BIT NULL , [SoporteTecnicoConfiguracion] BIT NULL , [SoporteTecnicoInternetRouter] BIT NULL , [SoporteTecnicoFormateo] BIT NULL , [SoporteTecnicoReparacion] BIT NULL , [SoporteTecnicoFechaResuelve] datetime NULL , [SoporteTecnicoHoraResuelve] datetime NULL , [SoporteTecnicoLimpieza] BIT NULL , [SoporteTecnicoPuntoRed] BIT NULL , [SoporteTecnicoCambiosHardware] BIT NULL , [SoporteTecnicoCopiasRespaldo] BIT NULL , [SoporteTecnicoRam] nvarchar(60) NULL , [SoporteTecnicoDiscoDuro] nvarchar(60) NULL , [SoporteTecnicoProcesador] nvarchar(60) NULL , [SoporteTecnicoMaletin] nvarchar(60) NULL , [SoporteTecnicoTonerCinta] nvarchar(60) NULL , [SoporteTecnicoTarjetaVideoExtra] nvarchar(60) NULL , [SoporteTecnicoCargadorLaptop] nvarchar(60) NULL , [SoporteTecnicoCDsDVDs] nvarchar(60) NULL , [SoporteTecnicoCableEspecial] nvarchar(60) NULL , [SoporteTecnicoOtrosTaller] nvarchar(60) NULL , [SoporteTecnicoObservacion] nvarchar(300) NULL , [SoporteTecnicoCerrado] BIT NOT NULL , [SoporteTecnicoPendiente] BIT NOT NULL , [SoporteTecnicoPasaTaller] BIT NOT NULL ) </Statement>
+<Statement>SET IDENTITY_INSERT [GXA0016] ON</Statement>
+<Statement>INSERT INTO [GXA0016] ([SoporteTecnicoId], [SoporteTecnicoFecha], [SoporteTecnicoHora], [TicketId], [SoporteTecnicoInventarioSerie], [SoporteTecnicoInstalacion], [SoporteTecnicoConfiguracion], [SoporteTecnicoInternetRouter], [SoporteTecnicoFormateo], [SoporteTecnicoReparacion], [SoporteTecnicoFechaResuelve], [SoporteTecnicoHoraResuelve], [SoporteTecnicoLimpieza], [SoporteTecnicoPuntoRed], [SoporteTecnicoCambiosHardware], [SoporteTecnicoCopiasRespaldo], [SoporteTecnicoRam], [SoporteTecnicoDiscoDuro], [SoporteTecnicoProcesador], [SoporteTecnicoMaletin], [SoporteTecnicoTonerCinta], [SoporteTecnicoTarjetaVideoExtra], [SoporteTecnicoCargadorLaptop], [SoporteTecnicoCDsDVDs], [SoporteTecnicoCableEspecial], [SoporteTecnicoOtrosTaller], [SoporteTecnicoObservacion], [SoporteTecnicoCerrado], [SoporteTecnicoPendiente], [SoporteTecnicoPasaTaller]) SELECT [SoporteTecnicoId], [SoporteTecnicoFecha], [SoporteTecnicoHora], [TicketId], [SoporteTecnicoInventarioSerie], [SoporteTecnicoInstalacion], [SoporteTecnicoConfiguracion], [SoporteTecnicoInternetRouter], [SoporteTecnicoFormateo], [SoporteTecnicoReparacion], [SoporteTecnicoFechaResuelve], [SoporteTecnicoHoraResuelve], [SoporteTecnicoLimpieza], [SoporteTecnicoPuntoRed], [SoporteTecnicoCambiosHardware], [SoporteTecnicoCopiasRespaldo], [SoporteTecnicoRam], [SoporteTecnicoDiscoDuro], [SoporteTecnicoProcesador], [SoporteTecnicoMaletin], [SoporteTecnicoTonerCinta], [SoporteTecnicoTarjetaVideoExtra], [SoporteTecnicoCargadorLaptop], [SoporteTecnicoCDsDVDs], [SoporteTecnicoCableEspecial], [SoporteTecnicoOtrosTaller], [SoporteTecnicoObservacion], [SoporteTecnicoCerrado], [SoporteTecnicoPendiente], [SoporteTecnicoPasaTaller] FROM [AtencionSoporteTecnico] T1</Statement>
+<Statement>SET IDENTITY_INSERT [GXA0016] OFF</Statement>
+<Statement>DROP TABLE [AtencionSoporteTecnico]</Statement>
+<Statement>CALL sp_rename('[GXA0016]', 'AtencionSoporteTecnico')</Statement>
+<Statement>ALTER TABLE [AtencionSoporteTecnico] ADD PRIMARY KEY([SoporteTecnicoId])</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISOPORTETECNICO1] ON [AtencionSoporteTecnico] ([TicketId] )</Statement>
+<Statement>ALTER TABLE [AtencionSoporteTecnico] ADD CONSTRAINT [ISOPORTETECNICO1] FOREIGN KEY ([TicketId]) REFERENCES [Ticket] ([TicketId])</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings></Warnings>
+<Errors></Errors></ReorgSpec>

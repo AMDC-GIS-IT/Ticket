@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "depto_Execute",
+    "Description": "Depto",
+    "ProgramName": "entitymanagerdepto",
+    "IsGXAutomatic": true
+  }
+]

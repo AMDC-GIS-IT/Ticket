@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "depto_Execute",
+    "Description": "K2BT_PromptDescription",
+    "ProgramName": "promptdepto",
+    "IsGXAutomatic": true
+  }
+]

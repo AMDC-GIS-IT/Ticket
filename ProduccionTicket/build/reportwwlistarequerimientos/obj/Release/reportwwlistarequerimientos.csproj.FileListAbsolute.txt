@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\reportwwlistarequerimientos.dll
+C:\Models\kb_ticket\ProduccionTicket\build\reportwwlistarequerimientos\obj\Release\reportwwlistarequerimientos.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\reportwwlistarequerimientos\obj\Release\reportwwlistarequerimientos.dll

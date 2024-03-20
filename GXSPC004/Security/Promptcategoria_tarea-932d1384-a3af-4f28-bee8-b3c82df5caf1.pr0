@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "categoria_tarea_Execute",
+    "Description": "K2BT_PromptDescription",
+    "ProgramName": "promptcategoria_tarea",
+    "IsGXAutomatic": true
+  }
+]

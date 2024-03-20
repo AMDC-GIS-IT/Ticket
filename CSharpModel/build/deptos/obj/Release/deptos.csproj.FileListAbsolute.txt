@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\deptos.dll
+C:\Models\kb_ticket\CSharpModel\build\deptos\obj\Release\deptos.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\deptos\obj\Release\deptos.dll

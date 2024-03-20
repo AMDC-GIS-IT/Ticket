@@ -1,0 +1,527 @@
+spec_i([ proc,197,'PRCGet Tecnico Id','PRCGetTecnicoId',78,spa,'17_0_9-159740' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 5,[ [ 5,many ] ],[],[],[ [ [ 5 ],[ 96,6,29,30,28,27,103 ] ] ],[ [ [ 5 ],[] ] ],[ 6 ],'IRESPONSABLE',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [ c([ t(96,2),t(=,10),t('Responsableusuario',23) ],[ 96 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 5,96 ],[ 5,6 ],[ 5,29 ],[ 5,30 ],[ 5,28 ],[ 5,27 ],[ 5,103 ] ] ]).
+ 
+las_i(2,[ [ 96,6,29,30,28,27,103 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','192.168.200.55')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','No')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','PRCGetTecnicoId')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Transacciones'))).
+rule_i(0,prop('ObjDesc','PRCGet Tecnico Id')).
+rule_i(0,prop('ObjName','PRCGetTecnicoId')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Responsableusuario','Responsableid','Responsableidentidad','Responsablenombre','Responsableemail','Responsablecargo','Id_unidad_tecnico' ],[])).
+rule_i(0,parmio([ [ 'Responsableusuario',in ],[ 'Responsableid',out ],[ 'Responsableidentidad',out ],[ 'Responsablenombre',out ],[ 'Responsableemail',out ],[ 'Responsablecargo',out ],[ 'Id_unidad_tecnico',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,5,[],[ [],'IRESPONSABLE',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,96).
+v_i(t,o,2,6).
+v_i(t,o,2,29).
+v_i(t,o,2,30).
+v_i(t,o,2,28).
+v_i(t,o,2,27).
+v_i(t,o,2,103).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',18 ]).
+attri_i(96,[ 'ResponsableUsuario',svchar,100,60,'',0,'Usuario Sistema','',0 ]).
+attri_i(6,[ 'ResponsableId',int,4,0,'ZZZ9',0,'Técnico Id','',0 ]).
+attri_i(29,[ 'ResponsableIdentidad',svchar,30,0,'',0,'Identidad','',0 ]).
+attri_i(30,[ 'ResponsableNombre',svchar,60,0,'',0,'Técnico','',0 ]).
+attri_i(28,[ 'ResponsableEmail',svchar,100,0,'',0,'Email','',0 ]).
+attri_i(27,[ 'ResponsableCargo',svchar,300,0,'',0,'Cargo','',0 ]).
+attri_i(103,[ id_unidad,int,9,0,'ZZZZZZZZ9',0,id_unidad,'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',16 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',15 ]).
+attri_i('Responsableusuario',[ 'ResponsableUsuario',svchar,100,60,'',0,'Responsable Usuario','',11 ]).
+attri_i('Responsablenombre',[ 'ResponsableNombre',svchar,60,0,'',0,'Responsable Nombre','',10 ]).
+attri_i('Responsableidentidad',[ 'ResponsableIdentidad',svchar,30,0,'',0,'Responsable Identidad','',9 ]).
+attri_i('Responsableid',[ 'ResponsableId',int,4,0,'ZZZ9',0,'Responsable Id','',8 ]).
+attri_i('Responsableemail',[ 'ResponsableEmail',svchar,100,0,'',0,'Responsable Email','',12 ]).
+attri_i('Responsablecargo',[ 'ResponsableCargo',svchar,300,0,'',0,'Responsable Cargo','',13 ]).
+attri_i('Id_unidad_tecnico',[ id_unidad_tecnico,int,9,0,'ZZZZZZZZ9',0,id_unidad_tecnico,'',14 ]).
+ 
+table_i(5,[ 'Responsable',[ 6,29,30,27,28,96,103 ],'Responsable','Responsable' ]).
+ 
+index_i(5,[ 'IRESPONSABLE',u,[ 6 ],'IResponsable' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(90,[ 'Texto' ]).
+dom_info_i(42,[ 'GeneXus\Email' ]).
+dom_info_i(88,[ 'Nombres' ]).
+dom_info_i(85,[ 'Descripcion' ]).
+dom_info_i(82,[ 'NumMin' ]).
+dom_info_i(227,[ 'GeneXusSecurityCommon\GAMUserIdentification' ]).
+dom_info_i(84,[ 'CheckList' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 103,27,28,30,29,6 ],[ 96 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,10,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0) ]).
+b_line_i(3,2,1,cmd,2,[ t('',107,3,0),t('Responsableid',23,2,0),t(=,10,2,0),t(6,2,2,0) ]).
+b_line_i(4,2,1,cmd,2,[ t('',107,4,0),t('Responsableidentidad',23,2,0),t(=,10,2,0),t(29,2,2,0) ]).
+b_line_i(5,2,1,cmd,2,[ t('',107,5,0),t('Responsablenombre',23,2,0),t(=,10,2,0),t(30,2,2,0) ]).
+b_line_i(6,2,1,cmd,2,[ t('',107,6,0),t('Responsableemail',23,2,0),t(=,10,2,0),t(28,2,2,0) ]).
+b_line_i(7,2,1,cmd,2,[ t('',107,7,0),t('Responsablecargo',23,2,0),t(=,10,2,0),t(27,2,2,0) ]).
+b_line_i(8,2,1,cmd,2,[ t('',107,8,0),t('Id_unidad_tecnico',23,2,0),t(=,10,2,0),t(103,2,2,0) ]).
+b_line_i(9,2,1,cmd,2,[ t('',128,9,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(13,135).
+ 
+att_prop_i(4,103,'ExternalName',id_unidad,d).
+att_prop_i(4,103,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,103,'EmptyAsNull','Yes',d).
+att_prop_i(4,103,idBasedOn,'',d).
+att_prop_i(4,103,'AUTONUMBER','-1',v).
+att_prop_i(4,103,'AUTONUMBER_START','1',d).
+att_prop_i(4,103,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,103,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,103,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,103,'AttRegEx','',d).
+att_prop_i(4,103,'AttValidationFailedMsg','',d).
+att_prop_i(4,103,'DownloadOffline','0',d).
+att_prop_i(4,103,'VarServiceExtName','',d).
+att_prop_i(4,103,'FullName',id_unidad,v).
+att_prop_i(4,27,'ExternalName','ResponsableCargo',d).
+att_prop_i(4,27,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,27,'EmptyAsNull','Yes',d).
+att_prop_i(4,27,idBasedOn,90,v).
+att_prop_i(4,27,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,27,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,27,'AttRegEx','',d).
+att_prop_i(4,27,'AttValidationFailedMsg','',d).
+att_prop_i(4,27,'DownloadOffline','0',d).
+att_prop_i(4,27,'VarServiceExtName','',d).
+att_prop_i(4,27,'FullName','ResponsableCargo',v).
+att_prop_i(4,28,'ExternalName','ResponsableEmail',d).
+att_prop_i(4,28,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,28,'EmptyAsNull','Yes',d).
+att_prop_i(4,28,idBasedOn,42,v).
+att_prop_i(4,28,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,28,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,28,'AttRegEx','^((\w+([-+.'']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*)|(\s*))$',d).
+att_prop_i(4,28,'AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+att_prop_i(4,28,'DownloadOffline','0',d).
+att_prop_i(4,28,'VarServiceExtName','',d).
+att_prop_i(4,28,'FullName','ResponsableEmail',v).
+att_prop_i(4,30,'ExternalName','ResponsableNombre',d).
+att_prop_i(4,30,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,30,'EmptyAsNull','Yes',d).
+att_prop_i(4,30,idBasedOn,88,v).
+att_prop_i(4,30,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,30,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,30,'AttRegEx','',d).
+att_prop_i(4,30,'AttValidationFailedMsg','',d).
+att_prop_i(4,30,'DownloadOffline','0',d).
+att_prop_i(4,30,'VarServiceExtName','',d).
+att_prop_i(4,30,'FullName','ResponsableNombre',v).
+att_prop_i(4,29,'ExternalName','ResponsableIdentidad',d).
+att_prop_i(4,29,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,29,'EmptyAsNull','Yes',d).
+att_prop_i(4,29,idBasedOn,85,v).
+att_prop_i(4,29,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,29,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,29,'AttRegEx','',d).
+att_prop_i(4,29,'AttValidationFailedMsg','',d).
+att_prop_i(4,29,'DownloadOffline','0',d).
+att_prop_i(4,29,'VarServiceExtName','',d).
+att_prop_i(4,29,'FullName','ResponsableIdentidad',v).
+att_prop_i(4,6,'ExternalName','ResponsableId',d).
+att_prop_i(4,6,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,6,'EmptyAsNull','Yes',d).
+att_prop_i(4,6,idBasedOn,82,v).
+att_prop_i(4,6,'AUTONUMBER','-1',d).
+att_prop_i(4,6,'AUTONUMBER_START','1',d).
+att_prop_i(4,6,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,6,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,6,'AttRegEx','',d).
+att_prop_i(4,6,'AttValidationFailedMsg','',d).
+att_prop_i(4,6,'DownloadOffline','0',d).
+att_prop_i(4,6,'VarServiceExtName','',d).
+att_prop_i(4,6,'FullName','ResponsableId',v).
+att_prop_i(4,96,'ExternalName','ResponsableUsuario',d).
+att_prop_i(4,96,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,96,'EmptyAsNull','Yes',d).
+att_prop_i(4,96,idBasedOn,227,v).
+att_prop_i(4,96,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,96,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,96,'AttRegEx','',d).
+att_prop_i(4,96,'AttValidationFailedMsg','',d).
+att_prop_i(4,96,'DownloadOffline','0',d).
+att_prop_i(4,96,'VarServiceExtName','',d).
+att_prop_i(4,96,'FullName','ResponsableUsuario',v).
+ 
+ 
+tbl_att_prop_i(4,5,6,'AllowNulls',n).
+tbl_att_prop_i(4,5,6,'AUTONUMBER',y).
+tbl_att_prop_i(4,5,29,'AllowNulls',n).
+tbl_att_prop_i(4,5,30,'AllowNulls',n).
+tbl_att_prop_i(4,5,27,'AllowNulls',n).
+tbl_att_prop_i(4,5,28,'AllowNulls',n).
+tbl_att_prop_i(4,5,96,'AllowNulls',n).
+tbl_att_prop_i(4,5,103,'AllowNulls',n).
+ 
+var_prop_i(4,'Id_unidad_tecnico',idBasedOn,'',v).
+var_prop_i(4,'Responsablecargo',idBasedOn,'',v).
+var_prop_i(4,'Responsableemail',idBasedOn,'',v).
+var_prop_i(4,'Responsableemail','AttRegEx','^((\w+([-+.'']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*)|(\s*))$',d).
+var_prop_i(4,'Responsableemail','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+var_prop_i(4,'Responsableid',idBasedOn,'',v).
+var_prop_i(4,'Responsableidentidad',idBasedOn,'',v).
+var_prop_i(4,'Responsablenombre',idBasedOn,'',v).
+var_prop_i(4,'Responsableusuario',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,197,'PRCGETTECNICOID','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+module_info_i('GeneXusSecurityCommon','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurityCommon','AssemblyName','GeneXusSecurityCommon.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

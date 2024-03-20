@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "soportetecnico_FullControl",
+    "Description": "Soporte Tecnico FullControl",
+    "ProgramName": "soportetecnico",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "soportetecnico_Execute",
+    "Description": "Soporte Tecnico",
+    "ProgramName": "soportetecnico",
+    "IsGXAutomatic": true,
+    "Parent": "soportetecnico_FullControl"
+  },
+  {
+    "Name": "soportetecnico_Insert",
+    "Description": "Soporte Tecnico Insert",
+    "ProgramName": "soportetecnico",
+    "IsGXAutomatic": true,
+    "Parent": "soportetecnico_FullControl"
+  },
+  {
+    "Name": "soportetecnico_Delete",
+    "Description": "Soporte Tecnico Delete",
+    "ProgramName": "soportetecnico",
+    "IsGXAutomatic": true,
+    "Parent": "soportetecnico_FullControl"
+  },
+  {
+    "Name": "soportetecnico_Update",
+    "Description": "Soporte Tecnico Update",
+    "ProgramName": "soportetecnico",
+    "IsGXAutomatic": true,
+    "Parent": "soportetecnico_FullControl"
+  }
+]

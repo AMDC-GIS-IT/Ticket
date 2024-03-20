@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\reportwwcategoria_tarea.dll
+C:\Models\kb_ticket\ProduccionTicket\build\reportwwcategoria_tarea\obj\Release\reportwwcategoria_tarea.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\reportwwcategoria_tarea\obj\Release\reportwwcategoria_tarea.dll

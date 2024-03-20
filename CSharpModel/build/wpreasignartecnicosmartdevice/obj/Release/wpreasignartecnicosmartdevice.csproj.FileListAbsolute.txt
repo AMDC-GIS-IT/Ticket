@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wpreasignartecnicosmartdevice.dll
+C:\Models\kb_ticket\CSharpModel\build\wpreasignartecnicosmartdevice\obj\Release\wpreasignartecnicosmartdevice.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wpreasignartecnicosmartdevice\obj\Release\wpreasignartecnicosmartdevice.dll

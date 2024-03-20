@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpqueryticket_Execute",
+    "Description": "WPQuery Ticket",
+    "ProgramName": "wpqueryticket",
+    "IsGXAutomatic": true
+  }
+]

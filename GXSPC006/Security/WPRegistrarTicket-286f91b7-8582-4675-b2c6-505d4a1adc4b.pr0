@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpregistrarticket_Execute",
+    "Description": "WPRegistrar Ticket",
+    "ProgramName": "wpregistrarticket",
+    "IsGXAutomatic": true
+  }
+]

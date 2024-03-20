@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\estadotecnicosgeneral.dll
+C:\Models\kb_ticket\ProduccionTicket\build\estadotecnicosgeneral\obj\Release\estadotecnicosgeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\estadotecnicosgeneral\obj\Release\estadotecnicosgeneral.dll

@@ -1,0 +1,93 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_9-159740</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>242</ObjId>
+<ObjName>CommonChatbots.GetWebComponentById</ObjName>
+<ObjDesc>Get Web Component By Id</ObjDesc>
+<ObjPgmName>CommonChatbots.GetWebComponentById</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Chatmessageid</VarId>
+<VarName>&amp;ChatMessageId</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Webcomponentlink</VarId>
+<VarName>&amp;WebComponentLink</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>20</TableId>
+<TableName>GXChatMessage</TableName>
+<Description>GXChat Message</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>GXChatMessageId</AttriName>
+<Description>GXChat Message Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IGXCHATMESSAGE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>GXChatMessageId</AttriName>
+<Description>GXChat Message Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Chatmessageid</VarId>
+<VarName>&amp;ChatMessageId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>GXChatMessageId</AttriName>
+<Description>GXChat Message Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Chatmessageid</VarId>
+<VarName>&amp;ChatMessageId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>20</TableId>
+<TableName>GXChatMessage</TableName>
+<Description>GXChat Message</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>GXChatMessageId</AttriName>
+<Description>GXChat Message Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

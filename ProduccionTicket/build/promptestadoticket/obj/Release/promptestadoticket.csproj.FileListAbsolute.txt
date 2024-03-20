@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\promptestadoticket.dll
+C:\Models\kb_ticket\ProduccionTicket\build\promptestadoticket\obj\Release\promptestadoticket.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\promptestadoticket\obj\Release\promptestadoticket.dll

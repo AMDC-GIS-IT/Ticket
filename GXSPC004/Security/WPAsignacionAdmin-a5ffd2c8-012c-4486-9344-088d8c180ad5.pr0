@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wpasignacionadmin_Execute",
+    "Description": "WPAsignacion Admin",
+    "ProgramName": "wpasignacionadmin",
+    "IsGXAutomatic": true
+  }
+]

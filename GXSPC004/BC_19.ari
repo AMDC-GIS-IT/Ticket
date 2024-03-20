@@ -1,0 +1,10 @@
+bc_dt_elem_i([ 0,19,0 ],'Gxchatmessageid',allownulls,no).
+bc_dt_elem_i([ 0,19,0 ],'Gxchatuserid',allownulls,no).
+bc_dt_elem_i([ 0,19,0 ],'Gxchatmessagemessage',allownulls,no).
+bc_dt_elem_i([ 0,19,0 ],'Gxchatmessagetype',allownulls,no).
+bc_dt_elem_i([ 0,19,0 ],'Gxchatmessagedate',allownulls,no).
+bc_dt_elem_i([ 0,19,0 ],'Gxchatmessagemeta',allownulls,no).
+bc_dt_elem_i([ 0,19,0 ],'Gxchatuserdevice',allownulls,no).
+bc_dt_elem_i([ 0,19,0 ],'Gxchatmessagerepeat',allownulls,no).
+bc_dt_elem_i([ 0,19,0 ],'Gxchatmessageinstance',allownulls,no).
+ 

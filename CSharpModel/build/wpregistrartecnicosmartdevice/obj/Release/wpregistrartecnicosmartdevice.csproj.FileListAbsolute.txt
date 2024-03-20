@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wpregistrartecnicosmartdevice.dll
+C:\Models\kb_ticket\CSharpModel\build\wpregistrartecnicosmartdevice\obj\Release\wpregistrartecnicosmartdevice.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wpregistrartecnicosmartdevice\obj\Release\wpregistrartecnicosmartdevice.dll

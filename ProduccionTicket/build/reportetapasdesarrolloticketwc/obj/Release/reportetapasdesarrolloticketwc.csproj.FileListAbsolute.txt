@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\reportetapasdesarrolloticketwc.dll
+C:\Models\kb_ticket\ProduccionTicket\build\reportetapasdesarrolloticketwc\obj\Release\reportetapasdesarrolloticketwc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\reportetapasdesarrolloticketwc\obj\Release\reportetapasdesarrolloticketwc.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\promptestado.dll
+C:\Models\kb_ticket\CSharpModel\build\promptestado\obj\Release\promptestado.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\promptestado\obj\Release\promptestado.dll

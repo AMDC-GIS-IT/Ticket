@@ -1,0 +1,184 @@
+{
+  "CurrentFlowName": null,
+  "CurrentResponseIndex": 0,
+  "CurrentUserInputName": null,
+  "EnableTelegram": false,
+  "EnableWhatsapp": false,
+  "Flows": [
+    {
+      "Action": "",
+      "Category": "",
+      "CompositeFlows": [ ],
+      "ConversationalObjectName": null,
+      "ConversationalObjectType": "",
+      "DigressionIn": true,
+      "DigressionInReturn": true,
+      "Fields": [ ],
+      "GeneralMessages": [ ],
+      "KBObjectKey": null,
+      "Name": "Greetings",
+      "Triggers": [
+        "Hi",
+        "Hello"
+      ],
+      "View": {
+        "Attributes": null,
+        "Name": "response",
+        "Templates": [
+          {
+            "ComponentType": "Component",
+            "Condition": "",
+            "Format": [
+              "Hello! Welcome to your very own chatbot!"
+            ],
+            "Index": 0,
+            "RedirectTo": "",
+            "ResponseName": "",
+            "SDComponentName": "None",
+            "SdComponent": null,
+            "Style": "text message",
+            "WebComponent": null,
+            "WebComponentName": "None"
+          }
+        ]
+      }
+    },
+    {
+      "Action": "",
+      "Category": "",
+      "CompositeFlows": [ ],
+      "ConversationalObjectName": null,
+      "ConversationalObjectType": "",
+      "DigressionIn": true,
+      "DigressionInReturn": true,
+      "Fields": [
+        {
+          "AskAgain": false,
+          "CleanInContext": false,
+          "DataType": "VARCHAR",
+          "Decimals": 0,
+          "Description": "UserName",
+          "DigressionOut": false,
+          "Entity": "VARCHAR",
+          "ErrorMessages": [ ],
+          "IsCollection": false,
+          "Length": 40,
+          "Redirections": [ ],
+          "Required": "Always",
+          "RequiredCondition": "",
+          "RequiredMessages": [
+            "Hi...who are you?",
+            "Wait a minute...tell me your name :)"
+          ],
+          "TryLimit": 2,
+          "ValidationProcedureKey": null,
+          "Variable": "UserName"
+        }
+      ],
+      "GeneralMessages": [ ],
+      "KBObjectKey": null,
+      "Name": "Hello World",
+      "Triggers": [
+        "Hello world",
+        "Hi chatbot",
+        "Hey there!",
+        "Chatbot",
+        "Are you there?"
+      ],
+      "View": {
+        "Attributes": null,
+        "Name": "response",
+        "Templates": [
+          {
+            "ComponentType": "Component",
+            "Condition": "",
+            "Format": [
+              "Nice to meet you &UserName, welcome to the GeneXus Chatbots Generator, you can see all the documentation on this page: https:\/\/wiki.genexus.com\/commwiki\/servlet\/wiki?37076,HowTo%3A%20Create%20a%20chatbot%20using%20GeneXus,.aspx"
+            ],
+            "Index": 0,
+            "RedirectTo": "",
+            "ResponseName": "",
+            "SDComponentName": "None",
+            "SdComponent": null,
+            "Style": "text message",
+            "WebComponent": null,
+            "WebComponentName": "None"
+          }
+        ]
+      }
+    },
+    {
+      "Action": "",
+      "Category": "",
+      "CompositeFlows": [ ],
+      "ConversationalObjectName": null,
+      "ConversationalObjectType": "",
+      "DigressionIn": true,
+      "DigressionInReturn": true,
+      "Fields": [ ],
+      "GeneralMessages": [ ],
+      "KBObjectKey": null,
+      "Name": "Usuario",
+      "Triggers": [
+        "Usuario"
+      ],
+      "View": {
+        "Attributes": null,
+        "Name": "response",
+        "Templates": [
+          {
+            "ComponentType": "Component",
+            "Condition": "",
+            "Format": [
+              "TIENE UNA NUEVA SOLICITUD DE SOPORTE TECNICO"
+            ],
+            "Index": 0,
+            "RedirectTo": "",
+            "ResponseName": "",
+            "SDComponentName": "None",
+            "SdComponent": null,
+            "Style": "text message",
+            "WebComponent": null,
+            "WebComponentName": "None"
+          }
+        ]
+      }
+    }
+  ],
+  "InstanceLanguage": "English",
+  "InstanceLanguageTag": "",
+  "InternalCustomDefinition": "",
+  "InternalDisambiguation": false,
+  "InternalDisambiguationCancellationMessage": "None of the above",
+  "InternalDisambiguationMessage": "Did you mean:",
+  "InternalUsingCustomDefinition": false,
+  "Name": "ConversationalFlowsTicket",
+  "NotUnderstoodMessages": [
+    "SOLICITUD SOPORTE TECNICO"
+  ],
+  "NotUnderstoodRedirection": "Usuario",
+  "Provider": "None",
+  "SdGenerationUI": false,
+  "Variables": [
+    {
+      "DataType": "VARCHAR",
+      "Decimals": 0,
+      "DomainName": "",
+      "IsCollection": false,
+      "IsDomain": false,
+      "Length": 40,
+      "VariableName": "NewVariable"
+    },
+    {
+      "DataType": "VARCHAR",
+      "Decimals": 0,
+      "DomainName": "",
+      "IsCollection": false,
+      "IsDomain": false,
+      "Length": 40,
+      "VariableName": "UserName"
+    }
+  ],
+  "WebGenerationUI": true,
+  "WhatsappPartner": "Twilio"
+}

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\promptestadotecnicos.dll
+C:\Models\kb_ticket\CSharpModel\build\promptestadotecnicos\obj\Release\promptestadotecnicos.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\promptestadotecnicos\obj\Release\promptestadotecnicos.dll

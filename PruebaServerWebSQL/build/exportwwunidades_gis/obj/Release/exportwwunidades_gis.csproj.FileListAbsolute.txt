@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\exportwwunidades_gis.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportwwunidades_gis\obj\Release\exportwwunidades_gis.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportwwunidades_gis\obj\Release\exportwwunidades_gis.dll

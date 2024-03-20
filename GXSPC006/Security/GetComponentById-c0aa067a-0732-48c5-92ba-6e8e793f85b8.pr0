@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "getcomponentbyid_Services_Execute",
+    "Description": "Get Component By Id Services",
+    "ProgramName": "commonchatbots.getcomponentbyid",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,80 @@
+
+<ReorgSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Table>
+<TableId>21</TableId>
+<TableName>GXChatUser</TableName>
+<Description>GX Chat User</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>new</ReorgCode>
+<ReorgMsg>GXChatUser is new</ReorgMsg>
+<ReorgAction>*</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>GXChatUserId</AttriName>
+<Description>GXChat User Id</Description>
+<TakesValueFrom></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>G</DataType>
+<Presicion>256</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>GXChatUserDevice</AttriName>
+<Description>GXChat User Device</Description>
+<TakesValueFrom></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>256</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>IGXCHATUSER</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>GXChatUserId</AttriName>
+<Description>GXChat User Id</Description></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>GXChatUserDevice</AttriName>
+<Description>GXChat User Device</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index></Indices></TableIndices>
+<FKConstraints></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [GXChatUser] ([GXChatUserId] uniqueidentifier NOT NULL CONSTRAINT GXChatUserIdGXChatUser_DEFAULT DEFAULT NEWID(), [GXChatUserDevice] nvarchar(256) NOT NULL , PRIMARY KEY([GXChatUserId], [GXChatUserDevice])) </Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings></Warnings>
+<Errors></Errors></ReorgSpec>

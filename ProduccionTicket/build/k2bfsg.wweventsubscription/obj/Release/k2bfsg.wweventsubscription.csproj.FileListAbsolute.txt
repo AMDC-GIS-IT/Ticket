@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bfsg.wweventsubscription.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.wweventsubscription\obj\Release\k2bfsg.wweventsubscription.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.wweventsubscription\obj\Release\k2bfsg.wweventsubscription.dll

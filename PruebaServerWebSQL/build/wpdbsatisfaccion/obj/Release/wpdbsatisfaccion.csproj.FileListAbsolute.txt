@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\wpdbsatisfaccion.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpdbsatisfaccion\obj\Release\wpdbsatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpdbsatisfaccion\obj\Release\wpdbsatisfaccion.dll

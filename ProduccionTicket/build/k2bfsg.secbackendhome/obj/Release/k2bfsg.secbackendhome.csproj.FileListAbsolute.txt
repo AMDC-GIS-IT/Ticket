@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bfsg.secbackendhome.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.secbackendhome\obj\Release\k2bfsg.secbackendhome.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.secbackendhome\obj\Release\k2bfsg.secbackendhome.dll

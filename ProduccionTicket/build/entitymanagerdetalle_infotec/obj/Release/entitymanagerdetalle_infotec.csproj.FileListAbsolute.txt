@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\entitymanagerdetalle_infotec.dll
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagerdetalle_infotec\obj\Release\entitymanagerdetalle_infotec.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagerdetalle_infotec\obj\Release\entitymanagerdetalle_infotec.dll

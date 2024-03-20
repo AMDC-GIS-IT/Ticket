@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\Reorganization.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\reorganization\obj\Release\reorganization.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\reorganization\obj\Release\Reorganization.dll

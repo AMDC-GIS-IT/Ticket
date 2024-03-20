@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\wptecnicosmartdevice.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wptecnicosmartdevice\obj\Release\wptecnicosmartdevice.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wptecnicosmartdevice\obj\Release\wptecnicosmartdevice.dll

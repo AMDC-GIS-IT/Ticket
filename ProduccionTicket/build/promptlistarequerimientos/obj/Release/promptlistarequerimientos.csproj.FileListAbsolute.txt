@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\promptlistarequerimientos.dll
+C:\Models\kb_ticket\ProduccionTicket\build\promptlistarequerimientos\obj\Release\promptlistarequerimientos.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\promptlistarequerimientos\obj\Release\promptlistarequerimientos.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\gamexampleregisteruser.dll
+C:\Models\kb_ticket\CSharpModel\build\gamexampleregisteruser\obj\Release\gamexampleregisteruser.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\gamexampleregisteruser\obj\Release\gamexampleregisteruser.dll

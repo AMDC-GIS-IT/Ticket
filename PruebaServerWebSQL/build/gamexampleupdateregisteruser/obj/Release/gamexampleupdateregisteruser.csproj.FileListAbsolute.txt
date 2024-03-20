@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\gamexampleupdateregisteruser.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gamexampleupdateregisteruser\obj\Release\gamexampleupdateregisteruser.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gamexampleupdateregisteruser\obj\Release\gamexampleupdateregisteruser.dll

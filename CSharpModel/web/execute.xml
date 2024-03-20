@@ -1,0 +1,112 @@
+<?xml-stylesheet type='text/xsl' href='prgs.xsl'?><Objects>
+  <Charset>UTF-8</Charset>
+  <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus17u6/</Path>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>K2BChangePassword</ObjName>
+    <ObjDesc>K2 BChange Password</ObjDesc>
+    <ObjLink>k2bchangepassword.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>K2BToolsIndexAdminRWD</ObjName>
+    <ObjDesc>K2 BTools Index Admin RWD</ObjDesc>
+    <ObjLink>k2btoolsindexadminrwd.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>K2BHome</ObjName>
+    <ObjDesc>Application home page</ObjDesc>
+    <ObjLink>k2bhome.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>K2BT_ViewAllNotifications</ObjName>
+    <ObjDesc>K2 BT_View All Notifications</ObjDesc>
+    <ObjLink>k2bt_viewallnotifications.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>K2BLogout</ObjName>
+    <ObjDesc>K2 BLogout</ObjDesc>
+    <ObjLink>k2blogout.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWEstado</ObjName>
+    <ObjDesc>Estados</ObjDesc>
+    <ObjLink>wwestado.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWEstadoSatisfaccion</ObjName>
+    <ObjDesc>Estado satisfacciones</ObjDesc>
+    <ObjLink>wwestadosatisfaccion.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWEstadoTicket</ObjName>
+    <ObjDesc>Estado ticketes</ObjDesc>
+    <ObjLink>wwestadoticket.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWUsuario</ObjName>
+    <ObjDesc>Usuarios</ObjDesc>
+    <ObjLink>wwusuario.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWResponsable</ObjName>
+    <ObjDesc>Responsables</ObjDesc>
+    <ObjLink>wwresponsable.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWTicket</ObjName>
+    <ObjDesc>Ticketes</ObjDesc>
+    <ObjLink>wwticket.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWTicketTecnico</ObjName>
+    <ObjDesc>Ticket tecnicos</ObjDesc>
+    <ObjLink>wwtickettecnico.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWSatisfaccion</ObjName>
+    <ObjDesc>Satisfacciones</ObjDesc>
+    <ObjLink>wwsatisfaccion.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>GAMHome</ObjName>
+    <ObjDesc>GAM Home</ObjDesc>
+    <ObjLink>gamhome.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>GAMExampleLogin</ObjName>
+    <ObjDesc>Login</ObjDesc>
+    <ObjLink>gamexamplelogin.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>GAMExampleRegisterUser</ObjName>
+    <ObjDesc>Register user</ObjDesc>
+    <ObjLink>gamexampleregisteruser.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>GAMExampleNotAuthorized</ObjName>
+    <ObjDesc>Not Authorized</ObjDesc>
+    <ObjLink>gamexamplenotauthorized.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>GAMExampleSSOLogin</ObjName>
+    <ObjDesc>Single Sign-On</ObjDesc>
+    <ObjLink>gamexamplessologin.aspx</ObjLink>
+  </Object>
+</Objects>

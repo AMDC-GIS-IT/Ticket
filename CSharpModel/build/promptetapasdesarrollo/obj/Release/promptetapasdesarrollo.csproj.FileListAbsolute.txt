@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\promptetapasdesarrollo.dll
+C:\Models\kb_ticket\CSharpModel\build\promptetapasdesarrollo\obj\Release\promptetapasdesarrollo.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\promptetapasdesarrollo\obj\Release\promptetapasdesarrollo.dll

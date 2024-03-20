@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "gxchatuser_FullControl",
+    "Description": "GX Chat User FullControl",
+    "ProgramName": "commonchatbots.gxchatuser",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "gxchatuser_Execute",
+    "Description": "GX Chat User",
+    "ProgramName": "commonchatbots.gxchatuser",
+    "IsGXAutomatic": true,
+    "Parent": "gxchatuser_FullControl"
+  },
+  {
+    "Name": "gxchatuser_Insert",
+    "Description": "GX Chat User Insert",
+    "ProgramName": "commonchatbots.gxchatuser",
+    "IsGXAutomatic": true,
+    "Parent": "gxchatuser_FullControl"
+  },
+  {
+    "Name": "gxchatuser_Delete",
+    "Description": "GX Chat User Delete",
+    "ProgramName": "commonchatbots.gxchatuser",
+    "IsGXAutomatic": true,
+    "Parent": "gxchatuser_FullControl"
+  },
+  {
+    "Name": "gxchatuser_Update",
+    "Description": "GX Chat User Update",
+    "ProgramName": "commonchatbots.gxchatuser",
+    "IsGXAutomatic": true,
+    "Parent": "gxchatuser_FullControl"
+  }
+]

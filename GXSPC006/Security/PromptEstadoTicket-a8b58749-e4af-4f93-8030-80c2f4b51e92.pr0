@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "estadoticket_Execute",
+    "Description": "K2BT_PromptDescription",
+    "ProgramName": "promptestadoticket",
+    "IsGXAutomatic": true
+  }
+]

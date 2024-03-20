@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\gxbeforeeventreplicator.dll
+C:\Models\kb_ticket\CSharpModel\build\gxbeforeeventreplicator\obj\Release\gxbeforeeventreplicator.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\gxbeforeeventreplicator\obj\Release\gxbeforeeventreplicator.dll

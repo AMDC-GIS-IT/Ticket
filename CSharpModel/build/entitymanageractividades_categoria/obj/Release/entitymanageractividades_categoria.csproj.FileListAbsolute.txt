@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\entitymanageractividades_categoria.dll
+C:\Models\kb_ticket\CSharpModel\build\entitymanageractividades_categoria\obj\Release\entitymanageractividades_categoria.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\entitymanageractividades_categoria\obj\Release\entitymanageractividades_categoria.dll

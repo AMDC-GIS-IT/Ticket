@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\apcrimprimirsoportetecnico.dll
+C:\Models\kb_ticket\CSharpModel\build\apcrimprimirsoportetecnico\obj\Release\apcrimprimirsoportetecnico.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\apcrimprimirsoportetecnico\obj\Release\apcrimprimirsoportetecnico.dll

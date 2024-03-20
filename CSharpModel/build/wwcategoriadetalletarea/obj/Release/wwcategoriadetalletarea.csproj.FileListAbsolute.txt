@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wwcategoriadetalletarea.dll
+C:\Models\kb_ticket\CSharpModel\build\wwcategoriadetalletarea\obj\Release\wwcategoriadetalletarea.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wwcategoriadetalletarea\obj\Release\wwcategoriadetalletarea.dll

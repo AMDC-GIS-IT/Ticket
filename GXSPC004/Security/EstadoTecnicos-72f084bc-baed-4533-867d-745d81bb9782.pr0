@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "estadotecnicos_FullControl",
+    "Description": "Estado Tecnicos FullControl",
+    "ProgramName": "estadotecnicos",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "estadotecnicos_Execute",
+    "Description": "Estado Tecnicos",
+    "ProgramName": "estadotecnicos",
+    "IsGXAutomatic": true,
+    "Parent": "estadotecnicos_FullControl"
+  },
+  {
+    "Name": "estadotecnicos_Insert",
+    "Description": "Estado Tecnicos Insert",
+    "ProgramName": "estadotecnicos",
+    "IsGXAutomatic": true,
+    "Parent": "estadotecnicos_FullControl"
+  },
+  {
+    "Name": "estadotecnicos_Delete",
+    "Description": "Estado Tecnicos Delete",
+    "ProgramName": "estadotecnicos",
+    "IsGXAutomatic": true,
+    "Parent": "estadotecnicos_FullControl"
+  },
+  {
+    "Name": "estadotecnicos_Update",
+    "Description": "Estado Tecnicos Update",
+    "ProgramName": "estadotecnicos",
+    "IsGXAutomatic": true,
+    "Parent": "estadotecnicos_FullControl"
+  }
+]

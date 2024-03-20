@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\unidades_gisgeneral.dll
+C:\Models\kb_ticket\ProduccionTicket\build\unidades_gisgeneral\obj\Release\unidades_gisgeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\unidades_gisgeneral\obj\Release\unidades_gisgeneral.dll

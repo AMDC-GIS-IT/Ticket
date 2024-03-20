@@ -1,0 +1,962 @@
+spec_i([ proc,202,'Export WWunidades_gis','ExportWWunidades_gis',78,spa,'17_0_9-159740' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 12,[ [ 12,many ] ],[],[],[ [ [ 12 ],[ 121,120,118,117,115,103,119,116,114 ] ] ],[ [ [ 12 ],[] ] ],[ 103 ],'PK_UNIDADES_95D7C92B412EB0B6',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t(114,2),t('.LIKE.',10),t('Nombre_unidad',23) ],[ 114 ],[ t('.NOT.',8),t('null(',1),t('Nombre_unidad',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(116,2),t(<=,10),t('Unidades_gisfecha_creacion_to',23) ],[ 116 ],[ t('.NOT.',8),t('null(',1),t('Unidades_gisfecha_creacion_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(116,2),t(>=,10),t('Unidades_gisfecha_creacion_from',23) ],[ 116 ],[ t('.NOT.',8),t('null(',1),t('Unidades_gisfecha_creacion_from',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(119,2),t(<=,10),t('Unidades_gisfecha_modificacion_to',23) ],[ 119 ],[ t('.NOT.',8),t('null(',1),t('Unidades_gisfecha_modificacion_to',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(119,2),t(>=,10),t('Unidades_gisfecha_modificacion_from',23) ],[ 119 ],[ t('.NOT.',8),t('null(',1),t('Unidades_gisfecha_modificacion_from',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t('str(',1),t(103,2),t(',',7),t(9,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t(114,2),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t('str(',1),t(115,2),t(',',7),t(9,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t('str(',1),t(117,2),t(',',7),t(5,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t(118,2),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t('str(',1),t(120,2),t(',',7),t(5,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3),t('.OR.',9),t(121,2),t('.LIKE.',10),t('"%"',3),t(+,5),t('K2btoolsgenericsearchfield',23),t(+,5),t('"%"',3) ],[ 103,114,115,117,118,120,121 ],[ t('.NOT.',8),t('null(',1),t('K2btoolsgenericsearchfield',23),t(')',4) ],[] ]).
+ 
+cond_order_i(2,[ 103 ],[ t('Orderedby',23),t(=,10),t('0',3) ]).
+cond_order_i(2,[ -103 ],[ t('Orderedby',23),t(=,10),t('1',3) ]).
+cond_order_i(2,[ 114 ],[ t('Orderedby',23),t(=,10),t('2',3) ]).
+cond_order_i(2,[ -114 ],[ t('Orderedby',23),t(=,10),t('3',3) ]).
+ 
+ 
+ta_i(2,[ [ [ 12,121 ],[ 12,120 ],[ 12,118 ],[ 12,117 ],[ 12,115 ],[ 12,103 ],[ 12,119 ],[ 12,116 ],[ 12,114 ] ] ]).
+ 
+las_i(2,[ [ 121,120,118,117,115,103,119,116,114 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','(local)')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',Ü5Ú2ÌKê2â5Ì¿Ô7ê8)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',Ü5Ú2ÌKê2â5Ì¿Ô7ê8)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ExportWWunidades_gis')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','Export WWunidades_gis')).
+rule_i(0,prop('ObjName','ExportWWunidades_gis')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Nombre_unidad','Unidades_gisfecha_creacion_from','Unidades_gisfecha_creacion_to','Unidades_gisfecha_modificacion_from','Unidades_gisfecha_modificacion_to','K2btoolsgenericsearchfield','Orderedby','Outfile' ],[])).
+rule_i(0,parmio([ [ 'Nombre_unidad',in ],[ 'Unidades_gisfecha_creacion_from',in ],[ 'Unidades_gisfecha_creacion_to',in ],[ 'Unidades_gisfecha_modificacion_from',in ],[ 'Unidades_gisfecha_modificacion_to',in ],[ 'K2btoolsgenericsearchfield',in ],[ 'Orderedby',in ],[ 'Outfile',out ] ])).
+rule_i(0,output('FIL')).
+rule_i(0,file(12,'UNIDADES_GIS',[ 103,114,115,116,117,118,119,120,121 ])).
+rule_i(0,loc([ 12 ],'UNIDADES_GIS','','LAN')).
+rule_i(0,index(12,'PK_UNIDADES_95D7C92B412EB0B6',u,[ 103 ])).
+rule_i(0,loc([ 12,'PK_UNIDADES_95D7C92B412EB0B6' ],'PK__unidades__95D7C92B412EB0B6','','LAN')).
+rule_i(0,p(0,0,fv,2,[ intname,'UNIDADES_GIS' ])).
+rule_i(0,p(0,0,fv,2,[ table,12 ])).
+rule_i(0,p(0,0,fv,2,[ datastore,3 ])).
+rule_i(0,p(0,12,fv,2,[])).
+rule_i(0,p(0,12,fv,2,[ 'NAME',unidades_gis ])).
+rule_i(0,p(0,12,fv,2,[ 'LOC','' ])).
+rule_i(0,p(0,12,fv,2,[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fv,2,[ 'EXTNAM','YES' ])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[ 'NAME','PK__unidades__95D7C92B412EB0B6' ])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[ 'LOC','' ])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[ 'EXTNAM','YES' ])).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,2,t,12,[],[ [],'PK_UNIDADES_95D7C92B412EB0B6',[] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,[]).
+v_i(t,o,4,121).
+v_i(t,o,4,120).
+v_i(t,o,4,118).
+v_i(t,o,4,117).
+v_i(t,o,4,115).
+v_i(t,o,4,103).
+v_i(t,o,4,119).
+v_i(t,o,4,116).
+v_i(t,o,4,114).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',45 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',44 ]).
+attri_i(115,[ unidades_gisestado,int,9,0,'ZZZZZZZZ9',0,unidades_gisestado,'',0 ]).
+attri_i(116,[ unidades_gisfecha_creacion,date,8,0,'99/99/99',0,unidades_gisfecha_creacion,'',0 ]).
+attri_i(117,[ unidades_gishora_creacion,int,5,0,'ZZZZ9',0,unidades_gishora_creacion,'',0 ]).
+attri_i(118,[ unidades_giscreado_por,svchar,30,0,'',0,unidades_giscreado_por,'',0 ]).
+attri_i(119,[ unidades_gisfecha_modificacion,date,8,0,'99/99/99',0,unidades_gisfecha_modificacion,'',0 ]).
+attri_i(120,[ unidades_gishora_modificacion,int,5,0,'ZZZZ9',0,unidades_gishora_modificacion,'',0 ]).
+attri_i(121,[ unidades_gismodificado_por,svchar,30,0,'',0,unidades_gismodificado_por,'',0 ]).
+attri_i(114,[ nombre_unidad,svchar,200,0,'',0,nombre_unidad,'',0 ]).
+attri_i(103,[ id_unidad,int,9,0,'ZZZZZZZZ9',0,id_unidad,'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',42 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',41 ]).
+attri_i('Context',[ 'Context',o('K2BContext'),0,0,'',0,'Context','',39 ]).
+attri_i('Gridcolumnvisible_unidades_gismodificado_por',[ 'GridColumnVisible_unidades_gismodificado_por',boolean,4,0,'',0,'Grid Column Visible_unidades_gismodificado_por','',38 ]).
+attri_i('Gridcolumnvisible_unidades_gishora_modificacion',[ 'GridColumnVisible_unidades_gishora_modificacion',boolean,4,0,'',0,'Grid Column Visible_unidades_gishora_modificacion','',37 ]).
+attri_i('Gridcolumnvisible_unidades_gisfecha_modificacion',[ 'GridColumnVisible_unidades_gisfecha_modificacion',boolean,4,0,'',0,'Grid Column Visible_unidades_gisfecha_modificacion','',36 ]).
+attri_i('Gridcolumnvisible_unidades_giscreado_por',[ 'GridColumnVisible_unidades_giscreado_por',boolean,4,0,'',0,'Grid Column Visible_unidades_giscreado_por','',35 ]).
+attri_i('Gridcolumnvisible_unidades_gishora_creacion',[ 'GridColumnVisible_unidades_gishora_creacion',boolean,4,0,'',0,'Grid Column Visible_unidades_gishora_creacion','',34 ]).
+attri_i('Gridcolumnvisible_unidades_gisfecha_creacion',[ 'GridColumnVisible_unidades_gisfecha_creacion',boolean,4,0,'',0,'Grid Column Visible_unidades_gisfecha_creacion','',33 ]).
+attri_i('Gridcolumnvisible_unidades_gisestado',[ 'GridColumnVisible_unidades_gisestado',boolean,4,0,'',0,'Grid Column Visible_unidades_gisestado','',32 ]).
+attri_i('Gridcolumnvisible_nombre_unidad',[ 'GridColumnVisible_nombre_unidad',boolean,4,0,'',0,'Grid Column Visible_nombre_unidad','',31 ]).
+attri_i('Gridcolumnvisible_id_unidad',[ 'GridColumnVisible_id_unidad',boolean,4,0,'',0,'Grid Column Visible_id_unidad','',30 ]).
+attri_i('Unidades_gisfecha_modificacion_to',[ unidades_gisfecha_modificacion_To,date,8,0,'99/99/99',0,unidades_gisfecha_modificacion_To,'',19 ]).
+attri_i('Unidades_gisfecha_modificacion_from',[ unidades_gisfecha_modificacion_From,date,8,0,'99/99/99',0,unidades_gisfecha_modificacion_From,'',18 ]).
+attri_i('Unidades_gisfecha_modificacion',[ unidades_gisfecha_modificacion,date,8,0,'99/99/99',0,unidades_gisfecha_modificacion,'',17 ]).
+attri_i('Unidades_gisfecha_creacion_to',[ unidades_gisfecha_creacion_To,date,8,0,'99/99/99',0,unidades_gisfecha_creacion_To,'',16 ]).
+attri_i('Unidades_gisfecha_creacion_from',[ unidades_gisfecha_creacion_From,date,8,0,'99/99/99',0,unidades_gisfecha_creacion_From,'',15 ]).
+attri_i('Unidades_gisfecha_creacion',[ unidades_gisfecha_creacion,date,8,0,'99/99/99',0,unidades_gisfecha_creacion,'',14 ]).
+attri_i('Nombre_unidad',[ nombre_unidad,svchar,200,0,'',0,nombre_unidad,'',13 ]).
+attri_i('K2btoolsgenericsearchfield',[ 'K2BToolsGenericSearchField',char,200,0,'',0,'K2BToolsGenericSearchField','',12 ]).
+attri_i('Gridcolumn',[ 'GridColumn',o('K2BGridColumns.K2BGridColumnsItem'),0,0,'',0,'Grid Column','',11 ]).
+attri_i('Gridcolumns',[ 'GridColumns',o(objectcollection('K2BGridColumns.K2BGridColumnsItem')),0,0,'',0,'Grid Columns','',10 ]).
+attri_i('Freezecolumntitles',[ 'FreezeColumnTitles',boolean,0,0,'',0,'FreezeColumnTitles','',9 ]).
+attri_i('Gridconfiguration',[ 'GridConfiguration',o('K2BGridConfiguration'),0,0,'',0,'Grid Configuration','',8 ]).
+attri_i('Orderedby',[ 'OrderedBy',int,4,0,'ZZZ9',0,'OrderedBy','',20 ]).
+attri_i('File',[ 'File',o(file),4,0,'',0,'File','',29 ]).
+attri_i('Outfile',[ 'OutFile',svchar,2048,0,'',0,'OutFile','',40 ]).
+attri_i('Errormessage',[ 'ErrorMessage',svchar,512,0,'',0,'ErrorMessage','',27 ]).
+attri_i('Columnindex',[ 'ColumnIndex',int,4,0,'ZZZ9',0,'ColumnIndex','',25 ]).
+attri_i('Firstcolumn',[ 'FirstColumn',int,8,0,'ZZZZZZZ9',0,'FirstColumn','',23 ]).
+attri_i('Cellrow',[ 'CellRow',int,8,0,'ZZZZZZZ9',0,'CellRow','',22 ]).
+attri_i('Exceldocument',[ 'ExcelDocument',o(exceldoc),4,0,'',0,'ExcelDocument','',21 ]).
+ 
+table_i(12,[ 'UNIDADES_GIS',[ 103,114,115,116,117,118,119,120,121 ],unidades_gis,unidades_gis ]).
+ 
+index_i(12,[ 'PK_UNIDADES_95D7C92B412EB0B6',u,[ 103 ],'PK_UNIDADES_95D7C92B412EB0B6' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+map_i(12,i,'PK_UNIDADES_95D7C92B412EB0B6',[ 'PK_UNIDADES_95D7C92B412EB0B6' ]).
+map_i(12,a,121,[ modificado_por ]).
+map_i(12,a,120,[ hora_modificacion ]).
+map_i(12,a,119,[ fecha_modificacion ]).
+map_i(12,a,118,[ creado_por ]).
+map_i(12,a,117,[ hora_creacion ]).
+map_i(12,a,116,[ fecha_creacion ]).
+map_i(12,a,115,[ estado ]).
+map_i(12,a,114,[ nombre_unidad ]).
+map_i(12,a,103,[ id_unidad ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [ 103,114,121,120,119,118,117,116,115 ],[ 114,116,119,103,115,117,118,120,121 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,85,85).
+b_group_i(2,1,lit,0,86,86).
+b_group_i(1,3,lit,0,136,140).
+b_group_i(1,4,lit,0,141,149).
+b_group_i(1,5,lit,0,150,191).
+b_group_i(1,6,lit,0,192,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',104,1,0),t(o(1,'K2BGetContext'),28,0,1),t('Context',23,0,15) ]).
+b_line_i(2,1,1,cmd,0,[ t('',145,2,0),t('''HIDESHOWCOLUMNS''',3,2,4) ]).
+b_line_i(3,1,1,cmd,0,[ t('',107,3,0),t('Outfile',23,0,0),t(=,10,0,0),t([ t('Directory',36,0,0),t('Temporaryfilespath',3,0,0) ],29,0,0),t(+,5,0,0),t([ t('File',23,0,0),t('Separator',3,0,0) ],29,0,0),t(+,5,0,0),t('"ExportWWunidades_gis-"',3,0,0),t(+,5,0,0),t([ t('Guid',36,0,0),[ t('newguid(',1,0,0),t(')',4,0,0) ],t('tostring(',1,0,0) ],31,0,0),t(')',4,0,0),t(+,5,0,0),t('".xlsx"',3,0,0) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t([ t('Exceldocument',23,4,1),t('open(',1,4,16) ],31,4,16),t('Outfile',23,0,22),t(')',4,0,30) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,5,0),t([ t('Exceldocument',23,0,0),t('Autofit',3,0,0) ],29,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',145,6,0),t('''CHECKSTATUS''',3,6,4) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,7,0),t([ t('Exceldocument',23,7,1),t('clear(',1,7,16) ],31,7,16),t(')',4,0,23) ]).
+b_line_i(8,1,1,cmd,0,[ t('',107,8,0),t('Cellrow',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(9,1,1,cmd,0,[ t('',107,9,0),t('Firstcolumn',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(10,1,1,cmd,0,[ t('',107,9,31),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(')',4,0,0) ],t('Size',3,0,0) ],29,0,0),t(=,10,0,0),t('15',3,0,0) ]).
+b_line_i(11,1,1,cmd,0,[ t('',107,10,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(12,1,1,cmd,0,[ t('',107,11,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"unidades_gises"',3,0,0) ]).
+b_line_i(13,1,1,cmd,0,[ t('',107,12,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('4',3,0,0) ]).
+b_line_i(14,1,1,cmd,0,[ t('',109,13,0),t('.NOT.',8,0,4),t('null(',1,14,38),t('K2btoolsgenericsearchfield',23,0,10),t(')',4,0,47) ]).
+b_line_i(15,1,1,cmd,0,[ t('',107,14,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(16,1,1,cmd,0,[ t('',107,15,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"Búsqueda"',3,0,0) ]).
+b_line_i(17,1,1,cmd,0,[ t('',107,16,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('K2btoolsgenericsearchfield',23,0,0) ]).
+b_line_i(18,1,1,cmd,0,[ t('',107,17,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(19,1,1,cmd,0,[ t('',111,18,0) ]).
+b_line_i(20,1,1,cmd,0,[ t('',109,19,0),t('.NOT.',8,0,4),t('null(',1,20,25),t('Nombre_unidad',23,0,10),t(')',4,0,34) ]).
+b_line_i(21,1,1,cmd,0,[ t('',107,20,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',107,21,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"nombre_unidad"',3,0,0) ]).
+b_line_i(23,1,1,cmd,0,[ t('',107,22,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('rtrim(',1,0,0),t('Nombre_unidad',23,0,0),t(')',4,0,0) ]).
+b_line_i(24,1,1,cmd,0,[ t('',107,23,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(25,1,1,cmd,0,[ t('',111,25,0) ]).
+b_line_i(26,1,1,cmd,0,[ t('',109,26,0),t('.NOT.',8,0,4),t('null(',1,26,43),t('Unidades_gisfecha_creacion_from',23,0,10),t(')',4,0,52),t('.OR.',9,0,54),t('.NOT.',8,0,59),t('null(',1,26,96),t('Unidades_gisfecha_creacion_to',23,0,65),t(')',4,0,105) ]).
+b_line_i(27,1,1,cmd,0,[ t('',107,27,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(28,1,1,cmd,0,[ t('',107,28,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"fecha_creacion"',3,0,0) ]).
+b_line_i(29,1,1,cmd,0,[ t('',107,29,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('dtoc(',1,0,0),t('Unidades_gisfecha_creacion_from',23,0,0),t(')',4,0,0),t(+,5,0,0),t('" - "',3,0,0),t(+,5,0,0),t('dtoc(',1,0,0),t('Unidades_gisfecha_creacion_to',23,0,0),t(')',4,0,0) ]).
+b_line_i(30,1,1,cmd,0,[ t('',107,30,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(31,1,1,cmd,0,[ t('',111,31,0) ]).
+b_line_i(32,1,1,cmd,0,[ t('',109,32,0),t('.NOT.',8,0,4),t('null(',1,32,47),t('Unidades_gisfecha_modificacion_from',23,0,10),t(')',4,0,56),t('.OR.',9,0,58),t('.NOT.',8,0,63),t('null(',1,32,104),t('Unidades_gisfecha_modificacion_to',23,0,69),t(')',4,0,113) ]).
+b_line_i(33,1,1,cmd,0,[ t('',107,33,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(34,1,1,cmd,0,[ t('',107,34,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"fecha_modificacion"',3,0,0) ]).
+b_line_i(35,1,1,cmd,0,[ t('',107,35,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('dtoc(',1,0,0),t('Unidades_gisfecha_modificacion_from',23,0,0),t(')',4,0,0),t(+,5,0,0),t('" - "',3,0,0),t(+,5,0,0),t('dtoc(',1,0,0),t('Unidades_gisfecha_modificacion_to',23,0,0),t(')',4,0,0) ]).
+b_line_i(36,1,1,cmd,0,[ t('',107,36,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(37,1,1,cmd,0,[ t('',111,37,0) ]).
+b_line_i(38,1,1,cmd,0,[ t('',107,38,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('3',3,0,0) ]).
+b_line_i(39,1,1,cmd,0,[ t('',107,39,0),t('Columnindex',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(40,1,1,cmd,0,[ t('',109,40,0),t('Gridcolumnvisible_id_unidad',23,0,4),t(=,10,0,33),t('TRUE',40,0,35) ]).
+b_line_i(41,1,1,cmd,0,[ t('',107,41,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(42,1,1,cmd,0,[ t('',107,42,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"id_unidad"',3,0,0) ]).
+b_line_i(43,1,1,cmd,0,[ t('',107,43,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(44,1,1,cmd,0,[ t('',111,44,0) ]).
+b_line_i(45,1,1,cmd,0,[ t('',109,45,0),t('Gridcolumnvisible_nombre_unidad',23,0,4),t(=,10,0,37),t('TRUE',40,0,39) ]).
+b_line_i(46,1,1,cmd,0,[ t('',107,46,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(47,1,1,cmd,0,[ t('',107,47,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"nombre_unidad"',3,0,0) ]).
+b_line_i(48,1,1,cmd,0,[ t('',107,48,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(49,1,1,cmd,0,[ t('',111,49,0) ]).
+b_line_i(50,1,1,cmd,0,[ t('',109,50,0),t('Gridcolumnvisible_unidades_gisestado',23,0,4),t(=,10,0,42),t('TRUE',40,0,44) ]).
+b_line_i(51,1,1,cmd,0,[ t('',107,51,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(52,1,1,cmd,0,[ t('',107,52,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"estado"',3,0,0) ]).
+b_line_i(53,1,1,cmd,0,[ t('',107,53,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(54,1,1,cmd,0,[ t('',111,54,0) ]).
+b_line_i(55,1,1,cmd,0,[ t('',109,55,0),t('Gridcolumnvisible_unidades_gisfecha_creacion',23,0,4),t(=,10,0,50),t('TRUE',40,0,52) ]).
+b_line_i(56,1,1,cmd,0,[ t('',107,56,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(57,1,1,cmd,0,[ t('',107,57,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"fecha_creacion"',3,0,0) ]).
+b_line_i(58,1,1,cmd,0,[ t('',107,58,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(59,1,1,cmd,0,[ t('',111,59,0) ]).
+b_line_i(60,1,1,cmd,0,[ t('',109,60,0),t('Gridcolumnvisible_unidades_gishora_creacion',23,0,4),t(=,10,0,49),t('TRUE',40,0,51) ]).
+b_line_i(61,1,1,cmd,0,[ t('',107,61,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(62,1,1,cmd,0,[ t('',107,62,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"hora_creacion"',3,0,0) ]).
+b_line_i(63,1,1,cmd,0,[ t('',107,63,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(64,1,1,cmd,0,[ t('',111,64,0) ]).
+b_line_i(65,1,1,cmd,0,[ t('',109,65,0),t('Gridcolumnvisible_unidades_giscreado_por',23,0,4),t(=,10,0,46),t('TRUE',40,0,48) ]).
+b_line_i(66,1,1,cmd,0,[ t('',107,66,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(67,1,1,cmd,0,[ t('',107,67,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"creado_por"',3,0,0) ]).
+b_line_i(68,1,1,cmd,0,[ t('',107,68,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(69,1,1,cmd,0,[ t('',111,69,0) ]).
+b_line_i(70,1,1,cmd,0,[ t('',109,70,0),t('Gridcolumnvisible_unidades_gisfecha_modificacion',23,0,4),t(=,10,0,54),t('TRUE',40,0,56) ]).
+b_line_i(71,1,1,cmd,0,[ t('',107,71,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(72,1,1,cmd,0,[ t('',107,72,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"fecha_modificacion"',3,0,0) ]).
+b_line_i(73,1,1,cmd,0,[ t('',107,73,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(74,1,1,cmd,0,[ t('',111,74,0) ]).
+b_line_i(75,1,1,cmd,0,[ t('',109,75,0),t('Gridcolumnvisible_unidades_gishora_modificacion',23,0,4),t(=,10,0,53),t('TRUE',40,0,55) ]).
+b_line_i(76,1,1,cmd,0,[ t('',107,76,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(77,1,1,cmd,0,[ t('',107,77,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"hora_modificacion"',3,0,0) ]).
+b_line_i(78,1,1,cmd,0,[ t('',107,78,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(79,1,1,cmd,0,[ t('',111,79,0) ]).
+b_line_i(80,1,1,cmd,0,[ t('',109,80,0),t('Gridcolumnvisible_unidades_gismodificado_por',23,0,4),t(=,10,0,50),t('TRUE',40,0,52) ]).
+b_line_i(81,1,1,cmd,0,[ t('',107,81,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(82,1,1,cmd,0,[ t('',107,82,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('Columnindex',23,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('"modificado_por"',3,0,0) ]).
+b_line_i(83,1,1,cmd,0,[ t('',107,83,0),t('Columnindex',23,0,0),t(=,10,0,0),t('Columnindex',23,0,0),t(+,5,0,0),t('1',3,0,0) ]).
+b_line_i(84,1,1,cmd,0,[ t('',111,84,0) ]).
+b_line_i(85,2,1,cmd,86,[ t('',121,85,0),t(table,3,85,10),t(12,3,85,10),t('ORDER',39,85,25),t(103,2,85,31),t(when,35,85,41),t('Orderedby',23,85,46),t(=,10,85,57),t('0',3,85,59),t('ORDER',39,85,63),t('(',0,85,69),t(103,2,85,70),t(')',4,85,79),t(when,35,85,81),t('Orderedby',23,85,86),t(=,10,85,97),t('1',3,85,99),t('ORDER',39,85,103),t(114,2,85,109),t(when,35,85,123),t('Orderedby',23,85,128),t(=,10,85,139),t('2',3,85,141),t('ORDER',39,85,145),t('(',0,85,151),t(114,2,85,152),t(')',4,85,165),t(when,35,85,167),t('Orderedby',23,85,172),t(=,10,85,183),t('3',3,85,185) ]).
+b_line_i(86,2,1,cmd,86,[]).
+b_line_i(87,2,1,cmd,86,[]).
+b_line_i(88,2,1,cmd,86,[]).
+b_line_i(89,2,1,cmd,86,[]).
+b_line_i(90,2,1,cmd,86,[]).
+b_line_i(97,2,1,cmd,86,[ t('',107,97,0),t('Cellrow',23,86,0),t(=,10,86,0),t('Cellrow',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(98,2,1,cmd,86,[ t('',107,98,0),t('Columnindex',23,86,0),t(=,10,86,0),t('0',3,86,0) ]).
+b_line_i(99,2,1,cmd,86,[ t('',109,99,0),t('Gridcolumnvisible_id_unidad',23,86,5),t(=,10,86,34),t('TRUE',40,86,36) ]).
+b_line_i(100,2,1,cmd,86,[ t('',107,100,0),t([ t('Exceldocument',23,86,0),[ t('cells(',1,86,0),t('Cellrow',23,86,0),t(',',7,86,0),t('Firstcolumn',23,86,0),t(+,5,86,0),t('Columnindex',23,86,0),t(')',4,86,0) ],t('Number',3,86,0) ],29,86,0),t(=,10,86,0),t(103,2,86,0) ]).
+b_line_i(101,2,1,cmd,86,[ t('',107,101,0),t('Columnindex',23,86,0),t(=,10,86,0),t('Columnindex',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(102,2,1,cmd,86,[ t('',111,102,0) ]).
+b_line_i(103,2,1,cmd,86,[ t('',109,103,0),t('Gridcolumnvisible_nombre_unidad',23,86,5),t(=,10,86,38),t('TRUE',40,86,40) ]).
+b_line_i(104,2,1,cmd,86,[ t('',107,104,0),t([ t('Exceldocument',23,86,0),[ t('cells(',1,86,0),t('Cellrow',23,86,0),t(',',7,86,0),t('Firstcolumn',23,86,0),t(+,5,86,0),t('Columnindex',23,86,0),t(')',4,86,0) ],t('Text',3,86,0) ],29,86,0),t(=,10,86,0),t('rtrim(',1,86,0),t(114,2,86,0),t(')',4,86,0) ]).
+b_line_i(105,2,1,cmd,86,[ t('',107,105,0),t('Columnindex',23,86,0),t(=,10,86,0),t('Columnindex',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(106,2,1,cmd,86,[ t('',111,106,0) ]).
+b_line_i(107,2,1,cmd,86,[ t('',109,107,0),t('Gridcolumnvisible_unidades_gisestado',23,86,5),t(=,10,86,43),t('TRUE',40,86,45) ]).
+b_line_i(108,2,1,cmd,86,[ t('',107,108,0),t([ t('Exceldocument',23,86,0),[ t('cells(',1,86,0),t('Cellrow',23,86,0),t(',',7,86,0),t('Firstcolumn',23,86,0),t(+,5,86,0),t('Columnindex',23,86,0),t(')',4,86,0) ],t('Number',3,86,0) ],29,86,0),t(=,10,86,0),t(115,2,86,0) ]).
+b_line_i(109,2,1,cmd,86,[ t('',107,109,0),t('Columnindex',23,86,0),t(=,10,86,0),t('Columnindex',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(110,2,1,cmd,86,[ t('',111,110,0) ]).
+b_line_i(111,2,1,cmd,86,[ t('',109,111,0),t('Gridcolumnvisible_unidades_gisfecha_creacion',23,86,5),t(=,10,86,51),t('TRUE',40,86,53) ]).
+b_line_i(112,2,1,cmd,86,[ t('',107,112,0),t([ t('Exceldocument',23,86,0),[ t('cells(',1,86,0),t('Cellrow',23,86,0),t(',',7,86,0),t('Firstcolumn',23,86,0),t(+,5,86,0),t('Columnindex',23,86,0),t(')',4,86,0) ],t('Date',3,86,0) ],29,86,0),t(=,10,86,0),t(116,2,86,0) ]).
+b_line_i(113,2,1,cmd,86,[ t('',107,113,0),t('Columnindex',23,86,0),t(=,10,86,0),t('Columnindex',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(114,2,1,cmd,86,[ t('',111,114,0) ]).
+b_line_i(115,2,1,cmd,86,[ t('',109,115,0),t('Gridcolumnvisible_unidades_gishora_creacion',23,86,5),t(=,10,86,50),t('TRUE',40,86,52) ]).
+b_line_i(116,2,1,cmd,86,[ t('',107,116,0),t([ t('Exceldocument',23,86,0),[ t('cells(',1,86,0),t('Cellrow',23,86,0),t(',',7,86,0),t('Firstcolumn',23,86,0),t(+,5,86,0),t('Columnindex',23,86,0),t(')',4,86,0) ],t('Number',3,86,0) ],29,86,0),t(=,10,86,0),t(117,2,86,0) ]).
+b_line_i(117,2,1,cmd,86,[ t('',107,117,0),t('Columnindex',23,86,0),t(=,10,86,0),t('Columnindex',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(118,2,1,cmd,86,[ t('',111,118,0) ]).
+b_line_i(119,2,1,cmd,86,[ t('',109,119,0),t('Gridcolumnvisible_unidades_giscreado_por',23,86,5),t(=,10,86,47),t('TRUE',40,86,49) ]).
+b_line_i(120,2,1,cmd,86,[ t('',107,120,0),t([ t('Exceldocument',23,86,0),[ t('cells(',1,86,0),t('Cellrow',23,86,0),t(',',7,86,0),t('Firstcolumn',23,86,0),t(+,5,86,0),t('Columnindex',23,86,0),t(')',4,86,0) ],t('Text',3,86,0) ],29,86,0),t(=,10,86,0),t('rtrim(',1,86,0),t(118,2,86,0),t(')',4,86,0) ]).
+b_line_i(121,2,1,cmd,86,[ t('',107,121,0),t('Columnindex',23,86,0),t(=,10,86,0),t('Columnindex',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(122,2,1,cmd,86,[ t('',111,122,0) ]).
+b_line_i(123,2,1,cmd,86,[ t('',109,123,0),t('Gridcolumnvisible_unidades_gisfecha_modificacion',23,86,5),t(=,10,86,55),t('TRUE',40,86,57) ]).
+b_line_i(124,2,1,cmd,86,[ t('',107,124,0),t([ t('Exceldocument',23,86,0),[ t('cells(',1,86,0),t('Cellrow',23,86,0),t(',',7,86,0),t('Firstcolumn',23,86,0),t(+,5,86,0),t('Columnindex',23,86,0),t(')',4,86,0) ],t('Date',3,86,0) ],29,86,0),t(=,10,86,0),t(119,2,86,0) ]).
+b_line_i(125,2,1,cmd,86,[ t('',107,125,0),t('Columnindex',23,86,0),t(=,10,86,0),t('Columnindex',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(126,2,1,cmd,86,[ t('',111,126,0) ]).
+b_line_i(127,2,1,cmd,86,[ t('',109,127,0),t('Gridcolumnvisible_unidades_gishora_modificacion',23,86,5),t(=,10,86,54),t('TRUE',40,86,56) ]).
+b_line_i(128,2,1,cmd,86,[ t('',107,128,0),t([ t('Exceldocument',23,86,0),[ t('cells(',1,86,0),t('Cellrow',23,86,0),t(',',7,86,0),t('Firstcolumn',23,86,0),t(+,5,86,0),t('Columnindex',23,86,0),t(')',4,86,0) ],t('Number',3,86,0) ],29,86,0),t(=,10,86,0),t(120,2,86,0) ]).
+b_line_i(129,2,1,cmd,86,[ t('',107,129,0),t('Columnindex',23,86,0),t(=,10,86,0),t('Columnindex',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(130,2,1,cmd,86,[ t('',111,130,0) ]).
+b_line_i(131,2,1,cmd,86,[ t('',109,131,0),t('Gridcolumnvisible_unidades_gismodificado_por',23,86,5),t(=,10,86,51),t('TRUE',40,86,53) ]).
+b_line_i(132,2,1,cmd,86,[ t('',107,132,0),t([ t('Exceldocument',23,86,0),[ t('cells(',1,86,0),t('Cellrow',23,86,0),t(',',7,86,0),t('Firstcolumn',23,86,0),t(+,5,86,0),t('Columnindex',23,86,0),t(')',4,86,0) ],t('Text',3,86,0) ],29,86,0),t(=,10,86,0),t('rtrim(',1,86,0),t(121,2,86,0),t(')',4,86,0) ]).
+b_line_i(133,2,1,cmd,86,[ t('',107,133,0),t('Columnindex',23,86,0),t(=,10,86,0),t('Columnindex',23,86,0),t(+,5,86,0),t('1',3,86,0) ]).
+b_line_i(134,2,1,cmd,86,[ t('',111,134,0) ]).
+b_line_i(135,2,1,cmd,86,[ t('',128,135,0) ]).
+b_line_i(136,1,3,cmd,51,[ t('',107,136,0),t([ t('Exceldocument',23,136,1),t('save(',1,136,16) ],31,136,16),t(')',4,51,22) ]).
+b_line_i(137,1,3,cmd,51,[ t('',145,137,0),t('''CHECKSTATUS''',3,137,4) ]).
+b_line_i(138,1,3,cmd,51,[ t('',107,138,0),t([ t('Exceldocument',23,138,1),t('close(',1,138,16) ],31,138,16),t(')',4,51,23) ]).
+b_line_i(139,1,3,cmd,51,[]).
+b_line_i(140,1,3,cmd,51,[ t('',143,140,0),t('''CHECKSTATUS''',3,140,5) ]).
+b_line_i(141,1,4,cmd,51,[ t('',109,141,0),t('(',0,51,5),t([ t('Exceldocument',23,141,6),t('Errcode',3,141,21) ],29,141,21),t(<>,10,51,29),t('0',3,51,32),t(')',4,51,33) ]).
+b_line_i(142,1,4,cmd,51,[ t('',107,142,0),t('Outfile',23,51,0),t(=,10,51,0),t('""',3,51,0) ]).
+b_line_i(143,1,4,cmd,51,[ t('',107,143,0),t('Errormessage',23,51,0),t(=,10,51,0),t([ t('Exceldocument',23,51,0),t('Errdescription',3,51,0) ],29,51,0) ]).
+b_line_i(144,1,4,cmd,51,[ t('',107,144,0),t([ t('Exceldocument',23,144,3),t('close(',1,144,18) ],31,144,18),t(')',4,51,25) ]).
+b_line_i(145,1,4,cmd,51,[ t('',118,145,0) ]).
+b_line_i(146,1,4,cmd,51,[ t('',111,146,0) ]).
+b_line_i(147,1,4,cmd,51,[ t('',144,147,0) ]).
+b_line_i(148,1,4,cmd,51,[]).
+b_line_i(149,1,4,cmd,51,[ t('',143,149,0),t('''HIDESHOWCOLUMNS''',3,149,5) ]).
+b_line_i(150,1,5,cmd,51,[ t('',145,150,0),t('''LOADAVAILABLECOLUMNS''',3,150,5) ]).
+b_line_i(151,1,5,cmd,51,[ t('',104,151,0),t(o(1,'K2BLoadGridConfiguration'),28,51,2),t('"WWunidades_gis"',3,151,33),t(',',7,51,0),t('"Grid"',3,151,51),t(',',7,51,0),t('Gridconfiguration',23,51,59) ]).
+b_line_i(152,1,5,cmd,51,[ t('',107,152,0),t('Gridcolumns',23,51,0),t(=,10,51,0),t([ t('Gridconfiguration',23,51,0),t('Gridcolumns',3,51,0) ],29,51,0) ]).
+b_line_i(153,1,5,cmd,51,[ t('',107,153,0),t('Gridcolumnvisible_id_unidad',23,51,0),t(=,10,51,0),t('TRUE',40,51,0) ]).
+b_line_i(154,1,5,cmd,51,[ t('',107,154,0),t('Gridcolumnvisible_nombre_unidad',23,51,0),t(=,10,51,0),t('TRUE',40,51,0) ]).
+b_line_i(155,1,5,cmd,51,[ t('',107,155,0),t('Gridcolumnvisible_unidades_gisestado',23,51,0),t(=,10,51,0),t('TRUE',40,51,0) ]).
+b_line_i(156,1,5,cmd,51,[ t('',107,156,0),t('Gridcolumnvisible_unidades_gisfecha_creacion',23,51,0),t(=,10,51,0),t('TRUE',40,51,0) ]).
+b_line_i(157,1,5,cmd,51,[ t('',107,157,0),t('Gridcolumnvisible_unidades_gishora_creacion',23,51,0),t(=,10,51,0),t('TRUE',40,51,0) ]).
+b_line_i(158,1,5,cmd,51,[ t('',107,158,0),t('Gridcolumnvisible_unidades_giscreado_por',23,51,0),t(=,10,51,0),t('TRUE',40,51,0) ]).
+b_line_i(159,1,5,cmd,51,[ t('',107,159,0),t('Gridcolumnvisible_unidades_gisfecha_modificacion',23,51,0),t(=,10,51,0),t('TRUE',40,51,0) ]).
+b_line_i(160,1,5,cmd,51,[ t('',107,160,0),t('Gridcolumnvisible_unidades_gishora_modificacion',23,51,0),t(=,10,51,0),t('TRUE',40,51,0) ]).
+b_line_i(161,1,5,cmd,51,[ t('',107,161,0),t('Gridcolumnvisible_unidades_gismodificado_por',23,51,0),t(=,10,51,0),t('TRUE',40,51,0) ]).
+b_line_i(162,1,5,cmd,51,[ t('',104,162,0),t(o(1,'K2BSaveGridConfiguration'),28,51,2),t('"WWunidades_gis"',3,162,33),t(',',7,51,0),t('"Grid"',3,162,51),t(',',7,51,0),t('Gridconfiguration',23,51,60),t(',',7,51,0),t('FALSE',41,51,80) ]).
+b_line_i(163,1,5,cmd,51,[ t('',107,163,0),t('Gridcolumns',23,51,0),t(=,10,51,0),t([ t('Gridconfiguration',23,51,0),t('Gridcolumns',3,51,0) ],29,51,0) ]).
+b_line_i(164,1,5,cmd,51,[ t('',107,164,0),t('GXV1',23,51,0),t(=,10,51,0),t(1,3,51,0) ]).
+b_line_i([ 164,2 ],1,5,cmd,51,[ t('',114,164,0),t('GXV1',23,51,0),t(<=,10,51,0),t([ t('Gridcolumns',23,164,21),t('Count',3,164,0) ],29,164,0) ]).
+b_line_i([ 164,3 ],1,5,cmd,51,[ t('',107,164,0),t('Gridcolumn',23,51,0),t(=,10,51,0),t([ t('Gridcolumns',23,51,0),t('item(',1,51,0) ],31,51,0),t('GXV1',23,51,0),t(')',4,51,0) ]).
+b_line_i(165,1,5,cmd,52,[ t('',109,165,0),t([ t('Gridcolumn',23,165,6),t('Showattribute',3,165,18) ],29,165,18),t(=,10,52,32),t('FALSE',41,52,34) ]).
+b_line_i(166,1,5,cmd,52,[ t('',152,166,0) ]).
+b_line_i(167,1,5,cmd,52,[ t('',153,167,0),t([ t('Gridcolumn',23,167,10),t('Attributename',3,167,22) ],29,167,22),t(=,10,52,36),t('"id_unidad"',3,167,38) ]).
+b_line_i(168,1,5,cmd,52,[ t('',107,168,0),t('Gridcolumnvisible_id_unidad',23,52,0),t(=,10,52,0),t('FALSE',41,52,0) ]).
+b_line_i(169,1,5,cmd,52,[ t('',153,169,0),t([ t('Gridcolumn',23,169,10),t('Attributename',3,169,22) ],29,169,22),t(=,10,52,36),t('"nombre_unidad"',3,169,38) ]).
+b_line_i(170,1,5,cmd,52,[ t('',107,170,0),t('Gridcolumnvisible_nombre_unidad',23,52,0),t(=,10,52,0),t('FALSE',41,52,0) ]).
+b_line_i(171,1,5,cmd,52,[ t('',153,171,0),t([ t('Gridcolumn',23,171,10),t('Attributename',3,171,22) ],29,171,22),t(=,10,52,36),t('"unidades_gisestado"',3,171,38) ]).
+b_line_i(172,1,5,cmd,52,[ t('',107,172,0),t('Gridcolumnvisible_unidades_gisestado',23,52,0),t(=,10,52,0),t('FALSE',41,52,0) ]).
+b_line_i(173,1,5,cmd,52,[ t('',153,173,0),t([ t('Gridcolumn',23,173,10),t('Attributename',3,173,22) ],29,173,22),t(=,10,52,36),t('"unidades_gisfecha_creacion"',3,173,38) ]).
+b_line_i(174,1,5,cmd,52,[ t('',107,174,0),t('Gridcolumnvisible_unidades_gisfecha_creacion',23,52,0),t(=,10,52,0),t('FALSE',41,52,0) ]).
+b_line_i(175,1,5,cmd,52,[ t('',153,175,0),t([ t('Gridcolumn',23,175,10),t('Attributename',3,175,22) ],29,175,22),t(=,10,52,36),t('"unidades_gishora_creacion"',3,175,38) ]).
+b_line_i(176,1,5,cmd,52,[ t('',107,176,0),t('Gridcolumnvisible_unidades_gishora_creacion',23,52,0),t(=,10,52,0),t('FALSE',41,52,0) ]).
+b_line_i(177,1,5,cmd,52,[ t('',153,177,0),t([ t('Gridcolumn',23,177,10),t('Attributename',3,177,22) ],29,177,22),t(=,10,52,36),t('"unidades_giscreado_por"',3,177,38) ]).
+b_line_i(178,1,5,cmd,52,[ t('',107,178,0),t('Gridcolumnvisible_unidades_giscreado_por',23,52,0),t(=,10,52,0),t('FALSE',41,52,0) ]).
+b_line_i(179,1,5,cmd,52,[ t('',153,179,0),t([ t('Gridcolumn',23,179,10),t('Attributename',3,179,22) ],29,179,22),t(=,10,52,36),t('"unidades_gisfecha_modificacion"',3,179,38) ]).
+b_line_i(180,1,5,cmd,52,[ t('',107,180,0),t('Gridcolumnvisible_unidades_gisfecha_modificacion',23,52,0),t(=,10,52,0),t('FALSE',41,52,0) ]).
+b_line_i(181,1,5,cmd,52,[ t('',153,181,0),t([ t('Gridcolumn',23,181,10),t('Attributename',3,181,22) ],29,181,22),t(=,10,52,36),t('"unidades_gishora_modificacion"',3,181,38) ]).
+b_line_i(182,1,5,cmd,52,[ t('',107,182,0),t('Gridcolumnvisible_unidades_gishora_modificacion',23,52,0),t(=,10,52,0),t('FALSE',41,52,0) ]).
+b_line_i(183,1,5,cmd,52,[ t('',153,183,0),t([ t('Gridcolumn',23,183,10),t('Attributename',3,183,22) ],29,183,22),t(=,10,52,36),t('"unidades_gismodificado_por"',3,183,38) ]).
+b_line_i(184,1,5,cmd,52,[ t('',107,184,0),t('Gridcolumnvisible_unidades_gismodificado_por',23,52,0),t(=,10,52,0),t('FALSE',41,52,0) ]).
+b_line_i(185,1,5,cmd,52,[]).
+b_line_i(186,1,5,cmd,52,[ t('',154,186,0) ]).
+b_line_i(187,1,5,cmd,52,[ t('',111,187,0) ]).
+b_line_i([ 188,1 ],1,5,cmd,52,[ t('',107,188,0),t('GXV1',23,52,0),t(=,10,52,0),t('GXV1',23,52,0),t(+,5,52,0),t(1,3,52,0) ]).
+b_line_i([ 188,2 ],1,5,cmd,52,[ t('',115,188,0) ]).
+b_line_i(189,1,5,cmd,53,[ t('',144,189,0) ]).
+b_line_i(190,1,5,cmd,53,[]).
+b_line_i(191,1,5,cmd,53,[ t('',143,191,0),t('''LOADAVAILABLECOLUMNS''',3,191,5) ]).
+b_line_i(192,1,6,cmd,53,[ t('',107,192,0),t('Gridcolumns',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns',[ t('(',0,192,20),t(')',4,192,21) ],n ],46,53,0) ]).
+b_line_i(193,1,6,cmd,53,[ t('',107,193,0),t('Gridcolumn',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,193,19),t(')',4,193,20) ],n ],46,53,0) ]).
+b_line_i(194,1,6,cmd,53,[ t('',107,194,0),t([ t('Gridcolumn',23,53,0),t('Attributename',3,53,0) ],29,53,0),t(=,10,53,0),t('"id_unidad"',3,53,0) ]).
+b_line_i(195,1,6,cmd,53,[ t('',107,195,0),t([ t('Gridcolumn',23,53,0),t('Columntitle',3,53,0) ],29,53,0),t(=,10,53,0),t('"id_unidad"',3,53,0) ]).
+b_line_i(196,1,6,cmd,53,[ t('',107,196,0),t([ t('Gridcolumn',23,53,0),t('Showattribute',3,53,0) ],29,53,0),t(=,10,53,0),t('TRUE',40,53,0) ]).
+b_line_i(197,1,6,cmd,53,[ t('',107,197,0),t([ t('Gridcolumns',23,197,2),t('add(',1,197,15) ],31,197,2),t('Gridcolumn',23,53,20),t(')',4,53,31) ]).
+b_line_i(198,1,6,cmd,53,[ t('',107,198,0),t('Gridcolumn',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,198,19),t(')',4,198,20) ],n ],46,53,0) ]).
+b_line_i(199,1,6,cmd,53,[ t('',107,199,0),t([ t('Gridcolumn',23,53,0),t('Attributename',3,53,0) ],29,53,0),t(=,10,53,0),t('"nombre_unidad"',3,53,0) ]).
+b_line_i(200,1,6,cmd,53,[ t('',107,200,0),t([ t('Gridcolumn',23,53,0),t('Columntitle',3,53,0) ],29,53,0),t(=,10,53,0),t('"nombre_unidad"',3,53,0) ]).
+b_line_i(201,1,6,cmd,53,[ t('',107,201,0),t([ t('Gridcolumn',23,53,0),t('Showattribute',3,53,0) ],29,53,0),t(=,10,53,0),t('TRUE',40,53,0) ]).
+b_line_i(202,1,6,cmd,53,[ t('',107,202,0),t([ t('Gridcolumns',23,202,2),t('add(',1,202,15) ],31,202,2),t('Gridcolumn',23,53,20),t(')',4,53,31) ]).
+b_line_i(203,1,6,cmd,53,[ t('',107,203,0),t('Gridcolumn',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,203,19),t(')',4,203,20) ],n ],46,53,0) ]).
+b_line_i(204,1,6,cmd,53,[ t('',107,204,0),t([ t('Gridcolumn',23,53,0),t('Attributename',3,53,0) ],29,53,0),t(=,10,53,0),t('"unidades_gisestado"',3,53,0) ]).
+b_line_i(205,1,6,cmd,53,[ t('',107,205,0),t([ t('Gridcolumn',23,53,0),t('Columntitle',3,53,0) ],29,53,0),t(=,10,53,0),t('"estado"',3,53,0) ]).
+b_line_i(206,1,6,cmd,53,[ t('',107,206,0),t([ t('Gridcolumn',23,53,0),t('Showattribute',3,53,0) ],29,53,0),t(=,10,53,0),t('TRUE',40,53,0) ]).
+b_line_i(207,1,6,cmd,53,[ t('',107,207,0),t([ t('Gridcolumns',23,207,2),t('add(',1,207,15) ],31,207,2),t('Gridcolumn',23,53,20),t(')',4,53,31) ]).
+b_line_i(208,1,6,cmd,53,[ t('',107,208,0),t('Gridcolumn',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,208,19),t(')',4,208,20) ],n ],46,53,0) ]).
+b_line_i(209,1,6,cmd,53,[ t('',107,209,0),t([ t('Gridcolumn',23,53,0),t('Attributename',3,53,0) ],29,53,0),t(=,10,53,0),t('"unidades_gisfecha_creacion"',3,53,0) ]).
+b_line_i(210,1,6,cmd,53,[ t('',107,210,0),t([ t('Gridcolumn',23,53,0),t('Columntitle',3,53,0) ],29,53,0),t(=,10,53,0),t('"fecha_creacion"',3,53,0) ]).
+b_line_i(211,1,6,cmd,53,[ t('',107,211,0),t([ t('Gridcolumn',23,53,0),t('Showattribute',3,53,0) ],29,53,0),t(=,10,53,0),t('TRUE',40,53,0) ]).
+b_line_i(212,1,6,cmd,53,[ t('',107,212,0),t([ t('Gridcolumns',23,212,2),t('add(',1,212,15) ],31,212,2),t('Gridcolumn',23,53,20),t(')',4,53,31) ]).
+b_line_i(213,1,6,cmd,53,[ t('',107,213,0),t('Gridcolumn',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,213,19),t(')',4,213,20) ],n ],46,53,0) ]).
+b_line_i(214,1,6,cmd,53,[ t('',107,214,0),t([ t('Gridcolumn',23,53,0),t('Attributename',3,53,0) ],29,53,0),t(=,10,53,0),t('"unidades_gishora_creacion"',3,53,0) ]).
+b_line_i(215,1,6,cmd,53,[ t('',107,215,0),t([ t('Gridcolumn',23,53,0),t('Columntitle',3,53,0) ],29,53,0),t(=,10,53,0),t('"hora_creacion"',3,53,0) ]).
+b_line_i(216,1,6,cmd,53,[ t('',107,216,0),t([ t('Gridcolumn',23,53,0),t('Showattribute',3,53,0) ],29,53,0),t(=,10,53,0),t('TRUE',40,53,0) ]).
+b_line_i(217,1,6,cmd,53,[ t('',107,217,0),t([ t('Gridcolumns',23,217,2),t('add(',1,217,15) ],31,217,2),t('Gridcolumn',23,53,20),t(')',4,53,31) ]).
+b_line_i(218,1,6,cmd,53,[ t('',107,218,0),t('Gridcolumn',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,218,19),t(')',4,218,20) ],n ],46,53,0) ]).
+b_line_i(219,1,6,cmd,53,[ t('',107,219,0),t([ t('Gridcolumn',23,53,0),t('Attributename',3,53,0) ],29,53,0),t(=,10,53,0),t('"unidades_giscreado_por"',3,53,0) ]).
+b_line_i(220,1,6,cmd,53,[ t('',107,220,0),t([ t('Gridcolumn',23,53,0),t('Columntitle',3,53,0) ],29,53,0),t(=,10,53,0),t('"creado_por"',3,53,0) ]).
+b_line_i(221,1,6,cmd,53,[ t('',107,221,0),t([ t('Gridcolumn',23,53,0),t('Showattribute',3,53,0) ],29,53,0),t(=,10,53,0),t('TRUE',40,53,0) ]).
+b_line_i(222,1,6,cmd,53,[ t('',107,222,0),t([ t('Gridcolumns',23,222,2),t('add(',1,222,15) ],31,222,2),t('Gridcolumn',23,53,20),t(')',4,53,31) ]).
+b_line_i(223,1,6,cmd,53,[ t('',107,223,0),t('Gridcolumn',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,223,19),t(')',4,223,20) ],n ],46,53,0) ]).
+b_line_i(224,1,6,cmd,53,[ t('',107,224,0),t([ t('Gridcolumn',23,53,0),t('Attributename',3,53,0) ],29,53,0),t(=,10,53,0),t('"unidades_gisfecha_modificacion"',3,53,0) ]).
+b_line_i(225,1,6,cmd,53,[ t('',107,225,0),t([ t('Gridcolumn',23,53,0),t('Columntitle',3,53,0) ],29,53,0),t(=,10,53,0),t('"fecha_modificacion"',3,53,0) ]).
+b_line_i(226,1,6,cmd,53,[ t('',107,226,0),t([ t('Gridcolumn',23,53,0),t('Showattribute',3,53,0) ],29,53,0),t(=,10,53,0),t('TRUE',40,53,0) ]).
+b_line_i(227,1,6,cmd,53,[ t('',107,227,0),t([ t('Gridcolumns',23,227,2),t('add(',1,227,15) ],31,227,2),t('Gridcolumn',23,53,20),t(')',4,53,31) ]).
+b_line_i(228,1,6,cmd,53,[ t('',107,228,0),t('Gridcolumn',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,228,19),t(')',4,228,20) ],n ],46,53,0) ]).
+b_line_i(229,1,6,cmd,53,[ t('',107,229,0),t([ t('Gridcolumn',23,53,0),t('Attributename',3,53,0) ],29,53,0),t(=,10,53,0),t('"unidades_gishora_modificacion"',3,53,0) ]).
+b_line_i(230,1,6,cmd,53,[ t('',107,230,0),t([ t('Gridcolumn',23,53,0),t('Columntitle',3,53,0) ],29,53,0),t(=,10,53,0),t('"hora_modificacion"',3,53,0) ]).
+b_line_i(231,1,6,cmd,53,[ t('',107,231,0),t([ t('Gridcolumn',23,53,0),t('Showattribute',3,53,0) ],29,53,0),t(=,10,53,0),t('TRUE',40,53,0) ]).
+b_line_i(232,1,6,cmd,53,[ t('',107,232,0),t([ t('Gridcolumns',23,232,2),t('add(',1,232,15) ],31,232,2),t('Gridcolumn',23,53,20),t(')',4,53,31) ]).
+b_line_i(233,1,6,cmd,53,[ t('',107,233,0),t('Gridcolumn',23,53,0),t(=,10,53,0),t([ 'K2BGridColumns.K2BGridColumnsItem',[ t('(',0,233,19),t(')',4,233,20) ],n ],46,53,0) ]).
+b_line_i(234,1,6,cmd,53,[ t('',107,234,0),t([ t('Gridcolumn',23,53,0),t('Attributename',3,53,0) ],29,53,0),t(=,10,53,0),t('"unidades_gismodificado_por"',3,53,0) ]).
+b_line_i(235,1,6,cmd,53,[ t('',107,235,0),t([ t('Gridcolumn',23,53,0),t('Columntitle',3,53,0) ],29,53,0),t(=,10,53,0),t('"modificado_por"',3,53,0) ]).
+b_line_i(236,1,6,cmd,53,[ t('',107,236,0),t([ t('Gridcolumn',23,53,0),t('Showattribute',3,53,0) ],29,53,0),t(=,10,53,0),t('TRUE',40,53,0) ]).
+b_line_i(237,1,6,cmd,53,[ t('',107,237,0),t([ t('Gridcolumns',23,237,2),t('add(',1,237,15) ],31,237,2),t('Gridcolumn',23,53,20),t(')',4,53,31) ]).
+b_line_i(238,1,6,cmd,53,[ t('',107,238,0),t([ t('Gridconfiguration',23,53,0),t('Gridcolumns',3,53,0) ],29,53,0),t(=,10,53,0),t('Gridcolumns',23,53,0) ]).
+b_line_i(239,1,6,cmd,53,[]).
+b_line_i(240,1,6,cmd,53,[ t('',144,240,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,103,'ExternalName',id_unidad,d).
+att_prop_i(2,103,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,103,'EmptyAsNull','Yes',d).
+att_prop_i(2,103,idBasedOn,'',d).
+att_prop_i(2,103,'AUTONUMBER','-1',v).
+att_prop_i(2,103,'AUTONUMBER_START','1',d).
+att_prop_i(2,103,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,103,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,103,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,103,'AttRegEx','',d).
+att_prop_i(2,103,'AttValidationFailedMsg','',d).
+att_prop_i(2,103,'DownloadOffline','0',d).
+att_prop_i(2,103,'VarServiceExtName','',d).
+att_prop_i(2,103,'FullName',id_unidad,v).
+att_prop_i(2,114,'ExternalName',nombre_unidad,d).
+att_prop_i(2,114,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,114,'EmptyAsNull','Yes',d).
+att_prop_i(2,114,idBasedOn,'',d).
+att_prop_i(2,114,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,114,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,114,'AttRegEx','',d).
+att_prop_i(2,114,'AttValidationFailedMsg','',d).
+att_prop_i(2,114,'DownloadOffline','0',d).
+att_prop_i(2,114,'VarServiceExtName','',d).
+att_prop_i(2,114,'FullName',nombre_unidad,v).
+att_prop_i(2,121,'ExternalName',unidades_gismodificado_por,d).
+att_prop_i(2,121,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,121,'EmptyAsNull','Yes',d).
+att_prop_i(2,121,idBasedOn,'',d).
+att_prop_i(2,121,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,121,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,121,'AttRegEx','',d).
+att_prop_i(2,121,'AttValidationFailedMsg','',d).
+att_prop_i(2,121,'DownloadOffline','0',d).
+att_prop_i(2,121,'VarServiceExtName','',d).
+att_prop_i(2,121,'FullName',unidades_gismodificado_por,v).
+att_prop_i(2,120,'ExternalName',unidades_gishora_modificacion,d).
+att_prop_i(2,120,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,120,'EmptyAsNull','Yes',d).
+att_prop_i(2,120,idBasedOn,'',d).
+att_prop_i(2,120,'AUTONUMBER','0',d).
+att_prop_i(2,120,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,120,'AttRegEx','',d).
+att_prop_i(2,120,'AttValidationFailedMsg','',d).
+att_prop_i(2,120,'DownloadOffline','0',d).
+att_prop_i(2,120,'VarServiceExtName','',d).
+att_prop_i(2,120,'FullName',unidades_gishora_modificacion,v).
+att_prop_i(2,119,'ExternalName',unidades_gisfecha_modificacion,d).
+att_prop_i(2,119,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,119,'EmptyAsNull','Yes',d).
+att_prop_i(2,119,idBasedOn,'',d).
+att_prop_i(2,119,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,119,'AttRegEx','',d).
+att_prop_i(2,119,'AttValidationFailedMsg','',d).
+att_prop_i(2,119,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,119,'DownloadOffline','0',d).
+att_prop_i(2,119,'VarServiceExtName','',d).
+att_prop_i(2,119,'FullName',unidades_gisfecha_modificacion,v).
+att_prop_i(2,118,'ExternalName',unidades_giscreado_por,d).
+att_prop_i(2,118,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,118,'EmptyAsNull','Yes',d).
+att_prop_i(2,118,idBasedOn,'',d).
+att_prop_i(2,118,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,118,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,118,'AttRegEx','',d).
+att_prop_i(2,118,'AttValidationFailedMsg','',d).
+att_prop_i(2,118,'DownloadOffline','0',d).
+att_prop_i(2,118,'VarServiceExtName','',d).
+att_prop_i(2,118,'FullName',unidades_giscreado_por,v).
+att_prop_i(2,117,'ExternalName',unidades_gishora_creacion,d).
+att_prop_i(2,117,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,117,'EmptyAsNull','Yes',d).
+att_prop_i(2,117,idBasedOn,'',d).
+att_prop_i(2,117,'AUTONUMBER','0',d).
+att_prop_i(2,117,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,117,'AttRegEx','',d).
+att_prop_i(2,117,'AttValidationFailedMsg','',d).
+att_prop_i(2,117,'DownloadOffline','0',d).
+att_prop_i(2,117,'VarServiceExtName','',d).
+att_prop_i(2,117,'FullName',unidades_gishora_creacion,v).
+att_prop_i(2,116,'ExternalName',unidades_gisfecha_creacion,d).
+att_prop_i(2,116,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,116,'EmptyAsNull','Yes',d).
+att_prop_i(2,116,idBasedOn,'',d).
+att_prop_i(2,116,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,116,'AttRegEx','',d).
+att_prop_i(2,116,'AttValidationFailedMsg','',d).
+att_prop_i(2,116,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,116,'DownloadOffline','0',d).
+att_prop_i(2,116,'VarServiceExtName','',d).
+att_prop_i(2,116,'FullName',unidades_gisfecha_creacion,v).
+att_prop_i(2,115,'ExternalName',unidades_gisestado,d).
+att_prop_i(2,115,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,115,'EmptyAsNull','Yes',d).
+att_prop_i(2,115,idBasedOn,'',d).
+att_prop_i(2,115,'AUTONUMBER','0',d).
+att_prop_i(2,115,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,115,'AttRegEx','',d).
+att_prop_i(2,115,'AttValidationFailedMsg','',d).
+att_prop_i(2,115,'DownloadOffline','0',d).
+att_prop_i(2,115,'VarServiceExtName','',d).
+att_prop_i(2,115,'FullName',unidades_gisestado,v).
+ 
+ 
+tbl_att_prop_i(2,12,103,'AllowNulls',n).
+tbl_att_prop_i(2,12,103,'AUTONUMBER',y).
+ 
+var_prop_i(2,'Nombre_unidad',idBasedOn,'',v).
+var_prop_i(2,'Unidades_gisfecha_creacion',idBasedOn,'',v).
+var_prop_i(2,'Unidades_gisfecha_creacion_from',idBasedOn,'',v).
+var_prop_i(2,'Unidades_gisfecha_creacion_to',idBasedOn,'',v).
+var_prop_i(2,'Unidades_gisfecha_modificacion',idBasedOn,'',v).
+var_prop_i(2,'Unidades_gisfecha_modificacion_from',idBasedOn,'',v).
+var_prop_i(2,'Unidades_gisfecha_modificacion_to',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,66,0 ],name,'K2BGridConfiguration').
+struct_dt_i([ 26,66,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,66,0 ],'ObjName','K2BGridConfiguration').
+struct_dt_i([ 26,66,0 ],'ObjDesc','K2 BGrid Configuration').
+struct_dt_i([ 26,66,0 ],'ExternalName','K2BGridConfiguration').
+struct_dt_i([ 26,66,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,66,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,61,0 ],name,'K2BGridColumns').
+struct_dt_i([ 26,61,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,61,0 ],'ObjName','K2BGridColumns').
+struct_dt_i([ 26,61,0 ],'ObjDesc','K2 BGrid Columns').
+struct_dt_i([ 26,61,0 ],'ExternalName','K2BGridColumns').
+struct_dt_i([ 26,61,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,61,0 ],collection,'True').
+struct_dt_i([ 26,61,0 ],datatype,[ 26,61,87 ]).
+struct_dt_i([ 26,61,0 ],'CollectionItemName','K2BGridColumnsItem').
+struct_dt_i([ 26,61,0 ],'XmlName','').
+struct_dt_i([ 26,61,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,61,0 ],'XmlNamespace','').
+struct_dt_i([ 26,61,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,61,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,61,0 ],'JsonName','').
+struct_dt_i([ 26,61,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,61,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,61,87 ],name,'K2BGridColumnsItem').
+struct_dt_i([ 26,61,87 ],namespace,'kb_ticket.K2BGridColumns').
+struct_dt_i([ 26,54,0 ],name,'K2BContext').
+struct_dt_i([ 26,54,0 ],namespace,kb_ticket).
+struct_dt_i([ 26,54,0 ],'ObjName','K2BContext').
+struct_dt_i([ 26,54,0 ],'ObjDesc','K2B Context').
+struct_dt_i([ 26,54,0 ],'ExternalName','K2BContext').
+struct_dt_i([ 26,54,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 26,54,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,66,0 ],fullname,'K2BGridConfiguration').
+struct_dt_i([ 26,61,0 ],fullname,'K2BGridColumns').
+struct_dt_i([ 26,61,87 ],fullname,'K2BGridColumns.K2BGridColumnsItem').
+struct_dt_i([ 26,54,0 ],fullname,'K2BContext').
+ 
+struct_dt_elem_i([ 26,66,0 ],1,name,'Freezecolumntitles').
+struct_dt_elem_i([ 26,66,0 ],1,camelname,'FreezeColumnTitles').
+struct_dt_elem_i([ 26,66,0 ],1,length,4).
+struct_dt_elem_i([ 26,66,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,66,0 ],1,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,66,0 ],1,pic,'').
+struct_dt_elem_i([ 26,66,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,66,0 ],1,'ExternalName','FreezeColumnTitles').
+struct_dt_elem_i([ 26,66,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,66,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,66,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,66,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,66,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,66,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,0 ],2,name,'Gridcolumns').
+struct_dt_elem_i([ 26,66,0 ],2,camelname,'GridColumns').
+struct_dt_elem_i([ 26,66,0 ],2,length,4).
+struct_dt_elem_i([ 26,66,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,66,0 ],2,type,[ [ 26,61,0 ],4,0 ]).
+struct_dt_elem_i([ 26,66,0 ],2,pic,'').
+struct_dt_elem_i([ 26,66,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,66,0 ],2,'ExternalName','GridColumns').
+struct_dt_elem_i([ 26,66,0 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,66,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,66,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,66,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,66,0 ],2,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,61,87 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,61,87 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,61,87 ],1,length,20).
+struct_dt_elem_i([ 26,61,87 ],1,decimals,0).
+struct_dt_elem_i([ 26,61,87 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,61,87 ],1,pic,'').
+struct_dt_elem_i([ 26,61,87 ],1,collection,'False').
+struct_dt_elem_i([ 26,61,87 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,61,87 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,61,87 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,61,87 ],1,'XmlName','').
+struct_dt_elem_i([ 26,61,87 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,87 ],1,soaptype,'').
+struct_dt_elem_i([ 26,61,87 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,87 ],1,'JsonName','').
+struct_dt_elem_i([ 26,61,87 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,61,87 ],2,name,'Showattribute').
+struct_dt_elem_i([ 26,61,87 ],2,camelname,'ShowAttribute').
+struct_dt_elem_i([ 26,61,87 ],2,length,4).
+struct_dt_elem_i([ 26,61,87 ],2,decimals,0).
+struct_dt_elem_i([ 26,61,87 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,61,87 ],2,pic,'').
+struct_dt_elem_i([ 26,61,87 ],2,collection,'False').
+struct_dt_elem_i([ 26,61,87 ],2,'ExternalName','ShowAttribute').
+struct_dt_elem_i([ 26,61,87 ],2,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,61,87 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,61,87 ],2,'XmlName','').
+struct_dt_elem_i([ 26,61,87 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,87 ],2,soaptype,'').
+struct_dt_elem_i([ 26,61,87 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,87 ],2,'JsonName','').
+struct_dt_elem_i([ 26,61,87 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,61,87 ],3,name,'Columntitle').
+struct_dt_elem_i([ 26,61,87 ],3,camelname,'ColumnTitle').
+struct_dt_elem_i([ 26,61,87 ],3,length,100).
+struct_dt_elem_i([ 26,61,87 ],3,decimals,0).
+struct_dt_elem_i([ 26,61,87 ],3,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,61,87 ],3,pic,'').
+struct_dt_elem_i([ 26,61,87 ],3,collection,'False').
+struct_dt_elem_i([ 26,61,87 ],3,'ExternalName','ColumnTitle').
+struct_dt_elem_i([ 26,61,87 ],3,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,61,87 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,61,87 ],3,'XmlName','').
+struct_dt_elem_i([ 26,61,87 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,61,87 ],3,soaptype,'').
+struct_dt_elem_i([ 26,61,87 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,61,87 ],3,'JsonName','').
+struct_dt_elem_i([ 26,61,87 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,54,0 ],1,name,'Usercode').
+struct_dt_elem_i([ 26,54,0 ],1,camelname,'UserCode').
+struct_dt_elem_i([ 26,54,0 ],1,basedon,105).
+struct_dt_elem_i([ 26,54,0 ],1,length,100).
+struct_dt_elem_i([ 26,54,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,54,0 ],1,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,54,0 ],1,pic,'').
+struct_dt_elem_i([ 26,54,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,54,0 ],1,'ExternalName','UserCode').
+struct_dt_elem_i([ 26,54,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 26,54,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,54,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,54,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,54,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,54,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,54,0 ],1,pic,'ZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,32,'K2BSAVEGRIDCONFIGURATION',[ [ char,129,0,0 ],[ char,150,0,0 ],[ o('K2BGridConfiguration'),0,0,0 ],[ boolean,4,0,0 ] ],[ [ 'ProgramName',in,[] ],[ 'GridName',in,[] ],[ 'GridConfiguration',in,[] ],[ 'PersistInDB',in,[] ] ]).
+pgm_parm_i(proc,35,'K2BLOADGRIDCONFIGURATION',[ [ char,20,0,0 ],[ char,150,0,0 ],[ o('K2BGridConfiguration'),0,0,0 ] ],[ [ 'ProgramName',in,[] ],[ 'GridName',in,[] ],[ 'GridConfiguration',inout,[] ] ]).
+pgm_parm_i(proc,71,'K2BGETCONTEXT',[ [ o('K2BContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,202,'EXPORTWWUNIDADES_GIS','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,32,'K2BSAVEGRIDCONFIGURATION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,35,'K2BLOADGRIDCONFIGURATION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,71,'K2BGETCONTEXT','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

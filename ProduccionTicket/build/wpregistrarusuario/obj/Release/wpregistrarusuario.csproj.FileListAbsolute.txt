@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\wpregistrarusuario.dll
+C:\Models\kb_ticket\ProduccionTicket\build\wpregistrarusuario\obj\Release\wpregistrarusuario.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\wpregistrarusuario\obj\Release\wpregistrarusuario.dll

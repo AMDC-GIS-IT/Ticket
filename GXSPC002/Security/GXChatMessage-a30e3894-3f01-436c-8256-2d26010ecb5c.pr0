@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "gxchatmessage_FullControl",
+    "Description": "GXChat Message FullControl",
+    "ProgramName": "commonchatbots.gxchatmessage",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "gxchatmessage_Execute",
+    "Description": "GXChat Message",
+    "ProgramName": "commonchatbots.gxchatmessage",
+    "IsGXAutomatic": true,
+    "Parent": "gxchatmessage_FullControl"
+  },
+  {
+    "Name": "gxchatmessage_Insert",
+    "Description": "GXChat Message Insert",
+    "ProgramName": "commonchatbots.gxchatmessage",
+    "IsGXAutomatic": true,
+    "Parent": "gxchatmessage_FullControl"
+  },
+  {
+    "Name": "gxchatmessage_Delete",
+    "Description": "GXChat Message Delete",
+    "ProgramName": "commonchatbots.gxchatmessage",
+    "IsGXAutomatic": true,
+    "Parent": "gxchatmessage_FullControl"
+  },
+  {
+    "Name": "gxchatmessage_Update",
+    "Description": "GXChat Message Update",
+    "ProgramName": "commonchatbots.gxchatmessage",
+    "IsGXAutomatic": true,
+    "Parent": "gxchatmessage_FullControl"
+  }
+]

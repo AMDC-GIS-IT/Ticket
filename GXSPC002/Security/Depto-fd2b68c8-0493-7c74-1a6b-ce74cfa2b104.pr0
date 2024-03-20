@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "depto_FullControl",
+    "Description": "Depto FullControl",
+    "ProgramName": "depto",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "depto_Execute",
+    "Description": "Depto",
+    "ProgramName": "depto",
+    "IsGXAutomatic": true,
+    "Parent": "depto_FullControl"
+  },
+  {
+    "Name": "depto_Insert",
+    "Description": "Depto Insert",
+    "ProgramName": "depto",
+    "IsGXAutomatic": true,
+    "Parent": "depto_FullControl"
+  },
+  {
+    "Name": "depto_Delete",
+    "Description": "Depto Delete",
+    "ProgramName": "depto",
+    "IsGXAutomatic": true,
+    "Parent": "depto_FullControl"
+  },
+  {
+    "Name": "depto_Update",
+    "Description": "Depto Update",
+    "ProgramName": "depto",
+    "IsGXAutomatic": true,
+    "Parent": "depto_FullControl"
+  }
+]

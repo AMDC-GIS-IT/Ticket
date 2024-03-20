@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\entitymanagerunidades_gis.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\entitymanagerunidades_gis\obj\Release\entitymanagerunidades_gis.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\entitymanagerunidades_gis\obj\Release\entitymanagerunidades_gis.dll

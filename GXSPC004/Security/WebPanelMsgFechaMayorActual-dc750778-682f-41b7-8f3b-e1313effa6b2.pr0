@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "webpanelmsg_Execute",
+    "Description": "Fecha Mayor a Fecha Actual",
+    "ProgramName": "webpanelmsgfechamayoractual",
+    "IsGXAutomatic": true
+  }
+]

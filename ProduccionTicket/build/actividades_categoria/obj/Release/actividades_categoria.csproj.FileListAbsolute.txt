@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\actividades_categoria.dll
+C:\Models\kb_ticket\ProduccionTicket\build\actividades_categoria\obj\Release\actividades_categoria.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\actividades_categoria\obj\Release\actividades_categoria.dll

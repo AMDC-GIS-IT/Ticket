@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wptrabajosoportemodificar.dll
+C:\Models\kb_ticket\CSharpModel\build\wptrabajosoportemodificar\obj\Release\wptrabajosoportemodificar.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wptrabajosoportemodificar\obj\Release\wptrabajosoportemodificar.dll

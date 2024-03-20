@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wwresponsable.dll
+C:\Models\kb_ticket\CSharpModel\build\wwresponsable\obj\Release\wwresponsable.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wwresponsable\obj\Release\wwresponsable.dll

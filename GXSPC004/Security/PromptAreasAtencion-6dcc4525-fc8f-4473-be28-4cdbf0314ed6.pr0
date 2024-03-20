@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "areasatencion_Execute",
+    "Description": "K2BT_PromptDescription",
+    "ProgramName": "promptareasatencion",
+    "IsGXAutomatic": true
+  }
+]

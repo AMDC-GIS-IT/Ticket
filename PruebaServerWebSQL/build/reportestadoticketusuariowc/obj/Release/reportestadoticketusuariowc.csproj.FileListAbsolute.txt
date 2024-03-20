@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\reportestadoticketusuariowc.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\reportestadoticketusuariowc\obj\Release\reportestadoticketusuariowc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\reportestadoticketusuariowc\obj\Release\reportestadoticketusuariowc.dll

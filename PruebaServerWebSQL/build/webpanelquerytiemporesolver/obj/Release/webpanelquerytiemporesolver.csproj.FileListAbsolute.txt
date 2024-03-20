@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\webpanelquerytiemporesolver.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelquerytiemporesolver\obj\Release\webpanelquerytiemporesolver.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelquerytiemporesolver\obj\Release\webpanelquerytiemporesolver.dll

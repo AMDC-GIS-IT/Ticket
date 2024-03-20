@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\promptusuariosistema.dll
+C:\Models\kb_ticket\ProduccionTicket\build\promptusuariosistema\obj\Release\promptusuariosistema.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\promptusuariosistema\obj\Release\promptusuariosistema.dll

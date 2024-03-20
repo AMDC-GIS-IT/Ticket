@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "areasatencion_Execute",
+    "Description": "Áreas de atención",
+    "ProgramName": "entitymanagerareasatencion",
+    "IsGXAutomatic": true
+  }
+]

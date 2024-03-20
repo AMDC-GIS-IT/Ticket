@@ -1,0 +1,43 @@
+dir_superordinates_i(4,26,[ [ 25,[ 366 ] ] ]).
+dir_superordinates_i(4,25,[]).
+dir_superordinates_i(4,27,[ [ 26,[ 369 ] ] ]).
+dir_superordinates_i(4,23,[ [ 13,[ 102 ] ] ]).
+dir_superordinates_i(4,13,[]).
+dir_superordinates_i(4,8,[ [ 539,[ 198 ] ],[ 528,[ 17 ] ],[ 23,[ 294 ] ],[ 22,[ 290 ] ],[ 7,[ 14 ] ] ]).
+dir_superordinates_i(4,22,[]).
+dir_superordinates_i(4,19,[]).
+dir_superordinates_i(4,11,[ [ 19,[ 259,260 ] ],[ 18,[ 258 ] ] ]).
+dir_superordinates_i(4,18,[]).
+dir_superordinates_i(4,17,[]).
+dir_superordinates_i(4,15,[]).
+dir_superordinates_i(4,14,[]).
+dir_superordinates_i(4,5,[ [ 538,[ 194 ] ],[ 12,[ 103 ] ] ]).
+dir_superordinates_i(4,2,[ [ 13,[ 171 ] ],[ 535,[ 169 ] ] ]).
+dir_superordinates_i(4,9,[ [ 14,[ 173 ] ],[ 13,[ 171 ] ],[ 5,[ 6 ] ],[ 8,[ 14,16 ] ] ]).
+dir_superordinates_i(4,12,[]).
+dir_superordinates_i(4,10,[ [ 537,[ 189 ] ] ]).
+dir_superordinates_i(4,537,[]).
+dir_superordinates_i(4,4,[]).
+dir_superordinates_i(4,7,[ [ 536,[ 187 ] ],[ 10,[ 15 ] ] ]).
+dir_superordinates_i(4,536,[]).
+dir_superordinates_i(4,6,[ [ 530,[ 8 ] ],[ 532,[ 9 ] ],[ 531,[ 10 ] ],[ 533,[ 11 ] ],[ 534,[ 12 ] ],[ 529,[ 13 ] ],[ 540,[ 347 ] ],[ 541,[ 350 ] ],[ 542,[ 353 ] ],[ 543,[ 356 ] ],[ 8,[ 14,16 ] ] ]).
+dir_superordinates_i(4,16,[ [ 7,[ 14 ] ] ]).
+dir_superordinates_i(4,528,[]).
+dir_superordinates_i(4,539,[ [ 538,[ 194 ] ],[ 12,[ 103 ] ] ]).
+dir_superordinates_i(4,530,[]).
+dir_superordinates_i(4,3,[]).
+dir_superordinates_i(4,532,[]).
+dir_superordinates_i(4,531,[]).
+dir_superordinates_i(4,533,[]).
+dir_superordinates_i(4,534,[]).
+dir_superordinates_i(4,529,[]).
+dir_superordinates_i(4,540,[]).
+dir_superordinates_i(4,541,[]).
+dir_superordinates_i(4,542,[]).
+dir_superordinates_i(4,543,[]).
+dir_superordinates_i(4,538,[]).
+dir_superordinates_i(4,535,[]).
+dir_superordinates_i(4,20,[ [ 21,[ 268,269 ] ] ]).
+dir_superordinates_i(4,21,[]).
+dir_superordinates_i(4,24,[]).
+ 

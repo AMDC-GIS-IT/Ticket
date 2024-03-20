@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\wpticketsasignados.dll
+C:\Models\kb_ticket\ProduccionTicket\build\wpticketsasignados\obj\Release\wpticketsasignados.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\wpticketsasignados\obj\Release\wpticketsasignados.dll

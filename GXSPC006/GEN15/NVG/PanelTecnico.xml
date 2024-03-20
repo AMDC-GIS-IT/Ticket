@@ -1,0 +1,24 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>PanelTecnico</ObjName>
+<ObjDesc>Panel Tecnico</ObjDesc>
+<ObjPgmName>PanelTecnico</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName>
+<Objects></Objects></Object>
+<Result>nogenspc</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0217</MsgCode>
+<Message>
+<Token>Object is unreachable.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters></ObjectSpec>

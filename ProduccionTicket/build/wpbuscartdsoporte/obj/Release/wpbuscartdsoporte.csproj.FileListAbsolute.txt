@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\wpbuscartdsoporte.dll
+C:\Models\kb_ticket\ProduccionTicket\build\wpbuscartdsoporte\obj\Release\wpbuscartdsoporte.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\wpbuscartdsoporte\obj\Release\wpbuscartdsoporte.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\commonchatbots.errorhandling.dll
+C:\Models\kb_ticket\CSharpModel\build\commonchatbots.errorhandling\obj\Release\commonchatbots.errorhandling.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\commonchatbots.errorhandling\obj\Release\commonchatbots.errorhandling.dll

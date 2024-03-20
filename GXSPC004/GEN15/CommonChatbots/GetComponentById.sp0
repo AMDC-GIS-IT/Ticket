@@ -1,0 +1,487 @@
+spec_i([ proc,248,'Get Component By Id','CommonChatbots\GetComponentById',78,spa,'17_0_9-159740' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 20,[ [ 20,many ] ],[],[],[ [ [ 20 ],[ 267,276 ] ] ],[ [ [ 20 ],[] ] ],[ 267 ],'IGXCHATMESSAGE',[ 20,[ [ [],'Chatmessageid',267 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 20,267 ],[ 20,276 ] ] ]).
+ 
+las_i(2,[ [ 267,276 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','192.168.200.55')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','No')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','CommonChatbots.GetComponentById')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','GetComponentById')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('ExposeUsingNativeSoapSupport','UMPV')).
+rule_i(0,prop('SOAP','-1')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop(idENABLEMTOM,'0')).
+rule_i(0,prop('SOAP_NAMESPACE',kb_ticket)).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'CommonChatbots\Data'))).
+rule_i(0,prop('ObjDesc','Get Component By Id')).
+rule_i(0,prop('ObjName','GetComponentById')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Chatmessageid','Sdcomponentlink','Iscallpanel' ],[])).
+rule_i(0,parmio([ [ 'Chatmessageid',in ],[ 'Sdcomponentlink',out ],[ 'Iscallpanel',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,20,[],[ [ [ [],'Chatmessageid',267 ] ],'IGXCHATMESSAGE',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Chatmessageid').
+v_i(t,o,2,267).
+v_i(t,o,2,276).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',19 ]).
+attri_i(267,[ 'GXChatMessageId',guid,12,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,'GXChat Message Id','',0 ]).
+attri_i(276,[ 'GXChatMessageMeta',vchar,2097152,0,'',0,'GXChat Message Meta','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',17 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',16 ]).
+attri_i('Sdcomponentlink',[ 'SDComponentLink',svchar,1000,0,'',0,'SDComponent Link','',15 ]).
+attri_i('Meta',[ 'Meta',vchar,2097152,0,'',0,'Meta','',14 ]).
+attri_i('Iscallpanel',[ 'IsCallPanel',boolean,4,0,'',0,'Is Call Panel','',13 ]).
+attri_i('Gxcomponentsd',[ 'GXComponentSD',svchar,1000,0,'',0,'GXComponent SD','',12 ]).
+attri_i('Gxchatmessagedate',[ 'GXChatMessageDate',dtime,8,12,'99/99/99 99:99:99.999',0,'GXChat Message Date','',11 ]).
+attri_i('Gxcallpanelsd',[ 'GXCallPanelSD',svchar,1000,0,'',0,'GXCall Panel SD','',10 ]).
+attri_i('Context',[ 'Context',o(properties),4,0,'',0,'Context','',9 ]).
+attri_i('Chatmessageid',[ 'ChatMessageId',guid,12,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,'Chat Message Id','',8 ]).
+ 
+table_i(20,[ 'GXChatMessage',[ 267,276 ],'GXChat Message','GXChatMessage' ]).
+ 
+index_i(20,[ 'IGXCHATMESSAGE',u,[ 267 ],'IGXChatMessage' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,4,40000,274,'GXChatMessageImage_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 267,23,'Chatmessageid',= ] ],one ]).
+ 
+end_i(2,0,0,[ [ [ t(267,2),t(=,10),t('Chatmessageid',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+enum_value_i(4,300,'"GXSerializedContext"','GXSerializedContext','"GXSerialized Context"',[ none ]).
+enum_value_i(4,300,'"context"','GXContext','"context"',[ none ]).
+enum_value_i(4,300,'"GXAction"','GXAction','"GXAction"',[ none ]).
+enum_value_i(4,300,'"GXClean"','GXClean','"GXClean"',[ none ]).
+enum_value_i(4,300,'"GXComponentWeb"','GXComponentWeb','"GXComponent Web"',[ none ]).
+enum_value_i(4,300,'"GXComponentSD"','GXComponentSD','"GXComponent SD"',[ none ]).
+enum_value_i(4,300,'"GXCallPanelSD"','GXCallPanelSD','"GXCall Panel SD"',[ none ]).
+enum_value_i(4,300,'"GXImage"','GXImage','"GXImage"',[ none ]).
+enum_value_i(4,300,'"GXResponseImage"','GXResponseImage','"GXResponse Image"',[ none ]).
+enum_value_i(4,300,'"NoAction"','GXNoAction','"GXNo Action"',[ none ]).
+enum_value_i(4,300,'"True"','GXTrue','"GXTrue"',[ none ]).
+enum_value_i(4,300,'"{}"','GXEmptyContext','"GXEmpty Context"',[ none ]).
+enum_value_i(4,300,'"ChatbotMessage"','GXChatbotMessage','"GXChatbot Message"',[ none ]).
+enum_value_i(4,300,'"GXSessionId"','GXSessionId','"GXSession Id"',[ none ]).
+enum_value_i(4,300,'"GXOutput"','GXOutput','"GXOutput"',[ none ]).
+enum_value_i(4,300,'"GXOutputCollection"','GXOutputCollection','"GXOutput Collection"',[ none ]).
+enum_value_i(4,300,'"Context"','Context','"ContextUp"',[ none ]).
+enum_value_i(4,300,'"GXSetImageResponse"','GXSetImageResponse','"GXSet Image Response"',[ none ]).
+ 
+enum_value_info_i(4,300,'ChatbotContextElements').
+ 
+enum_type_i(4,300,svchar,256,0).
+ 
+dom_info_i(41,[ 'GeneXus\Component' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 276 ],[ 267 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,5,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0),t(table,3,1,10),t(20,3,1,10) ]).
+b_line_i(3,2,1,cmd,2,[ t('',107,3,0),t('Meta',23,2,0),t(=,10,2,0),t(276,2,2,0) ]).
+b_line_i(4,2,1,cmd,2,[ t('',128,4,0) ]).
+b_line_i(5,1,3,cmd,4,[]).
+b_line_i(6,1,3,cmd,4,[ t('',107,6,0),t([ t('Context',23,6,1),t('fromjson(',1,6,10) ],31,6,1),t('Meta',23,4,20),t(')',4,4,25) ]).
+b_line_i(7,1,3,cmd,4,[ t('',107,7,0),t([ t('Context',23,7,1),t('fromjson(',1,7,10) ],31,7,1),t([ t('Context',23,4,20),t('get(',1,4,29) ],31,7,29),t([ 300,'GXContext' ],44,7,34),t(')',4,4,66),t(')',4,4,67) ]).
+b_line_i(8,1,3,cmd,4,[ t('',107,8,0),t('Gxcallpanelsd',23,4,0),t(=,10,4,0),t([ t('Context',23,4,0),t('get(',1,4,0) ],31,4,0),t([ 300,'GXCallPanelSD' ],44,4,0),t(')',4,4,0) ]).
+b_line_i(9,1,3,cmd,4,[ t('',107,9,0),t('Gxcomponentsd',23,4,0),t(=,10,4,0),t([ t('Context',23,4,0),t('get(',1,4,0) ],31,4,0),t([ 300,'GXComponentSD' ],44,4,0),t(')',4,4,0) ]).
+b_line_i(10,1,3,cmd,4,[]).
+b_line_i(11,1,3,cmd,4,[ t('',152,11,0) ]).
+b_line_i(12,1,3,cmd,4,[ t('',153,12,0),t('.NOT.',8,4,7),t('null(',1,12,28),t('Gxcallpanelsd',23,4,13),t(')',4,4,37) ]).
+b_line_i(13,1,3,cmd,4,[ t('',107,13,0),t('Sdcomponentlink',23,4,0),t(=,10,4,0),t('Gxcallpanelsd',23,4,0) ]).
+b_line_i(14,1,3,cmd,4,[ t('',107,14,0),t('Iscallpanel',23,4,0),t(=,10,4,0),t('TRUE',40,4,0) ]).
+b_line_i(15,1,3,cmd,4,[ t('',153,15,0),t('.NOT.',8,4,7),t('null(',1,15,28),t('Gxcomponentsd',23,4,13),t(')',4,4,37) ]).
+b_line_i(16,1,3,cmd,4,[ t('',107,16,0),t('Sdcomponentlink',23,4,0),t(=,10,4,0),t('Gxcomponentsd',23,4,0) ]).
+b_line_i(17,1,3,cmd,4,[ t('',107,17,0),t('Iscallpanel',23,4,0),t(=,10,4,0),t('FALSE',41,4,0) ]).
+b_line_i(18,1,3,cmd,4,[ t('',164,18,0) ]).
+b_line_i(19,1,3,cmd,4,[ t('',107,19,0),t('Iscallpanel',23,4,0),t(=,10,4,0),t('FALSE',41,4,0) ]).
+b_line_i(20,1,3,cmd,4,[ t('',154,20,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(4,276,'ExternalName','GXChatMessageMeta',d).
+att_prop_i(4,276,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,276,'EmptyAsNull','Yes',d).
+att_prop_i(4,276,idBasedOn,'',d).
+att_prop_i(4,276,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,276,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,276,'AttRegEx','',d).
+att_prop_i(4,276,'AttValidationFailedMsg','',d).
+att_prop_i(4,276,'DownloadOffline','0',d).
+att_prop_i(4,276,'VarServiceExtName','',d).
+att_prop_i(4,276,'FullName','GXChatMessageMeta',v).
+att_prop_i(4,267,'ExternalName','GXChatMessageId',d).
+att_prop_i(4,267,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,267,'EmptyAsNull','Yes',d).
+att_prop_i(4,267,idBasedOn,'',d).
+att_prop_i(4,267,'AUTOGENERATE_GUID','-1',d).
+att_prop_i(4,267,'AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+att_prop_i(4,267,'AttValidationFailedMsg','GXM_InvalidGUID',d).
+att_prop_i(4,267,'DownloadOffline','0',d).
+att_prop_i(4,267,'VarServiceExtName','',d).
+att_prop_i(4,267,'FullName','GXChatMessageId',v).
+ 
+ 
+tbl_att_prop_i(4,20,267,'AllowNulls',n).
+tbl_att_prop_i(4,20,276,'AllowNulls',n).
+ 
+var_prop_i(4,'Chatmessageid',idBasedOn,'',v).
+var_prop_i(4,'Chatmessageid','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(4,'Chatmessageid','AttValidationFailedMsg','GXM_InvalidGUID',d).
+var_prop_i(4,'Gxcallpanelsd',idBasedOn,41,v).
+var_prop_i(4,'Gxcallpanelsd','AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+var_prop_i(4,'Gxcallpanelsd','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+var_prop_i(4,'Gxchatmessagedate',idBasedOn,'',v).
+var_prop_i(4,'Gxcomponentsd',idBasedOn,41,v).
+var_prop_i(4,'Gxcomponentsd','AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+var_prop_i(4,'Gxcomponentsd','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+var_prop_i(4,'Sdcomponentlink',idBasedOn,41,v).
+var_prop_i(4,'Sdcomponentlink','AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+var_prop_i(4,'Sdcomponentlink','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+security_permission_i(getcomponentbyid_Services_Execute,execute,service).
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,248,'COMMONCHATBOTS\GETCOMPONENTBYID','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

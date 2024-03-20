@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "tickettecnico_FullControl",
+    "Description": "Ticket Tecnico FullControl",
+    "ProgramName": "tickettecnico",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "tickettecnico_Execute",
+    "Description": "Ticket Tecnico",
+    "ProgramName": "tickettecnico",
+    "IsGXAutomatic": true,
+    "Parent": "tickettecnico_FullControl"
+  },
+  {
+    "Name": "tickettecnico_Insert",
+    "Description": "Ticket Tecnico Insert",
+    "ProgramName": "tickettecnico",
+    "IsGXAutomatic": true,
+    "Parent": "tickettecnico_FullControl"
+  },
+  {
+    "Name": "tickettecnico_Delete",
+    "Description": "Ticket Tecnico Delete",
+    "ProgramName": "tickettecnico",
+    "IsGXAutomatic": true,
+    "Parent": "tickettecnico_FullControl"
+  },
+  {
+    "Name": "tickettecnico_Update",
+    "Description": "Ticket Tecnico Update",
+    "ProgramName": "tickettecnico",
+    "IsGXAutomatic": true,
+    "Parent": "tickettecnico_FullControl"
+  }
+]

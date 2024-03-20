@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\wpreasignarsoportetecnico.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpreasignarsoportetecnico\obj\Release\wpreasignarsoportetecnico.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpreasignarsoportetecnico\obj\Release\wpreasignarsoportetecnico.dll

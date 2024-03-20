@@ -1,0 +1,134 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_6-154974</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>21</ObjId>
+<ObjName>EtapasDesarrollo</ObjName>
+<ObjDesc>Etapas Desarrollo</ObjDesc>
+<ObjPgmName>EtapasDesarrollo</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Etapadesarrolloid</VarId>
+<VarName>&amp;EtapaDesarrolloId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>22</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>22</TableId>
+<TableName>EtapasDesarrollo</TableName>
+<Description>Etapas Desarrollo</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>22</TableId>
+<TableName>EtapasDesarrollo</TableName>
+<Description>Etapas Desarrollo</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>EtapaDesarrolloId</AttriName>
+<Description>Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>22</TableId>
+<TableName>EtapasDesarrollo</TableName>
+<Description>Etapas Desarrollo</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>291</AttriId>
+<AttriName>EtapaDesarrolloNombre</AttriName>
+<Description>Etapa Desarrollo Nombre</Description></Attribute>
+<Attribute>
+<AttriId>292</AttriId>
+<AttriName>EtapaDesarrolloUsuarioRegistro</AttriName>
+<Description>Etapa Desarrollo Usuario Registro</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>22</TableId>
+<TableName>EtapasDesarrollo</TableName>
+<Description>Etapas Desarrollo</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>291</AttriId>
+<AttriName>EtapaDesarrolloNombre</AttriName>
+<Description>Etapa Desarrollo Nombre</Description></Attribute>
+<Attribute>
+<AttriId>292</AttriId>
+<AttriName>EtapaDesarrolloUsuarioRegistro</AttriName>
+<Description>Etapa Desarrollo Usuario Registro</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>22</TableId>
+<TableName>EtapasDesarrollo</TableName>
+<Description>Etapas Desarrollo</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>8</TableId>
+<TableName>TicketResponsable</TableName>
+<Description>Responsable</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>EtapaDesarrolloId</AttriName>
+<Description>Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>22</TableId>
+<TableName>EtapasDesarrollo</TableName>
+<Description>Etapas Desarrollo</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>256</ObjId>
+<ObjName>Gx00M0</ObjName>
+<ObjPgmName>Gx00M0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>EtapaDesarrolloId</AttriName>
+<Description>Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "listarequerimientos_Execute",
+    "Description": "K2BT_PromptDescription",
+    "ProgramName": "promptlistarequerimientos",
+    "IsGXAutomatic": true
+  }
+]

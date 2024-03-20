@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\categoriadetalletareageneral.dll
+C:\Models\kb_ticket\ProduccionTicket\build\categoriadetalletareageneral\obj\Release\categoriadetalletareageneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\categoriadetalletareageneral\obj\Release\categoriadetalletareageneral.dll

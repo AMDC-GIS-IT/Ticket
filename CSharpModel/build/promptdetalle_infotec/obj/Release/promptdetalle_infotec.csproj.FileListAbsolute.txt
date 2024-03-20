@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\promptdetalle_infotec.dll
+C:\Models\kb_ticket\CSharpModel\build\promptdetalle_infotec\obj\Release\promptdetalle_infotec.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\promptdetalle_infotec\obj\Release\promptdetalle_infotec.dll

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportLog>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>562f4793-aabe-449f-8821-fc77e550698e</Type>
+		<TypeName>UserControl</TypeName>
+		<Name>K2BT_Stepper</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>562f4793-aabe-449f-8821-fc77e550698e</Type>
+		<TypeName>UserControl</TypeName>
+		<Name>K2BT_ModalWindow</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>562f4793-aabe-449f-8821-fc77e550698e</Type>
+		<TypeName>UserControl</TypeName>
+		<Name>K2BT_ConfirmDialog</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>562f4793-aabe-449f-8821-fc77e550698e</Type>
+		<TypeName>UserControl</TypeName>
+		<Name>K2BT_ActionGroup</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>562f4793-aabe-449f-8821-fc77e550698e</Type>
+		<TypeName>UserControl</TypeName>
+		<Name>K2BT_Component</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>562f4793-aabe-449f-8821-fc77e550698e</Type>
+		<TypeName>UserControl</TypeName>
+		<Name>K2BT_ExtendedCombobox</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>562f4793-aabe-449f-8821-fc77e550698e</Type>
+		<TypeName>UserControl</TypeName>
+		<Name>K2BT_ToggleBar</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+</ImportLog>

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2btabbedviewforlayoutorion.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2btabbedviewforlayoutorion\obj\Release\k2btabbedviewforlayoutorion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2btabbedviewforlayoutorion\obj\Release\k2btabbedviewforlayoutorion.dll

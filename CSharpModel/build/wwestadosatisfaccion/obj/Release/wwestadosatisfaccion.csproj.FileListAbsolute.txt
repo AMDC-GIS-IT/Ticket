@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\wwestadosatisfaccion.dll
+C:\Models\kb_ticket\CSharpModel\build\wwestadosatisfaccion\obj\Release\wwestadosatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\wwestadosatisfaccion\obj\Release\wwestadosatisfaccion.dll

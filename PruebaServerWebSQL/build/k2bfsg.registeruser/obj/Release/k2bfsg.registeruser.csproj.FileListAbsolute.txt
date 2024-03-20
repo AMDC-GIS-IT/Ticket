@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\k2bfsg.registeruser.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\k2bfsg.registeruser\obj\Release\k2bfsg.registeruser.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\k2bfsg.registeruser\obj\Release\k2bfsg.registeruser.dll

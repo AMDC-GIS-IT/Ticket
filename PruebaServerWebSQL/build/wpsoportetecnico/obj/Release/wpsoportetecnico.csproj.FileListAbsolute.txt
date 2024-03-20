@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\wpsoportetecnico.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpsoportetecnico\obj\Release\wpsoportetecnico.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\wpsoportetecnico\obj\Release\wpsoportetecnico.dll

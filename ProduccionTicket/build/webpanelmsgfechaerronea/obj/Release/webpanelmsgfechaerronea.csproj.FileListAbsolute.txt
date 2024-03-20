@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\webpanelmsgfechaerronea.dll
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgfechaerronea\obj\Release\webpanelmsgfechaerronea.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgfechaerronea\obj\Release\webpanelmsgfechaerronea.dll

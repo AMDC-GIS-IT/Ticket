@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "userrole_Execute",
+    "Description": "K2BT_GAM_UserAddRole",
+    "ProgramName": "k2bfsg.useraddrole",
+    "IsGXAutomatic": true
+  }
+]

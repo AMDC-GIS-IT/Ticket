@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "pcrimprimirsoportetecnicoadmin_Execute",
+    "Description": "Orden de trabajo",
+    "ProgramName": "pcrimprimirsoportetecnicoadmin",
+    "IsGXAutomatic": true
+  }
+]

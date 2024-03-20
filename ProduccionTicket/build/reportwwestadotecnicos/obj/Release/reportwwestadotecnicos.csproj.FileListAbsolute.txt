@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\reportwwestadotecnicos.dll
+C:\Models\kb_ticket\ProduccionTicket\build\reportwwestadotecnicos\obj\Release\reportwwestadotecnicos.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\reportwwestadotecnicos\obj\Release\reportwwestadotecnicos.dll

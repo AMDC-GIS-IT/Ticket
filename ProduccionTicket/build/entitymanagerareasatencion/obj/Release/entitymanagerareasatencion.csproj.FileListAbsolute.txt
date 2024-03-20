@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\entitymanagerareasatencion.dll
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagerareasatencion\obj\Release\entitymanagerareasatencion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\entitymanagerareasatencion\obj\Release\entitymanagerareasatencion.dll

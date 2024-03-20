@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\estado.dll
+C:\Models\kb_ticket\CSharpModel\build\estado\obj\Release\estado.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\estado\obj\Release\estado.dll

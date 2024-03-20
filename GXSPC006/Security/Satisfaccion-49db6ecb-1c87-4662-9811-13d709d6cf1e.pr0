@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "satisfaccion_FullControl",
+    "Description": "Satisfaccion FullControl",
+    "ProgramName": "satisfaccion",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "satisfaccion_Execute",
+    "Description": "Satisfaccion",
+    "ProgramName": "satisfaccion",
+    "IsGXAutomatic": true,
+    "Parent": "satisfaccion_FullControl"
+  },
+  {
+    "Name": "satisfaccion_Insert",
+    "Description": "Satisfaccion Insert",
+    "ProgramName": "satisfaccion",
+    "IsGXAutomatic": true,
+    "Parent": "satisfaccion_FullControl"
+  },
+  {
+    "Name": "satisfaccion_Delete",
+    "Description": "Satisfaccion Delete",
+    "ProgramName": "satisfaccion",
+    "IsGXAutomatic": true,
+    "Parent": "satisfaccion_FullControl"
+  },
+  {
+    "Name": "satisfaccion_Update",
+    "Description": "Satisfaccion Update",
+    "ProgramName": "satisfaccion",
+    "IsGXAutomatic": true,
+    "Parent": "satisfaccion_FullControl"
+  }
+]

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\deptogeneral.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\deptogeneral\obj\Release\deptogeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\deptogeneral\obj\Release\deptogeneral.dll

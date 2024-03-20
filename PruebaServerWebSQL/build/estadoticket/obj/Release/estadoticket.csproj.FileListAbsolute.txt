@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\estadoticket.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\estadoticket\obj\Release\estadoticket.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\estadoticket\obj\Release\estadoticket.dll

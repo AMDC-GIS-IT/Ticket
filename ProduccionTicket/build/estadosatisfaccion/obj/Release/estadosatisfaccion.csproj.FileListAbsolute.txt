@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\estadosatisfaccion.dll
+C:\Models\kb_ticket\ProduccionTicket\build\estadosatisfaccion\obj\Release\estadosatisfaccion.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\estadosatisfaccion\obj\Release\estadosatisfaccion.dll

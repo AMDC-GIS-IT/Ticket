@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_kb_ticket</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>IT-SBARAHONA\MSSQLSERVER2016</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Models\kb_ticket</Directory>
+	<DataFile>GX_KB_kb_ticket.mdf</DataFile>
+	<LogFile>GX_KB_kb_ticket_log.ldf</LogFile>
+	<HostName>IT-SBARAHONA</HostName>
+</ConnectionInformation>

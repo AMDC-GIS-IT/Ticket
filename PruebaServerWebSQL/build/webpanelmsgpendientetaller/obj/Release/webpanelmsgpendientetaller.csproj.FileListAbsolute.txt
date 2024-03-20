@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\webpanelmsgpendientetaller.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelmsgpendientetaller\obj\Release\webpanelmsgpendientetaller.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\webpanelmsgpendientetaller\obj\Release\webpanelmsgpendientetaller.dll

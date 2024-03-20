@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\reportwwestadotecnicos.dll
+C:\Models\kb_ticket\CSharpModel\build\reportwwestadotecnicos\obj\Release\reportwwestadotecnicos.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\reportwwestadotecnicos\obj\Release\reportwwestadotecnicos.dll

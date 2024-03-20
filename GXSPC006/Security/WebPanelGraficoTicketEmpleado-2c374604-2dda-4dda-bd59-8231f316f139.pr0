@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "webpanelgraficoticketempleado_Execute",
+    "Description": "Gráfico Tickets Empleado",
+    "ProgramName": "webpanelgraficoticketempleado",
+    "IsGXAutomatic": true
+  }
+]

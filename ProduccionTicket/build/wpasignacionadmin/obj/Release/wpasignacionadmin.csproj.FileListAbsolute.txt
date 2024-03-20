@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\wpasignacionadmin.dll
+C:\Models\kb_ticket\ProduccionTicket\build\wpasignacionadmin\obj\Release\wpasignacionadmin.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\wpasignacionadmin\obj\Release\wpasignacionadmin.dll

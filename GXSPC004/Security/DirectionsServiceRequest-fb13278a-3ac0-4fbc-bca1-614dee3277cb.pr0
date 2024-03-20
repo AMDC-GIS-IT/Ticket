@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "directionsservicerequest_Services_Execute",
+    "Description": "Directions Service Request Services",
+    "ProgramName": "directionsservicerequest",
+    "IsGXAutomatic": true
+  }
+]

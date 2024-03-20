@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\webpanelmsgdeptousuario.dll
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgdeptousuario\obj\Release\webpanelmsgdeptousuario.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgdeptousuario\obj\Release\webpanelmsgdeptousuario.dll

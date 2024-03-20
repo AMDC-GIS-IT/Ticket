@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\promptusuariosistema.dll
+C:\Models\kb_ticket\CSharpModel\build\promptusuariosistema\obj\Release\promptusuariosistema.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\promptusuariosistema\obj\Release\promptusuariosistema.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\k2btoolsindexadminrwd.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\k2btoolsindexadminrwd\obj\Release\k2btoolsindexadminrwd.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\k2btoolsindexadminrwd\obj\Release\k2btoolsindexadminrwd.dll

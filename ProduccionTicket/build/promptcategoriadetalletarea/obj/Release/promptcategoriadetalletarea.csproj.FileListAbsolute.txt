@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\promptcategoriadetalletarea.dll
+C:\Models\kb_ticket\ProduccionTicket\build\promptcategoriadetalletarea\obj\Release\promptcategoriadetalletarea.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\promptcategoriadetalletarea\obj\Release\promptcategoriadetalletarea.dll

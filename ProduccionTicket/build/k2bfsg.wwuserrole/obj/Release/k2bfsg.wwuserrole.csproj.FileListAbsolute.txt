@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bfsg.wwuserrole.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.wwuserrole\obj\Release\k2bfsg.wwuserrole.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.wwuserrole\obj\Release\k2bfsg.wwuserrole.dll

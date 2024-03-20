@@ -1,0 +1,42 @@
+ 
+spec_i([ sdt,[ 0,20,0 ],'CommonChatbots\GXChatUser','CommonChatbots\GXChatUser',0,spa,'17_0_6-154974' ]).
+ 
+struct_dt_i([ 0,20,0 ],name,'CommonChatbots\GXChatUser').
+struct_dt_i([ 0,20,0 ],namespace,kb_ticket).
+struct_dt_i([ 0,20,0 ],significantName,'CommonChatbots\GXChatUser').
+struct_dt_i([ 0,20,0 ],'ObjName','GXChatUser').
+struct_dt_i([ 0,20,0 ],'ObjDesc','GX Chat User').
+struct_dt_i([ 0,20,0 ],'ExternalName','GXChatUser').
+struct_dt_i([ 0,20,0 ],'ExternalNamespace',kb_ticket).
+struct_dt_i([ 0,20,0 ],key,[ 268,269 ]).
+struct_dt_i([ 0,20,0 ],lvl,21).
+struct_dt_i([ 0,20,0 ],fullname,'CommonChatbots\GXChatUser').
+ 
+struct_dt_elem_i([ 0,20,0 ],1,name,'Gxchatuserid').
+struct_dt_elem_i([ 0,20,0 ],1,camelname,'GXChatUserId').
+struct_dt_elem_i([ 0,20,0 ],1,length,256).
+struct_dt_elem_i([ 0,20,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,20,0 ],1,type,[ 45,256,0 ]).
+struct_dt_elem_i([ 0,20,0 ],1,pic,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX').
+struct_dt_elem_i([ 0,20,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,20,0 ],1,attributeid,'268').
+struct_dt_elem_i([ 0,20,0 ],1,'ExternalName','GXChatUserId').
+struct_dt_elem_i([ 0,20,0 ],1,'ExternalNamespace',kb_ticket).
+struct_dt_elem_i([ 0,20,0 ],2,name,'Gxchatuserdevice').
+struct_dt_elem_i([ 0,20,0 ],2,camelname,'GXChatUserDevice').
+struct_dt_elem_i([ 0,20,0 ],2,length,256).
+struct_dt_elem_i([ 0,20,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,20,0 ],2,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 0,20,0 ],2,pic,'').
+struct_dt_elem_i([ 0,20,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,20,0 ],2,attributeid,'269').
+struct_dt_elem_i([ 0,20,0 ],2,'ExternalName','GXChatUserDevice').
+struct_dt_elem_i([ 0,20,0 ],2,'ExternalNamespace',kb_ticket).
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

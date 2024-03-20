@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "listarequerimientos_Execute",
+    "Description": "Lista requerimientos",
+    "ProgramName": "entitymanagerlistarequerimientos",
+    "IsGXAutomatic": true
+  }
+]

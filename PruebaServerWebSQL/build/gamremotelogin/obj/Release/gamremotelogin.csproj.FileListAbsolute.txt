@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\gamremotelogin.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gamremotelogin\obj\Release\gamremotelogin.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gamremotelogin\obj\Release\gamremotelogin.dll

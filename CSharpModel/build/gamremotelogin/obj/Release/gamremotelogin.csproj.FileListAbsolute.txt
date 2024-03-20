@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\gamremotelogin.dll
+C:\Models\kb_ticket\CSharpModel\build\gamremotelogin\obj\Release\gamremotelogin.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\gamremotelogin\obj\Release\gamremotelogin.dll

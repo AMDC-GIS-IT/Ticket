@@ -1,0 +1,787 @@
+spec_i([ proc,268,'Reporte Soporte Tecnico','PCRImprimirSoporteTecnico',78,spa,'17_0_9-159740' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 10,[ [ 10,many ] ],[],[],[ [ [ 10 ],[ 15,92 ] ] ],[ [ [ 10 ],[] ] ],[ 15 ],'IUSUARIO',[ 10,[ [ [],'Usuarioid',15 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 10,15 ],[ 10,92 ] ] ]).
+ 
+las_i(2,[ [ 15,92 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','(local)')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',Ü5Ú2ÌKê2â5Ì¿Ô7ê8)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',Ü5Ú2ÌKê2â5Ì¿Ô7ê8)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','IT-SBARAHONA\MSSQLSERVER2016')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','PCRImprimirSoporteTecnico')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','PCRImprimirSoporteTecnico')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Transacciones'))).
+rule_i(0,prop('ObjDesc','Reporte Soporte Tecnico')).
+rule_i(0,prop('ObjName','PCRImprimirSoporteTecnico')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,parm([ 'Ticketid','Usuarioid','Ticketresponsableid','Tickettecnicoresponsableid','Tickettecnicoresponsablenombre','Usuarioemail','Usuariofecha','Usuarionombre','Usuariodepartamento','Usuariorequerimiento','Ticketlaptop','Ticketdesktop','Ticketmonitor','Ticketimpresora','Ticketescaner','Ticketrouter','Ticketsistemaoperativo','Ticketoffice','Ticketantivirus','Ticketdiscoduroexterno','Ticketperifericos','Ticketups','Ticketinstalardatashow','Ticketotros','Usuariotelefono','Ticketfecharesponsable','Tickethoraresponsable' ],[])).
+rule_i(0,parmio([ [ 'Ticketid',in ],[ 'Usuarioid',in ],[ 'Ticketresponsableid',in ],[ 'Tickettecnicoresponsableid',in ],[ 'Tickettecnicoresponsablenombre',in ],[ 'Usuarioemail',in ],[ 'Usuariofecha',in ],[ 'Usuarionombre',in ],[ 'Usuariodepartamento',in ],[ 'Usuariorequerimiento',in ],[ 'Ticketlaptop',in ],[ 'Ticketdesktop',in ],[ 'Ticketmonitor',in ],[ 'Ticketimpresora',in ],[ 'Ticketescaner',in ],[ 'Ticketrouter',in ],[ 'Ticketsistemaoperativo',in ],[ 'Ticketoffice',in ],[ 'Ticketantivirus',in ],[ 'Ticketdiscoduroexterno',in ],[ 'Ticketperifericos',in ],[ 'Ticketups',in ],[ 'Ticketinstalardatashow',in ],[ 'Ticketotros',in ],[ 'Usuariotelefono',in ],[ 'Ticketfecharesponsable',in ],[ 'Tickethoraresponsable',in ] ])).
+rule_i(0,output_file(t('Solicitud.pdf',3),t(pdf,3))).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(3,2,t,10,[],[ [ [ [],'Usuarioid',15 ] ],'IUSUARIO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+v_i(t,i,3,'Usuarioid').
+v_i(t,o,3,15).
+v_i(t,o,3,92).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',69 ]).
+attri_i(15,[ 'UsuarioId',int,10,0,'ZZZZZZZZZ9',0,'Id Usuario','',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,'Page number','',68 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,'Line number','',67 ]).
+attri_i(92,[ 'UsuarioHora',dtime,0,5,'99:99',0,'Hora','',0 ]).
+attri_i('Im_sistema_GXI',[ 'Im_sistema_GXI',svchar,2048,0,'',0,'',[],66 ]).
+attri_i('Im_redes_GXI',[ 'Im_redes_GXI',svchar,2048,0,'',0,'',[],65 ]).
+attri_i('Im_proc_GXI',[ 'Im_proc_GXI',svchar,2048,0,'',0,'',[],64 ]).
+attri_i('Im_office_GXI',[ 'Im_office_GXI',svchar,2048,0,'',0,'',[],63 ]).
+attri_i('Im_imesc_GXI',[ 'Im_imesc_GXI',svchar,2048,0,'',0,'',[],62 ]).
+attri_i('Im_av_GXI',[ 'Im_av_GXI',svchar,2048,0,'',0,'',[],61 ]).
+attri_i('Im_per_GXI',[ 'Im_per_GXI',svchar,2048,0,'',0,'',[],60 ]).
+attri_i('Im_so_GXI',[ 'Im_so_GXI',svchar,2048,0,'',0,'',[],59 ]).
+attri_i('Im_fs_GXI',[ 'Im_fs_GXI',svchar,2048,0,'',0,'',[],58 ]).
+attri_i('Im_pc_GXI',[ 'Im_pc_GXI',svchar,2048,0,'',0,'',[],57 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',55 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',54 ]).
+attri_i('Ticketaplicacion',[ 'TicketAplicacion',boolean,4,0,'',0,'Aplicación','',53 ]).
+attri_i('Ticketingenieria',[ 'TicketIngenieria',boolean,4,0,'',0,'Ingeniería','',52 ]).
+attri_i('Usuariotelefono',[ 'UsuarioTelefono',int,9,0,'ZZZZZZZZ9',0,'Teléfono','',33 ]).
+attri_i('Usuariorequerimiento',[ 'UsuarioRequerimiento',svchar,300,0,'',0,'Requerimiento','',17 ]).
+attri_i('Usuarionombre',[ 'UsuarioNombre',svchar,60,0,'',0,'Usuario','',15 ]).
+attri_i('Usuarioid',[ 'UsuarioId',int,10,0,'ZZZZZZZZZ9',0,'Id Usuario','',9 ]).
+attri_i('Usuariohora',[ 'UsuarioHora',dtime,0,5,'99:99',0,'Hora','',18 ]).
+attri_i('Usuariofecha',[ 'UsuarioFecha',date,8,0,'99/99/9999',0,'Fecha','',14 ]).
+attri_i('Usuarioemail',[ 'UsuarioEmail',svchar,100,0,'',0,'Email','',13 ]).
+attri_i('Usuariodepartamento',[ 'UsuarioDepartamento',svchar,300,0,'',0,'Departamento','',16 ]).
+attri_i('Ticketups',[ 'TicketUps',boolean,4,0,'',0,'UPS','',30 ]).
+attri_i('Tickettecnicoresponsablenombre',[ 'TicketTecnicoResponsableNombre',svchar,60,0,'',0,'Técnico','',12 ]).
+attri_i('Tickettecnicoresponsableid',[ 'TicketTecnicoResponsableId',int,4,0,'ZZZ9',0,'Id Técnico','',11 ]).
+attri_i('Ticketsistemaoperativo',[ 'TicketSistemaOperativo',boolean,4,0,'',0,'Sistema Operativo','',25 ]).
+attri_i('Ticketrouter',[ 'TicketRouter',boolean,4,0,'',0,'Internet/Router/Access Point','',24 ]).
+attri_i('Ticketresponsableid',[ 'TicketResponsableId',int,10,0,'ZZZZZZZZZ9',0,'Ticket Responsable Id','',10 ]).
+attri_i('Ticketperifericos',[ 'TicketPerifericos',boolean,4,0,'',0,'Periféricos','',29 ]).
+attri_i('Ticketotros',[ 'TicketOtros',boolean,4,0,'',0,'Otros','',32 ]).
+attri_i('Ticketoffice',[ 'TicketOffice',boolean,4,0,'',0,'Office','',26 ]).
+attri_i('Ticketmonitor',[ 'TicketMonitor',boolean,4,0,'',0,'Monitor','',21 ]).
+attri_i('Ticketlaptop',[ 'TicketLaptop',boolean,4,0,'',0,aptop,'',19 ]).
+attri_i('Ticketinstalardatashow',[ 'TicketInstalarDataShow',boolean,4,0,'',0,'Instalar Data Show','',31 ]).
+attri_i('Ticketimpresora',[ 'TicketImpresora',boolean,4,0,'',0,'Impresora','',22 ]).
+attri_i('Ticketid',[ 'TicketId',int,10,0,'ZZZZZZZZZ9',0,'Id Ticket','',8 ]).
+attri_i('Tickethoraresponsable',[ 'TicketHoraResponsable',dtime,0,5,'99:99',0,'Ticket Hora Responsable','',34 ]).
+attri_i('Ticketfecharesponsable',[ 'TicketFechaResponsable',date,8,0,'99/99/9999',0,'Ticket Fecha Responsable','',35 ]).
+attri_i('Ticketescaner',[ 'TicketEscaner',boolean,4,0,'',0,'Escaner','',23 ]).
+attri_i('Ticketdiscoduroexterno',[ 'TicketDiscoDuroExterno',boolean,4,0,'',0,'Disco Duro ','',28 ]).
+attri_i('Ticketdesktop',[ 'TicketDesktop',boolean,4,0,'',0,'Desktop','',20 ]).
+attri_i('Ticketantivirus',[ 'TicketAntivirus',boolean,4,0,'',0,'Antivirus','',27 ]).
+attri_i('Im_soporte',[ im_soporte,bits,1024,0,'',0,im_soporte,'',46 ]).
+attri_i('Im_so',[ im_so,bits,1024,0,'',0,im_so,'',39 ]).
+attri_i('Im_sistema',[ im_sistema,bits,1024,0,'',0,im_sistema,'',47 ]).
+attri_i('Im_redes',[ im_redes,bits,1024,0,'',0,im_redes,'',51 ]).
+attri_i('Im_proc',[ im_proc,bits,1024,0,'',0,im_proc,'',44 ]).
+attri_i('Im_per',[ im_per,bits,1024,0,'',0,im_per,'',40 ]).
+attri_i('Im_pc',[ im_pc,bits,1024,0,'',0,im_pc,'',37 ]).
+attri_i('Im_otros',[ im_otros,bits,1024,0,'',0,im_otros,'',49 ]).
+attri_i('Im_office',[ im_office,bits,1024,0,'',0,im_office,'',43 ]).
+attri_i('Im_imesc',[ im_imesc,bits,1024,0,'',0,im_imesc,'',42 ]).
+attri_i('Im_fs',[ im_fs,bits,1024,0,'',0,im_fs,'',38 ]).
+attri_i('Im_av',[ im_av,bits,1024,0,'',0,im_av,'',41 ]).
+attri_i('Cb_pc',[ cb_pc,bits,1024,0,'',0,cb_pc,'',36 ]).
+ 
+table_i(10,[ 'Usuario',[ 15,92 ],'Usuario','Usuario' ]).
+ 
+index_i(10,[ 'IUSUARIO',u,[ 15 ],'IUsuario' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,'Im_pc_GXI','Im_pc','Im_pc_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Im_fs_GXI','Im_fs','Im_fs_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Im_so_GXI','Im_so','Im_so_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Im_per_GXI','Im_per','Im_per_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Im_av_GXI','Im_av','Im_av_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Im_imesc_GXI','Im_imesc','Im_imesc_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Im_office_GXI','Im_office','Im_office_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Im_proc_GXI','Im_proc','Im_proc_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Im_redes_GXI','Im_redes','Im_redes_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Im_sistema_GXI','Im_sistema','Im_sistema_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 15,23,'Usuarioid',= ] ],one ]).
+ 
+end_i(2,0,0,[ [ [ t(15,2),t(=,10),t('Usuarioid',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(87,[ 'Hora' ]).
+dom_info_i(83,[ 'NumMax' ]).
+dom_info_i(88,[ 'Nombres' ]).
+dom_info_i(86,[ 'Fecha' ]).
+dom_info_i(90,[ 'Texto' ]).
+dom_info_i(42,[ 'GeneXus\Email' ]).
+dom_info_i(89,[ 'Telefono' ]).
+dom_info_i(82,[ 'NumMin' ]).
+dom_info_i(227,[ 'GeneXusSecurityCommon\GAMUserIdentification' ]).
+dom_info_i(326,[ 'FechaHora' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 92 ],[ 15 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,22).
+b_group_i(1,3,lit,0,57,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0),t(table,3,1,10),t(10,3,1,10) ]).
+b_line_i(3,2,1,cmd,2,[]).
+b_line_i(4,2,1,cmd,2,[ t('',107,4,0),t('Usuariohora',23,2,0),t(=,10,2,0),t(92,2,2,0) ]).
+b_line_i(5,2,1,cmd,2,[]).
+b_line_i(6,2,1,cmd,2,[ t('',109,6,0),t('(',0,2,4),t('Ticketdesktop',23,2,5),t('.OR.',9,2,20),t('Ticketlaptop',23,2,25),t(')',4,2,38) ]).
+b_line_i(7,2,1,cmd,2,[ t('',107,6,38),t([ t('Im_pc',23,7,38),t('fromimage(',1,7,45) ],31,7,38),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,2,56),t(')',4,2,63) ]).
+b_line_i([ 7,1 ],2,1,cmd,2,[ t('',107,6,38),t('Im_pc_GXI',23,2,0),t(=,10,2,0),t('urifromurl(',1,2,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,2,0),t(')',4,2,0) ]).
+b_line_i(8,2,1,cmd,3,[ t('',110,7,0) ]).
+b_line_i(9,2,1,cmd,3,[ t('',107,7,7),t([ t('Im_pc',23,9,7),t('fromimage(',1,9,14) ],31,9,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,3,25),t(')',4,3,32) ]).
+b_line_i([ 9,1 ],2,1,cmd,3,[ t('',107,7,7),t('Im_pc_GXI',23,3,0),t(=,10,3,0),t('urifromurl(',1,3,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,3,0),t(')',4,3,0) ]).
+b_line_i(10,2,1,cmd,4,[ t('',111,8,0) ]).
+b_line_i(11,2,1,cmd,4,[ t('',109,9,0),t('(',0,4,4),t('Ticketdiscoduroexterno',23,4,5),t(')',4,4,28) ]).
+b_line_i(12,2,1,cmd,4,[ t('',107,9,30),t([ t('Im_fs',23,12,30),t('fromimage(',1,12,37) ],31,12,30),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,4,48),t(')',4,4,55) ]).
+b_line_i([ 12,1 ],2,1,cmd,4,[ t('',107,9,30),t('Im_fs_GXI',23,4,0),t(=,10,4,0),t('urifromurl(',1,4,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,4,0),t(')',4,4,0) ]).
+b_line_i(13,2,1,cmd,5,[ t('',110,10,0) ]).
+b_line_i(14,2,1,cmd,5,[ t('',107,10,7),t([ t('Im_fs',23,14,7),t('fromimage(',1,14,14) ],31,14,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,5,25),t(')',4,5,32) ]).
+b_line_i([ 14,1 ],2,1,cmd,5,[ t('',107,10,7),t('Im_fs_GXI',23,5,0),t(=,10,5,0),t('urifromurl(',1,5,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,5,0),t(')',4,5,0) ]).
+b_line_i(15,2,1,cmd,6,[ t('',111,11,0) ]).
+b_line_i(16,2,1,cmd,6,[ t('',109,12,0),t('(',0,6,4),t('Ticketsistemaoperativo',23,6,5),t(')',4,6,28) ]).
+b_line_i(17,2,1,cmd,6,[ t('',107,12,30),t([ t('Im_so',23,17,30),t('fromimage(',1,17,37) ],31,17,30),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,6,48),t(')',4,6,55) ]).
+b_line_i([ 17,1 ],2,1,cmd,6,[ t('',107,12,30),t('Im_so_GXI',23,6,0),t(=,10,6,0),t('urifromurl(',1,6,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,6,0),t(')',4,6,0) ]).
+b_line_i(18,2,1,cmd,7,[ t('',110,13,0) ]).
+b_line_i(19,2,1,cmd,7,[ t('',107,13,7),t([ t('Im_so',23,19,7),t('fromimage(',1,19,14) ],31,19,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,7,25),t(')',4,7,32) ]).
+b_line_i([ 19,1 ],2,1,cmd,7,[ t('',107,13,7),t('Im_so_GXI',23,7,0),t(=,10,7,0),t('urifromurl(',1,7,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,7,0),t(')',4,7,0) ]).
+b_line_i(20,2,1,cmd,8,[ t('',111,14,0) ]).
+b_line_i(21,2,1,cmd,8,[ t('',109,15,0),t('(',0,8,4),t('Ticketperifericos',23,8,5),t(')',4,8,23) ]).
+b_line_i(22,2,1,cmd,8,[ t('',107,15,25),t([ t('Im_per',23,22,25),t('fromimage(',1,22,33) ],31,22,25),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,8,44),t(')',4,8,51) ]).
+b_line_i([ 22,1 ],2,1,cmd,8,[ t('',107,15,25),t('Im_per_GXI',23,8,0),t(=,10,8,0),t('urifromurl(',1,8,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,8,0),t(')',4,8,0) ]).
+b_line_i(23,2,1,cmd,9,[ t('',110,16,0) ]).
+b_line_i(24,2,1,cmd,9,[ t('',107,16,7),t([ t('Im_per',23,24,7),t('fromimage(',1,24,15) ],31,24,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,9,26),t(')',4,9,33) ]).
+b_line_i([ 24,1 ],2,1,cmd,9,[ t('',107,16,7),t('Im_per_GXI',23,9,0),t(=,10,9,0),t('urifromurl(',1,9,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,9,0),t(')',4,9,0) ]).
+b_line_i(25,2,1,cmd,10,[ t('',111,17,0) ]).
+b_line_i(26,2,1,cmd,10,[ t('',109,18,0),t('(',0,10,4),t('Ticketantivirus',23,10,5),t(')',4,10,21) ]).
+b_line_i(27,2,1,cmd,10,[ t('',107,18,23),t([ t('Im_av',23,27,23),t('fromimage(',1,27,30) ],31,27,23),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,10,41),t(')',4,10,48) ]).
+b_line_i([ 27,1 ],2,1,cmd,10,[ t('',107,18,23),t('Im_av_GXI',23,10,0),t(=,10,10,0),t('urifromurl(',1,10,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,10,0),t(')',4,10,0) ]).
+b_line_i(28,2,1,cmd,11,[ t('',110,19,0) ]).
+b_line_i(29,2,1,cmd,11,[ t('',107,19,7),t([ t('Im_av',23,29,7),t('fromimage(',1,29,14) ],31,29,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,11,25),t(')',4,11,32) ]).
+b_line_i([ 29,1 ],2,1,cmd,11,[ t('',107,19,7),t('Im_av_GXI',23,11,0),t(=,10,11,0),t('urifromurl(',1,11,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,11,0),t(')',4,11,0) ]).
+b_line_i(30,2,1,cmd,12,[ t('',111,20,0) ]).
+b_line_i(31,2,1,cmd,12,[ t('',109,21,0),t('(',0,12,4),t('Ticketescaner',23,12,5),t('.OR.',9,12,20),t('Ticketimpresora',23,12,25),t(')',4,12,41) ]).
+b_line_i(32,2,1,cmd,12,[ t('',107,21,41),t([ t('Im_imesc',23,32,41),t('fromimage(',1,32,51) ],31,32,41),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,12,62),t(')',4,12,69) ]).
+b_line_i([ 32,1 ],2,1,cmd,12,[ t('',107,21,41),t('Im_imesc_GXI',23,12,0),t(=,10,12,0),t('urifromurl(',1,12,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,12,0),t(')',4,12,0) ]).
+b_line_i(33,2,1,cmd,13,[ t('',110,22,0) ]).
+b_line_i(34,2,1,cmd,13,[ t('',107,22,7),t([ t('Im_imesc',23,34,7),t('fromimage(',1,34,17) ],31,34,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,13,28),t(')',4,13,35) ]).
+b_line_i([ 34,1 ],2,1,cmd,13,[ t('',107,22,7),t('Im_imesc_GXI',23,13,0),t(=,10,13,0),t('urifromurl(',1,13,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,13,0),t(')',4,13,0) ]).
+b_line_i(35,2,1,cmd,14,[ t('',111,23,0) ]).
+b_line_i(36,2,1,cmd,14,[ t('',109,24,0),t('(',0,14,4),t('Ticketoffice',23,14,5),t(')',4,14,18) ]).
+b_line_i(37,2,1,cmd,14,[ t('',107,24,20),t([ t('Im_office',23,37,20),t('fromimage(',1,37,31) ],31,37,20),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,14,42),t(')',4,14,49) ]).
+b_line_i([ 37,1 ],2,1,cmd,14,[ t('',107,24,20),t('Im_office_GXI',23,14,0),t(=,10,14,0),t('urifromurl(',1,14,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,14,0),t(')',4,14,0) ]).
+b_line_i(38,2,1,cmd,15,[ t('',110,25,0) ]).
+b_line_i(39,2,1,cmd,15,[ t('',107,25,7),t([ t('Im_office',23,39,7),t('fromimage(',1,39,18) ],31,39,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,15,29),t(')',4,15,36) ]).
+b_line_i([ 39,1 ],2,1,cmd,15,[ t('',107,25,7),t('Im_office_GXI',23,15,0),t(=,10,15,0),t('urifromurl(',1,15,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,15,0),t(')',4,15,0) ]).
+b_line_i(40,2,1,cmd,16,[ t('',111,26,0) ]).
+b_line_i(41,2,1,cmd,16,[ t('',109,27,0),t('(',0,16,4),t('Ticketotros',23,16,5),t(')',4,16,17) ]).
+b_line_i(42,2,1,cmd,16,[ t('',107,27,19),t([ t('Im_proc',23,42,19),t('fromimage(',1,42,28) ],31,42,19),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,16,39),t(')',4,16,46) ]).
+b_line_i([ 42,1 ],2,1,cmd,16,[ t('',107,27,19),t('Im_proc_GXI',23,16,0),t(=,10,16,0),t('urifromurl(',1,16,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,16,0),t(')',4,16,0) ]).
+b_line_i(43,2,1,cmd,17,[ t('',110,28,0) ]).
+b_line_i(44,2,1,cmd,17,[ t('',107,28,7),t([ t('Im_proc',23,44,7),t('fromimage(',1,44,16) ],31,44,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,17,27),t(')',4,17,34) ]).
+b_line_i([ 44,1 ],2,1,cmd,17,[ t('',107,28,7),t('Im_proc_GXI',23,17,0),t(=,10,17,0),t('urifromurl(',1,17,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,17,0),t(')',4,17,0) ]).
+b_line_i(45,2,1,cmd,18,[ t('',111,29,0) ]).
+b_line_i(46,2,1,cmd,18,[ t('',109,30,0),t('(',0,18,4),t('Ticketrouter',23,18,5),t(')',4,18,18) ]).
+b_line_i(47,2,1,cmd,18,[ t('',107,30,20),t([ t('Im_redes',23,47,20),t('fromimage(',1,47,30) ],31,47,20),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,18,41),t(')',4,18,48) ]).
+b_line_i([ 47,1 ],2,1,cmd,18,[ t('',107,30,20),t('Im_redes_GXI',23,18,0),t(=,10,18,0),t('urifromurl(',1,18,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,18,0),t(')',4,18,0) ]).
+b_line_i(48,2,1,cmd,19,[ t('',110,31,0) ]).
+b_line_i(49,2,1,cmd,19,[ t('',107,31,7),t([ t('Im_redes',23,49,7),t('fromimage(',1,49,17) ],31,49,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,19,28),t(')',4,19,35) ]).
+b_line_i([ 49,1 ],2,1,cmd,19,[ t('',107,31,7),t('Im_redes_GXI',23,19,0),t(=,10,19,0),t('urifromurl(',1,19,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,19,0),t(')',4,19,0) ]).
+b_line_i(50,2,1,cmd,20,[ t('',111,32,0) ]).
+b_line_i(51,2,1,cmd,20,[ t('',109,33,0),t('(',0,20,4),t('Ticketingenieria',23,20,5),t('.OR.',9,20,23),t('Ticketaplicacion',23,20,28),t(')',4,20,45) ]).
+b_line_i(52,2,1,cmd,20,[ t('',107,33,45),t([ t('Im_sistema',23,52,45),t('fromimage(',1,52,57) ],31,52,45),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,20,68),t(')',4,20,75) ]).
+b_line_i([ 52,1 ],2,1,cmd,20,[ t('',107,33,45),t('Im_sistema_GXI',23,20,0),t(=,10,20,0),t('urifromurl(',1,20,0),t(i(98,'859429df-7e32-40af-aa28-9196f9542d70'),69,20,0),t(')',4,20,0) ]).
+b_line_i(53,2,1,cmd,21,[ t('',110,34,0) ]).
+b_line_i(54,2,1,cmd,21,[ t('',107,34,7),t([ t('Im_sistema',23,54,7),t('fromimage(',1,54,19) ],31,54,7),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,21,30),t(')',4,21,37) ]).
+b_line_i([ 54,1 ],2,1,cmd,21,[ t('',107,34,7),t('Im_sistema_GXI',23,21,0),t(=,10,21,0),t('urifromurl(',1,21,0),t(i(98,'457b2adc-8d9f-4085-9ef5-d4f978256c34'),69,21,0),t(')',4,21,0) ]).
+b_line_i(55,2,1,cmd,22,[ t('',111,35,0) ]).
+b_line_i(56,2,1,cmd,22,[ t('',128,36,0) ]).
+b_line_i(57,1,3,pb,56,[ t('Pagina1',29,56,7) ]).
+b_line_i([ 57,0 ],1,3,line,56,[ t(' ',3,0,0) ]).
+b_line_i([ 57,5 ],1,3,line,61,[ t('ORDEN DE TRABAJO',3,5,41) ]).
+b_line_i([ 57,12 ],1,3,line,68,[ t('Nombre del Solicitante:',3,12,3),t('Usuarionombre',23,12,26),t('Dependencia:',3,12,60),t('Usuariodepartamento',23,12,75) ]).
+b_line_i([ 57,14 ],1,3,line,70,[ t('Teléfono:',3,14,3),t('Usuariotelefono',23,14,13),t('Correo electrónico:',3,14,60),t('Usuarioemail',23,14,79) ]).
+b_line_i([ 57,16 ],1,3,line,72,[ t('Número Memorando/Solicitud:',3,16,3) ]).
+b_line_i([ 57,18 ],1,3,line,74,[ t('Fecha y hora de solicitud:',3,18,3),t('Ticketfecharesponsable',23,18,29),t('Tickethoraresponsable',23,18,44) ]).
+b_line_i([ 57,21 ],1,3,line,77,[ t('Fecha de atención:',3,21,3),t('Hora Inicio:',3,21,45),t('Hora Cierre:',3,21,81) ]).
+b_line_i([ 57,24 ],1,3,line,80,[ t('Detalle de la solicitud:',3,24,3),t('Detalle de la solicitud: ',3,24,3) ]).
+b_line_i([ 57,26 ],1,3,line,82,[ t('Usuariorequerimiento',23,26,3) ]).
+b_line_i([ 57,31 ],1,3,line,87,[ t('Acción Requerida:',3,31,3),t('Acción Requerida:  ',3,31,3) ]).
+b_line_i([ 57,34 ],1,3,line,90,[ t('COLOQUE UNA "X" EN LA CASILLA CORRESPONDIENTE',3,34,6),t('PROPORCIONE INFORMACIÓN ADICIONAL SI ES NECESARIO',3,34,58) ]).
+b_line_i([ 57,37 ],1,3,line,93,[ t('SOLICITUD DE SOPORTE TÉCNICO PARA PC / LAPTOP',3,37,13),t('Im_pc',23,37,58),t('Im_pc_GXI',23,37,58) ]).
+b_line_i([ 57,41 ],1,3,line,97,[ t('SOPORTE TÉCNICO PARA ACCESO A FILESERVER ',3,41,15),t('Im_fs',23,41,58),t('Im_fs_GXI',23,41,58) ]).
+b_line_i([ 57,44 ],1,3,line,100,[ t('SOPORTE TÉCNICO POR CAMBIOS EN EL SISTEMA OPERATIVO',3,44,6),t('Im_so',23,44,58),t('Im_so_GXI',23,44,58) ]).
+b_line_i([ 57,47 ],1,3,line,103,[ t('SOPORTE TÉCNICO PARA PERIFÉRICOS',3,47,23),t('Im_per',23,47,58),t('Im_per_GXI',23,47,58) ]).
+b_line_i([ 57,51 ],1,3,line,107,[ t('SOPORTE TÉCNICO PARA ANTIVIRUS',3,51,26),t('Im_av',23,51,58),t('Im_av_GXI',23,51,58) ]).
+b_line_i([ 57,54 ],1,3,line,110,[ t('SOPORTE TÉCNICO PARA IMPRESORA Y/O ESCANER',3,54,13),t('Im_imesc',23,54,58),t('Im_imesc_GXI',23,54,58) ]).
+b_line_i([ 57,57 ],1,3,line,113,[ t('PROBLEMA CON OFFICE O APLICACIONES',3,57,22),t('Im_office',23,57,58),t('Im_office_GXI',23,57,58) ]).
+b_line_i([ 57,61 ],1,3,line,117,[ t('ANALISIS / LEVANTAMIENTO DE PROCESOS',3,61,20),t('Im_proc',23,61,58),t('Im_proc_GXI',23,61,58) ]).
+b_line_i([ 57,64 ],1,3,line,120,[ t('SOPORTE TÉCNICO EN REDES O INFRAESTRUCTURA',3,64,13),t('Im_redes',23,64,58),t('Im_redes_GXI',23,64,58) ]).
+b_line_i([ 57,67 ],1,3,line,123,[ t('CAMBIOS EN SISTEMAS Y/O APLICACIONES',3,67,21),t('Im_sistema',23,67,58),t('Im_sistema_GXI',23,67,58) ]).
+b_line_i([ 57,78 ],1,3,line,134,[ t(' ',3,78,0) ]).
+b_line_i(58,1,3,pb,135,[ t('Pagina2',29,135,7) ]).
+b_line_i([ 58,0 ],1,3,line,135,[ t(' ',3,0,0) ]).
+b_line_i([ 58,5 ],1,3,line,140,[ t('ORDEN DE TRABAJO',3,5,41) ]).
+b_line_i([ 58,14 ],1,3,line,149,[ t('TÉCNICO:',3,14,3),t('Tickettecnicoresponsablenombre',23,14,13) ]).
+b_line_i([ 58,16 ],1,3,line,151,[ t('Trabajo realizado:',3,16,3) ]).
+b_line_i([ 58,23 ],1,3,line,158,[ t('Observaciones:',3,23,3) ]).
+b_line_i([ 58,34 ],1,3,line,169,[ t('Trabajo autorizado por:',3,34,3),t('Trabajo realizado por:',3,34,59) ]).
+b_line_i([ 58,37 ],1,3,line,172,[ t('USUARIO:',3,37,3),t('Usuarionombre',23,37,14) ]).
+b_line_i([ 58,41 ],1,3,line,176,[ t('Basándose en su propia experiencia, por favor valore las siguientes afirmaciones siendo 1 muy pobre y 5 excelente.',3,41,2) ]).
+b_line_i([ 58,68 ],1,3,line,203,[ t('Firma del solicitante',3,68,48) ]).
+b_line_i([ 58,77 ],1,3,line,212,[ t(' ',3,77,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11923,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,57,bitmap(i(98,'6c2746e3-8953-4486-b5b0-ab152d2419af')),[ ctlname('Gxreportimage1'),rect(0,383,825,1180) ]).
+lit_i(2,57,rect(2),[ rect(17,53,817,177),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle1'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(6,57,rect(6),[ rect(233,53,233,177),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline1'),gxcolor([]),borderstyle(0) ]).
+lit_i(7,57,rect(7),[ rect(617,53,617,177),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline2'),gxcolor([]),borderstyle(0) ]).
+lit_i(8,57,bitmap(i(98,'58672db5-e41e-4c25-8a7c-9a980bcd6b47')),[ ctlname('Gxreportimage2'),rect(17,0,234,213) ]).
+lit_i(10,57,bitmap(i(98,'c609efd0-af00-4920-9b0c-7ad03923daad')),[ ctlname('Gxreportimage4'),rect(667,71,784,160) ]).
+lit_i(11,57,t('ORDEN DE TRABAJO',3),[ font('Microsoft Sans Serif',16,[ bold ]),rect(292,83,542,109),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(12,57,rect(12),[ rect(17,177,817,367),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle2'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(13,57,rect(13),[ rect(17,217,817,217),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline3'),gxcolor([]),borderstyle(0) ]).
+lit_i(14,57,rect(14),[ rect(17,250,817,250),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline4'),gxcolor([]),borderstyle(0) ]).
+lit_i(15,57,rect(15),[ rect(17,317,817,317),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline5'),gxcolor([]),borderstyle(0) ]).
+lit_i(16,57,rect(16),[ rect(17,283,817,283),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline6'),gxcolor([]),borderstyle(0) ]).
+lit_i(17,57,rect(17),[ rect(417,177,417,250),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline7'),gxcolor([]),borderstyle(0) ]).
+lit_i(18,57,t('Nombre del Solicitante:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,183,183,199),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(19,57,t('Fecha y hora de solicitud:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,283,197,299),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel3'),gxcolor([]) ]).
+lit_i(20,57,t('Fecha de atención:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,317,153,333),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel4'),gxcolor([]) ]).
+lit_i(21,57,t('Dependencia:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(425,183,519,199),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel5'),gxcolor([]) ]).
+lit_i(22,57,t('Correo electrónico:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(425,217,553,233),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel6'),gxcolor([]) ]).
+lit_i(23,57,t('Número Memorando/Solicitud:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,250,230,266),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel7'),gxcolor([]) ]).
+lit_i(24,57,t('Teléfono:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,217,89,233),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel8'),gxcolor([]) ]).
+lit_i(25,57,t('Hora Inicio:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(317,317,395,333),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel9'),gxcolor([]) ]).
+lit_i(26,57,t('Hora Cierre:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(567,317,649,333),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel10'),gxcolor([]) ]).
+lit_i(27,57,rect(27),[ rect(308,317,308,370),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline8'),gxcolor([]),borderstyle(0) ]).
+lit_i(28,57,rect(28),[ rect(558,317,558,370),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline9'),gxcolor([]),borderstyle(0) ]).
+lit_i(29,57,rect(29),[ rect(17,383,817,1056),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle3'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(30,57,t('Acción Requerida:',3),[ font('Microsoft Sans Serif',8,[]),rect(25,467,118,481),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel11'),gxcolor([]) ]).
+lit_i(31,57,t('Detalle de la solicitud:',3),[ font('Microsoft Sans Serif',8,[]),rect(25,367,133,381),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel12'),gxcolor([]) ]).
+lit_i(32,57,rect(32),[ rect(17,367,817,402),outstyle(single),fill,back(rgb(169,169,169)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle4'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(34,57,rect(34),[ rect(17,467,817,497),outstyle(single),fill,back(rgb(169,169,169)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle5'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(35,57,rect(35),[ rect(33,500,808,553),outstyle(single),fill,back(rgb(220,220,220)),fore(rgb(0,255,240)),border(1),ctlname('Gxreportrectangle6'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(36,57,t('Detalle de la solicitud: ',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,367,180,383),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel13'),gxcolor([]) ]).
+lit_i(37,57,t('PROPORCIONE INFORMACIÓN ADICIONAL SI ES NECESARIO',3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(408,517,785,531),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel14'),gxcolor([]) ]).
+lit_i(38,57,t('COLOQUE UNA "X" EN LA CASILLA CORRESPONDIENTE',3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(42,517,391,531),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel15'),gxcolor([]) ]).
+lit_i(39,57,t('Acción Requerida:  ',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,467,156,483),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel16'),gxcolor([]) ]).
+lit_i(40,57,rect(40),[ rect(450,567,808,597),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle7'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(41,57,rect(41),[ rect(408,567,450,597),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle8'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(42,57,t('SOLICITUD DE SOPORTE TÉCNICO PARA PC / LAPTOP',3),[ font('Microsoft Sans Serif',8,[]),rect(92,567,387,581),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel17'),gxcolor([]) ]).
+lit_i(43,57,t('SOPORTE TÉCNICO PARA ACCESO A FILESERVER ',3),[ font('Microsoft Sans Serif',8,[]),rect(108,617,382,631),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel18'),gxcolor([]) ]).
+lit_i(44,57,t('SOPORTE TÉCNICO POR CAMBIOS EN EL SISTEMA OPERATIVO',3),[ font('Microsoft Sans Serif',8,[]),rect(42,667,385,681),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel19'),gxcolor([]) ]).
+lit_i(45,57,t('SOPORTE TÉCNICO PARA PERIFÉRICOS',3),[ font('Microsoft Sans Serif',8,[]),rect(167,717,385,731),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel20'),gxcolor([]) ]).
+lit_i(46,57,t('SOPORTE TÉCNICO PARA ANTIVIRUS',3),[ font('Microsoft Sans Serif',8,[]),rect(183,767,387,781),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel21'),gxcolor([]) ]).
+lit_i(47,57,t('SOPORTE TÉCNICO PARA IMPRESORA Y/O ESCANER',3),[ font('Microsoft Sans Serif',8,[]),rect(92,817,383,831),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel22'),gxcolor([]) ]).
+lit_i(48,57,t('PROBLEMA CON OFFICE O APLICACIONES',3),[ font('Microsoft Sans Serif',8,[]),rect(158,867,384,881),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel23'),gxcolor([]) ]).
+lit_i(49,57,t('ANALISIS / LEVANTAMIENTO DE PROCESOS',3),[ font('Microsoft Sans Serif',8,[]),rect(142,917,383,931),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel24'),gxcolor([]) ]).
+lit_i(50,57,t('SOPORTE TÉCNICO EN REDES O INFRAESTRUCTURA',3),[ font('Microsoft Sans Serif',8,[]),rect(92,967,385,981),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel25'),gxcolor([]) ]).
+lit_i(51,57,t('CAMBIOS EN SISTEMAS Y/O APLICACIONES',3),[ font('Microsoft Sans Serif',8,[]),rect(150,1017,386,1031),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel26'),gxcolor([]) ]).
+lit_i(52,57,rect(52),[ rect(450,617,808,647),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle9'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(53,57,rect(53),[ rect(408,617,450,647),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle10'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(54,57,rect(54),[ rect(450,667,808,697),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle11'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(55,57,rect(55),[ rect(408,667,450,697),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle12'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(56,57,rect(56),[ rect(450,717,808,747),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle13'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(57,57,rect(57),[ rect(408,717,450,747),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle14'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(58,57,rect(58),[ rect(450,767,808,797),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle15'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(59,57,rect(59),[ rect(408,767,450,797),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle16'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(60,57,rect(60),[ rect(450,817,808,847),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle17'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(61,57,rect(61),[ rect(408,817,450,847),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle18'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(62,57,rect(62),[ rect(450,867,808,897),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle19'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(63,57,rect(63),[ rect(408,867,450,897),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle20'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(64,57,rect(64),[ rect(450,917,808,947),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle21'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(65,57,rect(65),[ rect(408,917,450,947),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle22'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(66,57,rect(66),[ rect(450,967,808,997),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle23'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(67,57,rect(67),[ rect(408,967,450,997),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle24'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(68,57,rect(68),[ rect(450,1017,808,1047),outstyle(single),fill,back(rgb(245,245,245)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle25'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(69,57,rect(69),[ rect(408,1017,450,1047),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle26'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(73,57,bitmap(i(98,'eeaf439c-d9ed-4dae-b56a-a6e959416516')),[ ctlname('Gxreportimage6'),rect(583,1100,778,1128) ]).
+lit_i(74,57,bitmap(i(98,'d3c1f95c-95cc-4ea4-8ad2-fe7171bae301')),[ ctlname('Gxreportimage3'),rect(50,1100,153,1130) ]).
+lit_i(104,57,t('Usuarionombre',23),[ font('Microsoft Sans Serif',8,[]),rect(183,183,408,216),outstyle(none),align(left),valign(top),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&usuarionombre'),ctrltype(edit,104),ispwd(0),gxcolor([]) ]).
+lit_i(105,57,t('Usuariodepartamento',23),[ font('Microsoft Sans Serif',8,[]),rect(525,183,808,216),outstyle(none),align(left),valign(top),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&usuariodepartamento'),ctrltype(edit,105),ispwd(0),gxcolor([]) ]).
+lit_i(106,57,t('Usuariotelefono',23),[ font('Microsoft Sans Serif',8,[]),rect(92,217,184,232),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&usuariotelefono'),ctrltype(edit,106),ispwd(0),gxcolor([]) ]).
+lit_i(107,57,t('Usuarioemail',23),[ font('Microsoft Sans Serif',8,[]),rect(558,217,808,250),outstyle(none),align(left),valign(top),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&usuarioemail'),ctrltype(edit,107),ispwd(0),gxcolor([]) ]).
+lit_i(108,57,t('Ticketfecharesponsable',23),[ font('Microsoft Sans Serif',8,[]),rect(208,283,300,298),outstyle(none),align(left),valign(top),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&ticketfecharesponsable'),ctrltype(edit,108),ispwd(0),gxcolor([]) ]).
+lit_i(109,57,t('Tickethoraresponsable',23),[ font('Microsoft Sans Serif',8,[]),rect(308,283,366,298),outstyle(none),align(left),valign(top),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&tickethoraresponsable'),ctrltype(edit,109),ispwd(0),gxcolor([]) ]).
+lit_i(110,57,t('Usuariorequerimiento',23),[ font('Microsoft Sans Serif',8,[]),rect(25,400,808,467),outstyle(none),align(left),valign(top),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&usuariorequerimiento'),ctrltype(edit,110),ispwd(0),gxcolor([]) ]).
+lit_i(113,57,t('Im_pc',23),[ font('Microsoft Sans Serif',8,[]),rect(408,567,450,600),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_pc'),ctrltype(edit,113),ispwd(0),gxcolor([]) ]).
+lit_i(114,57,t('Im_fs',23),[ font('Microsoft Sans Serif',8,[]),rect(408,617,450,650),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_fs'),ctrltype(edit,114),ispwd(0),gxcolor([]) ]).
+lit_i(115,57,t('Im_so',23),[ font('Microsoft Sans Serif',8,[]),rect(408,667,450,698),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_so'),ctrltype(edit,115),ispwd(0),gxcolor([]) ]).
+lit_i(116,57,t('Im_per',23),[ font('Microsoft Sans Serif',8,[]),rect(408,717,450,750),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_per'),ctrltype(edit,116),ispwd(0),gxcolor([]) ]).
+lit_i(117,57,t('Im_av',23),[ font('Microsoft Sans Serif',8,[]),rect(408,767,450,800),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_av'),ctrltype(edit,117),ispwd(0),gxcolor([]) ]).
+lit_i(118,57,t('Im_imesc',23),[ font('Microsoft Sans Serif',8,[]),rect(408,817,450,850),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_imesc'),ctrltype(edit,118),ispwd(0),gxcolor([]) ]).
+lit_i(120,57,t('Im_proc',23),[ font('Microsoft Sans Serif',8,[]),rect(408,917,450,950),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_proc'),ctrltype(edit,120),ispwd(0),gxcolor([]) ]).
+lit_i(122,57,t('Im_sistema',23),[ font('Microsoft Sans Serif',8,[]),rect(408,1017,450,1050),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_sistema'),ctrltype(edit,122),ispwd(0),gxcolor([]) ]).
+lit_i(123,57,t('Im_office',23),[ font('Microsoft Sans Serif',8,[]),rect(408,867,450,900),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_office'),ctrltype(edit,123),ispwd(0),gxcolor([]) ]).
+lit_i(124,57,t('Im_redes',23),[ font('Microsoft Sans Serif',8,[]),rect(408,967,450,1000),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&im_redes'),ctrltype(edit,124),ispwd(0),gxcolor([]) ]).
+lit_i(1,57,window,[ title('Text'),rect(0,0,828,1188),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Pagina1'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(75,58,rect(75),[ rect(233,53,233,177),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline10'),gxcolor([]),borderstyle(0) ]).
+lit_i(76,58,t('ORDEN DE TRABAJO',3),[ font('Microsoft Sans Serif',16,[ bold ]),rect(292,83,542,109),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel27'),gxcolor([]) ]).
+lit_i(77,58,bitmap(i(98,'c609efd0-af00-4920-9b0c-7ad03923daad')),[ ctlname('Gxreportimage5'),rect(667,71,784,160) ]).
+lit_i(78,58,bitmap(i(98,'58672db5-e41e-4c25-8a7c-9a980bcd6b47')),[ ctlname('Gxreportimage7'),rect(17,0,234,213) ]).
+lit_i(79,58,rect(79),[ rect(617,53,617,177),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline11'),gxcolor([]),borderstyle(0) ]).
+lit_i(80,58,rect(80),[ rect(17,53,817,177),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle27'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(81,58,rect(81),[ rect(17,217,817,465),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle28'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(82,58,rect(82),[ rect(17,250,817,285),outstyle(single),fill,back(rgb(169,169,169)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle29'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(83,58,rect(83),[ rect(17,350,817,385),outstyle(single),fill,back(rgb(169,169,169)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle30'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(84,58,t('Trabajo realizado:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,250,148,266),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel28'),gxcolor([]) ]).
+lit_i(85,58,t('TÉCNICO:',3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(25,217,86,231),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel29'),gxcolor([]) ]).
+lit_i(86,58,t('Observaciones:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,350,128,366),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel30'),gxcolor([]) ]).
+lit_i(98,58,bitmap(i(98,'6c2746e3-8953-4486-b5b0-ab152d2419af')),[ ctlname('Gxreportimage9'),rect(0,367,825,1164) ]).
+lit_i(97,58,t('Firma del solicitante',3),[ font('Microsoft Sans Serif',10,[ bold ]),rect(342,1033,489,1050),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel31'),gxcolor([]) ]).
+lit_i(96,58,bitmap(i(98,'b6288508-259e-4f1e-9d8f-866525664635')),[ ctlname('Gxreportimage8'),rect(33,683,808,913) ]).
+lit_i(94,58,t('USUARIO:',3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(25,567,89,581),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel33'),gxcolor([]) ]).
+lit_i(93,58,rect(93),[ rect(17,600,817,653),outstyle(single),fill,back(rgb(169,169,169)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle31'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(92,58,rect(92),[ rect(17,567,817,656),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle32'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(89,58,rect(89),[ rect(417,500,600,553),outstyle(single),fill,back(rgb(169,169,169)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle33'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(88,58,rect(88),[ rect(17,500,200,553),outstyle(single),fill,back(rgb(169,169,169)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle34'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(87,58,rect(87),[ rect(17,500,817,553),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle35'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(99,58,t('Basándose en su propia experiencia, por favor valore las siguientes afirmaciones siendo 1 muy pobre y 5 excelente.',3),[ font('Microsoft Sans Serif',8,[ bold ]),rect(17,617,702,631),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel36'),gxcolor([]) ]).
+lit_i(100,58,t('Trabajo realizado por:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(417,517,566,533),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel37'),gxcolor([]) ]).
+lit_i(101,58,t('Trabajo autorizado por:',3),[ font('Microsoft Sans Serif',9,[ bold ]),rect(25,517,182,533),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel38'),gxcolor([]) ]).
+lit_i(102,58,bitmap(i(98,'d3c1f95c-95cc-4ea4-8ad2-fe7171bae301')),[ ctlname('Gxreportimage10'),rect(58,1100,161,1130) ]).
+lit_i(103,58,bitmap(i(98,'eeaf439c-d9ed-4dae-b56a-a6e959416516')),[ ctlname('Gxreportimage11'),rect(592,1100,787,1128) ]).
+lit_i(111,58,t('Tickettecnicoresponsablenombre',23),[ font('Microsoft Sans Serif',8,[]),rect(92,217,809,250),outstyle(none),align(left),valign(top),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&tickettecnicoresponsablenombre'),ctrltype(edit,111),ispwd(0),gxcolor([]) ]).
+lit_i(112,58,t('Usuarionombre',23),[ font('Microsoft Sans Serif',8,[]),rect(100,567,808,600),outstyle(none),align(left),valign(top),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&usuarionombre'),ctrltype(edit,112),ispwd(0),gxcolor([]) ]).
+lit_i(70,58,window,[ title('Text'),rect(0,0,828,1169),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Pagina2'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ctrl_info_i(57,104,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,105,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,106,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,107,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,108,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,109,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,110,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,113,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,114,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,115,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,116,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,117,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,118,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,120,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,122,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,123,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(57,124,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(58,111,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(58,112,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+calling_main_i(1,268).
+ 
+att_prop_i(2,92,'ExternalName','UsuarioHora',d).
+att_prop_i(2,92,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,92,'EmptyAsNull','Yes',d).
+att_prop_i(2,92,idBasedOn,87,v).
+att_prop_i(2,92,idDATEPRECISION,idDATEPRECISION_SECONDS,d).
+att_prop_i(2,92,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,92,'AttRegEx','',d).
+att_prop_i(2,92,'AttValidationFailedMsg','',d).
+att_prop_i(2,92,idDATEFORMAT,idDATEFORMAT_NONE,d).
+att_prop_i(2,92,idHOURFORMAT,idHOURFORMAT_HOURMIN,d).
+att_prop_i(2,92,'DownloadOffline','0',d).
+att_prop_i(2,92,'VarServiceExtName','',d).
+att_prop_i(2,92,'FullName','UsuarioHora',v).
+att_prop_i(2,15,'ExternalName','UsuarioId',d).
+att_prop_i(2,15,'ExternalNamespace',kb_ticket,d).
+att_prop_i(2,15,'EmptyAsNull','Yes',d).
+att_prop_i(2,15,idBasedOn,83,v).
+att_prop_i(2,15,'AUTONUMBER','0',d).
+att_prop_i(2,15,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,15,'AttRegEx','',d).
+att_prop_i(2,15,'AttValidationFailedMsg','',d).
+att_prop_i(2,15,'DownloadOffline','0',d).
+att_prop_i(2,15,'VarServiceExtName','',d).
+att_prop_i(2,15,'FullName','UsuarioId',v).
+ 
+ 
+tbl_att_prop_i(2,10,15,'AllowNulls',n).
+tbl_att_prop_i(2,10,92,'AllowNulls',n).
+ 
+var_prop_i(2,'Ticketantivirus',idBasedOn,'',v).
+var_prop_i(2,'Ticketdesktop',idBasedOn,'',v).
+var_prop_i(2,'Ticketdiscoduroexterno',idBasedOn,'',v).
+var_prop_i(2,'Ticketescaner',idBasedOn,'',v).
+var_prop_i(2,'Ticketfecharesponsable',idBasedOn,'',v).
+var_prop_i(2,'Tickethoraresponsable',idBasedOn,'',v).
+var_prop_i(2,'Ticketid',idBasedOn,'',v).
+var_prop_i(2,'Ticketimpresora',idBasedOn,'',v).
+var_prop_i(2,'Ticketinstalardatashow',idBasedOn,'',v).
+var_prop_i(2,'Ticketlaptop',idBasedOn,'',v).
+var_prop_i(2,'Ticketmonitor',idBasedOn,'',v).
+var_prop_i(2,'Ticketoffice',idBasedOn,'',v).
+var_prop_i(2,'Ticketotros',idBasedOn,'',v).
+var_prop_i(2,'Ticketperifericos',idBasedOn,'',v).
+var_prop_i(2,'Ticketresponsableid',idBasedOn,'',v).
+var_prop_i(2,'Ticketrouter',idBasedOn,'',v).
+var_prop_i(2,'Ticketsistemaoperativo',idBasedOn,'',v).
+var_prop_i(2,'Tickettecnicoresponsableid',idBasedOn,'',v).
+var_prop_i(2,'Tickettecnicoresponsablenombre',idBasedOn,'',v).
+var_prop_i(2,'Ticketups',idBasedOn,'',v).
+var_prop_i(2,'Usuariodepartamento',idBasedOn,'',v).
+var_prop_i(2,'Usuarioemail',idBasedOn,'',v).
+var_prop_i(2,'Usuarioemail','AttRegEx','^((\w+([-+.'']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*)|(\s*))$',d).
+var_prop_i(2,'Usuarioemail','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+var_prop_i(2,'Usuariofecha',idBasedOn,'',v).
+var_prop_i(2,'Usuariohora',idBasedOn,'',v).
+var_prop_i(2,'Usuarioid',idBasedOn,'',v).
+var_prop_i(2,'Usuarionombre',idBasedOn,'',v).
+var_prop_i(2,'Usuariorequerimiento',idBasedOn,'',v).
+var_prop_i(2,'Usuariotelefono',idBasedOn,'',v).
+var_prop_i(2,'Ticketingenieria',idBasedOn,'',v).
+var_prop_i(2,'Ticketaplicacion',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+security_permission_i(pcrimprimirsoportetecnico_Execute,execute,'').
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,268,'PCRIMPRIMIRSOPORTETECNICO','HTTP','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,268,'PCRIMPRIMIRSOPORTETECNICO',[ 15,'APCRIMPRIMIRSOPORTETECNICO','Reporte Soporte Tecnico','','','','HTTP' ]).
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+module_info_i('GeneXusSecurityCommon','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurityCommon','AssemblyName','GeneXusSecurityCommon.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

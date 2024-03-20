@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "estadosatisfaccion_FullControl",
+    "Description": "Estado Satisfaccion FullControl",
+    "ProgramName": "estadosatisfaccion",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "estadosatisfaccion_Execute",
+    "Description": "Estado Satisfaccion",
+    "ProgramName": "estadosatisfaccion",
+    "IsGXAutomatic": true,
+    "Parent": "estadosatisfaccion_FullControl"
+  },
+  {
+    "Name": "estadosatisfaccion_Insert",
+    "Description": "Estado Satisfaccion Insert",
+    "ProgramName": "estadosatisfaccion",
+    "IsGXAutomatic": true,
+    "Parent": "estadosatisfaccion_FullControl"
+  },
+  {
+    "Name": "estadosatisfaccion_Delete",
+    "Description": "Estado Satisfaccion Delete",
+    "ProgramName": "estadosatisfaccion",
+    "IsGXAutomatic": true,
+    "Parent": "estadosatisfaccion_FullControl"
+  },
+  {
+    "Name": "estadosatisfaccion_Update",
+    "Description": "Estado Satisfaccion Update",
+    "ProgramName": "estadosatisfaccion",
+    "IsGXAutomatic": true,
+    "Parent": "estadosatisfaccion_FullControl"
+  }
+]

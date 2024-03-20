@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\exportestadoticketticketwc.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportestadoticketticketwc\obj\Release\exportestadoticketticketwc.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportestadoticketticketwc\obj\Release\exportestadoticketticketwc.dll

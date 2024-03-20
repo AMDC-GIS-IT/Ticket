@@ -1,0 +1,919 @@
+spec_i([ proc,260,'PCRInsert Encuesta Desarrollo','PCRInsertEncuestaDesarrollo',78,spa,'17_0_9-159740' ]).
+ 
+struct_i(5,1,[],[]).
+struct_i(4,1,[],[]).
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(5,[ 10,[ [ 10,many ] ],[],[],[ [ [ 10 ],[ 15,189 ] ] ],[ [ [ 10 ],[] ] ],[ 15 ],'IUSUARIO',[ 10,[ [ [],'Usuarioid',15 ] ] ],[] ]).
+level_i(4,[ 8,[ [ 8,many ] ],[],[],[ [ [ 8 ],[ 198,17,16,14 ] ] ],[ [ [ 8 ],[] ] ],[ 14,16 ],'ITICKETRESPONSABLE',[ 8,[ [ [],'Ticketid',14 ],[ [],'Ticketresponsableid',16 ] ] ],[] ]).
+level_i(3,[ 7,[ [ 7,many ] ],[],[],[ [ [ 7 ],[ 15,14,187 ] ] ],[ [ [ 7 ],[] ] ],[ 14 ],'ITICKET',[ 7,[ [ [],'Ticketid',14 ] ] ],[] ]).
+level_i(2,[ 6,[ [ 6,many ],[ 2000,one ] ],[],[],[ [ [ 6,2000 ],[ 359,356,353,350,347,14,16,144,34,13,12,11,10,9,8,32,7,40000 ] ] ],[ [ [ 6,2000 ],[] ] ],[ 7 ],'ISATISFACCION',[],[] ]).
+ 
+tw_i(5,[]).
+tw_i(4,[]).
+tw_i(3,[]).
+tw_i(2,[ [ 2000,[] ] ]).
+ 
+lwi_i(5,[ [] ]).
+lwi_i(4,[ [ c([ t(17,2),t(=,10),t('5',3) ],[ 17 ]),c([ t(198,2),t(=,10),t('Tickettecnicoresponsableid',23) ],[ 198 ]) ] ]).
+lwi_i(3,[ [ c([ t(15,2),t(=,10),t('Usuarioid',23) ],[ 15 ]) ] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(5,[ [ [ 10,15 ],[ 10,189 ] ] ]).
+ta_i(4,[ [ [ 8,198 ],[ 8,17 ],[ 8,16 ],[ 8,14 ] ] ]).
+ta_i(3,[ [ [ 7,15 ],[ 7,14 ],[ 7,187 ] ] ]).
+ta_i(2,[ [ [ 6,359 ],[ 6,356 ],[ 6,353 ],[ 6,350 ],[ 6,347 ],[ 6,14 ],[ 6,16 ],[ 6,144 ],[ 6,34 ],[ 6,13 ],[ 6,12 ],[ 6,11 ],[ 6,10 ],[ 6,9 ],[ 6,8 ],[ 6,32 ],[ 6,7 ],[ 2000,se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ 
+las_i(5,[ [ 15,189 ] ]).
+las_i(4,[ [ 198,17,16,14 ] ]).
+las_i(3,[ [ 15,14,187 ] ]).
+las_i(2,[ [ 359,356,353,350,347,14,16,144,34,13,12,11,10,9,8,32,7,40000 ] ]).
+ 
+lac_i(5,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(5,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(5,'LOCK_RETRY','10')).
+rule_i(0,datastore(5,'WAIT_RECORD','0')).
+rule_i(0,datastore(5,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(5,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(5,'COMMENT_ON','No')).
+rule_i(0,datastore(5,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(5,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(5,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(5,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(5,'CS_SCHEMA','')).
+rule_i(0,datastore(5,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(5,'JRN400','QSQJRN')).
+rule_i(0,datastore(5,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(5,'PGMLIB','')).
+rule_i(0,datastore(5,'DTALIB','')).
+rule_i(0,datastore(5,'RecycleRWMin','30')).
+rule_i(0,datastore(5,'RecycleRWType','1')).
+rule_i(0,datastore(5,'RecycleRW','-1')).
+rule_i(0,datastore(5,'POOL_STARTUP','No')).
+rule_i(0,datastore(5,'POOLSIZE_RW','10')).
+rule_i(0,datastore(5,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(5,'PoolRWEnabled','-1')).
+rule_i(0,datastore(5,'CS_RPCPGML','')).
+rule_i(0,datastore(5,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(5,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(5,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(5,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(5,'USER_ID',sa)).
+rule_i(0,datastore(5,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(5,'CS_CONNECT','First')).
+rule_i(0,datastore(5,'DBMS_PORT','')).
+rule_i(0,datastore(5,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(5,'CS_DBNAME',dbpresuamdcpoa)).
+rule_i(0,datastore(5,'CS_FLEDSNAME','')).
+rule_i(0,datastore(5,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(5,'CS_DSNAME','')).
+rule_i(0,datastore(5,'DB_URL','')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(5,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(5,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(5,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(5,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(5,'MAIN_DS','-1')).
+rule_i(0,datastore(5,'REORG_GEN','8')).
+rule_i(0,datastore(5,'HelpKeyword','23')).
+rule_i(0,datastore(5,'DBMS',12)).
+rule_i(0,datastore(5,'NAME','DataStore2')).
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD',Ü5Ú2ÌKê2â5)).
+rule_i(0,datastore(3,'USER_ID',sa)).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','192.168.200.55')).
+rule_i(0,datastore(3,'CS_DBNAME','BDINFOTECNET')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DataStore1')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(2,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','No')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','ÜEbeUŽYMXKweZÌIÒ.Ü¿Ô&ôE')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.70')).
+rule_i(0,datastore(1,'CS_DBNAME',bd_ticket)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','PCRInsertEncuestaDesarrollo')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'K2BOrion'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Transacciones'))).
+rule_i(0,prop('ObjDesc','PCRInsert Encuesta Desarrollo')).
+rule_i(0,prop('ObjName','PCRInsertEncuestaDesarrollo')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ticketid','Ticketresponsableid','Usuarioid','Satisfaccioncatalogaid','Satisfaccionrendimientoid','Satisfaccionprogramadorid','Satisfaccioncapacitacionid','Satisfaccionmejorasoftware','Tickettecnicoresponsableid' ],[])).
+rule_i(0,parmio([ [ 'Ticketid',in ],[ 'Ticketresponsableid',in ],[ 'Usuarioid',in ],[ 'Satisfaccioncatalogaid',in ],[ 'Satisfaccionrendimientoid',in ],[ 'Satisfaccionprogramadorid',in ],[ 'Satisfaccioncapacitacionid',in ],[ 'Satisfaccionmejorasoftware',in ],[ 'Tickettecnicoresponsableid',in ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,6,[],[ [],'ISATISFACCION',[] ]).
+a_i(3,2,r,2000,[],[ [],'ISATISFACCION',[] ]).
+a_i(4,3,t,7,[],[ [ [ [],'Ticketid',14 ] ],'ITICKET',[] ]).
+a_i(5,4,t,8,[],[ [ [ [],'Ticketid',14 ],[ [],'Ticketresponsableid',16 ] ],'ITICKETRESPONSABLE',[] ]).
+a_i(6,5,t,10,[],[ [ [ [],'Usuarioid',15 ] ],'IUSUARIO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,359).
+v_i(t,o,2,356).
+v_i(t,o,2,353).
+v_i(t,o,2,350).
+v_i(t,o,2,347).
+v_i(t,o,2,14).
+v_i(t,o,2,16).
+v_i(t,o,2,144).
+v_i(t,o,2,34).
+v_i(t,o,2,13).
+v_i(t,o,2,12).
+v_i(t,o,2,11).
+v_i(t,o,2,10).
+v_i(t,o,2,9).
+v_i(t,o,2,8).
+v_i(t,o,2,32).
+v_i(t,o,2,7).
+v_i(r,i,3,[]).
+v_i(r,o,3,40000).
+v_i(t,i,4,'Ticketid').
+v_i(t,o,4,15).
+v_i(t,o,4,14).
+v_i(t,o,4,187).
+v_i(t,i,5,'Ticketid').
+v_i(t,i,5,'Ticketresponsableid').
+v_i(t,o,5,198).
+v_i(t,o,5,17).
+v_i(t,o,5,16).
+v_i(t,o,5,14).
+v_i(t,i,6,'Usuarioid').
+v_i(t,o,6,15).
+v_i(t,o,6,189).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',30 ]).
+attri_i(34,[ 'SatisfaccionSugerencia',svchar,300,0,'',0,'Satisfaccion Sugerencia','',0 ]).
+attri_i(198,[ 'TicketTecnicoResponsableId',int,4,0,'ZZZ9',0,'Id Técnico','',0 ]).
+attri_i(15,[ 'UsuarioId',int,10,0,'ZZZZZZZZZ9',0,'Id Usuario','',0 ]).
+attri_i(189,[ 'EstadoTicketUsuarioId',int,4,0,'ZZZ9',0,'Estado Id','',0 ]).
+attri_i(17,[ 'EstadoTicketTecnicoId',int,4,0,'ZZZ9',0,'Estado Id','',0 ]).
+attri_i(187,[ 'EstadoTicketTicketId',int,4,0,'ZZZ9',0,'Estado Id','',0 ]).
+attri_i(32,[ 'SatisfaccionFecha',date,8,0,'99/99/9999',0,'Fecha','',0 ]).
+attri_i(144,[ 'SatisfaccionHora',dtime,0,5,'99:99',0,'Hora','',0 ]).
+attri_i(14,[ 'TicketId',int,10,0,'ZZZZZZZZZ9',0,'Id Ticket','',0 ]).
+attri_i(16,[ 'TicketResponsableId',int,10,0,'ZZZZZZZZZ9',0,'Ticket Responsable Id','',0 ]).
+attri_i(8,[ 'SatisfaccionResueltoId',int,4,0,'ZZZ9',0,'Satisfaccion Resuelto Id','',0 ]).
+attri_i(9,[ 'SatisfaccionTecnicoProblemaId',int,4,0,'ZZZ9',0,'Satisfaccion Tecnico Problema Id','',0 ]).
+attri_i(10,[ 'SatisfaccionTecnicoCompetenteId',int,4,0,'ZZZ9',0,'Satisfaccion Tecnico Competente Id','',0 ]).
+attri_i(11,[ 'SatisfaccionTecnicoProfesionalismoId',int,4,0,'ZZZ9',0,'Satisfaccion Tecnico Profesionalismo Id','',0 ]).
+attri_i(12,[ 'SatisfaccionTiempoId',int,4,0,'ZZZ9',0,'Satisfaccion Tiempo Id','',0 ]).
+attri_i(13,[ 'SatisfaccionAtencionId',int,4,0,'ZZZ9',0,'Satisfaccion Atencion Id','',0 ]).
+attri_i(347,[ 'SatisfaccionCatalogaId',int,4,0,'ZZZ9',0,'Satisfaccion Cataloga Id','',0 ]).
+attri_i(350,[ 'SatisfaccionRendimientoId',int,4,0,'ZZZ9',0,'Satisfaccion Rendimiento Id','',0 ]).
+attri_i(353,[ 'SatisfaccionProgramadorId',int,4,0,'ZZZ9',0,'Satisfaccion Programador Id','',0 ]).
+attri_i(356,[ 'SatisfaccionCapacitacionId',int,4,0,'ZZZ9',0,'Satisfaccion Capacitacion Id','',0 ]).
+attri_i(359,[ 'SatisfaccionMejoraSoftware',svchar,300,0,'',0,'Satisfaccion Mejora Software','',0 ]).
+attri_i(40000,[ 'GXC1',int,10,0,'',0,'',[],0 ]).
+attri_i(7,[ 'SatisfaccionId',int,10,0,'ZZZZZZZZZ9',0,'Id','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',26 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',25 ]).
+attri_i('Satisfaccioncatalogaid',[ 'SatisfaccionCatalogaId',int,4,0,'ZZZ9',0,'Satisfaccion Cataloga Id','',24 ]).
+attri_i('Satisfaccionrendimientoid',[ 'SatisfaccionRendimientoId',int,4,0,'ZZZ9',0,'Satisfaccion Rendimiento Id','',23 ]).
+attri_i('Satisfaccionprogramadorid',[ 'SatisfaccionProgramadorId',int,4,0,'ZZZ9',0,'Satisfaccion Programador Id','',22 ]).
+attri_i('Satisfaccioncapacitacionid',[ 'SatisfaccionCapacitacionId',int,4,0,'ZZZ9',0,'Satisfaccion Capacitacion Id','',21 ]).
+attri_i('Satisfaccionmejorasoftware',[ 'SatisfaccionMejoraSoftware',svchar,300,0,'',0,'Satisfaccion Mejora Software','',20 ]).
+attri_i('Satisfaccionid',[ 'SatisfaccionId',int,10,0,'ZZZZZZZZZ9',0,'Id','',19 ]).
+attri_i('Tickettecnicoresponsableid',[ 'TicketTecnicoResponsableId',int,4,0,'ZZZ9',0,'Ticket Tecnico Responsable Id','',18 ]).
+attri_i('Ticketresponsableid',[ 'TicketResponsableId',int,10,0,'ZZZZZZZZZ9',0,'Ticket Responsable Id','',17 ]).
+attri_i('Satisfaccionsugerencia',[ 'SatisfaccionSugerencia',svchar,300,0,'',0,'Satisfaccion Sugerencia','',16 ]).
+attri_i('Satisfaccionatencionid',[ 'SatisfaccionAtencionId',int,4,0,'ZZZ9',0,'Satisfaccion Atencion Id','',15 ]).
+attri_i('Satisfacciontiempoid',[ 'SatisfaccionTiempoId',int,4,0,'ZZZ9',0,'Satisfaccion Tiempo Id','',14 ]).
+attri_i('Satisfacciontecnicoprofesionalismoid',[ 'SatisfaccionTecnicoProfesionalismoId',int,4,0,'ZZZ9',0,'Satisfaccion Tecnico Profesionalismo Id','',13 ]).
+attri_i('Satisfacciontecnicocompetenteid',[ 'SatisfaccionTecnicoCompetenteId',int,4,0,'ZZZ9',0,'Satisfaccion Tecnico Competente Id','',12 ]).
+attri_i('Satisfacciontecnicoproblemaid',[ 'SatisfaccionTecnicoProblemaId',int,4,0,'ZZZ9',0,'Satisfaccion Tecnico Problema Id','',11 ]).
+attri_i('Satisfaccionresueltoid',[ 'SatisfaccionResueltoId',int,4,0,'ZZZ9',0,'Satisfaccion Resuelto Id','',10 ]).
+attri_i('Ticketid',[ 'TicketId',int,10,0,'ZZZZZZZZZ9',0,'Id Ticket','',9 ]).
+attri_i('Usuarioid',[ 'UsuarioId',int,10,0,'ZZZZZZZZZ9',0,'Id Usuario','',8 ]).
+ 
+table_i(2000,[ 'Satisfaccion',[ 40000,7 ],'Satisfaccion','Satisfaccion' ]).
+table_i(6,[ 'Satisfaccion',[ 7,32,8,9,10,11,12,13,34,144,16,14,347,350,353,356,359 ],'Satisfaccion','Satisfaccion' ]).
+table_i(7,[ 'Ticket',[ 14,15,187 ],'Ticket','Ticket' ]).
+table_i(8,[ 'TicketResponsable',[ 14,16,17,198 ],'Responsable','TicketResponsable' ]).
+table_i(10,[ 'Usuario',[ 15,189 ],'Usuario','Usuario' ]).
+ 
+index_i(6,[ 'ISATISFACCION',u,[ 7 ],'ISatisfaccion' ]).
+index_i(2000,[ 'ISATISFACCION',u,[ 7 ],'ISatisfaccion' ]).
+index_i(7,[ 'ITICKET',u,[ 14 ],'ITicket' ]).
+index_i(8,[ 'ITICKETRESPONSABLE',u,[ 14,16 ],'ITicketResponsable' ]).
+index_i(10,[ 'IUSUARIO',u,[ 15 ],'IUsuario' ]).
+ 
+lv_i(4,2000,6).
+ 
+ 
+ 
+ 
+nav_view_i(2000,[ 40000 ],[],[],[ [ 2000,[] ] ],[ [ [ 6,[ 'max(',7 ] ] ],n,[ [ 6,many ] ],[],[],[ none ],[],[],[] ]).
+ 
+ 
+agg_def_i(40000,[ t('0',3) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(2,6,i,[ [ 7,32,8,9,10,11,12,13,144,16,14,347,350,353,356,359 ],[],'ISATISFACCION',[ [ [],7,7 ] ] ]).
+upd_i(3,7,u,[ [ 187 ],[],'ITICKET',[] ]).
+upd_i(4,8,u,[ [ 17 ],[],'ITICKETRESPONSABLE',[] ]).
+upd_i(5,10,u,[ [ 189 ],[],'IUSUARIO',[] ]).
+ 
+ 
+ 
+start_i(5,0,0,[ [ [ 15,23,'Usuarioid',= ] ],one ]).
+start_i(4,0,0,[ [ [ 14,23,'Ticketid',= ],[ 16,23,'Ticketresponsableid',= ] ],one ]).
+start_i(3,0,0,[ [ [ 14,23,'Ticketid',= ] ],one ]).
+ 
+end_i(5,0,0,[ [ [ t(15,2),t(=,10),t('Usuarioid',23) ] ] ]).
+end_i(4,0,0,[ [ [ t(14,2),t(=,10),t('Ticketid',23) ],[ t(16,2),t(=,10),t('Ticketresponsableid',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(14,2),t(=,10),t('Ticketid',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(83,[ 'NumMax' ]).
+dom_info_i(90,[ 'Texto' ]).
+dom_info_i(82,[ 'NumMin' ]).
+dom_info_i(87,[ 'Hora' ]).
+dom_info_i(86,[ 'Fecha' ]).
+dom_info_i(84,[ 'CheckList' ]).
+dom_info_i(227,[ 'GeneXusSecurityCommon\GAMUserIdentification' ]).
+dom_info_i(326,[ 'FechaHora' ]).
+dom_info_i(85,[ 'Descripcion' ]).
+dom_info_i(88,[ 'Nombres' ]).
+dom_info_i(42,[ 'GeneXus\Email' ]).
+dom_info_i(89,[ 'Telefono' ]).
+ 
+ 
+break_i(2,ins,1,[],[ [ 359,356,353,350,347,13,12,11,10,9,8,16,14,144,32,7 ],[],[] ]).
+break_i(3,nvg,1,[],[ [ 187 ],[ 14,15 ],[] ]).
+break_i(4,nvg,1,[],[ [ 17 ],[ 14,16,17,198 ],[] ]).
+break_i(5,nvg,1,[],[ [ 189 ],[ 15 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,ins,2,2,2).
+b_group_i(2,1,lit,0,3,3).
+b_group_i(1,3,lit,0,23,21).
+b_group_i(1,4,nvg,3,24,24).
+b_group_i(3,1,lit,0,25,25).
+b_group_i(1,5,lit,0,29,26).
+b_group_i(1,6,nvg,4,30,30).
+b_group_i(4,1,lit,0,31,31).
+b_group_i(1,7,lit,0,38,34).
+b_group_i(1,8,nvg,5,39,39).
+b_group_i(5,1,lit,0,40,40).
+b_group_i(1,9,lit,0,43,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,2,1,cmd,3,[ t('',117,2,0) ]).
+b_line_i(3,2,1,cmd,3,[ t('',107,3,0),t('Satisfaccionid',23,3,0),t(=,10,3,0),t(40000,2,3,0),t(+,5,3,0),t('1',3,3,0) ]).
+b_line_i(4,2,1,cmd,3,[]).
+b_line_i(5,2,1,cmd,3,[ t('',107,5,0),t(7,2,3,0),t(=,10,3,0),t('Satisfaccionid',23,3,0) ]).
+b_line_i(6,2,1,cmd,3,[ t('',107,6,0),t(32,2,3,0),t(=,10,3,0),t('today(',1,3,0),t(')',4,3,0) ]).
+b_line_i(7,2,1,cmd,3,[ t('',107,7,0),t(144,2,3,0),t(=,10,3,0),t('now(',1,3,0),t(')',4,3,0) ]).
+b_line_i(8,2,1,cmd,3,[ t('',107,8,0),t(14,2,3,0),t(=,10,3,0),t('Ticketid',23,3,0) ]).
+b_line_i(9,2,1,cmd,3,[ t('',107,9,0),t(16,2,3,0),t(=,10,3,0),t('Ticketresponsableid',23,3,0) ]).
+b_line_i(10,2,1,cmd,3,[ t('',107,10,0),t(8,2,3,0),t(=,10,3,0),t('11',3,3,0) ]).
+b_line_i(11,2,1,cmd,3,[ t('',107,11,0),t(9,2,3,0),t(=,10,3,0),t('11',3,3,0) ]).
+b_line_i(12,2,1,cmd,3,[ t('',107,12,0),t(10,2,3,0),t(=,10,3,0),t('11',3,3,0) ]).
+b_line_i(13,2,1,cmd,3,[ t('',107,13,0),t(11,2,3,0),t(=,10,3,0),t('11',3,3,0) ]).
+b_line_i(14,2,1,cmd,3,[ t('',107,14,0),t(12,2,3,0),t(=,10,3,0),t('11',3,3,0) ]).
+b_line_i(15,2,1,cmd,3,[ t('',107,15,0),t(13,2,3,0),t(=,10,3,0),t('11',3,3,0) ]).
+b_line_i(16,2,1,cmd,3,[ t('',107,16,0),t(347,2,3,0),t(=,10,3,0),t('Satisfaccioncatalogaid',23,3,0) ]).
+b_line_i(17,2,1,cmd,3,[ t('',107,17,0),t(350,2,3,0),t(=,10,3,0),t('Satisfaccionrendimientoid',23,3,0) ]).
+b_line_i(18,2,1,cmd,3,[ t('',107,18,0),t(353,2,3,0),t(=,10,3,0),t('Satisfaccionprogramadorid',23,3,0) ]).
+b_line_i(19,2,1,cmd,3,[ t('',107,19,0),t(356,2,3,0),t(=,10,3,0),t('Satisfaccioncapacitacionid',23,3,0) ]).
+b_line_i(20,2,1,cmd,3,[ t('',107,20,0),t(359,2,3,0),t(=,10,3,0),t('Satisfaccionmejorasoftware',23,3,0) ]).
+b_line_i(21,2,1,cmd,3,[]).
+b_line_i(22,2,1,cmd,3,[ t('',127,22,0) ]).
+b_line_i(23,1,3,cmd,21,[]).
+b_line_i(24,3,1,cmd,25,[ t('',121,24,0),t(table,3,24,10),t(7,3,24,10) ]).
+b_line_i(27,3,1,cmd,25,[ t('',107,27,0),t(187,2,25,0),t(=,10,25,0),t('6',3,25,0) ]).
+b_line_i(28,3,1,cmd,25,[ t('',128,28,0) ]).
+b_line_i(29,1,5,cmd,26,[]).
+b_line_i(30,4,1,cmd,31,[ t('',121,30,0),t(table,3,30,10),t(8,3,30,10) ]).
+b_line_i(35,4,1,cmd,31,[]).
+b_line_i(36,4,1,cmd,31,[ t('',107,36,0),t(17,2,31,0),t(=,10,31,0),t('6',3,31,0) ]).
+b_line_i(37,4,1,cmd,31,[ t('',128,37,0) ]).
+b_line_i(38,1,7,cmd,34,[]).
+b_line_i(39,5,1,cmd,40,[ t('',121,39,0),t(table,3,39,10),t(10,3,39,10) ]).
+b_line_i(41,5,1,cmd,40,[ t('',107,41,0),t(189,2,40,0),t(=,10,40,0),t('6',3,40,0) ]).
+b_line_i(42,5,1,cmd,40,[ t('',128,42,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0060,[ 'The program may be called by another program and the Commit on Exit property is set to YES' ])).
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(4,7,'ExternalName','SatisfaccionId',d).
+att_prop_i(4,7,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,7,'EmptyAsNull','Yes',d).
+att_prop_i(4,7,idBasedOn,83,v).
+att_prop_i(4,7,'AUTONUMBER','0',d).
+att_prop_i(4,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,7,'AttRegEx','',d).
+att_prop_i(4,7,'AttValidationFailedMsg','',d).
+att_prop_i(4,7,'DownloadOffline','0',d).
+att_prop_i(4,7,'VarServiceExtName','',d).
+att_prop_i(4,7,'FullName','SatisfaccionId',v).
+att_prop_i(4,359,'ExternalName','SatisfaccionMejoraSoftware',d).
+att_prop_i(4,359,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,359,'EmptyAsNull','Yes',d).
+att_prop_i(4,359,idBasedOn,90,v).
+att_prop_i(4,359,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,359,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,359,'AttRegEx','',d).
+att_prop_i(4,359,'AttValidationFailedMsg','',d).
+att_prop_i(4,359,'DownloadOffline','0',d).
+att_prop_i(4,359,'VarServiceExtName','',d).
+att_prop_i(4,359,'FullName','SatisfaccionMejoraSoftware',v).
+att_prop_i(4,356,'ExternalName','SatisfaccionCapacitacionId',d).
+att_prop_i(4,356,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,356,'EmptyAsNull','Yes',d).
+att_prop_i(4,356,idBasedOn,82,d).
+att_prop_i(4,356,'AUTONUMBER','-1',d).
+att_prop_i(4,356,'AUTONUMBER_START','1',d).
+att_prop_i(4,356,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,356,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,356,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,356,'AttRegEx','',d).
+att_prop_i(4,356,'AttValidationFailedMsg','',d).
+att_prop_i(4,356,'DownloadOffline','0',d).
+att_prop_i(4,356,'VarServiceExtName','',d).
+att_prop_i(4,356,'FullName','SatisfaccionCapacitacionId',v).
+att_prop_i(4,353,'ExternalName','SatisfaccionProgramadorId',d).
+att_prop_i(4,353,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,353,'EmptyAsNull','Yes',d).
+att_prop_i(4,353,idBasedOn,82,d).
+att_prop_i(4,353,'AUTONUMBER','-1',d).
+att_prop_i(4,353,'AUTONUMBER_START','1',d).
+att_prop_i(4,353,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,353,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,353,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,353,'AttRegEx','',d).
+att_prop_i(4,353,'AttValidationFailedMsg','',d).
+att_prop_i(4,353,'DownloadOffline','0',d).
+att_prop_i(4,353,'VarServiceExtName','',d).
+att_prop_i(4,353,'FullName','SatisfaccionProgramadorId',v).
+att_prop_i(4,350,'ExternalName','SatisfaccionRendimientoId',d).
+att_prop_i(4,350,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,350,'EmptyAsNull','Yes',d).
+att_prop_i(4,350,idBasedOn,82,d).
+att_prop_i(4,350,'AUTONUMBER','-1',d).
+att_prop_i(4,350,'AUTONUMBER_START','1',d).
+att_prop_i(4,350,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,350,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,350,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,350,'AttRegEx','',d).
+att_prop_i(4,350,'AttValidationFailedMsg','',d).
+att_prop_i(4,350,'DownloadOffline','0',d).
+att_prop_i(4,350,'VarServiceExtName','',d).
+att_prop_i(4,350,'FullName','SatisfaccionRendimientoId',v).
+att_prop_i(4,347,'ExternalName','SatisfaccionCatalogaId',d).
+att_prop_i(4,347,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,347,'EmptyAsNull','Yes',d).
+att_prop_i(4,347,idBasedOn,82,d).
+att_prop_i(4,347,'AUTONUMBER','-1',d).
+att_prop_i(4,347,'AUTONUMBER_START','1',d).
+att_prop_i(4,347,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,347,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,347,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,347,'AttRegEx','',d).
+att_prop_i(4,347,'AttValidationFailedMsg','',d).
+att_prop_i(4,347,'DownloadOffline','0',d).
+att_prop_i(4,347,'VarServiceExtName','',d).
+att_prop_i(4,347,'FullName','SatisfaccionCatalogaId',v).
+att_prop_i(4,13,'ExternalName','SatisfaccionAtencionId',d).
+att_prop_i(4,13,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,13,'EmptyAsNull','Yes',d).
+att_prop_i(4,13,idBasedOn,82,d).
+att_prop_i(4,13,'AUTONUMBER','-1',d).
+att_prop_i(4,13,'AUTONUMBER_START','1',d).
+att_prop_i(4,13,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,13,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,13,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,13,'AttRegEx','',d).
+att_prop_i(4,13,'AttValidationFailedMsg','',d).
+att_prop_i(4,13,'DownloadOffline','0',d).
+att_prop_i(4,13,'VarServiceExtName','',d).
+att_prop_i(4,13,'FullName','SatisfaccionAtencionId',v).
+att_prop_i(4,12,'ExternalName','SatisfaccionTiempoId',d).
+att_prop_i(4,12,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,12,'EmptyAsNull','Yes',d).
+att_prop_i(4,12,idBasedOn,82,d).
+att_prop_i(4,12,'AUTONUMBER','-1',d).
+att_prop_i(4,12,'AUTONUMBER_START','1',d).
+att_prop_i(4,12,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,12,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,12,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,12,'AttRegEx','',d).
+att_prop_i(4,12,'AttValidationFailedMsg','',d).
+att_prop_i(4,12,'DownloadOffline','0',d).
+att_prop_i(4,12,'VarServiceExtName','',d).
+att_prop_i(4,12,'FullName','SatisfaccionTiempoId',v).
+att_prop_i(4,11,'ExternalName','SatisfaccionTecnicoProfesionalismoId',d).
+att_prop_i(4,11,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,11,'EmptyAsNull','Yes',d).
+att_prop_i(4,11,idBasedOn,82,d).
+att_prop_i(4,11,'AUTONUMBER','-1',d).
+att_prop_i(4,11,'AUTONUMBER_START','1',d).
+att_prop_i(4,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,11,'AttRegEx','',d).
+att_prop_i(4,11,'AttValidationFailedMsg','',d).
+att_prop_i(4,11,'DownloadOffline','0',d).
+att_prop_i(4,11,'VarServiceExtName','',d).
+att_prop_i(4,11,'FullName','SatisfaccionTecnicoProfesionalismoId',v).
+att_prop_i(4,10,'ExternalName','SatisfaccionTecnicoCompetenteId',d).
+att_prop_i(4,10,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,10,'EmptyAsNull','Yes',d).
+att_prop_i(4,10,idBasedOn,82,d).
+att_prop_i(4,10,'AUTONUMBER','-1',d).
+att_prop_i(4,10,'AUTONUMBER_START','1',d).
+att_prop_i(4,10,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,10,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,10,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,10,'AttRegEx','',d).
+att_prop_i(4,10,'AttValidationFailedMsg','',d).
+att_prop_i(4,10,'DownloadOffline','0',d).
+att_prop_i(4,10,'VarServiceExtName','',d).
+att_prop_i(4,10,'FullName','SatisfaccionTecnicoCompetenteId',v).
+att_prop_i(4,9,'ExternalName','SatisfaccionTecnicoProblemaId',d).
+att_prop_i(4,9,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,9,'EmptyAsNull','Yes',d).
+att_prop_i(4,9,idBasedOn,82,d).
+att_prop_i(4,9,'AUTONUMBER','-1',d).
+att_prop_i(4,9,'AUTONUMBER_START','1',d).
+att_prop_i(4,9,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,9,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,9,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,9,'AttRegEx','',d).
+att_prop_i(4,9,'AttValidationFailedMsg','',d).
+att_prop_i(4,9,'DownloadOffline','0',d).
+att_prop_i(4,9,'VarServiceExtName','',d).
+att_prop_i(4,9,'FullName','SatisfaccionTecnicoProblemaId',v).
+att_prop_i(4,8,'ExternalName','SatisfaccionResueltoId',d).
+att_prop_i(4,8,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,8,'EmptyAsNull','Yes',d).
+att_prop_i(4,8,idBasedOn,82,d).
+att_prop_i(4,8,'AUTONUMBER','-1',d).
+att_prop_i(4,8,'AUTONUMBER_START','1',d).
+att_prop_i(4,8,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,8,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,8,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,8,'AttRegEx','',d).
+att_prop_i(4,8,'AttValidationFailedMsg','',d).
+att_prop_i(4,8,'DownloadOffline','0',d).
+att_prop_i(4,8,'VarServiceExtName','',d).
+att_prop_i(4,8,'FullName','SatisfaccionResueltoId',v).
+att_prop_i(4,16,'ExternalName','TicketResponsableId',d).
+att_prop_i(4,16,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,16,'EmptyAsNull','Yes',v).
+att_prop_i(4,16,idBasedOn,'',d).
+att_prop_i(4,16,'AUTONUMBER','0',v).
+att_prop_i(4,16,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,16,'AttRegEx','',d).
+att_prop_i(4,16,'AttValidationFailedMsg','',d).
+att_prop_i(4,16,'DownloadOffline','0',d).
+att_prop_i(4,16,'VarServiceExtName','',d).
+att_prop_i(4,16,'FullName','TicketResponsableId',v).
+att_prop_i(4,14,'ExternalName','TicketId',d).
+att_prop_i(4,14,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,14,'EmptyAsNull','Yes',d).
+att_prop_i(4,14,idBasedOn,83,v).
+att_prop_i(4,14,'AUTONUMBER','0',d).
+att_prop_i(4,14,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,14,'AttRegEx','',d).
+att_prop_i(4,14,'AttValidationFailedMsg','',d).
+att_prop_i(4,14,'DownloadOffline','0',d).
+att_prop_i(4,14,'VarServiceExtName','',d).
+att_prop_i(4,14,'FullName','TicketId',v).
+att_prop_i(4,144,'ExternalName','SatisfaccionHora',d).
+att_prop_i(4,144,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,144,'EmptyAsNull','Yes',d).
+att_prop_i(4,144,idBasedOn,87,v).
+att_prop_i(4,144,idDATEPRECISION,idDATEPRECISION_SECONDS,d).
+att_prop_i(4,144,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,144,'AttRegEx','',d).
+att_prop_i(4,144,'AttValidationFailedMsg','',d).
+att_prop_i(4,144,idDATEFORMAT,idDATEFORMAT_NONE,d).
+att_prop_i(4,144,idHOURFORMAT,idHOURFORMAT_HOURMIN,d).
+att_prop_i(4,144,'DownloadOffline','0',d).
+att_prop_i(4,144,'VarServiceExtName','',d).
+att_prop_i(4,144,'FullName','SatisfaccionHora',v).
+att_prop_i(4,32,'ExternalName','SatisfaccionFecha',d).
+att_prop_i(4,32,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,32,'EmptyAsNull','Yes',d).
+att_prop_i(4,32,idBasedOn,86,v).
+att_prop_i(4,32,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,32,'AttRegEx','',d).
+att_prop_i(4,32,'AttValidationFailedMsg','',d).
+att_prop_i(4,32,idDATEFORMAT,idDATEFORMAT_LONG,d).
+att_prop_i(4,32,'DownloadOffline','0',d).
+att_prop_i(4,32,'VarServiceExtName','',d).
+att_prop_i(4,32,'FullName','SatisfaccionFecha',v).
+att_prop_i(4,187,'ExternalName','EstadoTicketTicketId',d).
+att_prop_i(4,187,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,187,'EmptyAsNull','Yes',d).
+att_prop_i(4,187,idBasedOn,82,d).
+att_prop_i(4,187,'AUTONUMBER','-1',d).
+att_prop_i(4,187,'AUTONUMBER_START','1',d).
+att_prop_i(4,187,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,187,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,187,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,187,'AttRegEx','',d).
+att_prop_i(4,187,'AttValidationFailedMsg','',d).
+att_prop_i(4,187,'DownloadOffline','0',d).
+att_prop_i(4,187,'VarServiceExtName','',d).
+att_prop_i(4,187,'FullName','EstadoTicketTicketId',v).
+att_prop_i(4,17,'ExternalName','EstadoTicketTecnicoId',d).
+att_prop_i(4,17,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,17,'EmptyAsNull','Yes',d).
+att_prop_i(4,17,idBasedOn,82,d).
+att_prop_i(4,17,'AUTONUMBER','-1',d).
+att_prop_i(4,17,'AUTONUMBER_START','1',d).
+att_prop_i(4,17,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,17,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,17,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,17,'AttRegEx','',d).
+att_prop_i(4,17,'AttValidationFailedMsg','',d).
+att_prop_i(4,17,'DownloadOffline','0',d).
+att_prop_i(4,17,'VarServiceExtName','',d).
+att_prop_i(4,17,'FullName','EstadoTicketTecnicoId',v).
+att_prop_i(4,189,'ExternalName','EstadoTicketUsuarioId',d).
+att_prop_i(4,189,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,189,'EmptyAsNull','Yes',d).
+att_prop_i(4,189,idBasedOn,82,d).
+att_prop_i(4,189,'AUTONUMBER','-1',d).
+att_prop_i(4,189,'AUTONUMBER_START','1',d).
+att_prop_i(4,189,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,189,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,189,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,189,'AttRegEx','',d).
+att_prop_i(4,189,'AttValidationFailedMsg','',d).
+att_prop_i(4,189,'DownloadOffline','0',d).
+att_prop_i(4,189,'VarServiceExtName','',d).
+att_prop_i(4,189,'FullName','EstadoTicketUsuarioId',v).
+att_prop_i(4,15,'ExternalName','UsuarioId',d).
+att_prop_i(4,15,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,15,'EmptyAsNull','Yes',d).
+att_prop_i(4,15,idBasedOn,83,v).
+att_prop_i(4,15,'AUTONUMBER','0',d).
+att_prop_i(4,15,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,15,'AttRegEx','',d).
+att_prop_i(4,15,'AttValidationFailedMsg','',d).
+att_prop_i(4,15,'DownloadOffline','0',d).
+att_prop_i(4,15,'VarServiceExtName','',d).
+att_prop_i(4,15,'FullName','UsuarioId',v).
+att_prop_i(4,198,'ExternalName','TicketTecnicoResponsableId',d).
+att_prop_i(4,198,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,198,'EmptyAsNull','Yes',d).
+att_prop_i(4,198,idBasedOn,82,d).
+att_prop_i(4,198,'AUTONUMBER','-1',d).
+att_prop_i(4,198,'AUTONUMBER_START','1',d).
+att_prop_i(4,198,'AUTONUMBER_STEP','1',d).
+att_prop_i(4,198,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(4,198,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,198,'AttRegEx','',d).
+att_prop_i(4,198,'AttValidationFailedMsg','',d).
+att_prop_i(4,198,'DownloadOffline','0',d).
+att_prop_i(4,198,'VarServiceExtName','',d).
+att_prop_i(4,198,'FullName','TicketTecnicoResponsableId',v).
+att_prop_i(4,34,'ExternalName','SatisfaccionSugerencia',d).
+att_prop_i(4,34,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,34,'EmptyAsNull','Yes',d).
+att_prop_i(4,34,idBasedOn,90,v).
+att_prop_i(4,34,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,34,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(4,34,'AttRegEx','',d).
+att_prop_i(4,34,'AttValidationFailedMsg','',d).
+att_prop_i(4,34,'DownloadOffline','0',d).
+att_prop_i(4,34,'VarServiceExtName','',d).
+att_prop_i(4,34,'FullName','SatisfaccionSugerencia',v).
+att_prop_i(4,40000,'ExternalName','SatisfaccionId',d).
+att_prop_i(4,40000,'ExternalNamespace',kb_ticket,d).
+att_prop_i(4,40000,'EmptyAsNull','Yes',d).
+att_prop_i(4,40000,idBasedOn,83,v).
+att_prop_i(4,40000,'AUTONUMBER','0',d).
+att_prop_i(4,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(4,40000,'AttRegEx','',d).
+att_prop_i(4,40000,'AttValidationFailedMsg','',d).
+att_prop_i(4,40000,'DownloadOffline','0',d).
+att_prop_i(4,40000,'VarServiceExtName','',d).
+att_prop_i(4,40000,'FullName','SatisfaccionId',v).
+ 
+tbl_prop_i(4,6,'AllDirSuper',[ [ 8,[ 14,16 ] ] ],v).
+tbl_prop_i(4,7,'AllDirSuper',[ [ 10,[ 15 ] ] ],v).
+tbl_prop_i(4,8,'AllDirSuper',[ [ 7,[ 14 ] ] ],v).
+tbl_prop_i(4,7,'DirSubor',[ [ 8,[ 14 ] ] ],v).
+tbl_prop_i(4,8,'DirSubor',[ [ 6,[ 14,16 ] ] ],v).
+tbl_prop_i(4,10,'DirSubor',[ [ 7,[ 15 ] ] ],v).
+tbl_prop_i(4,2000,'DirSuper',[ [ 8,[ 14,16 ] ] ],v).
+tbl_prop_i(4,6,'DirSuper',[ [ 8,[ 14,16 ] ] ],v).
+tbl_prop_i(4,7,'DirSuper',[ [ 10,[ 15 ] ] ],v).
+tbl_prop_i(4,8,'DirSuper',[ [ 7,[ 14 ] ] ],v).
+ 
+tbl_att_prop_i(4,6,7,'AllowNulls',n).
+tbl_att_prop_i(4,6,32,'AllowNulls',n).
+tbl_att_prop_i(4,6,8,'AllowNulls',n).
+tbl_att_prop_i(4,6,9,'AllowNulls',n).
+tbl_att_prop_i(4,6,10,'AllowNulls',n).
+tbl_att_prop_i(4,6,11,'AllowNulls',n).
+tbl_att_prop_i(4,6,12,'AllowNulls',n).
+tbl_att_prop_i(4,6,13,'AllowNulls',n).
+tbl_att_prop_i(4,6,144,'AllowNulls',n).
+tbl_att_prop_i(4,6,16,'AllowNulls',n).
+tbl_att_prop_i(4,6,14,'AllowNulls',n).
+tbl_att_prop_i(4,6,347,'AllowNulls',n).
+tbl_att_prop_i(4,6,350,'AllowNulls',n).
+tbl_att_prop_i(4,6,353,'AllowNulls',n).
+tbl_att_prop_i(4,6,356,'AllowNulls',n).
+tbl_att_prop_i(4,2000,7,'AllowNulls',n).
+tbl_att_prop_i(4,7,14,'AllowNulls',n).
+tbl_att_prop_i(4,7,15,'AllowNulls',n).
+tbl_att_prop_i(4,7,187,'AllowNulls',n).
+tbl_att_prop_i(4,8,14,'AllowNulls',n).
+tbl_att_prop_i(4,8,16,'AllowNulls',n).
+tbl_att_prop_i(4,8,17,'AllowNulls',n).
+tbl_att_prop_i(4,8,198,'AllowNulls',n).
+tbl_att_prop_i(4,10,15,'AllowNulls',n).
+tbl_att_prop_i(4,10,189,'AllowNulls',n).
+ 
+var_prop_i(4,'Usuarioid',idBasedOn,'',v).
+var_prop_i(4,'Ticketid',idBasedOn,'',v).
+var_prop_i(4,'Satisfaccionresueltoid',idBasedOn,'',v).
+var_prop_i(4,'Satisfacciontecnicoproblemaid',idBasedOn,'',v).
+var_prop_i(4,'Satisfacciontecnicocompetenteid',idBasedOn,'',v).
+var_prop_i(4,'Satisfacciontecnicoprofesionalismoid',idBasedOn,'',v).
+var_prop_i(4,'Satisfacciontiempoid',idBasedOn,'',v).
+var_prop_i(4,'Satisfaccionatencionid',idBasedOn,'',v).
+var_prop_i(4,'Satisfaccionsugerencia',idBasedOn,'',v).
+var_prop_i(4,'Ticketresponsableid',idBasedOn,'',v).
+var_prop_i(4,'Tickettecnicoresponsableid',idBasedOn,'',v).
+var_prop_i(4,'Satisfaccionid',idBasedOn,'',v).
+var_prop_i(4,'Satisfaccionmejorasoftware',idBasedOn,'',v).
+var_prop_i(4,'Satisfaccioncapacitacionid',idBasedOn,'',v).
+var_prop_i(4,'Satisfaccionprogramadorid',idBasedOn,'',v).
+var_prop_i(4,'Satisfaccionrendimientoid',idBasedOn,'',v).
+var_prop_i(4,'Satisfaccioncatalogaid',idBasedOn,'',v).
+ 
+ 
+ 
+a_alias_i([ 'max(',7 ],'GXC1').
+a_alias_i(se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]),'GXC1').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,260,'PCRINSERTENCUESTADESARROLLO','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurityCommon','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusSecurityCommon','AssemblyName','GeneXusSecurityCommon.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

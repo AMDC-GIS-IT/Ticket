@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\commonchatbots.panelchatweb.dll
+C:\Models\kb_ticket\CSharpModel\build\commonchatbots.panelchatweb\obj\Release\commonchatbots.panelchatweb.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\commonchatbots.panelchatweb\obj\Release\commonchatbots.panelchatweb.dll

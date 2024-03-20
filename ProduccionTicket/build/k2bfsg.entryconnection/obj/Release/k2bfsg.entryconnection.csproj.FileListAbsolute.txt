@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bfsg.entryconnection.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.entryconnection\obj\Release\k2bfsg.entryconnection.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.entryconnection\obj\Release\k2bfsg.entryconnection.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\developermenu.dll
+C:\Models\kb_ticket\ProduccionTicket\build\developermenu\obj\Release\developermenu.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\developermenu\obj\Release\developermenu.dll

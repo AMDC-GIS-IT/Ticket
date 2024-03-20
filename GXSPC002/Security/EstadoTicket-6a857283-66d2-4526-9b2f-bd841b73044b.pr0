@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "estadoticket_FullControl",
+    "Description": "Estado Ticket FullControl",
+    "ProgramName": "estadoticket",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "estadoticket_Execute",
+    "Description": "Estado Ticket",
+    "ProgramName": "estadoticket",
+    "IsGXAutomatic": true,
+    "Parent": "estadoticket_FullControl"
+  },
+  {
+    "Name": "estadoticket_Insert",
+    "Description": "Estado Ticket Insert",
+    "ProgramName": "estadoticket",
+    "IsGXAutomatic": true,
+    "Parent": "estadoticket_FullControl"
+  },
+  {
+    "Name": "estadoticket_Delete",
+    "Description": "Estado Ticket Delete",
+    "ProgramName": "estadoticket",
+    "IsGXAutomatic": true,
+    "Parent": "estadoticket_FullControl"
+  },
+  {
+    "Name": "estadoticket_Update",
+    "Description": "Estado Ticket Update",
+    "ProgramName": "estadoticket",
+    "IsGXAutomatic": true,
+    "Parent": "estadoticket_FullControl"
+  }
+]

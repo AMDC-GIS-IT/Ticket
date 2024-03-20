@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "sendmessage_Services_Execute",
+    "Description": "Send Message Services",
+    "ProgramName": "commonchatbots.sendmessage",
+    "IsGXAutomatic": true
+  }
+]

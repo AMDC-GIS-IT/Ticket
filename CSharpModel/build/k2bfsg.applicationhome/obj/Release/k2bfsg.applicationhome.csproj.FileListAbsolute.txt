@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\CSharpModel\web\bin\k2bfsg.applicationhome.dll
+C:\Models\kb_ticket\CSharpModel\build\k2bfsg.applicationhome\obj\Release\k2bfsg.applicationhome.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\CSharpModel\build\k2bfsg.applicationhome\obj\Release\k2bfsg.applicationhome.dll

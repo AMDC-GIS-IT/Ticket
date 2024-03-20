@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\webpanelquerytiempoasignar.dll
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelquerytiempoasignar\obj\Release\webpanelquerytiempoasignar.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelquerytiempoasignar\obj\Release\webpanelquerytiempoasignar.dll

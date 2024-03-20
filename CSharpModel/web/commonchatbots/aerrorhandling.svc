@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.commonchatbots.aerrorhandling_services,commonchatbots\errorhandling" %>

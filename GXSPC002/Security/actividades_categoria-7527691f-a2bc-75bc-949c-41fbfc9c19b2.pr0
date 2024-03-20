@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "actividades_categoria_FullControl",
+    "Description": "actividades_categoria FullControl",
+    "ProgramName": "actividades_categoria",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "actividades_categoria_Execute",
+    "Description": "actividades_categoria",
+    "ProgramName": "actividades_categoria",
+    "IsGXAutomatic": true,
+    "Parent": "actividades_categoria_FullControl"
+  },
+  {
+    "Name": "actividades_categoria_Insert",
+    "Description": "actividades_categoria Insert",
+    "ProgramName": "actividades_categoria",
+    "IsGXAutomatic": true,
+    "Parent": "actividades_categoria_FullControl"
+  },
+  {
+    "Name": "actividades_categoria_Delete",
+    "Description": "actividades_categoria Delete",
+    "ProgramName": "actividades_categoria",
+    "IsGXAutomatic": true,
+    "Parent": "actividades_categoria_FullControl"
+  },
+  {
+    "Name": "actividades_categoria_Update",
+    "Description": "actividades_categoria Update",
+    "ProgramName": "actividades_categoria",
+    "IsGXAutomatic": true,
+    "Parent": "actividades_categoria_FullControl"
+  }
+]

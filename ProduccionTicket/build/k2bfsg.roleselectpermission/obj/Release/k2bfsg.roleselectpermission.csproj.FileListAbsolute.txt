@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\k2bfsg.roleselectpermission.dll
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.roleselectpermission\obj\Release\k2bfsg.roleselectpermission.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\k2bfsg.roleselectpermission\obj\Release\k2bfsg.roleselectpermission.dll

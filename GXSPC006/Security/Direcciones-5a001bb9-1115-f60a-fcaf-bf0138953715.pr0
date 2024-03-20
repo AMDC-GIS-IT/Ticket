@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "direcciones_FullControl",
+    "Description": "Direcciones FullControl",
+    "ProgramName": "direcciones",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "direcciones_Execute",
+    "Description": "Direcciones",
+    "ProgramName": "direcciones",
+    "IsGXAutomatic": true,
+    "Parent": "direcciones_FullControl"
+  },
+  {
+    "Name": "direcciones_Insert",
+    "Description": "Direcciones Insert",
+    "ProgramName": "direcciones",
+    "IsGXAutomatic": true,
+    "Parent": "direcciones_FullControl"
+  },
+  {
+    "Name": "direcciones_Delete",
+    "Description": "Direcciones Delete",
+    "ProgramName": "direcciones",
+    "IsGXAutomatic": true,
+    "Parent": "direcciones_FullControl"
+  },
+  {
+    "Name": "direcciones_Update",
+    "Description": "Direcciones Update",
+    "ProgramName": "direcciones",
+    "IsGXAutomatic": true,
+    "Parent": "direcciones_FullControl"
+  }
+]

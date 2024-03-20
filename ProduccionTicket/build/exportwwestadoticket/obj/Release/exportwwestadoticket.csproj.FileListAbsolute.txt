@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\exportwwestadoticket.dll
+C:\Models\kb_ticket\ProduccionTicket\build\exportwwestadoticket\obj\Release\exportwwestadoticket.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\exportwwestadoticket\obj\Release\exportwwestadoticket.dll

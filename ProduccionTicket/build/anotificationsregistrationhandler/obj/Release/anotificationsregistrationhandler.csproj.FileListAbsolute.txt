@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\anotificationsregistrationhandler.dll
+C:\Models\kb_ticket\ProduccionTicket\build\anotificationsregistrationhandler\obj\Release\anotificationsregistrationhandler.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\anotificationsregistrationhandler\obj\Release\anotificationsregistrationhandler.dll

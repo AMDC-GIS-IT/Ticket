@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "estado_Execute",
+    "Description": "K2BT_PromptDescription",
+    "ProgramName": "promptestado",
+    "IsGXAutomatic": true
+  }
+]

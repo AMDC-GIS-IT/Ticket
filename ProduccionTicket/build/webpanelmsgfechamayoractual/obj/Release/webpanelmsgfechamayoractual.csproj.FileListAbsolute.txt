@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\webpanelmsgfechamayoractual.dll
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgfechamayoractual\obj\Release\webpanelmsgfechamayoractual.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\webpanelmsgfechamayoractual\obj\Release\webpanelmsgfechamayoractual.dll

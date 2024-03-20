@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\gamexamplessologin.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gamexamplessologin\obj\Release\gamexamplessologin.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\gamexamplessologin\obj\Release\gamexamplessologin.dll

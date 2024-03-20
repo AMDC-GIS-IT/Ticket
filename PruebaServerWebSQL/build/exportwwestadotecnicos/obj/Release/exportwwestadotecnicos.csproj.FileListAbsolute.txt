@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\PruebaServerWebSQL\web\bin\exportwwestadotecnicos.dll
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportwwestadotecnicos\obj\Release\exportwwestadotecnicos.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\PruebaServerWebSQL\build\exportwwestadotecnicos\obj\Release\exportwwestadotecnicos.dll

@@ -1,0 +1,3 @@
+C:\Models\kb_ticket\ProduccionTicket\web\bin\estadosatisfacciongeneral.dll
+C:\Models\kb_ticket\ProduccionTicket\build\estadosatisfacciongeneral\obj\Release\estadosatisfacciongeneral.csprojResolveAssemblyReference.cache
+C:\Models\kb_ticket\ProduccionTicket\build\estadosatisfacciongeneral\obj\Release\estadosatisfacciongeneral.dll
